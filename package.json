@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "@symfony/webpack-encore": "^0.31.0",
+    "bloodhound-js": "^1.2.3",
+    "bootstrap": "^4.5.0",
+    "bootstrap-multiselect": "^0.9.13-1",
+    "bootstrap-table": "^1.12.2",
+    "bootstrap-tagsinput": "^0.7.1",
+    "bootstrap-tour": "^0.12.0",
+    "bootstrap4-toggle": "^3.6.1",
+    "core-js": "^3.0.0",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.47",
+    "highlight.js": "^10.4.1",
+    "imports-loader": "^0.8.0",
+    "jquery": "^3.5.1",
+    "lato-font": "^3.0.0",
+    "node-sass": "^4.9.3",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^9.0.1",
+    "typeahead.js": "^0.11.1"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.1",
+    "copy-webpack-plugin": "6.3.1",
+    "countup.js": "^2.0.7"
+  }
+}

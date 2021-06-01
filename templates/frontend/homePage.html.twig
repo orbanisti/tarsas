@@ -1,0 +1,79 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row no-gutters desktopBanners">
+        <div class="col-md-4 frontPageDiv banner-accounting">
+            <div class="bannerOverlay">
+                <h1 class="bannerHeader">Accounting</h1>
+            </div>
+        </div>
+        <div class="col-md-4 frontPageDiv banner-renewables">
+            <div class="bannerOverlay">
+                <h1 class="bannerHeader">Renewables</h1>
+            </div>
+        </div>
+        <div class="col-md-4 frontPageDiv banner-itsolution">
+            <div class="bannerOverlay">
+                <h1 class="bannerHeader">IT Solutions</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <style>
+        /*@TODO: Move to app.css*/
+        .bannerOverlay {
+            width: 100%;
+            position: absolute;
+            height: 100%;
+            opacity: 0;
+        }
+
+        .frontPageDiv {
+            box-shadow: inset 0 0 0 2000px rgba(34, 70, 148, 0.30);
+            min-height: 651px;
+        }
+
+        .banner-accounting {
+            background-size: 270%;
+            border-right: 60px solid white;
+            background: url('{{ asset('build/images/accounting.png') }}') center;
+        }
+
+        .banner-renewables {
+            background-size: 270%;
+            border-right: 40px solid white;
+            background: url('{{ asset('build/images/renewables.png') }}') center;
+        }
+
+        .banner-itsolution {
+            background-size: 270%;
+            border-left: 20px solid white;
+            background: url('{{ asset('build/images/it-solutions.png') }}') center;
+        }
+
+        .bannerOverlay:hover {
+            opacity: 1;
+        }
+
+        .frontPageDiv:hover {
+            box-shadow: none !important;
+            background-size: 222% !important;
+        }
+
+        .bannerHeader {
+            position: absolute;
+            top: 6em;
+            color: black;
+            font-size: 4em;
+            font-weight: bold;
+            right: 1em;
+        }
+
+        .frontPageDiv, .bannerOverlay, .bannerHeader {
+            transition: all 0.2s ease-in;
+        }
+
+    </style>
+{% endblock %}

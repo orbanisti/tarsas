@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="hu" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+    <trans-unit id="q0j89wb" resname="Accounting">
+          <source>Accounting</source>
+          <target>Könyvelés</target>
+        </trans-unit>
+        <trans-unit id="vgXV9Vp" resname="Renewables">
+          <source>Renewables</source>
+          <target>Megújuló energia</target>
+        </trans-unit>
+        <trans-unit id="Iq2bjw2" resname="IT Solutions">
+          <source>IT Solutions</source>
+          <target>IT Megoldások</target>
+        </trans-unit>
+        <trans-unit id="Lxeg_NU" resname="Jobs">
+          <source>Jobs</source>
+          <target>Karrier</target>
+        </trans-unit>
+        <trans-unit id="Tvyg0Qx" resname="About">
+          <source>About</source>
+          <target>Rólunk</target>
+        </trans-unit>
+    </body>
+  </file>
+</xliff>
