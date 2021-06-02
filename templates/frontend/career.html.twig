@@ -1,0 +1,103 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Become an explorer!</h1>
+                <p class="mt-5">
+                    Sustainable development, renewable energy, financial solutions for the future, sales start up solutions. At Everest, we make it all a
+                    reality, making the lives of many people anywhere in the country better. Get started now and look to the future with us to: Discover
+                    Excellence Together!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 p-0 mb-5">
+
+        <div class="row mt-5">
+            <div class="col-md-3 jobsGalleryColumn"
+                 style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
+            <div class="col-md-3 jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+            <div class="col-md-3 jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+            <div class="col-md-3 jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-2 jobsGalleryColumn"
+                 style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
+            <div class="col-md-4 jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+            <div class="col-md-3 jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+            <div class="col-md-3 jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-primary ">
+        <div class="container">
+
+            <div class="row p-lg-5">
+                <div class="col-md-6">
+                    <h2 class="text-left text-white animate__animated animate__fadeIn text-medium">
+                        Our vision: TO DISCOVER EXCELLENCE EXCLUSIVELY!
+                    </h2>
+                </div>
+                <div class="col-md-12">
+                    <p class="mt-5 text-white">
+                        Everest is a comprehensive solution. You can find our products and solutions in all areas of the country. With us, the global solution
+                        meets local trends. Become a member of our nationwide team and take advantage of the opportunities offered by Everest.
+                    </p>
+                    <p class="mt-5 text-white">
+                        Turn your ideas into future development and sustainability. With us, you can add color to your everyday life in the fields of renewable
+                        energy, IT solutions, financial systems and sales all over the country.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row p-lg-5">
+            <div class="col-md-12">
+                <h2 class="text-left text-black animate__animated animate__fadeIn text-medium">
+                    Open Positions
+                </h2>
+                <p class="mt-5 text-black">
+                    Everest is a comprehensive solution. You can find our products and solutions in all areas of the country. With us, the global solution
+                    meets local trends. Become a member of our nationwide team and take advantage of the opportunities offered by Everest.
+                </p>
+            </div>
+        </div>
+        <div class="row mb-5" style="">
+            <div class="col m-4">
+                {{ include('frontend/embed/jobPreview.html.twig') }}
+            </div>
+            <div class="col m-4">
+                {{ include('frontend/embed/jobPreview.html.twig') }}
+            </div>
+            <div class="col m-4">
+                {{ include('frontend/embed/jobPreview.html.twig') }}
+            </div>
+        </div>
+        <div class="row mb-5" style="">
+            <div class="col m-4">
+                {{ include('frontend/embed/jobPreview.html.twig') }}
+            </div>
+            <div class="col m-4">
+                {{ include('frontend/embed/jobPreview.html.twig') }}
+            </div>
+            <div class="col m-4">
+                {{ include('frontend/embed/jobPreview.html.twig') }}
+            </div>
+        </div>
+    </div>
+
+
+    <style>
+        .jobsGalleryColumn {
+            border: 10px solid white !important;
+            min-height: 154px;
+            background-size: cover !important;
+        }
+    </style>
+{% endblock %}
+
+

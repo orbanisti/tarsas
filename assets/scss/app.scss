@@ -458,6 +458,21 @@ input, textarea {
   z-index: -1 !important;
 }
 
+.shadow-white-primary-border {
+  position: relative;
+}
+
+.shadow-white-primary-border::after {
+  outline: 3px solid #224694 !important;
+  top: 29px;
+  left: 22px;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1 !important;
+}
+
 .bg-primary-light {
   background: rgba(34, 70, 148, 0.5);
 }
