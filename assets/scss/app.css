@@ -60,3 +60,63 @@ html {
 #main-nav a {
     color: black;
 }
+
+h1 {
+    font-size: 56px;
+}
+
+/* TODO Remove unnecesary verisons*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sequel Sans Semi Bold Disp", sans-serif !important;
+}
+
+p {
+    font-family: "Sequel Sans Book Body", sans-serif !important;
+}
+
+.nav-link {
+    font-family: "Sequel Sans Semi Bold Disp", monospace !important;
+}
+
+li.nav-item {
+    margin: 0 0.6em;
+}
+
+.btn-primary {
+    padding: 1em 1.5em 1em 1.5em !important;
+    box-shadow: 6px 7px rgba(2, 2, 15, 0.5);
+}
+
+.btn-primary:hover {
+    box-shadow: none;
+    position: relative;
+    transform: translateX(6px) translateY(7px);
+    transition: all 0.5s;
+}
+
+.btn-primary:active {
+    background: white !important;
+    color: #18326b !important;
+    border: 1px solid #18326b !important;
+}
+
+.jumbotron-bg {
+    background-size: cover !important;
+}
+
+.text-big {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.text-medium {
+    font-size: 32px;
+}
+
+.mt-big-1 {
+    margin-top: 3em;
+}
+
+.mt-big-2 {
+    margin-top: 8em;
+}

@@ -61,6 +61,7 @@ $lato-font-path: '~lato-font/fonts';
 @include lato-include-font('normal');
 @include lato-include-font('bold');
 @import "~animate.css";
+@import "./assets/fonts/SequelSans/stylesheet";
 
 /* Basic styles
    ------------------------------------------------------------------------- */

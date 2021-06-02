@@ -24,7 +24,7 @@
     </div>
     <div class="row p-lg-5 bg-white">
         <div class="col-md-12">
-            <h1 class="text-center text-black animate__animated animate__fadeIn text-big">Profi csapat, átlátható könyvelés</h1>
+            <h1 class="text-center text-dark animate__animated animate__fadeIn text-big">Profi csapat, átlátható könyvelés</h1>
         </div>
     </div>
 
@@ -40,7 +40,7 @@
                 {{ include('frontend/embed/counterWidget.html.twig',{number:10,description:'Account manager'}) }}
             </div>
             <div class="col ">
-                {{ include('frontend/embed/counterWidget.html.twig',{number:15,numberSuffix:' év',description:'Account manager'}) }}
+                {{ include('frontend/embed/counterWidget.html.twig',{number:15,numberSuffix:' év',description:'Tapasztalat'}) }}
             </div>
             <div class="col ">
                 {{ include('frontend/embed/counterWidget.html.twig',{number:200,numberSuffix:'+',description:'Elégedett ügyfél'}) }}
@@ -52,7 +52,7 @@
     <div class="container ">
         <div class="row mt-lg-5 mb-lg-5">
             <div class="col-md-12">
-                <h3 class="text-black text-big mt-lg-5 mb-lg-5">2005</h3>
+                <h3 class="text-dark text-big mt-lg-5 mb-lg-5">2005</h3>
                 <p>Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket
                     könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.</p>
             </div>
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="col-md-6 mt-big-2">
-                <h2 class="text-big text-black mb-lg-5">Hogyan dolgozunk?</h2>
+                <h2 class="text-big text-dark mb-lg-5">Hogyan dolgozunk?</h2>
                 <p class="text-right">Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes
                     portálunk támogatják
                     a tudatos vezetői döntéseket.</p>
@@ -87,36 +87,40 @@
                     pénzügyi tervezést.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-
+        <div class="row mt-big-2">
+            <div class="col-md-12 text-center text-dark">
+                <h2 class="text-medium ">Adatok vállalkozásáról.</h2>
+                <h2 class="text-big mt-3">Azonnal.</h2>
+                <p class="mt-lg-5 text-left">
+                    Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a
+                    bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?
+                </p>
+                <p class="mt-3 text-left"> A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a
+                    követelések és a
+                    kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan
+                    statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.</p>
             </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 jumbotron p-5" style="min-height: 500px">
+                <h2 class=" text-big text-dark">A Portál</h2>
+            </div>
+        </div>
+
+        <div class="row mt-lg-5 text-center">
+            <div class="col"></div>
+            <div class="col">
+                <button class="btn btn-primary">Érdekel</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary">Könyvelési kisokos</button>
+            </div>
+            <div class="col"></div>
         </div>
     </div>
 
-    <style>
-        /*TODO: Move to app.css*/
-        .jumbotron-bg {
-            background-size: cover !important;
-        }
 
-        .text-big {
-            font-weight: bold;
-            font-size: 56px;
-        }
-
-        .text-medium {
-            font-size: 32px;
-        }
-
-        .mt-big-1 {
-            margin-top: 3em;
-        }
-
-        .mt-big-2 {
-            margin-top: 8em;
-        }
-    </style>
 
 {% endblock %}
 
