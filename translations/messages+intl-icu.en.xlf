@@ -505,6 +505,10 @@
         <source>Kapcsolat</source>
         <target>Contact</target>
       </trans-unit>
+      <trans-unit id="niP36MQ" resname="Rólunk">
+        <source>Rólunk</source>
+        <target>About</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
