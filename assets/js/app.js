@@ -9,6 +9,7 @@ import '../scss/app.scss';
 // Creates links to the Symfony documentation
 import './doclinks.js';
 import {CountUp} from 'countup.js';
+
 require('animate.css')
 window.CountUp = CountUp;
 $(document).ready(function () {
@@ -16,7 +17,7 @@ $(document).ready(function () {
 
     const optionsCountUp = {
         useEasing: true,
-        separator: ',',
+        separator: '',
         decimal: '.'
     };
     $('.countup-numbers').each(function (index, element) {

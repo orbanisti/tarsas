@@ -414,3 +414,54 @@ body#blog_search .post-metadata {
 
 
 @import "app.css";
+@import "~pretty-checkbox";
+::placeholder {
+  font-family: 'Sequel Sans Book Body', serif !important;
+}
+
+textarea {
+  padding: 16px 32px !important;
+  background: $gray-100 !important;
+  font-family: 'Sequel Sans Semi Bold Body', serif !important;
+  color: $black !important;
+}
+
+input[type='text'] {
+  height: 49px;
+  padding: 16px 32px;
+  background: $gray-100;
+  font-family: 'Sequel Sans Semi Bold Body', serif !important;
+  color: $black;
+}
+
+input, textarea {
+  border-radius: 0 !important;
+}
+
+.pretty input:checked ~ .state.p-primary label:after, .pretty.p-toggle .state.p-primary label:after {
+  background-color: $primary !important;
+}
+
+.shadow-primary-white-border {
+  position: relative;
+  z-index: 1;
+}
+
+.shadow-primary-white-border::after {
+  border: 3px solid white !important;
+  top: 29px;
+  left: 22px;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1 !important;
+}
+
+.bg-primary-light {
+  background: rgba(34, 70, 148, 0.5);
+}
+
+.text-primary-light {
+  color: rgba(34, 70, 148, 0.5);
+}

@@ -9,7 +9,7 @@
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-6 text-right animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big">Accounting</h1>
+                        <h1 class="mb-5 text-big">{{ 'Könyvelés'|trans }}</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim eu libero varius posuere nisi, viverra non orci. Posuere
                             consectetur
                             sed in ut pellentesque in arcu. Sed neque sit pellentesque vulputate. Bibendum venenatis suspendisse interdum dignissim tellus sit
@@ -28,7 +28,7 @@
         </div>
     </div>
 
-    <div class="container-fluid animate__animated animate__fadeIn" style="padding:0;" id="accountingCounters">
+    <div class="container-fluid animate__animated animate__fadeIn bg-primary" style="padding:0;" id="accountingCounters">
         <div class="row no-gutters">
             <div class="col ">
                 {{ include('frontend/embed/counterWidget.html.twig',{number:1,description:'Portál'}) }}
@@ -50,9 +50,9 @@
         </div>
     </div>
     <div class="container ">
-        <div class="row mt-lg-5 mb-lg-5">
+        <div class="row mt-5 mb-5">
             <div class="col-md-12">
-                <h3 class="text-dark text-big mt-lg-5 mb-lg-5">2005</h3>
+                <h3 class="text-dark text-big mt-5 mb-5">2005</h3>
                 <p>Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket
                     könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.</p>
             </div>
@@ -66,7 +66,7 @@
 
     </div>
 
-    <div class="container mt-lg-5 mb-lg-5">
+    <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-md-6">
                 {# TODO: Set make standalone template for this image style #}
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="col-md-6 mt-big-2">
-                <h2 class="text-big text-dark mb-lg-5">Hogyan dolgozunk?</h2>
+                <h2 class="text-big text-dark mb-5">Hogyan dolgozunk?</h2>
                 <p class="text-right">Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes
                     portálunk támogatják
                     a tudatos vezetői döntéseket.</p>
@@ -91,7 +91,7 @@
             <div class="col-md-12 text-center text-dark">
                 <h2 class="text-medium ">Adatok vállalkozásáról.</h2>
                 <h2 class="text-big mt-3">Azonnal.</h2>
-                <p class="mt-lg-5 text-left">
+                <p class="mt-5 text-left">
                     Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a
                     bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?
                 </p>
@@ -108,7 +108,7 @@
             </div>
         </div>
 
-        <div class="row mt-lg-5 text-center">
+        <div class="row pt-lg-5 text-center pb-lg-5">
             <div class="col"></div>
             <div class="col">
                 <button class="btn btn-primary">Érdekel</button>
@@ -119,8 +119,49 @@
             <div class="col"></div>
         </div>
     </div>
+    <div class="container-fluid mt-5 pt-lg-5 bg-primary">
+        <div class="container mt-5">
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <h1 class="text-white">{{ 'Segíthetünk?'|trans }}</h1>
+                    <p class="text-white mt-5">
+                        {{ 'Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!'|trans }}
+                    </p>
+                </div>
+                <div class="col-md-12 mt-5 mb-5">
+                    <form style="width: 90%;height: 100%;margin-right: auto">
+                        <div class="row p-5 bg-white pt-lg-5 pb-lg-5 shadow-primary-white-border">
+                            <div class="col-md-6">
+                                <div class="col-md-12 pl-0">
+                                    <input type="text" name="name" class="form-control mb-5" placeholder="{{ 'Név'|trans }}">
+                                    <input type="text" name="company" class="form-control mb-5" placeholder="{{ 'Cég'|trans }}">
+                                </div>
+                            </div>
+                            <div class="col-md-6 text-center">
+                                <input type="text" name="email" class="form-control mb-5" placeholder="{{ 'E-mail cím'|trans }}">
+                                <input type="text" name="phone" class="form-control mb-5" placeholder="{{ 'Telefon'|trans }}">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea rows="8" class="form-control" name="message" placeholder="{{ 'Mit tehetünk önért?' }}"></textarea>
+                            </div>
+                            <div class="col-md-8 mt-5">
+                                <div class="pretty p-default">
+                                    <input type="checkbox" checked name="acceptPrivacy">
+                                    <div class="state  p-primary">
+                                        <label class="ml-3"> Elfogadom az <a class="text-black text-underline" href="#">adatvédelmi irányelveket</a></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-5">
+                                <input type="submit" class="btn btn-primary" value="{{ 'Beküldés'|trans }}">
+                            </div>
+                        </div>
 
-
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 {% endblock %}
 

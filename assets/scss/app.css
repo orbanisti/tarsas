@@ -62,7 +62,11 @@ html {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 56px !important;
+}
+
+p {
+    font-size: 18px !important;
 }
 
 /* TODO Remove unnecesary verisons*/
@@ -78,20 +82,24 @@ p {
     font-family: "Sequel Sans Semi Bold Disp", monospace !important;
 }
 
+/*strong {*/
+/*    font-family: "Sequel Sans Semi Bold Disp", monospace !important;*/
+/*}*/
+
 li.nav-item {
     margin: 0 0.6em;
 }
 
-.btn-primary {
+.btn {
     padding: 1em 1.5em 1em 1.5em !important;
     box-shadow: 6px 7px rgba(2, 2, 15, 0.5);
 }
 
-.btn-primary:hover {
+.btn:hover {
     box-shadow: none;
     position: relative;
     transform: translateX(6px) translateY(7px);
-    transition: all 0.5s;
+    transition: all 0.1s;
 }
 
 .btn-primary:active {
@@ -110,7 +118,7 @@ li.nav-item {
 }
 
 .text-medium {
-    font-size: 32px;
+    font-size: 32px !important;
 }
 
 .mt-big-1 {
@@ -120,3 +128,12 @@ li.nav-item {
 .mt-big-2 {
     margin-top: 8em;
 }
+
+.text-underline {
+    text-decoration: underline !important;
+}
+
+
+
+
+

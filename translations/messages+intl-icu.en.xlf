@@ -457,6 +457,54 @@
         <source>Contact</source>
         <target>__Contact</target>
       </trans-unit>
+      <trans-unit id="ySRBzGR" resname="Segíthetünk?">
+        <source>Segíthetünk?</source>
+        <target>__Segíthetünk?</target>
+      </trans-unit>
+      <trans-unit id="2kF9O_." resname="Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
+        <source>Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
+        <target>__Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</target>
+      </trans-unit>
+      <trans-unit id="RntXRee" resname="Név">
+        <source>Név</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="XAtCm3u" resname="Cég">
+        <source>Cég</source>
+        <target>Company</target>
+      </trans-unit>
+      <trans-unit id="L1dSvan" resname="E-mail cím">
+        <source>E-mail cím</source>
+        <target>E-mail</target>
+      </trans-unit>
+      <trans-unit id="_mkG127" resname="Telefon">
+        <source>Telefon</source>
+        <target>Phone</target>
+      </trans-unit>
+      <trans-unit id="xvt2XRR" resname="Beküldés">
+        <source>Beküldés</source>
+        <target>Send</target>
+      </trans-unit>
+      <trans-unit id="Ai7fD9l" resname="Könyvelés">
+        <source>Könyvelés</source>
+        <target>Accounting</target>
+      </trans-unit>
+      <trans-unit id="bqwxtmv" resname="Megújuló energia">
+        <source>Megújuló energia</source>
+        <target>Renewables</target>
+      </trans-unit>
+      <trans-unit id="K_DrVtU" resname="IT Megoldások">
+        <source>IT Megoldások</source>
+        <target>IT Solutions</target>
+      </trans-unit>
+      <trans-unit id="F7Cn1by" resname="Karrier">
+        <source>Karrier</source>
+        <target>Jobs</target>
+      </trans-unit>
+      <trans-unit id="Qs7rDZl" resname="Kapcsolat">
+        <source>Kapcsolat</source>
+        <target>Contact</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

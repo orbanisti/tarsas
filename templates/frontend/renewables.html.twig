@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="container-fluid jumbotron jumbotron-bg"
+             style="background: url('{{ asset('build/images/renewables_header.png') }}') bottom;min-height: 600px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-left animate__animated animate__fadeInRight">
+                        <h1 class="mb-5 text-big text-white">{{ 'Megújuló energia'|trans }}</h1>
+                        <h2 class="text-right text-white text-medium mr-5 pr-lg-5">
+                            We offer brand recognition,
+                        </h2>
+                        <p class="text-right text-white mt-3">
+                            <strong>not just sales consulting</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row p-lg-5 bg-white">
+            <div class="col-md-12 ">
+                <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">We are your sales partner to maximize the results of the<br/>
+                    opportunities in this booming industry.</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="padding: 0 !important;">
+        <div class="row no-gutters ">
+            <div class="col-md-6 p-lg-5 bg-primary">
+                <div class="col-md-12 h-100 " style="margin-top: auto;margin-bottom: auto;display: grid">
+                    {{ include('frontend/embed/counterWidget.html.twig',{number:7500,description:'PVs sold',suffix:'+'}) }}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12  bg-primary-light p-lg-5">
+                            <h2 class="text-medium text-white">
+                                Net Promoter Score (NPS):<span class="countup-numbers text-big ml-5" data-num="75">75</span>
+                            </h2>
+                        </div>
+                        <div class="col-md-12  bg-white p-lg-5">
+                            <h2 class="text-medium text-center">Hit rate</h2>
+                            <h1 class="mt-5 text-center text-black">18.7%</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row p-lg-5 bg-white">
+            <div class="col-md-12 ">
+                <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">Results are delivered in our end-to-end ERP system which is
+                    developed and fine-tuned through the lenses of hundreds of daily users in the past years.</h2>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

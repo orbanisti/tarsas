@@ -27,4 +27,12 @@ class FrontendController extends AbstractController
         return $this->render('frontend/accounting.html.twig');
     }
 
+    /**
+     * @Route("/renewables", methods="GET", name="renewables")
+     */
+    public function renewables(): Response
+    {
+        return $this->render('frontend/renewables.html.twig');
+    }
+
 }

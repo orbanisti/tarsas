@@ -4,17 +4,17 @@
     <div class="row no-gutters desktopBanners">
         <div class="col-md-4 frontPageDiv banner-accounting">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">Accounting</h1>
+                <h1 class="bannerHeader">{{ 'Könyvelés'|trans }}</h1>
             </div>
         </div>
         <div class="col-md-4 frontPageDiv banner-renewables">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">Renewables</h1>
+                <h1 class="bannerHeader">{{ 'Megújuló energia'|trans }}</h1>
             </div>
         </div>
         <div class="col-md-4 frontPageDiv banner-itsolution">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">IT Solutions</h1>
+                <h1 class="bannerHeader">{{ 'IT Megoldások'|trans }}</h1>
             </div>
         </div>
     </div>
@@ -65,10 +65,10 @@
         .bannerHeader {
             position: absolute;
             top: 6em;
+            padding: 2%;
             color: black;
-            font-size: 4em;
-            font-weight: bold;
             right: 1em;
+            font-weight: bold;
         }
 
         .frontPageDiv, .bannerOverlay, .bannerHeader {
