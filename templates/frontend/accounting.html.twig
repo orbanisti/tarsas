@@ -10,13 +10,9 @@
                     </div>
                     <div class="col-md-6 text-right animate__animated animate__fadeInRight">
                         <h1 class="mb-5 text-big">{{ 'Könyvelés'|trans }}</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim eu libero varius posuere nisi, viverra non orci. Posuere
-                            consectetur
-                            sed in ut pellentesque in arcu. Sed neque sit pellentesque vulputate. Bibendum venenatis suspendisse interdum dignissim tellus sit
-                            purus
-                            tristique orci. Et, tellus feugiat amet posuere lacus velit elit adipiscing. Viverra vitae curabitur dolor scelerisque nibh facilisi
-                            risus.
-                            Aliquet mi facilisi risus blandit et ut. Quis adipiscing odio vitae turpis mi, malesuada leo sagittis in. Sit risus, ac mi mi.</p>
+                        <p>Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk Everest
+                            Accounting.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -106,58 +102,45 @@
             <div class="col-md-12 jumbotron p-5" style="min-height: 500px">
                 <h2 class=" text-big text-dark">A Portál</h2>
             </div>
+            <div class="col-md-12 mt-5">
+                <ul class="square">
+                    <li>Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is</li>
+                    <li>Felelős döntést másodpercek alatt, azonnal elérhető cégadatokból</li>
+                    <li>Döntse el egy pillanat alatt, hogy van-e elég fedezete arra, amit tervez</li>
+                    <li>Férjen hozzá az bérszámfejtés összes adatához: bárhol, és bármikor</li>
+
+                </ul>
+
+            </div>
         </div>
 
-        <div class="row pt-lg-5 text-center pb-lg-5">
+        <div class="row pt-5 text-center pb-5">
             <div class="col"></div>
             <div class="col">
-                <button class="btn btn-primary">Érdekel</button>
+                <a href="#contact" class="btn btn-primary">Érdekel</a>
             </div>
             <div class="col">
                 <button class="btn btn-primary">Könyvelési kisokos</button>
             </div>
             <div class="col"></div>
         </div>
+        <div class="row mt-5 text-center">
+            <div class="col-md-12">
+                <strong class="text-center">Segítünk, hogy mindig naprakész legyen a könyvelésben!</strong>
+            </div>
+        </div>
     </div>
-    <div class="container-fluid mt-5 pt-lg-5 bg-primary">
+    <div class="container-fluid mt-5 pt-5 bg-primary" id="contact">
         <div class="container mt-5">
             <div class="row ">
                 <div class="col-md-12 ">
                     <h1 class="text-white">{{ 'Segíthetünk?'|trans }}</h1>
                     <p class="text-white mt-5">
-                        {{ 'Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!'|trans }}
+                        {{ 'Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!'|trans }}
                     </p>
                 </div>
                 <div class="col-md-12 mt-5 mb-5">
-                    <form style="width: 90%;height: 100%;margin-right: auto">
-                        <div class="row p-5 bg-white pt-lg-5 pb-lg-5 shadow-primary-white-border">
-                            <div class="col-md-6">
-                                <div class="col-md-12 pl-0">
-                                    <input type="text" name="name" class="form-control mb-5" placeholder="{{ 'Név'|trans }}">
-                                    <input type="text" name="company" class="form-control mb-5" placeholder="{{ 'Cég'|trans }}">
-                                </div>
-                            </div>
-                            <div class="col-md-6 text-center">
-                                <input type="text" name="email" class="form-control mb-5" placeholder="{{ 'E-mail cím'|trans }}">
-                                <input type="text" name="phone" class="form-control mb-5" placeholder="{{ 'Telefon'|trans }}">
-                            </div>
-                            <div class="col-md-12">
-                                <textarea rows="8" class="form-control" name="message" placeholder="{{ 'Mit tehetünk önért?' }}"></textarea>
-                            </div>
-                            <div class="col-md-8 mt-5">
-                                <div class="pretty p-default">
-                                    <input type="checkbox" checked name="acceptPrivacy">
-                                    <div class="state  p-primary">
-                                        <label class="ml-3"> Elfogadom az <a class="text-black text-underline" href="#">adatvédelmi irányelveket</a></label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 mt-5">
-                                <input type="submit" class="btn btn-primary" value="{{ 'Beküldés'|trans }}">
-                            </div>
-                        </div>
-
-                    </form>
+                    {{ include('frontend/embed/contactForm.html.twig') }}
                 </div>
             </div>
         </div>

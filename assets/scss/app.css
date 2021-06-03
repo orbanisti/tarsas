@@ -65,16 +65,25 @@ h1 {
     font-size: 56px !important;
 }
 
-p {
-    font-size: 18px !important;
+p, a {
+    font-size: 18px;
 }
+
 
 /* TODO Remove unnecesary verisons*/
 h1, h2, h3, h4, h5, h6 {
     font-family: "Sequel Sans Semi Bold Disp", sans-serif !important;
 }
 
-p {
+h2 {
+    font-size: 32px;
+}
+
+body {
+    color: #fff;
+}
+
+p, li, body, strong {
     font-family: "Sequel Sans Book Body", sans-serif !important;
 }
 
@@ -133,6 +142,11 @@ li.nav-item {
     text-decoration: underline !important;
 }
 
+.hover-white:hover {
+    font-weight: bold;
+    transition: all 0.5s;
+    color: #fff !important;
+}
 
 
 
