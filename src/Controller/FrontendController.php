@@ -60,11 +60,19 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/acout", methods="GET", name="about")
+     * @Route("/about", methods="GET", name="about")
      */
     public function about(): Response
     {
         return $this->render('frontend/about.html.twig');
+    }
+
+    /**
+     * @Route("/it-solutions", methods="GET", name="it-solutions")
+     */
+    public function itSolutions(): Response
+    {
+        return $this->render('frontend/itsolutions.html.twig');
     }
 
 }

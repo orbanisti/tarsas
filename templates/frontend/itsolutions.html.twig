@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="container-fluid jumbotron jumbotron-bg"
+             style="background: url('{{ asset('build/images/it-solutions.png') }}');min-height: 600px;background-position-y:20%">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-right animate__animated animate__fadeInRight">
+                        <h1 class="mb-5 text-big">{{ 'IT Megoldások'|trans }}</h1>
+                        <p class="mt-sm-5">Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk
+                            Everest
+                            Accounting.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

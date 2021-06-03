@@ -1,0 +1,19 @@
+<div id="drawerMenu" class="drawer animated slideInRight dw-xs-12 dw-sm-6 dw-md-4 fold" aria-labelledby="drawerMenu">
+    <div class="drawer-contents text-white bg-dark">
+        <div class="navbar navbar-expand-lg">
+            <div class="w-100 pr-3 pt-2">
+                <a href="#drawerMenu" id="drawerMenuToggle" aria-foldedopen="false" aria-controls="drawerMenu"
+                   class="navbar-toggler pull-right mt-3 mr-3">
+                    <span class="fa fa-times fa-2x text-white" style="float:right"></span>
+                </a>
+            </div>
+        </div>
+
+        <a class="navbar-brand " href="{{ path('homepage') }}">
+            <img class="logo" src="{{ asset('build/images/logo-white.png') }}"/>
+        </a>
+        <div class="drawer-body mt-5 pt-3">
+            {{ include('frontend/menu.html.twig') }}
+        </div>
+    </div>
+</div>

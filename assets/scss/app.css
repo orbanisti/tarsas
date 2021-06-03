@@ -148,6 +148,48 @@ li.nav-item {
     color: #fff !important;
 }
 
+@media (max-width: 768px) {
 
+    .pretty.p-default {
+        white-space: normal;
+    }
 
+    .pretty .state label:before, .pretty .state label:after {
+        top: 0 !important;
+    }
 
+    .pretty .state label {
+        display: -webkit-inline-box !important;
+        margin-left: 3em !important;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+.drawer .nav-link {
+    color: white;
+}
+
+.dropdown-menu.show {
+    display: block !important;
+}
+
+.fold {
+    display: none;
+}
+
+.fold.open {
+    display: block !important;
+}
+
+.drawer-body {
+    padding: 3em;
+}
+
+.drawer-body li a {
+    text-align: right;
+    font-size: 32px;
+}

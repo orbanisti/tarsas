@@ -62,6 +62,7 @@ $lato-font-path: '~lato-font/fonts';
 @include lato-include-font('bold');
 @import "~animate.css";
 @import "./assets/fonts/SequelSans/stylesheet";
+@import "~bootstrap-drawer/dist/css/bootstrap-drawer.min.css";
 
 /* Basic styles
    ------------------------------------------------------------------------- */
