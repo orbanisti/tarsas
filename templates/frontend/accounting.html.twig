@@ -2,9 +2,10 @@
 
 {% block body %}
     <div class="row">
-        <div class="container-fluid jumbotron jumbotron-bg"
+        <div class="container-fluid jumbotron-bg position-relative"
              style="background: url('{{ asset('build/images/accounting.png') }}');min-height: 600px;background-position-y:20%">
-            <div class="container">
+            <div class="primary-overlay-div"></div>
+            <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-6">
                     </div>
@@ -19,9 +20,9 @@
             </div>
         </div>
     </div>
-    <div class="row p-5 bg-white">
+    <div class="row p-lg-5 p-3  bg-white">
         <div class="col-md-12">
-            <h1 class="text-center text-dark animate__animated animate__fadeIn text-big">Profi csapat, átlátható könyvelés</h1>
+            <h1 class="text-xl-center text-dark animate__animated animate__fadeIn text-big text-medium-sm">Profi csapat, átlátható könyvelés</h1>
         </div>
     </div>
 
@@ -55,9 +56,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12 text-center ">
-                <h3 style="text-decoration: underline;width: fit-content" class="text-medium m-auto text-white p-5 bg-primary">Ismerje meg új
-                    könyvelőcsapatát</h3>
+            <div class="col-md-12 text-center p-lg-5 p-0">
+                <h3 style="text-decoration: underline;width: fit-content"
+                    class="text-medium text-normal-sm m-auto text-white p-lg-5 p-4 bg-primary text-left">
+                    Ismerje meg új könyvelőcsapatát</h3>
             </div>
         </div>
 
@@ -66,15 +68,15 @@
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col-md-6">
-                {# TODO: Set make standalone template for this image style #}
-                <div style="margin-top: 6em;position:relative;width: fit-content;height: fit-content" class="bg-primary">
-                    <img width="337" height="auto"
-                         style="position:relative;top:3em;left:3em;"
-                         src="{{ asset('build/images/colleagues-office-1.png') }}" alt="Accounting team"/>
-                </div>
             </div>
-            <div class="col-md-6 mt-big-2">
-                <h2 class="text-big text-dark mb-5">Hogyan dolgozunk?</h2>
+            <div class="col-md-6 mt-5 mb-0">
+                <h1 class="text-big text-dark mb-5">Hogyan dolgozunk?</h1>
+            </div>
+            <div class="col-md-6 mb-5" id="accountingImageBox">
+                {# TODO: Set make standalone template for this image style #}
+                {{ include('frontend/embed/imageBox.html.twig',{src:asset('build/images/colleagues-office-1.png')}) }}
+            </div>
+            <div class="col-md-6 ">
                 <p class="text-right">Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes
                     portálunk támogatják
                     a tudatos vezetői döntéseket.</p>
@@ -146,6 +148,10 @@
             </div>
         </div>
     </div>
+
+    <style>
+
+    </style>
 
 {% endblock %}
 

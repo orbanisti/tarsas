@@ -507,3 +507,64 @@ ul.square {
     }
   }
 }
+
+
+.primary-overlay-div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #224694;
+  opacity: .5;
+}
+
+@media (min-width: 768px) {
+  #accountingImageBox {
+    margin-top: -6em;
+  }
+  .primary-overlay-div {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+
+  .text-medium-sm {
+    font-size: 32px !important;
+  }
+  .text-normal-sm {
+    font-size: 18px !important;
+  }
+
+  .text-banner-white {
+    color: white !important;
+  }
+
+  .jumbotron-bg {
+    background-position: center !important;
+  }
+
+  .jumbotron-bg h1, .jumbotron-bg p {
+    color: white !important;
+  }
+
+  #accountingCounters {
+    background: white !important;
+
+  }
+  #accountingCounters h3 {
+    background: $primary;
+  }
+
+  #accountingCounters p {
+    color: $black;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .p-sm-0 {
+    padding: 0 !important;
+  }
+}
