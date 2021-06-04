@@ -1,73 +1,80 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="row">
-        <div class="container-fluid  jumbotron-bg position-relative"
-             style="background: url('{{ asset('build/images/renewables_header.png') }}') bottom;margin-bottom:0px;min-height: 600px">
-            <div class="primary-overlay-div"></div>
-            <div class="container mt-5 p-5 p-lg-1">
-                <div class="row mt-1">
-                    <div class="col-md-12 text-left animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big text-white">{{ 'Megújuló energia'|trans }}</h1>
-                        <h2 class="text-right text-white text-medium mr-5 pr-lg-5">
-                            We offer brand recognition,
-                        </h2>
-                        <p class="text-right text-white mt-3">
-                            <strong>not just sales consulting</strong>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row p-5 bg-white">
-            <div class="col-md-12 ">
-                <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">We are your sales partner to maximize the results of the<br/>
-                    opportunities in this booming industry.</h2>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid" style="padding: 0 !important;">
-        <div class="row no-gutters ">
-            <div class="col-md-6 p-5 bg-primary">
-                <div class="col-md-12 h-100 " style="margin-top: auto;margin-bottom: auto;display: grid">
-                    {{ include('frontend/embed/counterWidget.html.twig',{number:7500,description:'PVs sold',suffix:'+'}) }}
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12  bg-primary-light p-lg-5 p-3">
-                            <h2 class="text-medium text-white text-normal-sm text-center">
-                                Net Promoter Score (NPS):<span class="countup-numbers text-big ml-lg-5 ml-1 text-medium-sm" data-num="75">75</span>
-                            </h2>
-                        </div>
-                        <div class="col-md-12 d-md-block d-lg-block  d-flex  bg-white p-md-5 p-lg-5 p-3">
-                            <div class="col-md-12">
-                                <h2 class="text-medium mt-4 mt-md-3 mt-lg-0 text-center mt-lg-0 text-sm-right text-md-center">Hit rate:</h2>
-                            </div>
-                            <div class="col-md-12">
-                                <h1 class="mt-lg-5 mt-md-0 mt-lg-0 mt-3 text-center text-black ">18.7%</h1>
+    <div id="fullPage">
+        <span class="section">
+            <div class="row ">
+                <div class="container-fluid  jumbotron-bg position-relative"
+                     style="background: url('{{ asset('build/images/renewables_header.png') }}') bottom;margin-bottom:0px;min-height: 600px">
+                    <div class="primary-overlay-div"></div>
+                    <div class="container mt-5 p-5 p-lg-1">
+                        <div class="row mt-1">
+                            <div class="col-md-12 text-left animate__animated animate__fadeInRight">
+                                <h1 class="mb-5 text-big text-white">{{ 'Megújuló energia'|trans }}</h1>
+                                <h2 class="text-right text-white text-medium mr-5 pr-lg-5">
+                                    We offer brand recognition,
+                                </h2>
+                                <p class="text-right text-white mt-3">
+                                    <strong>not just sales consulting</strong>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div></span>
+        <span class="section">
+            <div class=" container">
+                <div class="row p-5 bg-white">
+                    <div class="col-md-12 ">
+                        <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">We are your sales partner to maximize the results of
+                            the<br/>
+                            opportunities in this booming industry.</h2>
+                    </div>
+                </div>
+            </div>
+             <div class=" container-fluid " style="padding: 0 !important;">
+            <div class="row no-gutters ">
+                <div class="col-md-6 p-5 bg-primary">
+                    <div class="col-md-12 h-100 " style="margin-top: auto;margin-bottom: auto;display: grid">
+                        {{ include('frontend/embed/counterWidget.html.twig',{number:7500,description:'PVs sold',suffix:'+'}) }}
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12  bg-primary-light p-lg-5 p-3">
+                                <h2 class="text-medium text-white text-normal-sm text-center">
+                                    Net Promoter Score (NPS):<span class="countup-numbers text-big ml-lg-5 ml-1 text-medium-sm" data-num="75">75</span>
+                                </h2>
+                            </div>
+                            <div class="col-md-12 d-md-block d-lg-block  d-flex  bg-white p-md-5 p-lg-5 p-3">
+                                <div class="col-md-12">
+                                    <h2 class="text-medium mt-4 mt-md-3 mt-lg-0 text-center mt-lg-0 text-sm-right text-md-center">Hit rate:</h2>
+                                </div>
+                                <div class="col-md-12">
+                                    <h1 class="mt-lg-5 mt-md-0 mt-lg-0 mt-3 text-center text-black ">18.7%</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row p-5 bg-white">
-            <div class="col-md-12 ">
-                <h2 class="text-left text-dark animate__animated animate__fadeIn text-normal-sm">Results are delivered in our end-to-end ERP system which is
-                    developed and fine-tuned through the lenses of hundreds of daily users in the past years.</h2>
+            <div class=" container">
+            <div class="row p-5 bg-white">
+                <div class="col-md-12 ">
+                    <h2 class="text-left text-dark animate__animated animate__fadeIn text-normal-sm">Results are delivered in our end-to-end ERP system
+                        which is
+                        developed and fine-tuned through the lenses of hundreds of daily users in the past years.</h2>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container mt-5">
-        <div class="row p-lg-5 p-md-5 p-0 bg-white" style="min-height: 500px">
-            <div class="col-md-12 ">
-                <div id="vmap" style="width: 100%; height: 600px;"></div>
+        </span>
+        <div class="section container mt-5">
+            <div class="row p-lg-0 p-md-5 p-0 bg-white" style="min-height: 500px">
+                <div class="col-md-12 ">
+                    <div id="vmap" style="width: 100%; height: 600px;"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -75,6 +82,18 @@
 {% endblock %}
 
     {% block javascripts %}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"
+                integrity="sha512-XOpdFagEEv9XMxN/2EdvFL/PfGtFDjX+AkRznsFHDtdC05YWdkMnz5JZUfrbnEabOQaMc7YNTl2xPbOu3J858Q==" crossorigin="anonymous"
+                referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css"
+              integrity="sha512-q54FvbV+gGBn+NvgaD4gpJ7w4wrO00DgW7Rx503PIhrf0CuMwLOwbS+bXgOBFSob+6GVy1HDPfaRLJ8w2jiS4g==" crossorigin="anonymous"
+              referrerpolicy="no-referrer"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/jquery.easings.min.js"
+                integrity="sha512-rXZZDfRSa6rsBuT78nRTbh1ccwpXhTCspKUDqox3hUQNYdjB6KB6mSj6mXcB9/5F5wODAJnkztXPxzkTalp11w==" crossorigin="anonymous"
+                referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js"
+                integrity="sha512-FzESM/E7XJBqcJyrXa08gRcpp5rDHO661C0L3vH4NsZfUWUsjN4+t6Lg8h+e8TMR2aYijIrcT+CPGq7tSugRzA==" crossorigin="anonymous"
+                referrerpolicy="no-referrer"></script>
         <script type="text/javascript">
 
             let europeMap = null;
@@ -119,8 +138,60 @@
                 mapElement.unbind('touchstart');
                 mapElement.unbind('touchend');
                 mapElement.unbind('touchmove');
+                $(document).ready(function () {
+                    if (window.innerWidth > 1050) {
+                        $('#fullPage').fullpage({
+                            //options here
+                            anchors: ['firstPage', 'secondPage', '3rdPage'],
+                            navigation: true,
+                            navigationPosition: 'left',
+                            autoScrolling: true,
+                            scrollHorizontally: true
+                        });
 
-
+                        //methods
+                        $.fn.fullpage.setAllowScrolling(true);
+                    }
+                });
             });
+
         </script>
+        <style>
+            .fp-tableCell {
+                vertical-align: unset;
+                height: auto !important;
+                background: white;
+            }
+
+            .fp-section {
+                display: flex;
+                height: auto !important;
+            }
+
+            #fp-nav ul li a span, .fp-slidesNav ul li a span {
+                background: url('{{ asset('/build/images/empty-nav.png') }}');
+                border-radius: 0 !important;
+                background-size: cover !important;
+                width: 15px;
+                height: 15px;
+            }
+
+            #fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+                background: url('{{ asset('/build/images/active-nav.png') }}');
+                height: 15px;
+                width: 15px;
+                margin: -2px 0 0 -2px;
+            !important;
+                border-radius: 100%;
+            }
+
+            #fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span {
+                height: 15px;
+                width: 15px;
+                margin: -2px 0 0 -2px;
+            !important;
+            }
+
+        </style>
+
     {% endblock %}
