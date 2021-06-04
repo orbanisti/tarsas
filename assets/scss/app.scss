@@ -517,7 +517,7 @@ ul.square {
   opacity: .5;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   #accountingImageBox {
     margin-top: -6em;
   }
@@ -528,7 +528,12 @@ ul.square {
 }
 
 @media (max-width: 768px) {
-
+  .jobsGalleryColumn {
+    min-height: 89px !important;
+  }
+  .hidden-xs {
+    display: none !important;
+  }
 
   .text-medium-sm {
     font-size: 32px !important;
@@ -567,4 +572,8 @@ ul.square {
   .p-sm-0 {
     padding: 0 !important;
   }
+}
+
+#drawerMenu {
+  width: 100% !important;
 }

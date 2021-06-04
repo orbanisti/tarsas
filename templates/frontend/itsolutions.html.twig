@@ -2,27 +2,25 @@
 
 {% block body %}
     <div class="row">
-        <div class="container-fluid jumbotron jumbotron-bg"
-             style="background: url('{{ asset('build/images/it-solutions.png') }}') bottom right;min-height: 600px;">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-6 text-right animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big">{{ 'IT Megoldások'|trans }}</h1>
-                        <p class="mt-sm-5 text-medium">Nem csupán weboldalakat készítünk…
-                        </p>
-                    </div>
-
+        <div class="container-fluid jumbotron-bg position-relative"
+             style="background: url('{{ asset('build/images/it-solutions.png') }}') right;min-height: 600px;background-position-y: 90%">
+            <div class="row p-lg-5 h-100">
+                <div class="primary-overlay-div"></div>
+                <div class="col-md-4 col-lg-6">
                 </div>
+                <div class="col-md-8 col-lg-6 p-lg-5 p-md-3 p-3 m-lg-0 m-md-0 m-2 text-right animate__animated animate__fadeInRight mt-lg-5 mt-md-5 mt-1 align-self-end">
+                    <h1 class="mb-5 text-big mt-md-5 pt-md-5 ">{{ 'IT Megoldások'|trans }}</h1>
+                    <p class="mt-sm-5 text-medium">Nem csupán weboldalakat készítünk…
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row p-5 bg-white">
             <div class="col-md-12 ">
-                <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">Az IT Solutions egyidős az Everesttel, hiszen
+                <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium text-normal-sm mb-0">Az IT Solutions egyidős az Everesttel, hiszen
                     mindannyian ismerjük a divatossá vált kifejezést, hogy weblap nélkül egy vállalat láthatatlan. Ebből már következik is, hogy
                     az IT fejlesztés nálunk is nélkülözhetetlen volt már az elejétől kezdve.
                 </h2>
@@ -70,7 +68,7 @@
             </div>
         </div>
     </div>
-    <div class="container mt-5">
+    <div class="container mt-5 p-3">
         <div class="row">
             <div class="col-md-12">
                 <h2>
@@ -109,11 +107,11 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 pt-5 pb-5 bg-primary" id="contact">
+    <div class="container-fluid mt-5 pt-lg-5 pt-md-5 pt-3 pb-5 bg-primary" id="contact">
         <div class="container mt-5">
             <div class="row ">
                 <div class="col-md-12 ">
-                    <h1 class="text-white">{{ 'Segíthetünk?'|trans }}</h1>
+                    <h1 class="text-white text-medium-sm">{{ 'Segíthetünk?'|trans }}</h1>
                     <p class="text-white mt-5">
                         {{ 'Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!'|trans }}
                     </p>
