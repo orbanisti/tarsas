@@ -85,8 +85,10 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
     </footer>
 {% endblock %}
 
+
+{{ encore_entry_script_tags('app') }}
 {% block javascripts %}
-    {{ encore_entry_script_tags('app') }}
+
 {% endblock %}
 
 {# it's not mandatory to set the timezone in localizeddate(). This is done to

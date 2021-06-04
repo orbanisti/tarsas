@@ -2,10 +2,11 @@
 
 {% block body %}
     <div class="row">
-        <div class="container-fluid jumbotron jumbotron-bg"
+        <div class="container-fluid  jumbotron-bg position-relative"
              style="background: url('{{ asset('build/images/renewables_header.png') }}') bottom;margin-bottom:0px;min-height: 600px">
-            <div class="container">
-                <div class="row">
+            <div class="primary-overlay-div"></div>
+            <div class="container mt-5 p-5 p-lg-1">
+                <div class="row mt-1">
                     <div class="col-md-12 text-left animate__animated animate__fadeInRight">
                         <h1 class="mb-5 text-big text-white">{{ 'Megújuló energia'|trans }}</h1>
                         <h2 class="text-right text-white text-medium mr-5 pr-lg-5">
@@ -37,14 +38,18 @@
             <div class="col-md-6">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12  bg-primary-light p-5">
-                            <h2 class="text-medium text-white">
-                                Net Promoter Score (NPS):<span class="countup-numbers text-big ml-5" data-num="75">75</span>
+                        <div class="col-md-12  bg-primary-light p-lg-5 p-3">
+                            <h2 class="text-medium text-white text-normal-sm text-center">
+                                Net Promoter Score (NPS):<span class="countup-numbers text-big ml-lg-5 ml-1 text-medium-sm" data-num="75">75</span>
                             </h2>
                         </div>
-                        <div class="col-md-12  bg-white p-5">
-                            <h2 class="text-medium text-center">Hit rate</h2>
-                            <h1 class="mt-5 text-center text-black">18.7%</h1>
+                        <div class="col-md-12 d-md-block d-lg-block  d-flex  bg-white p-md-5 p-lg-5 p-3">
+                            <div class="col-md-12">
+                                <h2 class="text-medium mt-4 mt-md-3 mt-lg-0 text-center mt-lg-0 text-sm-right text-md-center">Hit rate:</h2>
+                            </div>
+                            <div class="col-md-12">
+                                <h1 class="mt-lg-5 mt-md-0 mt-lg-0 mt-3 text-center text-black ">18.7%</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -54,18 +59,68 @@
     <div class="container">
         <div class="row p-5 bg-white">
             <div class="col-md-12 ">
-                <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">Results are delivered in our end-to-end ERP system which is
+                <h2 class="text-left text-dark animate__animated animate__fadeIn text-normal-sm">Results are delivered in our end-to-end ERP system which is
                     developed and fine-tuned through the lenses of hundreds of daily users in the past years.</h2>
             </div>
         </div>
     </div>
     <div class="container mt-5">
-        <div class="row p-5 bg-white" style="min-height: 500px">
+        <div class="row p-lg-5 p-md-5 p-0 bg-white" style="min-height: 500px">
             <div class="col-md-12 ">
-                <img style="position: relative;left:49.86%" src="{{ asset('/build/images/hu.svg') }}" width="200">
+                <div id="vmap" style="width: 100%; height: 600px;"></div>
             </div>
         </div>
     </div>
+
 {% endblock %}
 
+    {% block javascripts %}
+        <script type="text/javascript">
 
+            let europeMap = null;
+            let centerX = -280;
+            let centerY = null;
+            let mapElement = $("#vmap");
+
+            function setMapCenter() {
+                if (window.innerWidth > 465) {
+                    centerX = -234;
+                }
+                if (window.innerWidth > 765) {
+                    centerX = -196;
+                }
+                if (window.innerWidth > 960) {
+                    centerX = -141;
+                }
+                if (window.innerWidth > 1200) {
+                    centerX = -103;
+                }
+            }
+
+            setMapCenter()
+
+            $(document).ready(function () {
+                europeMap = $('#vmap').vectorMap({
+                    map: 'europe_en',
+                    backgroundColor: '#fff',
+                    color: '#ffffff',
+                    hoverColor: '#000',
+                    enableZoom: false,
+                    panOnDrag: false,
+                    values: {"hu": 100, "cz": 100},
+                    scaleColors: ['#224694'],
+
+                });
+                europeMap.setScale(2);
+                europeMap.transX = centerX;
+                europeMap.transY = -186;
+                europeMap.applyTransform();
+                mapElement.unbind('click');
+                mapElement.unbind('touchstart');
+                mapElement.unbind('touchend');
+                mapElement.unbind('touchmove');
+
+
+            });
+        </script>
+    {% endblock %}

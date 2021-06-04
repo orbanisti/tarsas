@@ -10,11 +10,6 @@ Encore
     .setOutputPath('public/build/')
     .setPublicPath('/build')
     .cleanupOutputBeforeBuild()
-    .autoProvidejQuery()
-    .autoProvideVariables({
-        "window.Bloodhound": require.resolve('bloodhound-js'),
-        "jQuery.tagsinput": "bootstrap-tagsinput"
-    })
     .addPlugin(new CopyWebpackPlugin({
         'patterns': [
             {from: './assets/images', to: 'images'}
@@ -26,9 +21,6 @@ Encore
     // caching strategies. Use Encore.isProduction() to enable it only for production.
     .enableVersioning(false)
     .addEntry('app', './assets/js/app.js')
-    .addEntry('login', './assets/js/login.js')
-    .addEntry('admin', './assets/js/admin.js')
-    .addEntry('search', './assets/js/search.js')
     .splitEntryChunks()
     .enableSingleRuntimeChunk()
     .enableIntegrityHashes(Encore.isProduction())

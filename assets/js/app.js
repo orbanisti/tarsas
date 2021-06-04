@@ -1,21 +1,26 @@
 // loads the Bootstrap jQuery plugins
-import 'jquery'
+
+var $ = require('jquery/dist/jquery');
+var jQuery = $;
+window.$ = $;
+window.jQuery = $;
 import 'popper.js'
 import 'bootstrap'
 import '../scss/app.scss';
 // loads the code syntax highlighting library
 // import './highlight.js';
-import 'bootstrap-drawer/js/drawer'
-
-// Creates links to the Symfony documentation
-import './doclinks.js';
+require('bootstrap-drawer/js/drawer')
 import {CountUp} from 'countup.js';
 
-require('animate.css')
+
+require('jqvmap/dist/jquery.vmap');
+require('jqvmap/dist/maps/jquery.vmap.europe');
+
+require('animate.css');
+
 window.CountUp = CountUp;
 $(document).ready(function () {
     let drawerMenu = $("#drawerMenu");
-
     const optionsCountUp = {
         useEasing: true,
         separator: '',
