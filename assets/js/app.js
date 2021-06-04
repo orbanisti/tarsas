@@ -15,7 +15,7 @@ import {CountUp} from 'countup.js';
 
 require('jqvmap/dist/jquery.vmap');
 require('jqvmap/dist/maps/jquery.vmap.europe');
-
+require('jquery.waitforimages')
 require('animate.css');
 
 window.CountUp = CountUp;

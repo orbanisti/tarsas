@@ -4283,6 +4283,11 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
+jquery.waitforimages@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/jquery.waitforimages/-/jquery.waitforimages-2.4.0.tgz#6bb6d84937bbaf742033031444bbc9f0db6ccd65"
+  integrity sha512-GmkE2wf2vUlg+XayDq0bfUtsn/Wq7FIX1NjnOtMjl63goz/PKj7787RoTJXQx6XAaZAO3TQ3QoLfLwWsaDKOhQ==
+
 jquery@2.x:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"

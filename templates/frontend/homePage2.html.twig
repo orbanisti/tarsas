@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="flex-container">
+        <div class="flex-slide accounting">
+            <div class="flex-title flex-title-home">{{ 'Könyvelés'|trans }}</div>
+            {# <div class="flex-about flex-about-home"><p>Click here to navigate to the home section of the website</p></div> #}
+        </div>
+        <div class="flex-slide renewables">
+            <div class="flex-title">{{ 'Megújuló energia'|trans }}</div>
+        </div>
+        <div class="flex-slide itsolutions">
+            <div class="flex-title">{{ 'IT Megoldások'|trans }}</div>
+        </div>
+    </div>
+    <style>
+        .accounting {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{asset('build/images/accounting.png')}});
+        }
+
+        .renewables {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{asset('build/images/renewables.png')}});
+        }
+
+        .itsolutions {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{asset('build/images/it-solutions.png')}});
+        }
+    </style>
+{% endblock %}
+
+{% block javascripts %}
+    <script>
+        (function () {
+            // $('.flex-container').waitForImages(function () {
+            //     $('.spinner').fadeOut();
+            // }, $.noop, true);
+
+            $(".flex-slide").each(function () {
+                $(this).hover(function () {
+                    $(this).find('.flex-title').css({
+                        transform: 'rotate(0deg)',
+                        top: '10%'
+                    });
+                    $(this).find('.flex-about').css({
+                        opacity: '1'
+                    });
+                }, function () {
+                    $(this).find('.flex-title').css({
+                        transform: 'rotate(90deg)',
+                        top: '30%'
+                    });
+                    $(this).find('.flex-about').css({
+                        opacity: '0'
+                    });
+                })
+            });
+        })();
+    </script>
+{% endblock %}
+

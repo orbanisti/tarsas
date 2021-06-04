@@ -20,6 +20,14 @@ class FrontendController extends AbstractController
     }
 
     /**
+     * @Route("/home2", methods="GET", name="homepage2")
+     */
+    public function home2(): Response
+    {
+        return $this->render('frontend/homePage2.html.twig');
+    }
+
+    /**
      * @Route("/accounting", methods="GET", name="accounting")
      */
     public function accounting(): Response
