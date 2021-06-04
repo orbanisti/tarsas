@@ -3,14 +3,22 @@
 {% block body %}
     <div class="flex-container">
         <div class="flex-slide accounting">
-            <div class="flex-title flex-title-home">{{ 'Könyvelés'|trans }}</div>
+            <a href="{{ path('accounting') }}" style="text-decoration: none !important;">
+                <div class="flex-title flex-title-home">{{ 'Könyvelés'|trans }}</div>
+            </a>
+
             {# <div class="flex-about flex-about-home"><p>Click here to navigate to the home section of the website</p></div> #}
         </div>
+
         <div class="flex-slide renewables">
-            <div class="flex-title">{{ 'Megújuló energia'|trans }}</div>
+            <a href="{{ path('renewables') }}" style="text-decoration: none !important;">
+                <div class="flex-title">{{ 'Megújuló energia'|trans }}</div>
+            </a>
         </div>
         <div class="flex-slide itsolutions">
-            <div class="flex-title">{{ 'IT Megoldások'|trans }}</div>
+            <a href="{{ path('it-solutions') }}" style="text-decoration: none !important;">
+                <div class="flex-title">{{ 'IT Megoldások'|trans }}</div>
+            </a>
         </div>
     </div>
     <style>
