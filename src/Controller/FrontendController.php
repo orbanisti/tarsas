@@ -93,5 +93,12 @@ class FrontendController extends AbstractController
         return $this->render('frontend/itsolutions.html.twig');
     }
 
+    /**
+     * @Route("/privacy", methods="GET", name="privacy",options={"sitemap" =true})
+     */
+    public function privacy()
+    {
+        return $this->render('frontend/privacy.html.twig');
+    }
 
 }
