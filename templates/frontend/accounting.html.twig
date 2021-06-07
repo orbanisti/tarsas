@@ -100,11 +100,40 @@
                     statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.</p>
             </div>
         </div>
-
+    </div>
+    <div class="container">
         <div class="row">
-            <div class="col-md-12 jumbotron p-5" style="min-height: 500px">
-                <h2 class=" text-big text-dark">A Portál</h2>
+            <div class="col-md-12 p-lg-5 p-md-5" style="background: #c4c4c4">
+                <h1 class=" text-big bg-grey text-dark">A Portál</h1>
+                <div class="col-lg-12 img services-img mt-5 portalVideoDesktop d-flex"
+                     style="background-image: url({{ asset('/build/images/everest_screen2.png') }});height: 500px">
+                    <button href="https://player.vimeo.com/video/269352736?app_id=122963"
+                            class="icon popup-vimeo d-flex justify-content-center align-items-center"
+                            style="text-decoration: none !important;">
+                            <span data-toggle="modal" data-target="#vimeoModal" class="fa fa-play fa-3x  text-primary">
+                            </span>
+                    </button>
+                </div>
+
+
             </div>
+        </div>
+    </div>
+    <div class="container-fluid portalVideoMobile">
+        <div class="row">
+            <div class="col-lg-12 img services-img mt-3 "
+                 style="background-image: url({{ asset('/build/images/everest_screen2.png') }});height: 500px">
+                <button href="https://player.vimeo.com/video/269352736?app_id=122963"
+                        class="icon popup-vimeo d-flex justify-content-center align-items-center"
+                        style="text-decoration: none !important;">
+                            <span data-toggle="modal" data-target="#vimeoModal" class="fa fa-play fa-3x  text-primary">
+                            </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
             <div class="col-md-12 mt-5">
                 <ul class="square">
                     <li>Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is</li>
@@ -149,8 +178,93 @@
     </div>
 
     <style>
+        .services-img .icon {
+            align-self: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+            height: 100px;
+            display: block;
+            z-index: 2;
+            background: #fff;
+            -webkit-animation: pulse 2s infinite;
+            animation: pulse 2s infinite;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 50%;
+        }
 
+        .services-img:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            content: '';
+            opacity: .3;
+            background: #000;
+            z-index: 1;
+        }
+
+        .services-img {
+            display: flex;
+        }
+
+        @media (min-width: 769px) {
+            .portal-video-iframe {
+                min-height: 500px !important;
+            }
+
+            .portalVideoDesktop {
+                display: block;
+            }
+
+            .portalVideoMobile {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .portal-video-iframe {
+                min-height: 500px
+            }
+
+            .portalVideoDesktop {
+                display: none !important;
+            }
+
+            .portalVideoMobile {
+                background: #c4c4c4;
+                display: block;
+            }
+        }
     </style>
+
+    <script>
+        $('.popup-vimeo').click(function (e) {
+            e.preventDefault();
+        })
+    </script>
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="vimeoModal" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe style="width: 100%" class="portal-video-iframe" src="//player.vimeo.com/video/269352736?app_id=122963" frameborder="0"
+                            allowfullscreen=""></iframe>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 {% endblock %}
 
