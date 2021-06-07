@@ -1,5 +1,5 @@
 {% extends 'base.html.twig' %}
-
+{% block title %}{{ 'Megújuló energia'|trans }}{% endblock %}
 {% block body %}
     <div id="fullPage">
         <span class="section">
@@ -20,10 +20,10 @@
                             </div>
                         </div>
                     </div>
-                   {{ include('frontend/embed/sliderDownArrow.html.twig') }}
+                   {{ include('frontend/embed/sliderDownArrow.html.twig',{section:'second'}) }}
                 </div>
             </div></span>
-        <span class="section">
+        <span class="section secondSection">
             <div class=" container">
                 <div class="row p-5 bg-white">
                     <div class="col-md-12 ">
@@ -143,7 +143,7 @@
                     if (window.innerWidth > 1050) {
                         $('#fullPage').fullpage({
                             //options here
-                            anchors: ['firstPage', 'secondPage', '3rdPage'],
+                            anchors: ['first', 'second', 'third'],
                             navigation: true,
                             navigationPosition: 'left',
                             autoScrolling: true,
@@ -152,6 +152,8 @@
 
                         //methods
                         $.fn.fullpage.setAllowScrolling(true);
+                    } else {
+                        $('.secondSection').attr('id', 'second')
                     }
                 });
             });

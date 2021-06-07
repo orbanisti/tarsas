@@ -8,7 +8,8 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>{% block title %}Everest Business Services{% endblock %}</title>
+    <title>{% block title %}{% endblock %} - Everest Services</title>
+    <meta name="description" content="{% block metaDesc %} {% endblock %}">
     <link rel="alternate" type="application/rss+xml" title="{{ 'rss.title'|trans }}" href="{{ path('blog_rss') }}">
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
@@ -60,7 +61,7 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
     {% endblock %}
 </div>
 {% block footer %}
-{# <footer> #}
+    {# <footer> #}
     {# <div class="container"> #}
     {# <div class="row"> #}
     {# <div id="footer-copyright" class="col-md-6"> #}
@@ -82,7 +83,7 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
     {# </div> #}
     {# </div> #}
     {# </div> #}
-    {# </footer>#}
+    {# </footer> #}
 {% endblock %}
 
 
