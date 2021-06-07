@@ -8,7 +8,8 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>{% block title %}Everest Business Services{% endblock %}</title>
+    <title>{% block title %}{% endblock %} - Everest Services</title>
+    <meta name="description" content="{% block metaDesc %} {% endblock %}">
     <link rel="alternate" type="application/rss+xml" title="{{ 'rss.title'|trans }}" href="{{ path('blog_rss') }}">
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
@@ -17,20 +18,18 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
 </head>
 
-<body id="{% block body_id %}{% endblock %}">
-
+<body id="{% block body_id %}{% endblock %}" class="">
+{{ include('frontend/drawerMenu.html.twig') }}
 {% block header %}
     <header>
         <nav class="navbar navbar-expand-lg " role="navigation">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="{{ path('homepage') }}">
                     <img class="logo" src="{{ asset('build/images/logo.png') }}"/>
                 </a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="fa fa-bars"></span>Menu
-                </button>
+                <a href="#drawerMenu" data-toggle="drawer" aria-foldedopen="false" aria-controls="drawerMenu" class="navbar-toggler">
+                    <img class="mt-1" src="{{ asset('build/images/menu-bars.png') }}" width="50">
+                </a>
                 <div class="navbar-collapse collapse" id="main-nav">
                     {% include 'frontend/menu.html.twig' %}
                 </div>
@@ -62,33 +61,35 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
     {% endblock %}
 </div>
 {% block footer %}
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div id="footer-copyright" class="col-md-6">
-                    <p>&copy; {{ 'now'|date('Y') }} - The Symfony Project</p>
-                    <p>{{ 'mit_license'|trans }}</p>
-                </div>
-                <div id="footer-resources" class="col-md-6">
-                    <p>
-                        <a href="https://twitter.com/symfony" title="Symfony Twitter">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://www.facebook.com/SensioLabs" title="SensioLabs Facebook">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                        <a href="https://symfony.com/blog/" title="Symfony Blog">
-                            <i class="fa fa-rss" aria-hidden="true"></i>
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    {# <footer> #}
+    {# <div class="container"> #}
+    {# <div class="row"> #}
+    {# <div id="footer-copyright" class="col-md-6"> #}
+    {# <p>&copy; {{ 'now'|date('Y') }} - The Symfony Project</p> #}
+    {# <p>{{ 'mit_license'|trans }}</p> #}
+    {# </div> #}
+    {# <div id="footer-resources" class="col-md-6"> #}
+    {# <p> #}
+    {# <a href="https://twitter.com/symfony" title="Symfony Twitter"> #}
+    {# <i class="fa fa-twitter" aria-hidden="true"></i> #}
+    {# </a> #}
+    {# <a href="https://www.facebook.com/SensioLabs" title="SensioLabs Facebook"> #}
+    {# <i class="fa fa-facebook" aria-hidden="true"></i> #}
+    {# </a> #}
+    {# <a href="https://symfony.com/blog/" title="Symfony Blog"> #}
+    {# <i class="fa fa-rss" aria-hidden="true"></i> #}
+    {# </a> #}
+    {# </p> #}
+    {# </div> #}
+    {# </div> #}
+    {# </div> #}
+    {# </footer> #}
 {% endblock %}
 
+
+{{ encore_entry_script_tags('app') }}
 {% block javascripts %}
-    {{ encore_entry_script_tags('app') }}
+
 {% endblock %}
 
 {# it's not mandatory to set the timezone in localizeddate(). This is done to

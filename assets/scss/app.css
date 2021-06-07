@@ -60,3 +60,137 @@ html {
 #main-nav a {
     color: black;
 }
+
+h1 {
+    font-size: 56px !important;
+}
+
+p, a, strong {
+    font-size: 18px;
+}
+
+
+/* TODO Remove unnecesary verisons*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sequel Sans Semi Bold Disp", sans-serif !important;
+}
+
+h2 {
+    font-size: 32px !important;
+}
+
+body {
+    color: #fff;
+}
+
+p, li, body, strong {
+    font-family: "Sequel Sans Book Body", sans-serif !important;
+}
+
+.nav-link {
+    font-family: "Sequel Sans Semi Bold Disp", monospace !important;
+}
+
+/*strong {*/
+/*    font-family: "Sequel Sans Semi Bold Disp", monospace !important;*/
+/*}*/
+
+li.nav-item {
+    margin: 0 0.6em;
+}
+
+.btn {
+    padding: 1em 1.5em 1em 1.5em !important;
+    box-shadow: 6px 7px rgba(2, 2, 15, 0.5);
+}
+
+.btn:hover {
+    box-shadow: none;
+    position: relative;
+    transform: translateX(6px) translateY(7px);
+    transition: all 0.1s;
+}
+
+.btn-primary:active {
+    background: white !important;
+    color: #18326b !important;
+    border: 1px solid #18326b !important;
+}
+
+.jumbotron-bg {
+    background-size: cover !important;
+}
+
+.text-big {
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.text-medium {
+    font-size: 32px !important;
+}
+
+.mt-big-1 {
+    margin-top: 3em;
+}
+
+.mt-big-2 {
+    margin-top: 8em;
+}
+
+.text-underline {
+    text-decoration: underline !important;
+}
+
+.hover-white:hover {
+    font-weight: bold;
+    transition: all 0.5s;
+    color: #fff !important;
+}
+
+@media (max-width: 768px) {
+
+    .pretty.p-default {
+        white-space: normal;
+    }
+
+    .pretty .state label:before, .pretty .state label:after {
+        top: 0 !important;
+    }
+
+    .pretty .state label {
+        display: -webkit-inline-box !important;
+        margin-left: 3em !important;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+}
+
+.drawer .nav-link {
+    color: white;
+}
+
+.dropdown-menu.show {
+    display: block !important;
+}
+
+.fold {
+    display: none;
+}
+
+.fold.open {
+    display: block !important;
+}
+
+.drawer-body {
+    padding: 3em;
+}
+
+.drawer-body li a {
+    text-align: right;
+    font-size: 32px;
+}
+

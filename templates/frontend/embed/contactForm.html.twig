@@ -1,0 +1,29 @@
+<form style="width: 90%;height: 100%;margin-right: auto;margin-left: 11px">
+    <div class="row p-lg-5 p-sm-3 bg-white pt-5 pb-5 shadow-primary-white-border">
+        <div class="col-md-6">
+            <div class="col-md-12 pl-0">
+                <input type="text" name="name" class="form-control mb-5" placeholder="{{ 'Név'|trans }}">
+                <input type="text" name="company" class="form-control mb-5" placeholder="{{ 'Cég'|trans }}">
+            </div>
+        </div>
+        <div class="col-md-6 text-center">
+            <input type="text" name="email" class="form-control mb-5" placeholder="{{ 'E-mail cím'|trans }}">
+            <input type="text" name="phone" class="form-control mb-5" placeholder="{{ 'Telefon'|trans }}">
+        </div>
+        <div class="col-md-12">
+            <textarea rows="8" class="form-control" name="message" placeholder="{{ 'Mit tehetünk Önért?'|trans }}"></textarea>
+        </div>
+        <div class="col-md-8 mt-5">
+            <div class="pretty p-default">
+                <input type="checkbox" checked name="acceptPrivacy" style="z-index: -1 !important;">
+                <div class="state  p-primary">
+                    <label class="ml-3"> Elfogadom az <a class="text-black text-underline" href="{{ path('privacy') }}">adatvédelmi irányelveket</a></label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5">
+            <input type="submit" class="btn btn-primary" value="{{ 'Beküldés'|trans }}">
+        </div>
+    </div>
+
+</form>

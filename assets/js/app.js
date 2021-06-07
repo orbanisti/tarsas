@@ -1,22 +1,29 @@
 // loads the Bootstrap jQuery plugins
-import 'jquery'
+
+var $ = require('jquery/dist/jquery');
+var jQuery = $;
+window.$ = $;
+window.jQuery = $;
 import 'popper.js'
 import 'bootstrap'
 import '../scss/app.scss';
 // loads the code syntax highlighting library
 // import './highlight.js';
-
-// Creates links to the Symfony documentation
-import './doclinks.js';
+require('bootstrap-drawer/js/drawer')
 import {CountUp} from 'countup.js';
-require('animate.css')
+
+
+require('jqvmap/dist/jquery.vmap');
+require('jqvmap/dist/maps/jquery.vmap.europe');
+require('jquery.waitforimages')
+require('animate.css');
+
 window.CountUp = CountUp;
 $(document).ready(function () {
-
-
+    let drawerMenu = $("#drawerMenu");
     const optionsCountUp = {
         useEasing: true,
-        separator: ',',
+        separator: '',
         decimal: '.'
     };
     $('.countup-numbers').each(function (index, element) {
@@ -24,4 +31,26 @@ $(document).ready(function () {
         let counts = new CountUp(this, num, optionsCountUp);
         counts.start();
     });
+
+    $(document).on('click', '#drawerMenuToggle', function (e) {
+        e.preventDefault();
+        drawerMenu.removeClass('slideInRight').addClass('slideOutRight')
+        drawerMenu.hide();
+        setTimeout(function () {
+            drawerMenu.removeClass('open').removeClass('slideOutRight').addClass('slideInRight');
+        }, 700);
+
+    })
 })
+if (window.innerWidth < 1050) {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+}
+

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Sequel Sans Black Head';
+    src: url('SequelSans-BlackHead.woff2') format('woff2'),
+        url('SequelSans-BlackHead.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Bold Body';
+    src: url('SequelSans-BoldBody.woff2') format('woff2'),
+        url('SequelSans-BoldBody.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Bold Head';
+    src: url('SequelSans-BoldHead.woff2') format('woff2'),
+        url('SequelSans-BoldHead.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Black Body';
+    src: url('SequelSans-BlackBody.woff2') format('woff2'),
+        url('SequelSans-BlackBody.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Book Body';
+    src: url('SequelSans-BookBody.woff2') format('woff2'),
+        url('SequelSans-BookBody.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Light Body';
+    src: url('SequelSans-LightBody.woff2') format('woff2'),
+        url('SequelSans-LightBody.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Light Head';
+    src: url('SequelSans-LightHead.woff2') format('woff2'),
+        url('SequelSans-LightHead.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Medium Body';
+    src: url('SequelSans-MediumBody.woff2') format('woff2'),
+        url('SequelSans-MediumBody.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Book Head';
+    src: url('SequelSans-BookHead.woff2') format('woff2'),
+        url('SequelSans-BookHead.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Medium Head';
+    src: url('SequelSans-MediumHead.woff2') format('woff2'),
+        url('SequelSans-MediumHead.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Heavy Body';
+    src: url('SequelSans-HeavyBody.woff2') format('woff2'),
+        url('SequelSans-HeavyBody.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Heavy Head';
+    src: url('SequelSans-HeavyHead.woff2') format('woff2'),
+        url('SequelSans-HeavyHead.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Semi Bold Body';
+    src: url('SequelSans-SemiBoldBody.woff2') format('woff2'),
+        url('SequelSans-SemiBoldBody.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Semi Bold Disp';
+    src: url('SequelSans-SemiBoldDisp.woff2') format('woff2'),
+        url('SequelSans-SemiBoldDisp.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sequel Sans Semi Bold Head';
+    src: url('SequelSans-SemiBoldHead.woff2') format('woff2'),
+        url('SequelSans-SemiBoldHead.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

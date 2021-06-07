@@ -1,20 +1,51 @@
 {% extends 'base.html.twig' %}
-
+{% block title %}{{ 'Főoldal'|trans }}{% endblock %}
+{% block metaDesc %}{{ 'Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.'|trans }}{% endblock %}
 {% block body %}
     <div class="row no-gutters desktopBanners">
         <div class="col-md-4 frontPageDiv banner-accounting">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">Accounting</h1>
+                <h1 class="bannerHeader">{{ 'Könyvelés'|trans }}</h1>
             </div>
         </div>
         <div class="col-md-4 frontPageDiv banner-renewables">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">Renewables</h1>
+                <h1 class="bannerHeader">{{ 'Megújuló energia'|trans }}</h1>
             </div>
         </div>
         <div class="col-md-4 frontPageDiv banner-itsolution">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">IT Solutions</h1>
+                <h1 class="bannerHeader">{{ 'IT Megoldások'|trans }}</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row no-gutters mobileBanners">
+        <div class="col-md-12">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a href="#accounting-mobile" class="nav-link active" data-toggle="tab">{{ 'Könyvelés'|trans }}</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#renewables-mobile" class="nav-link" data-toggle="tab">{{ 'Megújuló energia'|trans }}</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#it-solutions-mobile" class="nav-link" data-toggle="tab">{{ 'IT Megoldások'|trans }}</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="accounting-mobile">
+                    <div class="col-md-12 mobileBanner" style="  background: url('{{ asset('build/images/accounting.png') }}') center;">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="renewables-mobile">
+                    <div class="col-md-12 mobileBanner" style="  background: url('{{ asset('build/images/renewables.png') }}') center;">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="it-solutions-mobile">
+                    <div class="col-md-12 mobileBanner" style="  background: url('{{ asset('build/images/it-solutions.png') }}') center;">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -54,6 +85,7 @@
         }
 
         .bannerOverlay:hover {
+
             opacity: 1;
         }
 
@@ -63,16 +95,45 @@
         }
 
         .bannerHeader {
-            position: absolute;
-            top: 6em;
+            align-self: center;
             color: black;
-            font-size: 4em;
             font-weight: bold;
-            right: 1em;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .frontPageDiv, .bannerOverlay, .bannerHeader {
             transition: all 0.2s ease-in;
+
+        }
+
+        .bannerOverlay {
+            display: flex;
+            text-align: center;
+        }
+
+        .mobileBanner {
+            min-height: 502px;
+        }
+
+        @media (max-width: 768px) {
+            .desktopBanners {
+                display: none;
+            }
+
+            .mobileBanners {
+                display: block;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .desktopBanners {
+                display: flex;
+            }
+
+            .mobileBanners {
+                display: none;
+            }
         }
 
     </style>
