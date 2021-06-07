@@ -1,3 +1,5 @@
+presta_sitemap:
+  resource: "@PrestaSitemapBundle/Resources/config/routing.yml"
 controllers:
   resource: '../../src/Controller/'
   type: annotation
