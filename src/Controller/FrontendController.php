@@ -52,6 +52,14 @@ class FrontendController extends AbstractController
     }
 
     /**
+     * @Route("/career2", methods="GET", name="career2")
+     */
+    public function career2(): Response
+    {
+        return $this->render('frontend/career2.html.twig');
+    }
+
+    /**
      * @Route("/jobs/salesManager", methods="GET", name="job_sales")
      */
     public function salesManagerJob(): Response
