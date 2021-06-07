@@ -1,8 +1,12 @@
 controllers:
-    resource: '../../src/Controller/'
-    type: annotation
-    prefix: /{_locale}
-    requirements:
-        _locale: '%app_locales%'
-    defaults:
-        _locale: '%locale%'
+  resource: '../../src/Controller/'
+  type: annotation
+  prefix: /{_locale}
+  requirements:
+    _locale: '%app_locales%'
+  defaults:
+    _locale: '%locale%'
+redirects:
+  resource: '../../src/Controller/RedirectController.php'
+  type: annotation
+

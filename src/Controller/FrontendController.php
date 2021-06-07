@@ -4,7 +4,9 @@
 namespace App\Controller;
 
 
+use App\Services\RedirectManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -12,7 +14,7 @@ class FrontendController extends AbstractController
 {
 
     /**
-     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true})
+     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true},priority="3")
      */
     public function homepage(): Response
     {
@@ -90,5 +92,6 @@ class FrontendController extends AbstractController
     {
         return $this->render('frontend/itsolutions.html.twig');
     }
+
 
 }
