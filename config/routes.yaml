@@ -4,6 +4,8 @@
 # See https://symfony.com/doc/current/templates.html#rendering-a-template-directly-from-a-route
 homepage:
   path: /{_locale}
+  options:
+    sitemap: true
   controller: App\Controller\FrontendController::homepage
   requirements:
     _locale: '%app_locales%'

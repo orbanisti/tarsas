@@ -12,7 +12,7 @@ class FrontendController extends AbstractController
 {
 
     /**
-     * @Route("/", methods="GET", name="homepage")
+     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true})
      */
     public function homepage(): Response
     {
@@ -28,7 +28,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/accounting", methods="GET", name="accounting")
+     * @Route("/accounting", methods="GET", name="accounting",options={"sitemap" =true})
      */
     public function accounting(): Response
     {
@@ -36,7 +36,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/renewables", methods="GET", name="renewables")
+     * @Route("/renewables", methods="GET", name="renewables",options={"sitemap" =true})
      */
     public function renewables(): Response
     {
@@ -44,7 +44,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/career", methods="GET", name="career")
+     * @Route("/career", methods="GET", name="career",options={"sitemap" =true})
      */
     public function career(): Response
     {
@@ -60,7 +60,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/jobs/salesManager", methods="GET", name="job_sales")
+     * @Route("/jobs/salesManager", methods="GET", name="job_sales",options={"sitemap" =true})
      */
     public function salesManagerJob(): Response
     {
@@ -68,7 +68,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/contact", methods="GET", name="contact")
+     * @Route("/contact", methods="GET", name="contact",options={"sitemap" =true})
      */
     public function contact(): Response
     {
@@ -76,7 +76,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/about", methods="GET", name="about")
+     * @Route("/about", methods="GET", name="about",options={"sitemap" =true})
      */
     public function about(): Response
     {
@@ -84,7 +84,7 @@ class FrontendController extends AbstractController
     }
 
     /**
-     * @Route("/it-solutions", methods="GET", name="it-solutions")
+     * @Route("/it-solutions", methods="GET", name="it-solutions",options={"sitemap" =true})
      */
     public function itSolutions(): Response
     {
