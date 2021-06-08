@@ -39,6 +39,7 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class BlogController extends AbstractController
 {
+
     /**
      * Lists all Post entities.
      *
@@ -55,6 +56,7 @@ class BlogController extends AbstractController
      */
     public function index(PostRepository $posts): Response
     {
+        die();
         $authorPosts = $posts->findBy(['author' => $this->getUser()], ['publishedAt' => 'DESC']);
 
         return $this->render('admin/blog/index.html.twig', ['posts' => $authorPosts]);
@@ -71,12 +73,13 @@ class BlogController extends AbstractController
      */
     public function new(Request $request): Response
     {
+        die();
         $post = new Post();
         $post->setAuthor($this->getUser());
 
         // See https://symfony.com/doc/current/form/multiple_buttons.html
         $form = $this->createForm(PostType::class, $post)
-            ->add('saveAndCreateNew', SubmitType::class);
+                     ->add('saveAndCreateNew', SubmitType::class);
 
         $form->handleRequest($request);
 
@@ -102,10 +105,13 @@ class BlogController extends AbstractController
             return $this->redirectToRoute('admin_post_index');
         }
 
-        return $this->render('admin/blog/new.html.twig', [
-            'post' => $post,
-            'form' => $form->createView(),
-        ]);
+        return $this->render(
+            'admin/blog/new.html.twig',
+            [
+                'post' => $post,
+                'form' => $form->createView(),
+            ]
+        );
     }
 
     /**
@@ -115,13 +121,17 @@ class BlogController extends AbstractController
      */
     public function show(Post $post): Response
     {
+        die();
         // This security check can also be performed
         // using an annotation: @IsGranted("show", subject="post", message="Posts can only be shown to their authors.")
         $this->denyAccessUnlessGranted(PostVoter::SHOW, $post, 'Posts can only be shown to their authors.');
 
-        return $this->render('admin/blog/show.html.twig', [
-            'post' => $post,
-        ]);
+        return $this->render(
+            'admin/blog/show.html.twig',
+            [
+                'post' => $post,
+            ]
+        );
     }
 
     /**
@@ -132,6 +142,7 @@ class BlogController extends AbstractController
      */
     public function edit(Request $request, Post $post): Response
     {
+        die();
         $form = $this->createForm(PostType::class, $post);
         $form->handleRequest($request);
 
@@ -143,10 +154,13 @@ class BlogController extends AbstractController
             return $this->redirectToRoute('admin_post_edit', ['id' => $post->getId()]);
         }
 
-        return $this->render('admin/blog/edit.html.twig', [
-            'post' => $post,
-            'form' => $form->createView(),
-        ]);
+        return $this->render(
+            'admin/blog/edit.html.twig',
+            [
+                'post' => $post,
+                'form' => $form->createView(),
+            ]
+        );
     }
 
     /**
@@ -157,7 +171,8 @@ class BlogController extends AbstractController
      */
     public function delete(Request $request, Post $post): Response
     {
-        if (!$this->isCsrfTokenValid('delete', $request->request->get('token'))) {
+        die();
+        if ( ! $this->isCsrfTokenValid('delete', $request->request->get('token'))) {
             return $this->redirectToRoute('admin_post_index');
         }
 
@@ -174,4 +189,5 @@ class BlogController extends AbstractController
 
         return $this->redirectToRoute('admin_post_index');
     }
+
 }
