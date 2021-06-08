@@ -98,7 +98,7 @@ class BlogControllerTest extends WebTestCase
         /** @var \App\Entity\Post $post */
         $post = self::$container->get(PostRepository::class)->findOneByTitle($postTitle);
         $this->assertNotNull($post);
-        $this->assertSame($postSummary, $post->getSummary());
+        $this->assertSame($postSummary, $post->getLead());
         $this->assertSame($postContent, $post->getContent());
     }
 

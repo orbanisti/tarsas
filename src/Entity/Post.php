@@ -11,16 +11,14 @@
 
 namespace App\Entity;
 
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\PostRepository")
- * @ORM\Table(name="symfony_demo_post")
- * @UniqueEntity(fields={"slug"}, errorPath="title", message="post.slug_unique")
+ * @ORM\Table(name="blog")
+ * @UniqueEntity(fields={"url"}, errorPath="title", message="post.slug_unique")
  *
  * Defines the properties of the Post entity to represent the blog posts.
  *
@@ -35,6 +33,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Post
 {
+
     /**
      * @var int
      *
@@ -57,7 +56,7 @@ class Post
      *
      * @ORM\Column(type="string")
      */
-    private $slug;
+    private $url;
 
     /**
      * @var string
@@ -66,7 +65,7 @@ class Post
      * @Assert\NotBlank(message="post.blank_summary")
      * @Assert\Length(max=255)
      */
-    private $summary;
+    private $lead;
 
     /**
      * @var string
@@ -82,44 +81,27 @@ class Post
      *
      * @ORM\Column(type="datetime")
      */
-    private $publishedAt;
+    private $createdAt;
 
     /**
-     * @var User
-     *
-     * @ORM\ManyToOne(targetEntity="App\Entity\User")
-     * @ORM\JoinColumn(nullable=false)
+     * @ORM\Column(type="datetime", nullable=true)
      */
-    private $author;
+    private $updatedAt;
 
     /**
-     * @var Comment[]|Collection
-     *
-     * @ORM\OneToMany(
-     *      targetEntity="Comment",
-     *      mappedBy="post",
-     *      orphanRemoval=true,
-     *      cascade={"persist"}
-     * )
-     * @ORM\OrderBy({"publishedAt": "DESC"})
+     * @ORM\Column(type="string", length=255, nullable=true)
      */
-    private $comments;
+    private $picture;
 
     /**
-     * @var Tag[]|Collection
-     *
-     * @ORM\ManyToMany(targetEntity="App\Entity\Tag", cascade={"persist"})
-     * @ORM\JoinTable(name="symfony_demo_post_tag")
-     * @ORM\OrderBy({"name": "ASC"})
-     * @Assert\Count(max="4", maxMessage="post.too_many_tags")
+     * @ORM\Column(type="boolean", nullable=true)
      */
-    private $tags;
+    private $isActive;
+
 
     public function __construct()
     {
-        $this->publishedAt = new \DateTime();
-        $this->comments = new ArrayCollection();
-        $this->tags = new ArrayCollection();
+        $this->createdAt = new \DateTime();
     }
 
     public function getId(): ?int
@@ -137,14 +119,14 @@ class Post
         $this->title = $title;
     }
 
-    public function getSlug(): ?string
+    public function getUrl(): ?string
     {
-        return $this->slug;
+        return $this->url;
     }
 
-    public function setSlug(string $slug): void
+    public function setUrl(string $url): void
     {
-        $this->slug = $slug;
+        $this->url = $url;
     }
 
     public function getContent(): ?string
@@ -157,70 +139,61 @@ class Post
         $this->content = $content;
     }
 
-    public function getPublishedAt(): \DateTime
+    public function getCreatedAt(): \DateTime
     {
-        return $this->publishedAt;
+        return $this->createdAt;
     }
 
-    public function setPublishedAt(\DateTime $publishedAt): void
+    public function setCreatedAt(\DateTime $createdAt): void
     {
-        $this->publishedAt = $publishedAt;
+        $this->createdAt = $createdAt;
     }
 
-    public function getAuthor(): ?User
+
+    public function getLead(): ?string
     {
-        return $this->author;
+        return $this->lead;
     }
 
-    public function setAuthor(User $author): void
+    public function setLead(?string $lead): void
     {
-        $this->author = $author;
+        $this->lead = $lead;
     }
 
-    public function getComments(): Collection
+    public function getUpdatedAt(): ?\DateTimeInterface
     {
-        return $this->comments;
+        return $this->updatedAt;
     }
 
-    public function addComment(Comment $comment): void
+    public function setUpdatedAt(?\DateTimeInterface $updatedAt): self
     {
-        $comment->setPost($this);
-        if (!$this->comments->contains($comment)) {
-            $this->comments->add($comment);
-        }
+        $this->updatedAt = $updatedAt;
+
+        return $this;
     }
 
-    public function removeComment(Comment $comment): void
+    public function getPicture(): ?string
     {
-        $this->comments->removeElement($comment);
+        return $this->picture;
     }
 
-    public function getSummary(): ?string
+    public function setPicture(?string $picture): self
     {
-        return $this->summary;
+        $this->picture = $picture;
+
+        return $this;
     }
 
-    public function setSummary(?string $summary): void
+    public function getIsActive(): ?bool
     {
-        $this->summary = $summary;
+        return $this->isActive;
     }
 
-    public function addTag(Tag ...$tags): void
+    public function setIsActive(?bool $isActive): self
     {
-        foreach ($tags as $tag) {
-            if (!$this->tags->contains($tag)) {
-                $this->tags->add($tag);
-            }
-        }
+        $this->isActive = $isActive;
+
+        return $this;
     }
 
-    public function removeTag(Tag $tag): void
-    {
-        $this->tags->removeElement($tag);
-    }
-
-    public function getTags(): Collection
-    {
-        return $this->tags;
-    }
 }
