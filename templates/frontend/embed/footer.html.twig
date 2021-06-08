@@ -1,0 +1,34 @@
+    <footer class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="footer-copyright" class="col-md-4 text-white">
+                    <div class="col-md-12 mb-4 position-relative">
+                        <img width="252" src="{{ asset('/build/images/logo-simple.png') }}">
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <p class="">Discover greatness beyond profession</p>
+                    </div>
+                    <div class="col-md-12">
+                        <p>&copy; {{ 'now'|date('Y') }} - Everest Business Services</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-white">
+                    {{ include('frontend/footerMenu.html.twig') }}
+                </div>
+                <div class="col-md-4 text-white">
+                    <h3 class="mb-3">{{ 'Iroda'|trans }}</h3>
+                    <ul class="navbar-nav text-white">
+                        <li><a class="text-white" href="#"><span class="fa fa-map-marker mr-3"></span><span
+                                        class="text">1051 Budapest, Arany János u. 9</span></a></li>
+                        <li><a class="text-white" href="tel:+36303201001"><span class="fa fa-phone mr-3"></span><span class="text">+36 30 320 1001</span></a>
+                        </li>
+                        <li><a class="text-white" href="mailto:info@everest.hu"><span class="fa fa-envelope mr-3"></span><span
+                                        class="text">info@everest.hu</span></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
