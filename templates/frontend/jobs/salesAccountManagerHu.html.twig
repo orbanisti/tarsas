@@ -1,0 +1,45 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ include('frontend/jobs/embed/backToPositionsButton.html.twig') }}
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col">
+                <h1>ÉRTÉKESÍTŐ - ACCOUNT MANAGER</h1>
+                <p class="mt-5">A legmodernebb IT és döntéselméleti módszertanok ötvözésével megújítjuk a tanácsadó-értékesítő szakmát Magyarországon.
+                    (Legnagyobb partnerünk hívására pedig már külföldön is kipróbáljuk magunkat.)
+                </p>
+                <p class="mt-5">
+                    Közel 70 fős csapatunk jelenleg 3 üzletágban szolgálja ki Ügyfeleink igényeit. Hisszük azt, hogy a professzionális, ügyfélközpontú
+                    hozzáállás a legjobb befektetés manapság.
+                </p>
+                <p class="mt-5">
+                    Emiatt Ügyfeleink minket keresnek meg, ami más értékesítői-tanácsadói munkához képest álomszerű lehet.
+
+                    Küldd el az életrajzod és ismerjük meg egymást! </p>
+
+
+                <h2 class="mt-3"><u>Téged keresünk, mert...</u></h2>
+                <ul class="mt-3 square">
+                    <li>Szívesen kommunikálsz és jól kijössz az emberekkel! (Nem baj, ha nincs tanácsadó-értékesítő tapasztalatod, de legyél meggyőződve róla
+                        hogy a segítségünkkel ez Neked menni fog!)
+                    </li>
+                    <li>Rendelkezel jogosítvánnyal és lehetőséged van autó használatra.</li>
+                    <li>Szereted a pörgős életet és nem irodában szeretsz ülni egész nap.</li>
+                    <li>Fontos Neked a jó hangulat és be tudsz illeszkedni a fiatal (24-34) csapatba.</li>
+                    <li>A szíved és a jellemed is a helyén van és nem csak a kommunikációd. Sőt. A kommunikációdon tudunk fejleszteni.</li>
+                </ul>
+                <h2 class="mt-3"><u>Amit mi adunk...</u></h2>
+                <ul class="mt-3 square">
+                    <li>Érdeklődők/Ügyfelek és egy szolgáltatás/brand amire igazán büszke lehetsz</li>
+                    <li>Rugalmas munkaidő, home-office, smart irodai megoldások</li>
+                    <li>És hát ugye kiemelkedő jövedelem. Elvileg az Y és Z generációnak ez már nem olyan fontos, de szerintünk ebben tévednek :D</li>
+                    <li>Csapatunk belülről építkezik, a karrierutak mindenki számára kristály tiszták</li>
+                    <li>Magyarországon hisszük, hogy mienk az egyik legjobb ajánlat a tanácsadó-értékesítő piacon!</li>
+                </ul>
+                {{ include('frontend/jobs/embed/ourOffice.html.twig') }}
+            </div>
+        </div>
+    </div>
+    {{ include('frontend/jobs/embed/joinUsSection.html.twig',{jobTitle:'Sales Managernek'}) }}
+{% endblock %}

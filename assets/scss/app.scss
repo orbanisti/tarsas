@@ -420,9 +420,9 @@ textarea {
   color: $black !important;
 }
 
-input[type='text'] {
+input[type='text'], input[type='file'] {
   height: 49px;
-  padding: 16px 32px;
+  padding: 9px 32px;
   background: $gray-100;
   font-family: 'Sequel Sans Semi Bold Body', serif !important;
   color: $black;

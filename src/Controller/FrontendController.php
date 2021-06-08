@@ -4,9 +4,7 @@
 namespace App\Controller;
 
 
-use App\Services\RedirectManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -61,13 +59,6 @@ class FrontendController extends AbstractController
         return $this->render('frontend/career2.html.twig');
     }
 
-    /**
-     * @Route("/jobs/salesManager", methods="GET", name="job_sales",options={"sitemap" =true})
-     */
-    public function salesManagerJob(): Response
-    {
-        return $this->render('frontend/job.html.twig');
-    }
 
     /**
      * @Route("/contact", methods="GET", name="contact",options={"sitemap" =true})
