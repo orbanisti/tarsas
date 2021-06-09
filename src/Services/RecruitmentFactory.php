@@ -30,17 +30,6 @@ class RecruitmentFactory
     }
 
 
-    public function create(string $name, string $phone, string $email, string $message)
-    {
-        $recruitment = new Recruitment();
-        $recruitment->setName($name);
-        $recruitment->setPhone($phone);
-        $recruitment->setEmail($email);
-        $recruitment->setMessage($message);
-        $recruitment->setCreatedAt(new \DateTime());
-
-        return $recruitment;
-    }
 
     /**
      * @param   Recruitment   $recruitment

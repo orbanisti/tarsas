@@ -4,6 +4,8 @@
 namespace App\Controller;
 
 
+use App\Entity\Recruitment;
+use App\Form\RecruitmentType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -32,7 +34,10 @@ class FrontendController extends AbstractController
      */
     public function accounting(): Response
     {
-        return $this->render('frontend/accounting.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/accounting.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -65,7 +70,10 @@ class FrontendController extends AbstractController
      */
     public function contact(): Response
     {
-        return $this->render('frontend/contact.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/contact.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -81,7 +89,10 @@ class FrontendController extends AbstractController
      */
     public function itSolutions(): Response
     {
-        return $this->render('frontend/itsolutions.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/itsolutions.html.twig', ['form' => $form->createView()]);
     }
 
     /**

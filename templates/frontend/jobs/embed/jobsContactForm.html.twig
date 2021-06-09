@@ -23,6 +23,12 @@
     {% else %}
         <input type="hidden" name="position" value="{{ position }}">
     {% endif %}
+    {% if subject is defined %}
+        <input name="subject" type="hidden" value="{{ subject }}">
+    {% endif %}
+    {% if type is defined %}
+        <input name="type" type="hidden" value="{{ type }}">
+    {% endif %}
     <div class="col-md-12">
         {{ form_row(form.message,{'attr':{'rows':8,'class':'form-control','placeholder': 'Mit tehetünk Önért?'|trans},label:false }) }}
     </div>
