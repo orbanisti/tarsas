@@ -150,7 +150,7 @@ header .locales a:hover small {
 .body-container {
   flex: 1;
   /* needed to prevent pages with a very small height and browsers not supporting flex */
-  min-height: 600px
+  min-height: 760px
 }
 
 .body-container #main h1, .body-container #main h2 {
@@ -420,15 +420,16 @@ textarea {
   color: $black !important;
 }
 
-input[type='text'], input[type='file'] {
-  height: 49px;
-  padding: 9px 32px;
-  background: $gray-100;
+input[type='text'], input[type='email'], input[type='file'], select {
+  height: 49px !important;
+  padding: 9px 32px !important;
+  background: $gray-100 !important;
+  background-color: $gray-100 !important;
   font-family: 'Sequel Sans Semi Bold Body', serif !important;
   color: $black;
 }
 
-input, textarea {
+input, textarea, select {
   border-radius: 0 !important;
 }
 
@@ -580,7 +581,8 @@ ul.square {
   margin: 0;
 
 }
-.container img{
+
+.container img {
   max-width: 100%;
 }
 

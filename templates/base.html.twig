@@ -24,6 +24,7 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
     {{ include('frontend/embed/header.html.twig') }}
 {% endblock %}
 <div class="body-container" id="fullPage">
+    {{ include('frontend/embed/flashAlert.html.twig') }}
     {% block body %}
         <div class="container ">
             <div class="row">

@@ -1,5 +1,5 @@
 {% extends 'base.html.twig' %}
-
+{% block title %}Könyvelő{% endblock %}
 {% block body %}
     {{ include('frontend/jobs/embed/backToPositionsButton.html.twig') }}
     <div class="container mt-5 mb-5">
@@ -72,5 +72,5 @@
 
         </div>
     </div>
-    {{ include('frontend/jobs/embed/joinUsSection.html.twig',{jobTitle:'Könyvelőnek'}) }}
+    {{ include('frontend/jobs/embed/joinUsSection.html.twig',{jobTitle:'Könyvelőnek',position:'accountant'}) }}
 {% endblock %}

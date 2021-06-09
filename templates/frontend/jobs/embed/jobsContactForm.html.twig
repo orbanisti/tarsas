@@ -1,30 +1,42 @@
-<form style="width: 90%;height: 100%;margin-right: auto;margin-left: 11px">
-    <div class="row p-lg-5 p-sm-3 bg-white pt-5 pb-5 shadow-primary-white-border">
-        <div class="col-md-6">
-            <div class="col-md-12 pl-0">
-                <input type="text" name="name" class="form-control mb-5" placeholder="{{ 'Név'|trans }}">
-                <input type="text" name="email" class="form-control mb-5" placeholder="{{ 'E-mail cím'|trans }}">
-
-            </div>
-        </div>
-        <div class="col-md-6 text-center">
-            <input type="text" name="phone" class="form-control mb-5" placeholder="{{ 'Telefon'|trans }}">
-            <input type="file" name="CV" class="form-control mb-5" placeholder="{{ 'Cég'|trans }}">
-        </div>
-        <div class="col-md-12">
-            <textarea rows="8" class="form-control" name="message" placeholder="{{ 'Mit tehetünk Önért?'|trans }}"></textarea>
-        </div>
-        <div class="col-md-8 mt-5">
-            <div class="pretty p-default">
-                <input type="checkbox" checked name="acceptPrivacy" style="z-index: -1 !important;">
-                <div class="state  p-primary">
-                    <label class="ml-3"> Elfogadom az <a class="text-black text-underline" href="{{ path('privacy') }}">adatvédelmi irányelveket</a></label>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 mt-5">
-            <input type="submit" class="btn btn-primary" value="{{ 'Beküldés'|trans }}">
+{{ form_start(form,{attr:{'style':'width: 90%;height: 100%;margin-right: auto;margin-left: 11px',action:path('contact_recruitment_submit')}}) }}
+<div class="row p-lg-5 p-sm-3 bg-white pt-5 pb-5 shadow-primary-white-border">
+    <div class="col-md-6">
+        <div class="col-md-12 pl-0">
+            {{ form_row(form.name,{'attr':{'class':'form-control mb-5','placeholder': 'Név'|trans},label:false }) }}
+            {{ form_row(form.email,{'attr':{'class':'form-control mb-5','placeholder': 'E-mail cím'|trans},label:false }) }}
         </div>
     </div>
+    <div class="col-md-6 text-center">
+        {{ form_row(form.phone,{'attr':{'class':'form-control mb-5','placeholder': 'Telefon'|trans},label:false }) }}
+        {{ form_row(form.cv,{'attr':{'class':'form-control mb-5','placeholder': 'CV'|trans,accept:'.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*,application/pdf,application/x-pdf'},label:false }) }}
+    </div>
+    {% if positions is defined and positions|length %}
+        <div class="col-md-12 ">
+            <div class="form-group">
+                <select class="form-control mb-5" name="position">
+                    {% for position in positions %}
+                        <option value="{{ position }}">{{ position }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div>
+    {% else %}
+        <input type="hidden" name="position" value="{{ position }}">
+    {% endif %}
+    <div class="col-md-12">
+        {{ form_row(form.message,{'attr':{'rows':8,'class':'form-control','placeholder': 'Mit tehetünk Önért?'|trans},label:false }) }}
+    </div>
 
-</form>
+    <div class="col-md-8 mt-5">
+        <div class="pretty p-default">
+            <input type="checkbox" checked name="acceptPrivacy" required style="z-index: -1 !important;">
+            <div class="state  p-primary">
+                <label class="ml-3"> Elfogadom az <a class="text-black text-underline" href="{{ path('privacy') }}">adatvédelmi irányelveket</a></label>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mt-5">
+        <input type="submit" class="btn btn-primary" value="{{ 'Beküldés'|trans }}">
+    </div>
+</div>
+{{ form_end(form) }}

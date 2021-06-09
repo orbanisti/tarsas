@@ -53,4 +53,13 @@ if (window.innerWidth < 1050) {
         });
     });
 }
+$(".close").click(function () {
+    $(this).parent().fadeOut();
+})
 
+
+window.redirectToPath = function redirectToPath(path) {
+    setTimeout(function () {
+        window.location.href = path
+    }, 200)
+}

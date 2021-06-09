@@ -1,8 +1,9 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+
     <div class="flex-container">
-        <div class="flex-slide accounting">
+        <div class="flex-slide accounting" onclick="redirectToPath('{{ path('accounting') }}')">
             <a href="{{ path('accounting') }}" style="text-decoration: none !important;">
                 <div class="flex-title flex-title-home">{{ 'Könyvelés'|trans }}</div>
             </a>
@@ -10,12 +11,12 @@
             {# <div class="flex-about flex-about-home"><p>Click here to navigate to the home section of the website</p></div> #}
         </div>
 
-        <div class="flex-slide renewables">
+        <div class="flex-slide renewables" onclick="redirectToPath('{{ path('renewables') }}')">
             <a href="{{ path('renewables') }}" style="text-decoration: none !important;">
                 <div class="flex-title">{{ 'Megújuló energia'|trans }}</div>
             </a>
         </div>
-        <div class="flex-slide itsolutions">
+        <div class="flex-slide itsolutions" onclick="redirectToPath('{{ path('it-solutions') }}')">
             <a href="{{ path('it-solutions') }}" style="text-decoration: none !important;">
                 <div class="flex-title">{{ 'IT Megoldások'|trans }}</div>
             </a>
@@ -46,7 +47,6 @@
             $(".flex-slide").each(function () {
                 $(this).hover(function () {
                     $(this).find('.flex-title').css({
-                        transform: 'rotate(0deg)',
                         top: '10%'
                     });
                     $(this).find('.flex-about').css({
@@ -54,7 +54,6 @@
                     });
                 }, function () {
                     $(this).find('.flex-title').css({
-                        transform: 'rotate(90deg)',
                         top: '30%'
                     });
                     $(this).find('.flex-about').css({

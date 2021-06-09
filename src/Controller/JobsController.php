@@ -4,6 +4,8 @@
 namespace App\Controller;
 
 
+use App\Entity\Recruitment;
+use App\Form\RecruitmentType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -16,7 +18,10 @@ class JobsController extends AbstractController
      */
     public function salesAccountManager(): Response
     {
-        return $this->render('frontend/jobs/salesAccountManagerHu.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/jobs/salesAccountManagerHu.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -24,7 +29,10 @@ class JobsController extends AbstractController
      */
     public function fullStackDeveloper(): Response
     {
-        return $this->render('frontend/jobs/fullStackDeveloperHu.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/jobs/fullStackDeveloperHu.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -32,7 +40,10 @@ class JobsController extends AbstractController
      */
     public function backendDeveloper(): Response
     {
-        return $this->render('frontend/jobs/backendDeveloperHu.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/jobs/backendDeveloperHu.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -40,7 +51,10 @@ class JobsController extends AbstractController
      */
     public function accountant(): Response
     {
-        return $this->render('frontend/jobs/accountant.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/jobs/accountant.html.twig', ['form' => $form->createView()]);
     }
 
 }

@@ -5,17 +5,19 @@
     <div class="row no-gutters desktopBanners mb-5">
         <div class="col-md-4 frontPageDiv banner-accounting">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">{{ 'Könyvelés'|trans }}</h1>
+                <h1 class="bannerHeader"><a class="text-big" href="{{ path('accounting') }}" style="text-decoration: none"> {{ 'Könyvelés'|trans }}</a></h1>
             </div>
         </div>
         <div class="col-md-4 frontPageDiv banner-renewables">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">{{ 'Megújuló energia'|trans }}</h1>
+                <h1 class="bannerHeader"><a class="text-big" href="{{ path('renewables') }}" style="text-decoration: none"> {{ 'Megújuló energia'|trans }}</a>
+                </h1>
             </div>
         </div>
         <div class="col-md-4 frontPageDiv banner-itsolution">
             <div class="bannerOverlay">
-                <h1 class="bannerHeader">{{ 'IT Megoldások'|trans }}</h1>
+                <h1 class="bannerHeader"><a class="text-big" href="{{ path('it-solutions') }}" style="text-decoration: none"> {{ 'IT Megoldások'|trans }}</a>
+                </h1>
             </div>
         </div>
     </div>
@@ -24,13 +26,16 @@
         <div class="col-md-12">
             <ul class="nav nav-pills nav-fill">
                 <li class="nav-item">
-                    <a href="#accounting-mobile" class="nav-link active" data-toggle="tab">{{ 'Könyvelés'|trans }}</a>
+                    <a href="#accounting-mobile" onclick="redirectToPath('{{ path('accounting') }}')" class="nav-link active"
+                       data-toggle="tab">{{ 'Könyvelés'|trans }}</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#renewables-mobile" class="nav-link" data-toggle="tab">{{ 'Megújuló energia'|trans }}</a>
+                    <a href="#renewables-mobile" onclick="redirectToPath('{{ path('renewables') }}')" class="nav-link"
+                       data-toggle="tab">{{ 'Megújuló energia'|trans }}</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#it-solutions-mobile" class="nav-link" data-toggle="tab">{{ 'IT Megoldások'|trans }}</a>
+                    <a href="#it-solutions-mobile" onclick="redirectToPath('{{ path('it-solutions') }}')" class="nav-link"
+                       data-toggle="tab">{{ 'IT Megoldások'|trans }}</a>
                 </li>
             </ul>
             <div class="tab-content">

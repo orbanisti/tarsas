@@ -1,0 +1,18 @@
+{% for message in app.flashes('success') %}
+    <div role="alert" class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
+        {{ message }}
+    </div>
+{% endfor %}
+{% for message in app.flashes('danger') %}
+    <div role="alert" class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
+        {{ message }}
+    </div>
+{% endfor %}
+{% for message in app.flashes('warning') %}
+    <div role="alert" class="alert alert-warning alert-dismissible fade show">
+        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">×</span></button>
+        {{ message }}
+    </div>
+{% endfor %}
