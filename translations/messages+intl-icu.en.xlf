@@ -511,23 +511,23 @@
       </trans-unit>
       <trans-unit id="jGvAmVN" resname="Blog">
         <source>Blog</source>
-        <target>__Blog</target>
+        <target>Blog</target>
       </trans-unit>
       <trans-unit id="B.HpW_i" resname="Előző">
         <source>Előző</source>
-        <target>__Előző</target>
+        <target>Previous</target>
       </trans-unit>
       <trans-unit id="yImyFfU" resname="Jelenlegi">
         <source>Jelenlegi</source>
-        <target>__Jelenlegi</target>
+        <target>Current</target>
       </trans-unit>
       <trans-unit id="TdOua3n" resname="Következő">
         <source>Következő</source>
-        <target>__Következő</target>
+        <target>Next</target>
       </trans-unit>
       <trans-unit id="1a20d55" resname="Projekt koordinátor">
         <source>Projekt koordinátor</source>
-        <target>__Projekt koordinátor</target>
+        <target>Project coordinator</target>
       </trans-unit>
       <trans-unit id="y.iPLW5" resname="Értékesítő-támogató koordinátor">
         <source>Értékesítő-támogató koordinátor</source>
@@ -563,7 +563,7 @@
       </trans-unit>
       <trans-unit id="DS.0Yq4" resname="Nyitott állások">
         <source>Nyitott állások</source>
-        <target>__Nyitott állások</target>
+        <target>Open positions</target>
       </trans-unit>
       <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!">
         <source>Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!</source>
@@ -734,6 +734,14 @@
       <trans-unit id="IN6Kjlx" resname="Új funkciók bevezetése rendszeresen">
         <source>Új funkciók bevezetése rendszeresen</source>
         <target>Developing new functions continually</target>
+      </trans-unit>
+      <trans-unit id="CRDkaiQ" resname="Oldalak">
+        <source>Oldalak</source>
+        <target>Pages</target>
+      </trans-unit>
+      <trans-unit id="N9MiMAy" resname="Magyarországról indultunk, ma viszont már több országban jelen vagyunk!">
+        <source>Magyarországról indultunk, ma viszont már több országban jelen vagyunk!</source>
+        <target>We began in Hungary, but now we can be found in a variety of countries!</target>
       </trans-unit>
     </body>
   </file>

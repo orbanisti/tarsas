@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-5">
+    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-5 position-relative" style="height: 50vh">
         <div class="row mt-5 m-md-0 m-lg-0 ml-lg-n5 ml-md-n5 mr-3 jobsGalleryFirstRow">
             <div class="col-md-3 col jobsGalleryColumn"
                  style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
@@ -38,28 +38,48 @@
                 </h2>
             </div>
         </div>
-        <div class=" mb-5 flex-row" style="" data-aos="fade-right">
-            <div class="col-md-4 p-4">
-                {{ include('frontend/embed/jobPreview.html.twig',{title:'Értékesítő - Account Manager',description:'Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?<br/> Bővülő csapatunkba új account managereket keresünk! ',url:path('job_sales')}) }}
+        {% if app.request.getLocale()=='hu' %}
+            <div class=" mb-5 flex-row" style="" data-aos="fade-right">
+                <div class="col-md-4 p-4">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Értékesítő - Account Manager',description:'Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?<br/> Bővülő csapatunkba új account managereket keresünk! ',url:path('job_sales')}) }}
+                </div>
+                <div class="col-md-4 p-4">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Junior/Senior Full Stack Developer',description:'Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése frontend és backend oldalon. ',url:path('job_full_stack_developer')}) }}
+                </div>
+                <div class="col-md-4 p-4">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Junior/Senior Backend Developer',description:'Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése <br/>kifejezetten backend oldalon.',url:path('job_backend_developer')}) }}
+                </div>
+                <div class="col-md-4 p-4 mt-lg-4">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Könyvelő',description:'A számviteli/könyvelői csapatban Te biztosítod azt, hogy a közzétett pénzügyi kimutatások megfeleljenek a vonatkozó szabályzatoknak és az ügyfelek a lehető legjobb megoldást kapják ezen a területen mind szakmailag mint támogató (IT) rendszereink révén.',url:path('job_accountant')}) }}
+                </div>
+                <div class="col-md-4 p-4 mt-lg-4">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Projekt koordinátor',description:'Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!',url:path('job_project_coordinator')}) }}
+                </div>
             </div>
-            <div class="col-md-4 p-4">
-                {{ include('frontend/embed/jobPreview.html.twig',{title:'Junior/Senior Full Stack Developer',description:'Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése frontend és backend oldalon. ',url:path('job_full_stack_developer')}) }}
+        {% else %}
+            <div class="row">
+                <div class="col-md-12 text-center pt-5 pb-5">
+                    No open positions currently on your language
+                </div>
             </div>
-            <div class="col-md-4 p-4">
-                {{ include('frontend/embed/jobPreview.html.twig',{title:'Junior/Senior Backend Developer',description:'Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése <br/>kifejezetten backend oldalon.',url:path('job_backend_developer')}) }}
-            </div>
-            <div class="col-md-4 p-4 mt-lg-4">
-                {{ include('frontend/embed/jobPreview.html.twig',{title:'Könyvelő',description:'A számviteli/könyvelői csapatban Te biztosítod azt, hogy a közzétett pénzügyi kimutatások megfeleljenek a vonatkozó szabályzatoknak és az ügyfelek a lehető legjobb megoldást kapják ezen a területen mind szakmailag mint támogató (IT) rendszereink révén.',url:path('job_accountant')}) }}
-            </div>
-            <div class="col-md-4 p-4 mt-lg-4">
-                {{ include('frontend/embed/jobPreview.html.twig',{title:'Projekt koordinátor',description:'Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!',url:path('job_project_coordinator')}) }}
-            </div>
-        </div>
-
+        {% endif %}
     </div>
 
 
     <style>
+        .jobsGalleryFirstRow {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+        }
+
+        .jobsGallerySecondRow {
+            position: absolute;
+            left: 0px;
+            top: 30%;
+            width: 100%;
+        }
     </style>
 {% endblock %}
 {% block javascripts %}
@@ -68,7 +88,6 @@
             let galleryFirstRow = $(".jobsGalleryFirstRow")
             let gallerySecondRow = $(".jobsGallerySecondRow")
             let topDistance = $(window).scrollTop()
-            console.log(topDistance);
             galleryFirstRow.transition({x: topDistance / 10 + 'px'}, 0);
             gallerySecondRow.transition({x: -topDistance / 10 + 'px'}, 0);
             // galleryFirstRow.css('transform', 'translate3d(' + topDistance + ',0px, 0px)')
