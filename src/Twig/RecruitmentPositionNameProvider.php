@@ -13,33 +13,36 @@ class RecruitmentPositionNameProvider extends AbstractExtension
     public function getFilters()
     {
         return [
-            new TwigFilter('getPositionNameByType', [$this, 'getPositionNameByType']),
+            new TwigFilter('getPositionName', [$this, 'getPositionName']),
         ];
     }
 
-    public function getPositionNameByType(string $type): string
+    public function getPositionName(string $position): string
     {
-        if ($type === RecruitmentPositionEnum::TYPE_ACCOUNTANT) {
+        if ($position === RecruitmentPositionEnum::TYPE_ACCOUNTANT) {
             return 'Könyvelő';
         }
-        if ($type === RecruitmentPositionEnum::TYPE_ACCOUNT_MANAGER) {
+        if ($position === RecruitmentPositionEnum::TYPE_ACCOUNT_MANAGER) {
             return 'Sales Account Manager';
         }
-        if ($type === RecruitmentPositionEnum::TYPE_JUNIOR_FULL_STACK_DEVELOPER) {
+        if ($position === RecruitmentPositionEnum::TYPE_JUNIOR_FULL_STACK_DEVELOPER) {
             return 'junior full-stack fejlesztő';
         }
-        if ($type === RecruitmentPositionEnum::TYPE_JUNIOR_BACKEND_STACK_DEVELOPER) {
+        if ($position === RecruitmentPositionEnum::TYPE_JUNIOR_BACKEND_STACK_DEVELOPER) {
             return 'junior backend fejlesztő';
         }
 
-        if ($type === RecruitmentPositionEnum::TYPE_SENIOR_FULL_STACK_DEVELOPER) {
+        if ($position === RecruitmentPositionEnum::TYPE_SENIOR_FULL_STACK_DEVELOPER) {
             return 'senior full-stack fejlesztő';
         }
-        if ($type === RecruitmentPositionEnum::TYPE_SENIOR_BACKEND_STACK_DEVELOPER) {
+        if ($position === RecruitmentPositionEnum::TYPE_SENIOR_BACKEND_STACK_DEVELOPER) {
             return 'senior backend fejlesztő';
         }
+        if ($position === RecruitmentPositionEnum::TYPE_PROJECT_COORDINATOR) {
+            return 'Projekt koordinátor';
+        }
 
-        return $type;
+        return $position;
     }
 
 

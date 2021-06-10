@@ -57,4 +57,15 @@ class JobsController extends AbstractController
         return $this->render('frontend/jobs/accountant.html.twig', ['form' => $form->createView()]);
     }
 
+    /**
+     * @Route("/jobs/projectCoordinator", methods="GET", name="job_project_coordinator",options={"sitemap" =true})
+     */
+    public function projectCoordinator(): Response
+    {
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/jobs/projectCoordinator.html.twig', ['form' => $form->createView()]);
+    }
+
 }

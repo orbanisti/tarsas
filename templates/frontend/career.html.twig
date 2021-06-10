@@ -30,10 +30,10 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-5 pb-5">
         <div class="row ">
             <div class="col-md-12">
-                <h2 class="text-left text-black animate__animated animate__fadeIn text-medium">
+                <h2 class=" ml-4 text-left text-black animate__animated animate__fadeIn text-medium">
                     {{ 'Nyitott állások'|trans }}
                 </h2>
             </div>
@@ -48,8 +48,11 @@
             <div class="col-md-4 p-4">
                 {{ include('frontend/embed/jobPreview.html.twig',{title:'Junior/Senior Backend Developer',description:'Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése <br/>kifejezetten backend oldalon.',url:path('job_backend_developer')}) }}
             </div>
-            <div class="col-md-4 p-4 mt-5">
+            <div class="col-md-4 p-4 mt-lg-4">
                 {{ include('frontend/embed/jobPreview.html.twig',{title:'Könyvelő',description:'A számviteli/könyvelői csapatban Te biztosítod azt, hogy a közzétett pénzügyi kimutatások megfeleljenek a vonatkozó szabályzatoknak és az ügyfelek a lehető legjobb megoldást kapják ezen a területen mind szakmailag mint támogató (IT) rendszereink révén.',url:path('job_accountant')}) }}
+            </div>
+            <div class="col-md-4 p-4 mt-lg-4">
+                {{ include('frontend/embed/jobPreview.html.twig',{title:'Projekt koordinátor',description:'Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!',url:path('job_project_coordinator')}) }}
             </div>
         </div>
 

@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+{% block title %}Projekt koordinátor{% endblock %}
+{% block body %}
+    {{ include('frontend/jobs/embed/backToPositionsButton.html.twig') }}
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Projekt koordinátor</h1>
+                <p class="mt-5">
+                    Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!
+                </p>
+                <p class="mt-3 mb-5">
+                    Közel 100 fős csapatunk jelenleg 3 üzletágban szolgálja ki Ügyfeleink igényeit. Hisszük azt, hogy a professzionális, ügyfélközpontú
+                    hozzáállás a legjobb befektetés manapság. Cégünk folyamatosan fejlődik, erősítést keresünk budapesti, belvárosi irodánkba, ahol a Sales
+                    csapat, IT szakembereink, Sales Koordinációs és a Projekt Koordinációs csapatunk vár Téged.
+                </p>
+                <h2 class="text-center mb-5">A felelősségi köröd és feladataid</h2>
+                <div class="col-md-12">
+                    <ul class="square">
+                        <li>Munkád során saját fejlesztésű CRM rendszerünkben fogsz dolgozni, ami időről-időre igényel Ügyfeleinkkel, Partnereinkkel
+                            adategyeztetést, kapcsolattartást is.
+                        </li>
+                        <li>Támogatod az operációs vezető munkáját, hogy a kisebb volumenű projekteket le tudd venni a válláról – ez nagyfokú önállóságot ad a
+                            mindennapi munkádban.
+                        </li>
+                        <li>Segítesz a projektekhez kapcsolódó dokumentumok előkészítésében, ellenőrzésében.</li>
+                        <li>Vannak egyéb napi adminisztratív feladatok, amelyek elengedhetetlenek ebben a munkakörben is.</li>
+                        <li>Szükséged lesz arra, hogy kezeld az adatbázisunkat, frissítsd azt, és javaslatokat adj a folyamatos fejlesztésére, együttműködve a
+                            sales-es kollégákkal és a háttérirodákkal.
+                        </li>
+                    </ul>
+                    <h2 class="mb-3 text-center mb-5">Téged keresünk</h2>
+                    <ul class="square">
+                        <li>Lelkes és motivált vagy, hogy Magyarországon környezetbarát, megújuló energiával termeljük meg az áramot.</li>
+                        <li>A Microsoft Word és Excel alkalmazásokat készség szinten használod.</li>
+                        <li>Precízen és lelkesen kommunikálsz.</li>
+                        <li>Gyorsan átlátod a teendőket, megérted a logikai összefüggéseket és megbízható vagy</li>
+                        <li>Jóban vagy a határidőkkel, jellemző rád a precizitás és asszertíven kommunikálsz.</li>
+                        <li>Remek kommunikációs és prezentációs képességek, hiszen naponta új ügyfelekkel kell beszélned</li>
+                        <li>Értékeink és víziónk találkozik a Tiéddel (lásd értékeinket itt link)</li>
+                    </ul>
+                    <h2 class="mb-3 text-center mb-5">Amit adunk</h2>
+                    <ul class="square">
+                        <li>Fiatalos csapat amely kiemelt munkakörnyezetet teremt</li>
+                        <li>Képzések, team eventek.</li>
+                        <li>Egyéni teljesítményértékelés összekötve fejlesztési tervvel</li>
+                        <li>Rugalmas munkaidő lehetősége, home-office.</li>
+                        <li>Olyan szolgáltatás és brand, amit büszkén képviselsz.</li>
+                    </ul>
+                    <h2 class="mb-3 text-center mb-5">További információ</h2>
+                    <ul class="square">
+                        <li>Stabil háttér, hosszútávú munkahely határozatlan időtartamra</li>
+                        <li>Teljes munkaidő, normál munkarenddel</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {{ include('frontend/jobs/embed/joinUsSection.html.twig',{jobTitle:'Projekt koordinátornak',position:'project-coordinator',type:'karrier',subject:'Projekt Koordinátor álláshirdetés'}) }}
+{% endblock %}
