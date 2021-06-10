@@ -12,12 +12,12 @@
                     <div class="container mt-5 p-5 p-lg-1">
                         <div class="row mt-1">
                             <div class="col-md-12 text-left animate__animated animate__fadeInRight">
-                                <h1 class="mb-5 text-big text-white">{{ 'Megújuló energia'|trans }}</h1>
-                                <h2 class="text-right text-white text-medium mr-5 pr-lg-5">
-                                    {{ 'Ügyfél elköteleződést ajánlunk'|trans }}
-                                </h2>
+                                <h1 class="mb-5 text-big text-white fadeInTextAnimation">{{ 'Megújuló energia'|trans }}</h1>
+                                <h2 class="text-right text-white text-medium mr-5 pr-lg-5 fadeInTextAnimation"
+                                    data-word-delay="1500" data-delay="50">{{ 'Ügyfél elköteleződést ajánlunk'|trans }}</h2>
                                 <p class="text-right text-white mt-3">
-                                    <strong>{{ 'nem csak sales konzultációt'|trans }}</strong>
+                                    <strong class="fadeInTextAnimation"
+                                            data-word-delay="2500">{{ 'nem csak sales konzultációt'|trans }}</strong>
                                 </p>
                             </div>
                         </div>
@@ -26,26 +26,26 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="section secondSection">
             <div class=" container ">
                 <div class="row p-5 bg-white">
                     <div class="col-md-12 ">
-                        <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">A környezetvédelem és a fenntarthatóság kérdése minden
-                            napjaink legégetőbb problémájává vált.
-                            Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.
+                        <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium lettersAnimation">A környezetvédelem és a fenntarthatóság
+                            kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és
+                            biztosítsa az élhető jövő lehetőségét.
                         </h2>
                     </div>
                 </div>
             </div>
 
-            <div class="container mb-5">
+            <div class="container mb-5" data-aos="fade-left">
                 <div class="row">
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-6 mt-5 mb-0">
                         <h1 class="text-big text-dark mb-5 text-right">{{ 'Munkamódszerünk'|trans }}</h1>
                     </div>
-                    <div class="col-md-6 mb-5" id="accountingImageBox">
+                    <div class="col-md-6 mb-5" id="accountingImageBox" data-aos="fade-right">
                         {# TODO: Set make standalone template for this image style #}
                         {{ include('frontend/embed/imageBox.html.twig',{src:asset('build/images/everest-photo2.jpg')}) }}
                     </div>
@@ -129,12 +129,12 @@
                 <div class="container ">
                     <div class="row">
                         <div class="col-md-12">
-                            <h1 class="text-white"> Everest ügyfél- és projektmenedzsment</h1>
-                            <h2 class="text-white">Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?</h2>
+                            <h1 class="text-white text-medium-sm"> Everest ügyfél- és projektmenedzsment</h1>
+                            <h2 class="text-white text-normal-sm">Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?</h2>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row ml-lg-5 ml-md-3">
                     <div class="col-md-12">
                         <ul class="timeline">
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
@@ -329,7 +329,20 @@
                             css3: true,
                             scrollingSpeed: 1000,
                             scrollSectionToBottomFromBottom: false,
-                            bigSectionsDestination: null,
+                            bigSectionsDestination: 'bottom',
+                            onLeave: function (origin, destination, direction) {
+                                console.log(destination);
+                                if (destination === 2) {
+                                    initLettersAnimation()
+                                }
+                                if (destination === 3) {
+                                    initCountUpAnimation()
+                                }
+                                AOS.init()
+                            },
+                            afterLoad: function () {
+                                $('.fp-table.active .aos-init').addClass('aos-animate');
+                            },
 
                         });
                         //

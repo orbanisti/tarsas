@@ -35,6 +35,20 @@
             background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{asset('build/images/it-solutions.png')}});
         }
     </style>
+    <style>
+
+        .accounting:hover {
+            background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{asset('build/images/accounting.png')}});
+        }
+
+        .renewables:hover {
+            background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{asset('build/images/renewables.png')}});
+        }
+
+        .itsolutions:hover {
+            background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{asset('build/images/it-solutions.png')}});
+        }
+    </style>
 {% endblock %}
 
 {% block javascripts %}
@@ -49,16 +63,12 @@
                     $(this).find('.flex-title').css({
                         top: '10%'
                     });
-                    $(this).find('.flex-about').css({
-                        opacity: '1'
-                    });
+
                 }, function () {
                     $(this).find('.flex-title').css({
                         top: '30%'
                     });
-                    $(this).find('.flex-about').css({
-                        opacity: '0'
-                    });
+
                 })
             });
         })();

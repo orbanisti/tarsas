@@ -10,10 +10,11 @@
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-6 text-right animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big fadeInTextAnimation" data-text="{{ 'Könyvelés'|trans }}"></h1>
-                        <p class="mt-sm-5 fadeInTextAnimation " data-delay="20" data-text="Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
+                        <h1 class="mb-5 text-big fadeInTextAnimation">{{ 'Könyvelés'|trans }}</h1>
+                        <p class="mt-sm-5 fadeInTextAnimation " data-delay="20">
+                            Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
                             Everest
-                            Accounting.">
+                            Accounting.
                         </p>
                     </div>
                 </div>
@@ -261,35 +262,6 @@
                 $('.popup-vimeo').click(function (e) {
                     e.preventDefault();
                 })
-            })
-            AOS.init();
-
-            function appearAnimation(el) {
-                var text = $(el).data('text');
-                var textElements = text.split("").map(function (c) {
-                    return $('<span style="visibility: hidden" id="' + c + '">' + c + '</span>');
-                });
-                var delay = 100; // Tune this for different letter delays.
-
-                if ($(el).data('delay')) {
-                    delay = $(el).data('delay');
-                }
-                textElements.forEach(function (e, i) {
-                    el.append(e);
-                })
-                var Letters = $(el).find('span');
-
-
-                $(Letters).each(function (i, e) {
-                    setTimeout(function () {
-                        $(e).addClass('animated').addClass('fadeIn').css('visibility', 'visible');
-                        $(e).show()
-                    }, 100 + i * delay)
-                })
-            }
-
-            $(".fadeInTextAnimation").each(function () {
-                appearAnimation($(this));
             })
 
         </script>

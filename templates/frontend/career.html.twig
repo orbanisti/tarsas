@@ -14,14 +14,14 @@
         </div>
     </div>
     <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-5">
-        <div class="row mt-5 m-md-0 m-lg-0 mr-3">
+        <div class="row mt-5 m-md-0 m-lg-0 ml-lg-n5 ml-md-n5 mr-3 jobsGalleryFirstRow">
             <div class="col-md-3 col jobsGalleryColumn"
                  style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
             <div class="col-md-3 col jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
             <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
             <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
         </div>
-        <div class="row mt-lg-5 m-md-0 m-lg-0 ml-3">
+        <div class="row mt-lg-5 m-md-0 m-lg-0 ml-3 mr-lg-n5 mr-md-n5 jobsGallerySecondRow">
             <div class="col-md-2 col jobsGalleryColumn"
                  style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
             <div class="col-md-4 col jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
@@ -38,7 +38,7 @@
                 </h2>
             </div>
         </div>
-        <div class=" mb-5 flex-row" style="">
+        <div class=" mb-5 flex-row" style="" data-aos="fade-right">
             <div class="col-md-4 p-4">
                 {{ include('frontend/embed/jobPreview.html.twig',{title:'Értékesítő - Account Manager',description:'Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?<br/> Bővülő csapatunkba új account managereket keresünk! ',url:path('job_sales')}) }}
             </div>
@@ -60,8 +60,19 @@
 
 
     <style>
-
     </style>
 {% endblock %}
-
+{% block javascripts %}
+    <script>
+        $(window).scroll(function () {
+            let galleryFirstRow = $(".jobsGalleryFirstRow")
+            let gallerySecondRow = $(".jobsGallerySecondRow")
+            let topDistance = $(window).scrollTop()
+            console.log(topDistance);
+            galleryFirstRow.transition({x: topDistance / 10 + 'px'}, 0);
+            gallerySecondRow.transition({x: -topDistance / 10 + 'px'}, 0);
+            // galleryFirstRow.css('transform', 'translate3d(' + topDistance + ',0px, 0px)')
+        });
+    </script>
+{% endblock %}
 

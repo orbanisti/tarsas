@@ -20,6 +20,7 @@ require('animate.css');
 require('textillate/assets/jquery.fittext')
 require('textillate/assets/jquery.lettering')
 require('textillate/jquery.textillate')
+require('jquery.transit')
 import AOS from 'aos';
 
 window.AOS = AOS
@@ -41,6 +42,10 @@ $(document).ready(function () {
     };
     let letterAnimationPrevState = null;
     let countUpAnimationState = null;
+    $(".lettersAnimation").each(function () {
+        $(this).html($(this).html().replace(/\s+/g, " "))
+    })
+
     $('.lettersAnimation').textillate({
         in: {
             // set the effect name
@@ -53,6 +58,17 @@ $(document).ready(function () {
 
         },
     })
+
+    window.initLettersAnimation = function () {
+        $(".lettersAnimation").textillate('start');
+    }
+    window.initCountUpAnimation = function countUp() {
+        $('.countup-numbers').each(function (index, element) {
+            let num = $(this).attr('data-num');
+            let counts = new CountUp(this, num, optionsCountUp);
+            counts.start();
+        });
+    }
     $(window).scroll(function () {
         // console.log("scroll top=" + $(this).scrollTop());
         // console.log("div offset top=" + $("div").offset().top);
@@ -73,24 +89,17 @@ $(document).ready(function () {
             if ($(this).isInViewport()) {
                 if (countUpAnimationState !== $(this).isInViewport()) {
                     countUpAnimationState = $(this).isInViewport();
-                    countUp()
+                    initCountUpAnimation()
                 }
             } else {
                 if (countUpAnimationState !== $(this).isInViewport()) {
                     countUpAnimationState = $(this).isInViewport();
-                    countUp()
+                    initCountUpAnimation()
                 }
             }
         })
     })
 
-    function countUp() {
-        $('.countup-numbers').each(function (index, element) {
-            let num = $(this).attr('data-num');
-            let counts = new CountUp(this, num, optionsCountUp);
-            counts.start();
-        });
-    }
 
     $(document).on('click', '#drawerMenuToggle', function (e) {
         e.preventDefault();
@@ -102,6 +111,41 @@ $(document).ready(function () {
 
     })
 
+
+    function appearAnimation(el) {
+        var text = $(el).html();
+        $(el).html('');
+        var textElements = text.split("").map(function (c) {
+            return $('<span style="visibility: hidden" id="' + c + '">' + c + '</span>');
+        });
+        var delay = 100; // Tune this for different letter delays.
+        var wordDelay = 0;
+
+        if ($(el).data('delay')) {
+            delay = $(el).data('delay');
+        }
+        if ($(el).data('word-delay')) {
+            wordDelay = $(el).data('word-delay');
+        }
+        textElements.forEach(function (e, i) {
+            el.append(e);
+        })
+        var Letters = $(el).find('span');
+
+        setTimeout(function () {
+            $(Letters).each(function (i, e) {
+                setTimeout(function () {
+                    $(e).addClass('animated').addClass('fadeIn').css('visibility', 'visible');
+                    $(e).show()
+                }, 100 + i * delay)
+            })
+        }, wordDelay)
+
+    }
+
+    $(".fadeInTextAnimation").each(function () {
+        appearAnimation($(this));
+    })
 })
 if (window.innerWidth < 1050) {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -122,6 +166,7 @@ $(".close").click(function () {
 window.redirectToPath = function redirectToPath(path) {
     setTimeout(function () {
         window.location.href = path
-    }, 200)
+    }, 400)
 }
 
+AOS.init()

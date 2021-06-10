@@ -11,6 +11,7 @@ $lato-font-path: '~lato-font/fonts';
 @import "assets/components/bootstrap4/functions";
 @import "assets/components/bootstrap4/variables";
 @import "~bootstrap";
+@import "app.css";
 
 @import "assets/components/bootstrap4/mixins";
 
@@ -408,8 +409,6 @@ body#blog_search .post-metadata {
 }
 
 
-@import "app.css";
-@import "textillate.css";
 @import "~pretty-checkbox";
 ::placeholder {
   font-family: 'Sequel Sans Book Body', serif !important;
@@ -588,3 +587,6 @@ ul.square {
   max-width: 100%;
 }
 
+.fadeInTextAnimation, .lettersAnimation {
+  //IDE assistance only
+}
