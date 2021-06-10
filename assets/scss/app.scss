@@ -61,12 +61,10 @@ $lato-font-path: '~lato-font/fonts';
 @include lato-include-font('normal');
 @include lato-include-font('bold');
 @import "~animate.css";
-@import "./assets/fonts/SequelSans/stylesheet";
+@import "assets/fonts/SequelSans/stylesheet";
 @import "~bootstrap-drawer/dist/css/bootstrap-drawer.min.css";
 @import "~jqvmap/dist/jqvmap.min.css";
 @import '~aos/dist/aos.css';
-@import "./assets/scss/textillate.css";
-
 /* Basic styles
   ------------------------------------------------------------------------- */
 p, ul, ol {
@@ -411,6 +409,7 @@ body#blog_search .post-metadata {
 
 
 @import "app.css";
+@import "textillate.css";
 @import "~pretty-checkbox";
 ::placeholder {
   font-family: 'Sequel Sans Book Body', serif !important;
