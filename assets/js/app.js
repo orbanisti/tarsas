@@ -17,7 +17,12 @@ require('jqvmap/dist/jquery.vmap');
 require('jqvmap/dist/maps/jquery.vmap.europe');
 require('jquery.waitforimages')
 require('animate.css');
+require('textillate/assets/jquery.fittext')
+require('textillate/assets/jquery.lettering')
+require('textillate/jquery.textillate')
+import AOS from 'aos';
 
+window.AOS = AOS
 window.CountUp = CountUp;
 $(document).ready(function () {
     let drawerMenu = $("#drawerMenu");
@@ -26,11 +31,66 @@ $(document).ready(function () {
         separator: '',
         decimal: '.'
     };
-    $('.countup-numbers').each(function (index, element) {
-        let num = $(this).attr('data-num');
-        let counts = new CountUp(this, num, optionsCountUp);
-        counts.start();
-    });
+
+    $.fn.isInViewport = function () {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+    let letterAnimationPrevState = null;
+    let countUpAnimationState = null;
+    $('.lettersAnimation').textillate({
+        in: {
+            // set the effect name
+            effect: 'fadeInUp',
+            // set the delay factor applied to each consecutive character
+            delayScale: 1.5,
+
+            // set the delay between each character
+            delay: 10,
+
+        },
+    })
+    $(window).scroll(function () {
+        // console.log("scroll top=" + $(this).scrollTop());
+        // console.log("div offset top=" + $("div").offset().top);
+        $('.lettersAnimation').each(function () {
+            if ($(this).isInViewport()) {
+                if (letterAnimationPrevState !== $(this).isInViewport()) {
+                    letterAnimationPrevState = $(this).isInViewport();
+                    $(".lettersAnimation").textillate('start');
+                }
+            } else {
+                if (letterAnimationPrevState !== $(this).isInViewport()) {
+                    letterAnimationPrevState = $(this).isInViewport();
+                    $(".lettersAnimation").textillate('stop');
+                }
+            }
+        })
+        $('.countup-numbers').each(function () {
+            if ($(this).isInViewport()) {
+                if (countUpAnimationState !== $(this).isInViewport()) {
+                    countUpAnimationState = $(this).isInViewport();
+                    countUp()
+                }
+            } else {
+                if (countUpAnimationState !== $(this).isInViewport()) {
+                    countUpAnimationState = $(this).isInViewport();
+                    countUp()
+                }
+            }
+        })
+    })
+
+    function countUp() {
+        $('.countup-numbers').each(function (index, element) {
+            let num = $(this).attr('data-num');
+            let counts = new CountUp(this, num, optionsCountUp);
+            counts.start();
+        });
+    }
 
     $(document).on('click', '#drawerMenuToggle', function (e) {
         e.preventDefault();
@@ -41,6 +101,7 @@ $(document).ready(function () {
         }, 700);
 
     })
+
 })
 if (window.innerWidth < 1050) {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -63,3 +124,4 @@ window.redirectToPath = function redirectToPath(path) {
         window.location.href = path
     }, 200)
 }
+

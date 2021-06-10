@@ -1,32 +1,36 @@
 {% extends 'base.html.twig' %}
 {% block title %}{{ 'Könyvelés'|trans }}{% endblock %}
 {% block body %}
-    <div class="row">
-        <div class="container-fluid jumbotron-bg position-relative"
-             style="background: url('{{ asset('build/images/accounting.png') }}');min-height: 600px;background-position-y:20%">
+    <div class="container-fluid jumbotron-bg position-relative"
+         style="background: url('{{ asset('build/images/accounting.png') }}');min-height: 600px;background-position-y:20%">
+        <div class="row">
             <div class="primary-overlay-div"></div>
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-6 text-right animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big">{{ 'Könyvelés'|trans }}</h1>
-                        <p class="mt-sm-5">Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk
+                        <h1 class="mb-5 text-big fadeInTextAnimation" data-text="{{ 'Könyvelés'|trans }}"></h1>
+                        <p class="mt-sm-5 fadeInTextAnimation " data-delay="20" data-text="Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
                             Everest
-                            Accounting.
+                            Accounting.">
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row p-lg-5 p-3  bg-white">
-        <div class="col-md-12">
-            <h1 class="text-xl-center text-dark animate__animated animate__fadeIn text-big text-medium-sm">Profi csapat, átlátható könyvelés</h1>
+    <div class="container-fluid ">
+        <div class="row p-lg-5 p-3  bg-white">
+            <div class="col-md-12">
+                {# <h1 class="text-xl-center text-dark text-big text-medium-sm" data-aos-easing="ease-in-sine" data-aos="fade-up" data-aos-duration="400" #}
+                <h1 class="text-xl-center text-dark text-big text-medium-sm lettersAnimation ">Profi csapat, átlátható könyvelés</h1>
+            </div>
         </div>
     </div>
-
-    <div class="container-fluid animate__animated animate__fadeIn bg-primary" style="padding:0;" id="accountingCounters">
+    <div class="container-fluid  bg-primary" style="padding:0;" id="accountingCounters" data-aos="fade-zoom-in"
+         data-aos-easing="ease-in-back"
+         data-aos-offset="0">
         <div class="row no-gutters">
             <div class="col ">
                 {{ include('frontend/embed/counterWidget.html.twig',{number:1,description:'Portál'}) }}
@@ -47,7 +51,7 @@
 
         </div>
     </div>
-    <div class="container ">
+    <div class="container" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
         <div class="row mt-5 mb-5">
             <div class="col-md-12">
                 <h3 class="text-dark text-big mt-5 mb-3">2005</h3>
@@ -62,14 +66,14 @@
             <div class="col-md-6">
             </div>
             <div class="col-md-6 mt-5 mb-0">
-                <h1 class="text-big text-dark mb-5">Hogyan dolgozunk?</h1>
+                <h1 class="text-big text-dark mb-5" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">Hogyan dolgozunk?</h1>
             </div>
-            <div class="col-md-6 mb-5" id="accountingImageBox">
+            <div class="col-md-6 mb-5" id="accountingImageBox" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                 {# TODO: Set make standalone template for this image style #}
                 {{ include('frontend/embed/imageBox.html.twig',{src:asset('build/images/colleagues-office-1.png')}) }}
             </div>
-            <div class="col-md-6 ">
-                <p class="text-right">Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes
+            <div class="col-md-6 " data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+                <p class="text-right ">Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes
                     portálunk támogatják
                     a tudatos vezetői döntéseket.</p>
                 <p class="text-right"> Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész
@@ -153,7 +157,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 pt-5 bg-primary" id="contact">
+    <div class="container-fluid mt-5 pt-5 pb-5 bg-primary" id="contact">
         <div class="container mt-5">
             <div class="row ">
                 <div class="col-md-12 ">
@@ -232,12 +236,6 @@
             }
         }
     </style>
-
-    <script>
-        $('.popup-vimeo').click(function (e) {
-            e.preventDefault();
-        })
-    </script>
     <!-- Button trigger modal -->
 
     <!-- Modal -->
@@ -257,7 +255,45 @@
             </div>
         </div>
     </div>
+    {% block javascripts %}
+        <script>
+            $(document).ready(function () {
+                $('.popup-vimeo').click(function (e) {
+                    e.preventDefault();
+                })
+            })
+            AOS.init();
 
+            function appearAnimation(el) {
+                var text = $(el).data('text');
+                var textElements = text.split("").map(function (c) {
+                    return $('<span style="visibility: hidden" id="' + c + '">' + c + '</span>');
+                });
+                var delay = 100; // Tune this for different letter delays.
+
+                if ($(el).data('delay')) {
+                    delay = $(el).data('delay');
+                }
+                textElements.forEach(function (e, i) {
+                    el.append(e);
+                })
+                var Letters = $(el).find('span');
+
+
+                $(Letters).each(function (i, e) {
+                    setTimeout(function () {
+                        $(e).addClass('animated').addClass('fadeIn').css('visibility', 'visible');
+                        $(e).show()
+                    }, 100 + i * delay)
+                })
+            }
+
+            $(".fadeInTextAnimation").each(function () {
+                appearAnimation($(this));
+            })
+
+        </script>
+    {% endblock %}
 {% endblock %}
 
 

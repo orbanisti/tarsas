@@ -64,6 +64,9 @@ $lato-font-path: '~lato-font/fonts';
 @import "./assets/fonts/SequelSans/stylesheet";
 @import "~bootstrap-drawer/dist/css/bootstrap-drawer.min.css";
 @import "~jqvmap/dist/jqvmap.min.css";
+@import '~aos/dist/aos.css';
+@import "./assets/scss/textillate.css";
+
 /* Basic styles
   ------------------------------------------------------------------------- */
 p, ul, ol {
