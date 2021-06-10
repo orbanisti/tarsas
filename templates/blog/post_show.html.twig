@@ -12,7 +12,7 @@
                     <span class="metadata"><i class="fa fa-calendar"></i> {{ post.createdAt|format_datetime('long', 'medium', '', 'UTC') }}</span>
                 </p>
 
-                {{ post.content|markdown_to_html|sanitize_html }}
+                {{ post.content|raw }}
             </div>
         </div>
     </div>
