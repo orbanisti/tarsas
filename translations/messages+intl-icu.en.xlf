@@ -509,6 +509,232 @@
         <source>Rólunk</source>
         <target>About</target>
       </trans-unit>
+      <trans-unit id="jGvAmVN" resname="Blog">
+        <source>Blog</source>
+        <target>__Blog</target>
+      </trans-unit>
+      <trans-unit id="B.HpW_i" resname="Előző">
+        <source>Előző</source>
+        <target>__Előző</target>
+      </trans-unit>
+      <trans-unit id="yImyFfU" resname="Jelenlegi">
+        <source>Jelenlegi</source>
+        <target>__Jelenlegi</target>
+      </trans-unit>
+      <trans-unit id="TdOua3n" resname="Következő">
+        <source>Következő</source>
+        <target>__Következő</target>
+      </trans-unit>
+      <trans-unit id="1a20d55" resname="Projekt koordinátor">
+        <source>Projekt koordinátor</source>
+        <target>__Projekt koordinátor</target>
+      </trans-unit>
+      <trans-unit id="y.iPLW5" resname="Értékesítő-támogató koordinátor">
+        <source>Értékesítő-támogató koordinátor</source>
+        <target>__Értékesítő-támogató koordinátor</target>
+      </trans-unit>
+      <trans-unit id="Gd3J22X" resname="Sales Account Manager">
+        <source>Sales Account Manager</source>
+        <target>__Sales Account Manager</target>
+      </trans-unit>
+      <trans-unit id="_hyuR8B" resname="Könyvelő">
+        <source>Könyvelő</source>
+        <target>__Könyvelő</target>
+      </trans-unit>
+      <trans-unit id="TnuBfpB" resname="junior full-stack fejlesztő">
+        <source>junior full-stack fejlesztő</source>
+        <target>__junior full-stack fejlesztő</target>
+      </trans-unit>
+      <trans-unit id="i9MZg6F" resname="senior full-stack fejlesztő">
+        <source>senior full-stack fejlesztő</source>
+        <target>__senior full-stack fejlesztő</target>
+      </trans-unit>
+      <trans-unit id="VjwprWb" resname="junior backend fejlesztő">
+        <source>junior backend fejlesztő</source>
+        <target>__junior backend fejlesztő</target>
+      </trans-unit>
+      <trans-unit id="UN.cUUQ" resname="senior backend fejlesztő">
+        <source>senior backend fejlesztő</source>
+        <target>__senior backend fejlesztő</target>
+      </trans-unit>
+      <trans-unit id="0XJLou5" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!">
+        <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!</source>
+        <target>__Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!</target>
+      </trans-unit>
+      <trans-unit id="DS.0Yq4" resname="Nyitott állások">
+        <source>Nyitott állások</source>
+        <target>__Nyitott állások</target>
+      </trans-unit>
+      <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!">
+        <source>Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!</source>
+        <target>__Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!</target>
+      </trans-unit>
+      <trans-unit id="lwn5nfc" resname="Ha nem szeretne a formok kitöltésével bajlódni, írjon az info@everest.hu címre vagy hívjon minket a %phone% telefonszámon!">
+        <source>Ha nem szeretne a formok kitöltésével bajlódni, írjon az info@everest.hu címre vagy hívjon minket a %phone% telefonszámon!</source>
+        <target>__Ha nem szeretne a formok kitöltésével bajlódni, írjon az info@everest.hu címre vagy hívjon minket a %phone% telefonszámon!</target>
+      </trans-unit>
+      <trans-unit id="D1.tF5H" resname="CV">
+        <source>CV</source>
+        <target>__CV</target>
+      </trans-unit>
+      <trans-unit id="sVsk6di" resname="Tárgy">
+        <source>Tárgy</source>
+        <target>__Tárgy</target>
+      </trans-unit>
+      <trans-unit id="8rR10mE" resname="Mit tehetünk Önért?">
+        <source>Mit tehetünk Önért?</source>
+        <target>__Mit tehetünk Önért?</target>
+      </trans-unit>
+      <trans-unit id="6ajvXvX" resname="Iroda">
+        <source>Iroda</source>
+        <target>__Iroda</target>
+      </trans-unit>
+      <trans-unit id="_DaFxXG" resname="Érdekel">
+        <source>Érdekel</source>
+        <target>__Érdekel</target>
+      </trans-unit>
+      <trans-unit id="fWzXUFS" resname="Adatkezelési szabályzat">
+        <source>Adatkezelési szabályzat</source>
+        <target>__Adatkezelési szabályzat</target>
+      </trans-unit>
+      <trans-unit id="AiT6e7d" resname="Főoldal">
+        <source>Főoldal</source>
+        <target>__Főoldal</target>
+      </trans-unit>
+      <trans-unit id="OT9s60r" resname="Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.">
+        <source>Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.</source>
+        <target>__Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.</target>
+      </trans-unit>
+      <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
+        <source>Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
+        <target>__Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</target>
+      </trans-unit>
+      <trans-unit id="yM4kVuz" resname="Vissza a nyitott pozíciókra">
+        <source>Vissza a nyitott pozíciókra</source>
+        <target>__Vissza a nyitott pozíciókra</target>
+      </trans-unit>
+      <trans-unit id="gqoftJL" resname="Irodánk">
+        <source>Irodánk</source>
+        <target>__Irodánk</target>
+      </trans-unit>
+      <trans-unit id="1iK2rYR" resname="Ügyfél elköteleződést ajánlunk">
+        <source>Ügyfél elköteleződést ajánlunk</source>
+        <target>We offer brand recognition,</target>
+      </trans-unit>
+      <trans-unit id="I7zK0te" resname="nem csak sales konzultációt">
+        <source>nem csak sales konzultációt</source>
+        <target>not just sales consulting</target>
+      </trans-unit>
+      <trans-unit id="o5K46Nq" resname="Munkamódszerünk">
+        <source>Munkamódszerünk</source>
+        <target>Our work ethic</target>
+      </trans-unit>
+      <trans-unit id="fdg59Kx" resname="Az ügyféligényekhez igazodunk">
+        <source>Az ügyféligényekhez igazodunk</source>
+        <target>We adapt to the customer's needs</target>
+      </trans-unit>
+      <trans-unit id="8xSB5yk" resname="Munkatársaink ügyfeleinknél tanácsadóként segítik a megfelelő, évtizedekig kiszolgáló megoldásokat kiválasztani. Felkészültségünk, szaktudásunk és ügyfél-elégedettségünk biztosítja minden partnerünk számára a biztos sikert, amelyet a napelemes piacon eltöltött kiemelkedően eredményes évek munkája igazol.">
+        <source>Munkatársaink ügyfeleinknél tanácsadóként segítik a megfelelő, évtizedekig kiszolgáló megoldásokat kiválasztani. Felkészültségünk, szaktudásunk és ügyfél-elégedettségünk biztosítja minden partnerünk számára a biztos sikert, amelyet a napelemes piacon eltöltött kiemelkedően eredményes évek munkája igazol.</source>
+        <target>Our consultants will assist you in selecting the best products that will last for decades. All of our partners' success is assured by our preparation, competence, and customer care. Our years of success in the solar market attest to this. </target>
+      </trans-unit>
+      <trans-unit id="5KaSP0X" resname="Értékesített napelem">
+        <source>Értékesített napelem</source>
+        <target>PVs sold</target>
+      </trans-unit>
+      <trans-unit id="fFZz7Ae" resname="Szerződéskötési arány">
+        <source>Szerződéskötési arány</source>
+        <target>Hit rate</target>
+      </trans-unit>
+      <trans-unit id="4LLv5sf" resname="A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
+        <source>A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
+        <target>These days, environmental protection and sustainability are extremely important aspects of our lives. Everest Renewables is on a mission to help solve this problem while also ensuring a sustainable future.</target>
+      </trans-unit>
+      <trans-unit id="6bLgZgG" resname="A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.">
+        <source>A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.</source>
+        <target>When it comes to customers, we use our near-perfect personal consulting skills to build brand loyalty among our partners.</target>
+      </trans-unit>
+      <trans-unit id="vrrTmrM" resname="Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform">
+        <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
+        <target>Maximum environmentally friendly - absolute and comprehensive building reform</target>
+      </trans-unit>
+      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.">
+        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.</source>
+        <target>We are doing it for our environment. Everest Renewables provides professional development for our employees so that they can deliver the best service possible on site. When it comes to upgrading your home, one must consider a number of factors. It is critical to consider the type of solar system, air conditioner, heat pump, or electric car charger that will be implemented in your home. Because the technical substance of our products is constantly evolving, we provide extensive sales training to keep employees up to date, regardless of what type of power-related products or services.</target>
+      </trans-unit>
+      <trans-unit id="Sl_5ad8" resname="Everest ügyfél- és projektmenedzsment">
+        <source>Everest ügyfél- és projektmenedzsment</source>
+        <target>Client and project management by Everest</target>
+      </trans-unit>
+      <trans-unit id="XwUIJcL" resname="Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?">
+        <source>Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?</source>
+        <target>From interest to guarantee - what does the whole process look like?</target>
+      </trans-unit>
+      <trans-unit id="_7ixTtx" resname="Érdeklődők gyűjtése/leadgenerálás">
+        <source>Érdeklődők gyűjtése/leadgenerálás</source>
+        <target>Collecting leads</target>
+      </trans-unit>
+      <trans-unit id="NloN8oY" resname="Ügyféllel való kapcsolatfelvétel, időpont egyeztetés">
+        <source>Ügyféllel való kapcsolatfelvétel, időpont egyeztetés</source>
+        <target>Connect with leads, making appointments</target>
+      </trans-unit>
+      <trans-unit id="mAdRYX_" resname="Szerződéskötés">
+        <source>Szerződéskötés</source>
+        <target>Contract</target>
+      </trans-unit>
+      <trans-unit id="z1g6IeM" resname="Adminisztráció: szükséges hatósági engedélyek menedzselése">
+        <source>Adminisztráció: szükséges hatósági engedélyek menedzselése</source>
+        <target>Administration: managing required permits</target>
+      </trans-unit>
+      <trans-unit id="ciEhNUY" resname="Termék kivitelezésének tervezése, felügyelete">
+        <source>Termék kivitelezésének tervezése, felügyelete</source>
+        <target>Planning and supervising of installation</target>
+      </trans-unit>
+      <trans-unit id="ass8Ytx" resname="Ügyfélelégedettség nyomkövetése, garancia-felügyelet">
+        <source>Ügyfélelégedettség nyomkövetése, garancia-felügyelet</source>
+        <target>Customer satisfaction tracking, warranty monitoring</target>
+      </trans-unit>
+      <trans-unit id="bSHi3Ew" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.">
+        <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.</source>
+        <target>Every lead is treated as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are fully satisfied. Our system's success is proven by our outstandingly high NPS score of 71.</target>
+      </trans-unit>
+      <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
+        <source>Saját ERP rendszer</source>
+        <target>Our ERP system</target>
+      </trans-unit>
+      <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
+        <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
+                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
+        <target>We believe that there can be no customer satisfaction without a reliable IT system as a foundation. We designed our ERP system to provide the best possible user experience, and we can make changes demanded by the market.</target>
+      </trans-unit>
+      <trans-unit id="p1Wt0Yj" resname="Everest ERP rendszer">
+        <source>Everest ERP rendszer</source>
+        <target>Everest ERP system</target>
+      </trans-unit>
+      <trans-unit id="Pi2nNil" resname="100%-ban saját, 100% Everest">
+        <source>100%-ban saját, 100% Everest</source>
+        <target>100% own, 100% Everest</target>
+      </trans-unit>
+      <trans-unit id="LnOZ869" resname="Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)">
+        <source>Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)</source>
+        <target>Fast, immediately available. Any new development can be started right away (regardless of whether the law or the market environment has changed).</target>
+      </trans-unit>
+      <trans-unit id="VItFzrV" resname="Felhasználóbarát felület">
+        <source>Felhasználóbarát felület</source>
+        <target>User-friendly surface</target>
+      </trans-unit>
+      <trans-unit id="8TlOUk_" resname="Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,&#10;                                menedzserek, projektkoordinátorok, call center, stb)">
+        <source>Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,
+                                menedzserek, projektkoordinátorok, call center, stb)</source>
+        <target>Roles: different workflows need different roles (regional representatives, managers, project coordinators, call center, etc.)</target>
+      </trans-unit>
+      <trans-unit id="x7cGWvm" resname="Folyamatos support rendelkezésre állás">
+        <source>Folyamatos support rendelkezésre állás</source>
+        <target>Continuous support</target>
+      </trans-unit>
+      <trans-unit id="IN6Kjlx" resname="Új funkciók bevezetése rendszeresen">
+        <source>Új funkciók bevezetése rendszeresen</source>
+        <target>Developing new functions continually</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
