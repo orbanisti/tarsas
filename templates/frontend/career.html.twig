@@ -13,7 +13,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-5 position-relative" style="height: 50vh">
+    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-5 position-relative jobsGalleryContainer">
         <div class="row mt-5 m-md-0 m-lg-0 ml-lg-n5 ml-md-n5 mr-3 jobsGalleryFirstRow">
             <div class="col-md-3 col jobsGalleryColumn"
                  style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
@@ -88,8 +88,10 @@
             let galleryFirstRow = $(".jobsGalleryFirstRow")
             let gallerySecondRow = $(".jobsGallerySecondRow")
             let topDistance = $(window).scrollTop()
-            galleryFirstRow.transition({x: topDistance / 10 + 'px'}, 0);
-            gallerySecondRow.transition({x: -topDistance / 10 + 'px'}, 0);
+            // galleryFirstRow.transition({x: +'px'}, 0);
+            galleryFirstRow.animate({left: topDistance / 10}, 0);
+            gallerySecondRow.animate({left: -topDistance / 10}, 0);
+            // gallerySecondRow.transition({x: -topDistance / 10 + 'px'}, 0);
             // galleryFirstRow.css('transform', 'translate3d(' + topDistance + ',0px, 0px)')
         });
     </script>

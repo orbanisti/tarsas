@@ -519,10 +519,22 @@ ul.square {
   .primary-overlay-div {
     display: none !important;
   }
+  .jobsGalleryContainer {
+    min-height: 400px !important;
+  }
 
 }
 
 @media (max-width: 768px) {
+  .jobsGalleryContainer {
+    min-height: 250px !important
+  }
+
+  .jobsGallerySecondRow {
+    position: absolute;
+    top: 60% !important;
+    width: 100%;
+  }
   .jobsGalleryColumn {
     min-height: 89px !important;
   }
@@ -590,3 +602,4 @@ ul.square {
 .fadeInTextAnimation, .lettersAnimation {
   //IDE assistance only
 }
+

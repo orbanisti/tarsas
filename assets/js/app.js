@@ -20,7 +20,6 @@ require('animate.css');
 require('textillate/assets/jquery.fittext')
 require('textillate/assets/jquery.lettering')
 require('textillate/jquery.textillate')
-require('jquery.transit')
 import AOS from 'aos';
 
 window.AOS = AOS
