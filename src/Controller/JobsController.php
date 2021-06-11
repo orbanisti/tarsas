@@ -10,6 +10,12 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class JobsController
+ * @Route("/",priority="10")
+ *
+ * @package App\Controller
+ */
 class JobsController extends AbstractController
 {
 

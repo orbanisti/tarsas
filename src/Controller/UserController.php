@@ -24,12 +24,13 @@ use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
  * Controller used to manage current user.
  *
  * @Route("/profile")
- * @IsGranted("ROLE_USER")
+ * @IsGranted("ROLE_ADMIN")
  *
  * @author Romain Monteil <monteil.romain@gmail.com>
  */
 class UserController extends AbstractController
 {
+
     /**
      * @Route("/edit", methods="GET|POST", name="user_edit")
      */
@@ -48,10 +49,13 @@ class UserController extends AbstractController
             return $this->redirectToRoute('user_edit');
         }
 
-        return $this->render('user/edit.html.twig', [
-            'user' => $user,
-            'form' => $form->createView(),
-        ]);
+        return $this->render(
+            'user/edit.html.twig',
+            [
+                'user' => $user,
+                'form' => $form->createView(),
+            ]
+        );
     }
 
     /**
@@ -72,8 +76,12 @@ class UserController extends AbstractController
             return $this->redirectToRoute('security_logout');
         }
 
-        return $this->render('user/change_password.html.twig', [
-            'form' => $form->createView(),
-        ]);
+        return $this->render(
+            'user/change_password.html.twig',
+            [
+                'form' => $form->createView(),
+            ]
+        );
     }
+
 }

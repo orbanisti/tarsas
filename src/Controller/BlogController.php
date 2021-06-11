@@ -19,7 +19,12 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-
+/**
+ * Class BlogController
+ * @Route("/",priority="10")
+ *
+ * @package App\Controller
+ */
 class BlogController extends AbstractController
 {
 

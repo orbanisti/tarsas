@@ -14,7 +14,7 @@ class RedirectController extends AbstractController
 {
 
     /**
-     * @Route("/{slug}/", methods={"GET","POST"}, name="redirect_main")
+     * @Route("/{slug}/", methods={"GET","POST"}, name="redirect_main",priority="1")
      * @param   string           $slug
      *
      * @param   RedirectManager  $redirectManager

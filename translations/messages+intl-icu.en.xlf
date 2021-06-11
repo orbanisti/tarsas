@@ -985,6 +985,14 @@
         <source>1051 Budapest, Arany János u. 9</source>
         <target>1051 Budapest, Arany János str. 9</target>
       </trans-unit>
+      <trans-unit id="KaOCkGb" resname="404 - Oldal nem található">
+        <source>404 - Oldal nem található</source>
+        <target>404 - Page not found</target>
+      </trans-unit>
+      <trans-unit id="HGt75kD" resname="Vissza a főoldalra">
+        <source>Vissza a főoldalra</source>
+        <target>Back to homepage</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

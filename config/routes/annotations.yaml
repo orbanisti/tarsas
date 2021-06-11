@@ -16,8 +16,5 @@ blogs:
     _locale: '%locale%'
   resource: '../../src/Controller/BlogController.php'
   type: annotation
-redirects:
-  resource: '../../src/Controller/RedirectController.php'
-  type: annotation
 
 
