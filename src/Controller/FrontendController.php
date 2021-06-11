@@ -10,11 +10,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class FrontendController
+ * @Route("/",priority="10")
+ *
+ * @package App\Controller
+ */
 class FrontendController extends AbstractController
 {
 
     /**
-     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true},priority="1")
+     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true},priority="10")
      */
     public function homepage(): Response
     {

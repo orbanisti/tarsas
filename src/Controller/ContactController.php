@@ -19,6 +19,12 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class ContactController
+ * @Route("/",priority="10")
+ *
+ * @package App\Controller
+ */
 class ContactController extends AbstractController
 {
 
