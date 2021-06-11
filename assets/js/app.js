@@ -12,6 +12,7 @@ import '../scss/app.scss';
 require('bootstrap-drawer/js/drawer')
 import {CountUp} from 'countup.js';
 
+window.IScroll = require('iscroll')
 
 require('jqvmap/dist/jquery.vmap');
 require('jqvmap/dist/maps/jquery.vmap.europe');
@@ -20,6 +21,9 @@ require('animate.css');
 require('textillate/assets/jquery.fittext')
 require('textillate/assets/jquery.lettering')
 require('textillate/jquery.textillate')
+require('./fullpage/jquery.fullpage')
+require('./fullpage/jquery.easings.min')
+
 import AOS from 'aos';
 
 window.AOS = AOS
