@@ -1,5 +1,6 @@
 presta_sitemap:
   resource: "@PrestaSitemapBundle/Resources/config/routing.yml"
+
 controllers:
   resource: '../../src/Controller/'
   type: annotation
@@ -8,6 +9,11 @@ controllers:
     _locale: '%app_locales%'
   defaults:
     _locale: '%locale%'
+redirects:
+  resource: '../../src/Controller/RedirectController.php'
+  type: annotation
+  requirements:
+    slug: '\b\w{3,10}\b'
 blogs:
   prefix: /{_locale}
   requirements:
@@ -16,5 +22,6 @@ blogs:
     _locale: '%locale%'
   resource: '../../src/Controller/BlogController.php'
   type: annotation
+
 
 
