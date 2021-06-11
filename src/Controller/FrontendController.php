@@ -14,7 +14,7 @@ class FrontendController extends AbstractController
 {
 
     /**
-     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true},priority="3")
+     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true},priority="1")
      */
     public function homepage(): Response
     {

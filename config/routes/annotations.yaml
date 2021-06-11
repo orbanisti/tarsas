@@ -20,3 +20,4 @@ redirects:
   resource: '../../src/Controller/RedirectController.php'
   type: annotation
 
+

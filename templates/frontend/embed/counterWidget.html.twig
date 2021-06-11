@@ -1,5 +1,5 @@
 <div class=" text-center text-white p-2 align-self-center">
-    <h3 class="mb-3 mt-4 text-big"><span class="countup-numbers" data-num="{{ number }}">{{ number }}</span><span>{{ suffix??'' }}</span>
+    <h3 class="mb-3 mt-4 text-big"><span class="countup-numbers" data-num="{{ number }}">{{ number }}</span><span>{% if suffixMargin is defined %} {% endif %}{{ suffix??'' }}</span>
     </h3>
     <p class="text-medium mb-0 mb-lg-4" style="font-weight: bold">{{ description }}</p>
 </div>

@@ -23,7 +23,7 @@
         <div class="pretty p-default">
             <input type="checkbox" checked name="acceptPrivacy" required style="z-index: -1 !important;">
             <div class="state  p-primary">
-                <label class="ml-3"> Elfogadom az <a class="text-black text-underline" href="{{ path('privacy') }}">adatvédelmi irányelveket</a></label>
+                <label class="ml-3"> {{ 'Elfogadom az {url} adatvédelmi irányelveket {endurl}'|trans({'{url}':'<a class="text-black text-underline" href=" '~path('privacy')~' ">','{endurl}':'</a>'})|raw }}</label>
             </div>
         </div>
     </div>

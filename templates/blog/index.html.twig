@@ -14,7 +14,7 @@
         <div class=" mb-5 flex-row" style="">
             {% for post in paginator.results %}
                 <div class="col-md-4 p-4">
-                    {{ include('frontend/embed/jobPreview.html.twig',{title:post.title,description:post.lead,url:path('blog_post',{url:post.url})}) }}
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:post.title,description:post.lead,url:path('blog_post',{url:post.url}),buttonText:'Tovább'|trans}) }}
                 </div>
             {% else %}
                 <div class="well">{{ 'post.no_posts_found'|trans }}</div>

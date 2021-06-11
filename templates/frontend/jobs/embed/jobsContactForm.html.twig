@@ -15,7 +15,7 @@
             <div class="form-group">
                 <select class="form-control mb-5" name="position">
                     {% for position in positions %}
-                        <option value="{{ position }}">{{ position }}</option>
+                        <option value="{{ position }}">{{ position|trans }}</option>
                     {% endfor %}
                 </select>
             </div>
