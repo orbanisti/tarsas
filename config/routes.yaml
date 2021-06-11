@@ -5,6 +5,7 @@
 homepage:
   path: /{_locale}
   options:
+
     sitemap: true
   controller: App\Controller\FrontendController::homepage
   requirements:

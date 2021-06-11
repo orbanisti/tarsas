@@ -1,13 +1,17 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 pt-5">
-                <h1>{{ '404 - Oldal nem található'|trans }}</h1>
+    <div class="container-fluid" style="height: 100vh;background-image:url('{{ asset('/build/images/everest_404.jpg') }}');background-size: cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 pt-5">
+                    <h1 class="text-white">{{ '404 - Oldal nem található'|trans }}</h1>
+                </div>
+                <div class="col-md-6 pt-5 text-center">
+                    <a class="btn btn-primary" href="{{ path('homepage') }}">{{ 'Vissza a főoldalra'|trans }}</a>
+                </div>
 
             </div>
-
         </div>
     </div>
 {% endblock %}
