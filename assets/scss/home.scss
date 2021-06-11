@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-$defaultSeconds: 3s;
+$defaultSeconds: 0s;
 
 body {
   margin: 0;
@@ -92,7 +92,7 @@ body {
 
 .flex-slide:hover {
   height: 110%;
-  transition: height 1s !important;
+  transition: all 1s !important;
   -webkit-flex-grow: 3;
   flex-grow: 3;
 }
