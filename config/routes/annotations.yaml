@@ -13,7 +13,7 @@ redirects:
   resource: '../../src/Controller/RedirectController.php'
   type: annotation
   requirements:
-    slug: '\b\w{3,10}\b'
+    slug: '.{4,100}'
 blogs:
   prefix: /{_locale}
   requirements:
