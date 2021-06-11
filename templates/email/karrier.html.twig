@@ -1,0 +1,32 @@
+<body style="background-color:#e9ebec;width:576px!important;font-family:Calibri, Arial, sans-serif ">
+<header>
+    {# <img style="width: 100%" src="{{ asset('/build/images/carreer-hu-email-header.png') }}" alt="image_description"> #}
+    <img style="width: 100%" src="https://everest.hu/images/karrier/mail_img_header.png" alt="image_description">
+</header>
+<div style="padding:0 20px;margin: 0">
+    <section>
+        <h2 style="color: #56C8FB"> Kedves {{ name }}! </h2>
+        <h2 style="color: #56C8FB"> Jelentkezése sikeresen beérkezett </h2>
+        <p style="font-size: 16px;">Felvételi csapatunk felülvizsgálja képesítéseit és tapasztalatait, és értékeli az Ön alkalmasságát az adott munkakörhöz.
+            Felvesszük Önnel a kapcsolatot, ha további információra van szükségünk, illetve amint bekerül a kiválasztási folyamatba – interjúra kerül a sor.</p>
+        <ul>
+            <p style="font-size: 16px;">A munkakör, amire jelentkezett:
+            <li>{{ position|getPositionName }}</li>
+            </p>
+            <p style="font-size: 16px;">A munkavégzés helye:</p>
+            <li style="font-size: 16px;">Budapest, Magyarország</li>
+        </ul>
+        <div>
+            <a style="background: #56c8fb;padding: 12px;border-radius: 20px;color: #ffffff!important;text-decoration: none;margin: 25px auto;display: block;width: 200px;text-transform: uppercase;text-align: center;"
+               href="{{ app.request.requestUri }}">ugrás az álláshirdetéshez</a>
+            <p style="font-size: 16px;">A beérkezett kérelmek nagy száma miatt nem tudunk minden kérdésre személyesen válaszolni. Nagyra értékeljük az EVEREST
+                iránti érdeklődését, és arra ösztönözzük, hogy bármilyen kérdés esetén keressen minket illetve folyamatosan tájékozódjon a legújabb nyitott
+                pozícióinkról.</p>
+            <a style="background: #56c8fb;padding: 12px;border-radius: 20px;color: #ffffff!important;text-decoration: none;margin: 25px auto;display: block;width: 200px;text-transform: uppercase;text-align: center;"
+               href="https://everest.hu">ugrás az everest főoldalra</a>
+        </div>
+    </section>
+</div>
+{# <img style="width: 100%;display: block" src="{{ asset('/build/images/carreer-hu-email-footer.png') }}" alt="image_description"> #}
+<img style="width: 100%;display: block" src="https://everest.hu/images/karrier/mail_image_footer.png" alt="image_description">
+</body>

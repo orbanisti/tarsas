@@ -194,3 +194,31 @@ li.nav-item {
     font-size: 32px;
 }
 
+@media only screen and (min-width: 481px) {
+    .flex-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .flex-row > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-row.row:after,
+    .flex-row.row:before {
+        display: flex;
+    }
+}
+
+.jobsGalleryColumn {
+    border: 10px solid white !important;
+    min-height: 154px;
+    background-size: cover !important;
+}
+
+.pagination {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

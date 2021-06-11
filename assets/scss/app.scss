@@ -11,7 +11,8 @@ $lato-font-path: '~lato-font/fonts';
 @import "assets/components/bootstrap4/functions";
 @import "assets/components/bootstrap4/variables";
 @import "~bootstrap";
-
+@import "app.css";
+@import "jquery.fullpage.min.css";
 @import "assets/components/bootstrap4/mixins";
 
 @import "home";
@@ -61,9 +62,10 @@ $lato-font-path: '~lato-font/fonts';
 @include lato-include-font('normal');
 @include lato-include-font('bold');
 @import "~animate.css";
-@import "./assets/fonts/SequelSans/stylesheet";
+@import "assets/fonts/SequelSans/stylesheet";
 @import "~bootstrap-drawer/dist/css/bootstrap-drawer.min.css";
 @import "~jqvmap/dist/jqvmap.min.css";
+@import '~aos/dist/aos.css';
 /* Basic styles
   ------------------------------------------------------------------------- */
 p, ul, ol {
@@ -150,7 +152,7 @@ header .locales a:hover small {
 .body-container {
   flex: 1;
   /* needed to prevent pages with a very small height and browsers not supporting flex */
-  min-height: 600px
+  min-height: 760px
 }
 
 .body-container #main h1, .body-container #main h2 {
@@ -170,16 +172,9 @@ header .locales a:hover small {
 }
 
 footer {
-  background: #ecf0f1;
-  margin-top: 2em;
+  background: #393939;
   padding-top: 2em;
   padding-bottom: 2em
-}
-
-footer p {
-  color: #7b8a8b;
-  font-size: 13px;
-  margin-bottom: 0.25em
 }
 
 footer #footer-resources {
@@ -414,7 +409,6 @@ body#blog_search .post-metadata {
 }
 
 
-@import "app.css";
 @import "~pretty-checkbox";
 ::placeholder {
   font-family: 'Sequel Sans Book Body', serif !important;
@@ -427,15 +421,16 @@ textarea {
   color: $black !important;
 }
 
-input[type='text'] {
-  height: 49px;
-  padding: 16px 32px;
-  background: $gray-100;
+input[type='text'], input[type='email'], input[type='file'], select {
+  height: 49px !important;
+  padding: 9px 32px !important;
+  background: $gray-100 !important;
+  background-color: $gray-100 !important;
   font-family: 'Sequel Sans Semi Bold Body', serif !important;
   color: $black;
 }
 
-input, textarea {
+input, textarea, select {
   border-radius: 0 !important;
 }
 
@@ -524,10 +519,22 @@ ul.square {
   .primary-overlay-div {
     display: none !important;
   }
+  .jobsGalleryContainer {
+    min-height: 400px !important;
+  }
 
 }
 
 @media (max-width: 768px) {
+  .jobsGalleryContainer {
+    min-height: 250px !important
+  }
+
+  .jobsGallerySecondRow {
+    position: absolute;
+    top: 60% !important;
+    width: 100%;
+  }
   .jobsGalleryColumn {
     min-height: 89px !important;
   }
@@ -586,5 +593,13 @@ ul.square {
 .nav-pills .nav-item {
   margin: 0;
 
+}
+
+.container img {
+  max-width: 100%;
+}
+
+.fadeInTextAnimation, .lettersAnimation {
+  //IDE assistance only
 }
 

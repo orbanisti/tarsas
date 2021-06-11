@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-$defaultSeconds: 3s;
+$defaultSeconds: 0s;
 
 body {
   margin: 0;
@@ -9,7 +9,6 @@ body {
 }
 
 .flex-container {
-  position: absolute;
   height: 100vh;
   width: 100%;
   display: -webkit-flex; /* Safari */
@@ -26,7 +25,6 @@ body {
   font-size: 6vw;
   margin: auto;
   text-align: center;
-  transform: rotate(90deg);
   top: 30%;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
@@ -93,6 +91,8 @@ body {
 }
 
 .flex-slide:hover {
+  height: 110%;
+  transition: all 1s !important;
   -webkit-flex-grow: 3;
   flex-grow: 3;
 }
@@ -102,7 +102,7 @@ body {
   background-position: center !important;
 }
 
-.accounting {
+.accounting, .renewables, .itsolutions {
   height: 100vh;
   background-size: cover;
   background-position: center center;

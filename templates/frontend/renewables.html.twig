@@ -1,100 +1,236 @@
 {% extends 'base.html.twig' %}
 {% block title %}{{ 'Megújuló energia'|trans }}{% endblock %}
+{% block header %}{% endblock %}
 {% block body %}
-    <div id="fullPage">
-        <span class="section">
+    <div>
+        <section class="section">
+            {{ include('frontend/embed/header.html.twig') }}
             <div class="row ">
                 <div class="container-fluid  jumbotron-bg position-relative"
                      style="background: url('{{ asset('build/images/renewables_header.png') }}') bottom;margin-bottom:0px;min-height: 600px">
                     <div class="primary-overlay-div"></div>
-                    <div class="container mt-5 p-5 p-lg-1">
+                    <div class="container mt-5 p-1 p-lg-1">
                         <div class="row mt-1">
-                            <div class="col-md-12 text-left animate__animated animate__fadeInRight">
-                                <h1 class="mb-5 text-big text-white">{{ 'Megújuló energia'|trans }}</h1>
-                                <h2 class="text-right text-white text-medium mr-5 pr-lg-5">
-                                    We offer brand recognition,
-                                </h2>
-                                <p class="text-right text-white mt-3">
-                                    <strong>not just sales consulting</strong>
-                                </p>
+                            <div class="col-md-12 text-left animate__animated animate__fadeInRight"><h1
+                                        class="mb-5 text-big text-white fadeInTextAnimation">{{ 'Megújuló energia'|trans }}</h1>
+                                <h2 class="text-right text-white text-medium mr-5 pr-lg-5 fadeInTextAnimation" data-word-delay="1500"
+                                    data-delay="50">{{ 'Ügyfél elköteleződést ajánlunk'|trans }}</h2>
+                                <p class="text-right text-white mt-3"><strong class="fadeInTextAnimation"
+                                                                              data-word-delay="2500">{{ 'nem csak sales konzultációt'|trans }}</strong></p>
                             </div>
                         </div>
                     </div>
-                   {{ include('frontend/embed/sliderDownArrow.html.twig',{section:'second'}) }}
+                    {{ include('frontend/embed/sliderDownArrow.html.twig',{section:'second'}) }}
                 </div>
-            </div></span>
-        <span class="section secondSection">
-            <div class=" container">
+            </div>
+        </section>
+        <section class="section secondSection">
+            <div class=" container ">
                 <div class="row p-5 bg-white">
                     <div class="col-md-12 ">
-                        <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium">We are your sales partner to maximize the results of
-                            the<br/>
-                            opportunities in this booming industry.</h2>
+                        <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium lettersAnimation">{{ 'A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.'|trans }}
+                        </h2>
                     </div>
                 </div>
             </div>
-             <div class=" container-fluid " style="padding: 0 !important;">
-            <div class="row no-gutters ">
-                <div class="col-md-6 p-5 bg-primary">
-                    <div class="col-md-12 h-100 " style="margin-top: auto;margin-bottom: auto;display: grid">
-                        {{ include('frontend/embed/counterWidget.html.twig',{number:7500,description:'PVs sold',suffix:'+'}) }}
+
+            <div class="container mb-5" data-aos="fade-left">
+                <div class="row">
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6 mt-5 mb-0">
+                        <h1 class="text-big text-dark mb-5 text-right">{{ 'Munkamódszerünk'|trans }}</h1>
+                    </div>
+                    <div class="col-md-6 mb-5" id="accountingImageBox" data-aos="fade-right">
+                        {# TODO: Set make standalone template for this image style #}
+                        {{ include('frontend/embed/imageBox.html.twig',{src:asset('build/images/everest-photo2.jpg')}) }}
+                    </div>
+                    <div class="col-md-6 ">
+                        <p class="text-right">{{ 'A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.'|trans }}</p>
+                        <h2 class="mb-3 mt-3 text-right">{{ 'Az ügyféligényekhez igazodunk'|trans }}</h2>
+                        <p class="text-right">{{ 'Munkatársaink ügyfeleinknél tanácsadóként segítik a megfelelő, évtizedekig kiszolgáló megoldásokat kiválasztani. Felkészültségünk, szaktudásunk és ügyfél-elégedettségünk biztosítja minden partnerünk számára a biztos sikert, amelyet a napelemes piacon eltöltött kiemelkedően eredményes évek munkája igazol.'|trans }}</p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12  bg-primary-light p-lg-5 p-3">
-                                <h2 class="text-medium text-white text-normal-sm text-center">
-                                    Net Promoter Score (NPS):<span class="countup-numbers text-big ml-lg-5 ml-1 text-medium-sm" data-num="75">75</span>
-                                </h2>
-                            </div>
-                            <div class="col-md-12 d-md-block d-lg-block  d-flex  bg-white p-md-5 p-lg-5 p-3">
-                                <div class="col-md-12">
-                                    <h2 class="text-medium mt-4 mt-md-3 mt-lg-0 text-center mt-lg-0 text-sm-right text-md-center">Hit rate:</h2>
-                                </div>
-                                <div class="col-md-12">
-                                    <h1 class="mt-lg-5 mt-md-0 mt-lg-0 mt-3 text-center text-black ">18.7%</h1>
+            </div>
+        </section>
+        <section class="section fp-scrollable ">
+            <div class=" container-fluid " style="padding: 0 !important;">
+                <div class="row no-gutters ">
+                    <div class="col-md-6 p-5 bg-primary">
+                        <div class="col-md-12 h-100 " style="margin-top: auto;margin-bottom: auto;display: grid">
+                            {{ include('frontend/embed/counterWidget.html.twig',{number:7500,description:'Értékesített napelem'|trans,suffix:'+'}) }}
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12  bg-primary-light p-lg-5 p-3"><h2 class="text-medium text-white text-normal-sm text-center"> Net Promoter
+                                        Score (NPS):<span class="countup-numbers text-big ml-lg-5 ml-1 text-medium-sm" data-num="75">75</span></h2></div>
+                                <div class="col-md-12 d-md-block d-lg-block  d-flex  bg-white p-md-5 p-lg-5 p-3">
+                                    <div class="col-md-12"><h2
+                                                class="text-medium mt-4 mt-md-3 mt-lg-0 text-center mt-lg-0 text-sm-right text-md-center">{{ 'Szerződéskötési arány'|trans }}
+                                            :</h2></div>
+                                    <div class="col-md-12"><h1 class="mt-lg-5 mt-md-0 mt-lg-0 mt-3 text-center text-black ">18.7%</h1></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-            <div class=" container">
-            <div class="row p-5 bg-white">
-                <div class="col-md-12 ">
-                    <h2 class="text-left text-dark animate__animated animate__fadeIn text-normal-sm">Results are delivered in our end-to-end ERP system
-                        which is
-                        developed and fine-tuned through the lenses of hundreds of daily users in the past years.</h2>
+                <div class="container mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-md-12 text-center text-dark">
+                            <h2 class=" font-weight-bold">{{ 'Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform'|trans }}</h2>
+                            <p class="mt-5 text-left"> {{ 'Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be ügyfeleinkhez. <strong>Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.</strong> Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.'|trans|raw }}
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        </span>
-        <div class="section container mt-5">
-            <div class="row p-lg-0 p-md-5 p-0 bg-white" style="min-height: 500px">
-                <div class="col-md-12 ">
-                    <div id="vmap" style="width: 100%; height: 600px;"></div>
+        </section>
+        <section class="section">
+            <div class=" container mt-5 mb-5">
+                <div class="row p-lg-0 p-md-5 p-0 bg-white" style="min-height: 500px">
+                    <div class="col-md-12 ">
+                        <h2 class="text-center mb-5">{{ 'Magyarországról indultunk, ma viszont már több országban jelen vagyunk!'|trans }}
+                        </h2>
+                        <div id="vmap" style="width: 100%; height: 600px;"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+        <section class="section">
+            <div class="container-fluid  bg-primary pt-5 pb-5 ">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="text-white text-medium-sm">{{ 'Everest ügyfél- és projektmenedzsment'|trans }}</h1>
+                            <h2 class="text-white text-normal-sm mb-3">{{ 'Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?'|trans }}</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ml-lg-5 mr-lg-5 mr-md-3 ml-md-3">
+                    <div class="col-md-12">
+                        <ul class="timeline">
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <p class="h5 mb-0">{{ 'Érdeklődők gyűjtése/leadgenerálás'|trans }}</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <p class="h5 mb-0">{{ 'Ügyféllel való kapcsolatfelvétel, időpont egyeztetés'|trans }}</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <p class="h5 mb-0">{{ 'Szerződéskötés'|trans }}</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <p class="h5 mb-0">{{ 'Adminisztráció: szükséges hatósági engedélyek menedzselése'|trans }}</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <p class="h5 mb-0">{{ 'Termék kivitelezésének tervezése, felügyelete'|trans }}</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <p class="h5 mb-0">{{ 'Ügyfélelégedettség nyomkövetése, garancia-felügyelet'|trans }} </p>
+                            </li>
 
+                        </ul><!-- End -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" style="min-height: 100vh">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>{{ 'Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.'|trans }}
+                        </p>
+                        <h2 class="mt-2">
+                            {{ 'Saját ERP rendszer'|trans }}
+                        </h2>
+                        <p>
+                            {{ 'Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
+                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.'|trans }}</p>
+                        <p><strong>{{ 'Everest ERP rendszer'|trans }}:</strong></p>
+                        <ul class="square mt-3 mb-5">
+                            <li>{{ '100%-ban saját, 100% Everest'|trans }}</li>
+                            <li>{{ 'Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)'|trans }}</li>
+                            <li>{{ 'Felhasználóbarát felület'|trans }}</li>
+                            <li>{{ 'Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,
+                                menedzserek, projektkoordinátorok, call center, stb)'|trans }}
+                            </li>
+                            <li>{{ 'Folyamatos support rendelkezésre állás'|trans }}</li>
+                            <li>{{ 'Új funkciók bevezetése rendszeresen'|trans }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            {{ include('frontend/embed/footer.html.twig') }}
+        </section>
+    </div>
+    <style>
+        ul.timeline {
+            list-style-type: none;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        /* Timeline vertical line */
+        ul.timeline:before {
+            content: ' ';
+            background: #fff;
+            display: inline-block;
+            position: absolute;
+            left: 16px;
+            width: 4px;
+            height: 100%;
+            z-index: 400;
+            border-radius: 1rem;
+        }
+
+        li.timeline-item {
+            margin: 20px 0;
+        }
+
+        /* Timeline item arrow */
+        .timeline-arrow {
+            border-top: 0.5rem solid transparent;
+            border-right: 0.5rem solid #fff;
+            border-bottom: 0.5rem solid transparent;
+            display: block;
+            position: absolute;
+            left: 2rem;
+        }
+
+        /* Timeline item circle marker */
+        li.timeline-item::before {
+            content: ' ';
+            background: #ddd;
+            display: inline-block;
+            position: absolute;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            left: 11px;
+            width: 14px;
+            height: 14px;
+            z-index: 400;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 {% endblock %}
+ {% block footer %}
+
+ {% endblock %}
 
     {% block javascripts %}
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"
-                integrity="sha512-XOpdFagEEv9XMxN/2EdvFL/PfGtFDjX+AkRznsFHDtdC05YWdkMnz5JZUfrbnEabOQaMc7YNTl2xPbOu3J858Q==" crossorigin="anonymous"
-                referrerpolicy="no-referrer"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css"
-              integrity="sha512-q54FvbV+gGBn+NvgaD4gpJ7w4wrO00DgW7Rx503PIhrf0CuMwLOwbS+bXgOBFSob+6GVy1HDPfaRLJ8w2jiS4g==" crossorigin="anonymous"
-              referrerpolicy="no-referrer"/>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/jquery.easings.min.js"
-                integrity="sha512-rXZZDfRSa6rsBuT78nRTbh1ccwpXhTCspKUDqox3hUQNYdjB6KB6mSj6mXcB9/5F5wODAJnkztXPxzkTalp11w==" crossorigin="anonymous"
-                referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js"
-                integrity="sha512-FzESM/E7XJBqcJyrXa08gRcpp5rDHO661C0L3vH4NsZfUWUsjN4+t6Lg8h+e8TMR2aYijIrcT+CPGq7tSugRzA==" crossorigin="anonymous"
-                referrerpolicy="no-referrer"></script>
+        {# TODO: make these resources local #}
+
+
+
         <script type="text/javascript">
 
             let europeMap = null;
@@ -143,14 +279,33 @@
                     if (window.innerWidth > 1050) {
                         $('#fullPage').fullpage({
                             //options here
-                            anchors: ['first', 'second', 'third'],
+                            anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'footer'],
                             navigation: true,
                             navigationPosition: 'left',
-                            autoScrolling: true,
-                            scrollHorizontally: true
-                        });
+                            resize: false,
+                            fitToSection: true,
+                            scrollOverflow: true,
+                            css3: true,
+                            scrollingSpeed: 1000,
+                            scrollSectionToBottomFromBottom: false,
+                            bigSectionsDestination: 'bottom',
+                            onLeave: function (origin, destination, direction) {
+                                console.log(destination);
+                                if (destination === 2) {
+                                    initLettersAnimation()
+                                }
+                                if (destination === 3) {
+                                    initCountUpAnimation()
+                                }
+                                AOS.init()
+                            },
+                            afterLoad: function () {
+                                $('.fp-table.active .aos-init').addClass('aos-animate');
+                            },
 
-                        //methods
+                        });
+                        //
+                        // //methods
                         $.fn.fullpage.setAllowScrolling(true);
                     } else {
                         $('.secondSection').attr('id', 'second')

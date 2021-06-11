@@ -53,7 +53,7 @@ class CommentNotificationSubscriber implements EventSubscriberInterface
         $post = $comment->getPost();
 
         $linkToPost = $this->urlGenerator->generate('blog_post', [
-            'slug' => $post->getSlug(),
+            'slug' => $post->getUrl(),
             '_fragment' => 'comment_'.$comment->getId(),
         ], UrlGeneratorInterface::ABSOLUTE_URL);
 

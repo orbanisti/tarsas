@@ -1,0 +1,76 @@
+{% extends 'base.html.twig' %}
+{% block title %}Könyvelőket keresünk{% endblock %}
+{% block body %}
+    {{ include('frontend/jobs/embed/backToPositionsButton.html.twig') }}
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Könyvelő</h1>
+                <p class="mt-5">
+
+                    Vállalati pénzügyi irányítási és számviteli területeinken munkád a biztosítéka annak, hogy a ügyfelek rendelkezésére álljon minden olyan
+                    információ, amely az üzleti döntések meghozatalához szükségesek. A számviteli/könyvelői csapatban Te biztosítod azt, hogy a közzétett
+                    pénzügyi kimutatások megfeleljenek a vonatkozó szabályzatoknak és az ügyfelek a lehető legjobb megoldást kapják ezen a területen mind
+                    szakmailag mint támogató (IT) rendszereink révén.</p>
+                <h2 class="text-center mb-5">FEDEZZÜK FEL EGYÜTT A HIVATÁSON TÚLMUTATÓ KIVÁLÓSÁGOT!</h2>
+                <p>
+                    Olyan szolgáltatást értékesítenél, amely mögött valódi érték van? Előszűrt, minőségi hot lead-ekkel dolgoznál, ahol az ügyfél keres téged?
+                    Dolgozz olyan csapatban, amely biztos multi háttértámogatással épít a jövőre és a folyamatos fejlesztésre!
+                <p>
+                    Az Everest egy Sales process excellence céggé nőtte ki magát az elmúlt hónapokban. Cégünk egyre növekszik, csapatunk egyre nehezebben bírja
+                    a negyedévenkénti 20%-os növekedést, ezért erősítést keresünk belvárosi irodánkba, ahol a sales csapatunk, IT szakembereink és a Projekt
+                    Koordinációs team vár Téged.
+                </p>
+                <p>
+                    Az ország minden tájáról származó, tapasztalt munkatársaink a vállalat értékesítési területein belül olyan technológiai áttöréseken
+                    dolgoznak, mint a személyre szabott ügyfélkezelés, értékesítési hatékonyságnövelés digitális eszközökkel, start up IT megoldások vagy az
+                    értékesítési kultúra, mint előnyrendszer. Ily módon folyamatosan új ötletek születnek, amelyek a meglévő termékeket még hatékonyabbá, még
+                    kényelmesebbé, egyszerűbbé és környezetbarátabbá teszik.
+                </p>
+                <p>
+                    Csapatunk átlagéletkora 28 év és ezzel a generációs előnyünkkel élvezzük a mindennapi kihívásokat, mert rugalmasságunk, gyors döntéshozatali
+                    képességünk, ideális és fejlett folyamataink és a tény, hogy minden munkatársunk egyéni újításai és ötletei bevezetésre tudnak kerülni csak
+                    tovább erősíti szervezeti dinamikánkat.
+                </p>
+            </div>
+            <div class="col-md-12">
+                <h2 class="mb-3">Kit keresünk?</h2>
+                <ul class="square">
+                    <li>Aki rendelkezik mérlegképes könyvelői regisztrációval és szakmai felelősségbiztosítással.</li>
+                    <li>Aki könyvelésben gyakorlottnak tartja magát és vannak Ügyfelek, akik ugyanezt gondolják róla.</li>
+                    <li>Aki szívesen kommunikál és jól kijön az emberekkel!</li>
+                    <li>Aki ismeri az RLB-t, vagy hajlandó megtanulni.</li>
+                    <li>Aki szerződéses feltételeinket maximálisan betartja (természetesen ugyanez igaz ránk is).</li>
+                    <li>Aki élvezi a szakmáját, egy nehezebb szakmai helyzetre kihívásként tekint és utanámegy a megoldásnak.</li>
+                </ul>
+                <h2 class="mb-3">Mikor ne jelentkezzen?</h2>
+                <ul class="square">
+                    <li>Ha a saját brandjét szeretné építeni. Ügyfeleink szemében Ön az Everest könyvelője lesz.</li>
+                    <li>Ha rövid távra tervez, vagy csak pár céget tudna vállalni.</li>
+                    <li>Ha teljesen ódzkodik (és nem is szeretné megtanulni) bármilyen informatikai újdonságtól (adat export-import, stb..).</li>
+                    <li>Ha az Ügyfelekkel nem szívesen kommunikál. (Nehezen veszi fel a telefont, lassan reagál az emailekre...)</li>
+                    <li>Ha a szakmai tudásában bizonytalan és úgy érzi, csak az egész pici vállalkozásokkal boldogul.</li>
+                    <li>Ha egy könyvelőirodába szeretne beülni 8-tól 5-ig.</li>
+                </ul>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="w-100 text-center">
+                            <img style="width: 80%" src="{{ asset('build/images/accounting-team.png') }}">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="mb-3">Mit ajánlunk?</h2>
+                        <p>
+                            Velünk együtt dolgozva úgy lehet vállalkozó könyvelő, hogy a vállalkozással járó nehézségeket levesszük a válláról (kevés Ügyfél, mi
+                            van ha elmegy pár nagyobb Ügyfelem, nem merek megszabadulni a problémás Ügyfelektől), cserébe annyit kérünk, hogy közös Ügyfeleink
+                            maximálisan elégedettek legyenek a könyvelési szolgáltatásával, amihez mi minden segítséget megadunk Önnek.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    {{ include('frontend/jobs/embed/joinUsSection.html.twig',{jobTitle:'Könyvelőnek',position:'accountant',type:'karrier',subject:'Könyvelő álláshirdetés'}) }}
+{% endblock %}

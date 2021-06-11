@@ -4,9 +4,9 @@
 namespace App\Controller;
 
 
-use App\Services\RedirectManager;
+use App\Entity\Recruitment;
+use App\Form\RecruitmentType;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -14,11 +14,11 @@ class FrontendController extends AbstractController
 {
 
     /**
-     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true},priority="3")
+     * @Route("/", methods="GET", name="homepage",options={"sitemap" =true},priority="1")
      */
     public function homepage(): Response
     {
-        return $this->render('frontend/homePage.html.twig');
+        return $this->render('frontend/homePage2.html.twig');
     }
 
     /**
@@ -26,7 +26,7 @@ class FrontendController extends AbstractController
      */
     public function home2(): Response
     {
-        return $this->render('frontend/homePage2.html.twig');
+        return $this->render('frontend/homePage.html.twig');
     }
 
     /**
@@ -34,7 +34,10 @@ class FrontendController extends AbstractController
      */
     public function accounting(): Response
     {
-        return $this->render('frontend/accounting.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/accounting.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -61,20 +64,16 @@ class FrontendController extends AbstractController
         return $this->render('frontend/career2.html.twig');
     }
 
-    /**
-     * @Route("/jobs/salesManager", methods="GET", name="job_sales",options={"sitemap" =true})
-     */
-    public function salesManagerJob(): Response
-    {
-        return $this->render('frontend/job.html.twig');
-    }
 
     /**
      * @Route("/contact", methods="GET", name="contact",options={"sitemap" =true})
      */
     public function contact(): Response
     {
-        return $this->render('frontend/contact.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/contact.html.twig', ['form' => $form->createView()]);
     }
 
     /**
@@ -90,7 +89,10 @@ class FrontendController extends AbstractController
      */
     public function itSolutions(): Response
     {
-        return $this->render('frontend/itsolutions.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/itsolutions.html.twig', ['form' => $form->createView()]);
     }
 
     /**

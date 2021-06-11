@@ -4,55 +4,102 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <h1>Légy felfedező!</h1>
+                <h1 class="fadeInTextAnimation">{{ 'Légy felfedező!'|trans }}</h1>
                 <p class="mt-5">
-                    Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni,
-                    akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését!
-                    Mi mindig nagyon örülünk minden újabb CV-nek!
+                    {{ 'Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!'|trans }}
                 </p>
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-5">
-        <div class="row mt-5 m-md-0 m-lg-0 mr-3">
+    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-5 position-relative jobsGalleryContainer">
+        <div class="row mt-5 m-md-0 m-lg-0 ml-lg-n5 ml-md-n5 mr-3 jobsGalleryFirstRow">
             <div class="col-md-3 col jobsGalleryColumn"
-                 style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
-            <div class="col-md-3 col jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
-            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
-            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+                 style='background: url({{ asset('build/images/everest-photo-1.jpg') }}) center;'></div>
+            <div class="col-md-3 col jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo-2.jpg') }}) 15% 15%'></div>
+            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo-10.jpg') }}) 0% 80%'></div>
+            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo-7.png') }}) center'></div>
         </div>
-        <div class="row mt-lg-5 m-md-0 m-lg-0 ml-3">
+        <div class="row mt-lg-5 m-md-0 m-lg-0 ml-3 mr-lg-n5 mr-md-n5 jobsGallerySecondRow">
             <div class="col-md-2 col jobsGalleryColumn"
-                 style='background: url({{ asset('build/images/renewables.png') }}) center;border-right:20px solid white !important;border-left: 0px !important;'></div>
-            <div class="col-md-4 col jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
-            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
-            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/accounting.png') }}) center'></div>
+                 style='background: url({{ asset('build/images/everest-photo-9.png') }}) center;'></div>
+            <div class="col-md-4 col jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo-6.png') }}) center'></div>
+            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo-8.png') }}) 0% 70%'></div>
+            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo2.jpg') }}) top'></div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row p-5">
+    <div class="container mb-5 pb-5">
+        <div class="row ">
             <div class="col-md-12">
-                <h2 class="text-left text-black animate__animated animate__fadeIn text-medium">
+                <h2 class=" ml-4 text-left text-black animate__animated animate__fadeIn text-medium">
                     {{ 'Nyitott állások'|trans }}
                 </h2>
             </div>
-            <div class="col-md-12">
-                <h2 class="text-center pt-5">Jelenleg nincs nyitott állásunk.</h2>
-            </div>
         </div>
-
+        {% if app.request.getLocale()=='hu' %}
+            <div class=" mb-5 flex-row" style="">
+                <div class="col-md-4 p-4" data-aos="fade-right" data-aos-delay="100">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Értékesítő - Account Manager',description:'Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?<br/> Bővülő csapatunkba új account managereket keresünk! ',url:path('job_sales')}) }}
+                </div>
+                <div class="col-md-4 p-4" data-aos="fade-right" data-aos-delay="200">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Junior/Senior Full Stack Developer',description:'Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése frontend és backend oldalon. ',url:path('job_full_stack_developer')}) }}
+                </div>
+                <div class="col-md-4 p-4" data-aos="fade-right" data-aos-delay="300">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Junior/Senior Backend Developer',description:'Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése <br/>kifejezetten backend oldalon.',url:path('job_backend_developer')}) }}
+                </div>
+                <div class="col-md-4 p-4 mt-lg-4" data-aos="fade-right" data-aos-delay="400">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Könyvelő',description:'A számviteli/könyvelői csapatban Te biztosítod azt, hogy a közzétett pénzügyi kimutatások megfeleljenek a vonatkozó szabályzatoknak és az ügyfelek a lehető legjobb megoldást kapják ezen a területen mind szakmailag mint támogató (IT) rendszereink révén.',url:path('job_accountant')}) }}
+                </div>
+                <div class="col-md-4 p-4 mt-lg-4" data-aos="fade-right" data-aos-delay="500">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Projekt koordinátor',description:'Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!',url:path('job_project_coordinator')}) }}
+                </div>
+            </div>
+        {% else %}
+            <div class="row">
+                <div class="col-md-12 text-center pt-5 pb-5">
+                    No open positions currently on your language
+                </div>
+            </div>
+        {% endif %}
     </div>
 
 
     <style>
+        .jobsGalleryFirstRow {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+        }
+
+        .jobsGallerySecondRow {
+            position: absolute;
+            left: 0px;
+            top: 30%;
+            width: 100%;
+        }
 
         .jobsGalleryColumn {
-            border: 10px solid white !important;
-            min-height: 154px;
-            background-size: cover !important;
+            transition: all 2s !important;
+        }
+
+        .jobsGalleryColumn:hover {
+            transform: scale(1.1);
         }
     </style>
 {% endblock %}
-
+{% block javascripts %}
+    <script>
+        $(window).scroll(function () {
+            let galleryFirstRow = $(".jobsGalleryFirstRow")
+            let gallerySecondRow = $(".jobsGallerySecondRow")
+            let topDistance = $(window).scrollTop()
+            // galleryFirstRow.transition({x: +'px'}, 0);
+            galleryFirstRow.animate({left: topDistance / 10}, 0);
+            gallerySecondRow.animate({left: -topDistance / 10}, 0);
+            // gallerySecondRow.transition({x: -topDistance / 10 + 'px'}, 0);
+            // galleryFirstRow.css('transform', 'translate3d(' + topDistance + ',0px, 0px)')
+        });
+    </script>
+{% endblock %}
 

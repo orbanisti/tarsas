@@ -1,68 +1,64 @@
 {% extends 'base.html.twig' %}
 {% block title %}{{ 'Könyvelés'|trans }}{% endblock %}
 {% block body %}
-    <div class="row">
-        <div class="container-fluid jumbotron-bg position-relative"
-             style="background: url('{{ asset('build/images/accounting.png') }}');min-height: 600px;background-position-y:20%">
+    <div class="container-fluid jumbotron-bg position-relative"
+         style="background: url('{{ asset('build/images/accounting.png') }}');min-height: 600px;background-position-y:20%">
+        <div class="row">
             <div class="primary-overlay-div"></div>
             <div class="container mt-5">
                 <div class="row">
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-6 text-right animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big">{{ 'Könyvelés'|trans }}</h1>
-                        <p class="mt-sm-5">Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk
+                        <h1 class="mb-5 text-big fadeInTextAnimation">{{ 'Könyvelés'|trans }}</h1>
+                        <p class="mt-sm-5 fadeInTextAnimation " data-delay="20">
+                            {{ 'Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
                             Everest
-                            Accounting.
+                            Accounting.'|trans }}
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row p-lg-5 p-3  bg-white">
-        <div class="col-md-12">
-            <h1 class="text-xl-center text-dark animate__animated animate__fadeIn text-big text-medium-sm">Profi csapat, átlátható könyvelés</h1>
+    <div class="container-fluid ">
+        <div class="row p-lg-5 p-3  bg-white">
+            <div class="col-md-12">
+                {# <h1 class="text-xl-center text-dark text-big text-medium-sm" data-aos-easing="ease-in-sine" data-aos="fade-up" data-aos-duration="400" #}
+                <h1 class="text-xl-center text-dark text-big text-medium-sm lettersAnimation ">{{ 'Profi csapat, átlátható könyvelés'|trans }}</h1>
+            </div>
         </div>
     </div>
-
-    <div class="container-fluid animate__animated animate__fadeIn bg-primary" style="padding:0;" id="accountingCounters">
+    <div class="container-fluid  bg-primary" style="padding:0;" id="accountingCounters" data-aos="fade-zoom-in"
+         data-aos-easing="ease-in-back"
+         data-aos-offset="0">
         <div class="row no-gutters">
             <div class="col ">
-                {{ include('frontend/embed/counterWidget.html.twig',{number:1,description:'Portál'}) }}
+                {{ include('frontend/embed/counterWidget.html.twig',{number:1,description:'Portál'|trans}) }}
             </div>
             <div class="col ">
-                {{ include('frontend/embed/counterWidget.html.twig',{number:15,description:'Könyvelő'}) }}
+                {{ include('frontend/embed/counterWidget.html.twig',{number:15,description:'Könyvelő '|trans}) }}
             </div>
             <div class="col">
-                {{ include('frontend/embed/counterWidget.html.twig',{number:10,description:'Account manager'}) }}
+                {{ include('frontend/embed/counterWidget.html.twig',{number:10,description:'Account manager '|trans}) }}
             </div>
             <div class="col ">
-                {{ include('frontend/embed/counterWidget.html.twig',{number:15,numberSuffix:' év',description:'Tapasztalat'}) }}
+                {{ include('frontend/embed/counterWidget.html.twig',{number:15,suffix:'év'|trans,description:' tapasztalat'|trans,suffixMargin:true}) }}
             </div>
             <div class="col ">
-                {{ include('frontend/embed/counterWidget.html.twig',{number:200,numberSuffix:'+',description:'Elégedett ügyfél'}) }}
+                {{ include('frontend/embed/counterWidget.html.twig',{number:200,suffix:'+',description:'Elégedett ügyfél'|trans}) }}
             </div>
 
 
         </div>
     </div>
-    <div class="container ">
+    <div class="container" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
         <div class="row mt-5 mb-5">
             <div class="col-md-12">
                 <h3 class="text-dark text-big mt-5 mb-3">2005</h3>
-                <p>Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket
-                    könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.</p>
+                <p>{{ 'Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.'|trans }}</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 text-center p-lg-5 p-0">
-                <h3 style="text-decoration: underline;width: fit-content"
-                    class="text-medium text-normal-sm m-auto text-white p-lg-5 p-4 bg-primary text-left">
-                    Ismerje meg új könyvelőcsapatát</h3>
-            </div>
-        </div>
-
     </div>
 
     <div class="container mt-5 mb-5">
@@ -70,41 +66,32 @@
             <div class="col-md-6">
             </div>
             <div class="col-md-6 mt-5 mb-0">
-                <h1 class="text-big text-dark mb-5">Hogyan dolgozunk?</h1>
+                <h1 class="text-big text-dark mb-5" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">{{ 'Hogyan dolgozunk'|trans }}?</h1>
             </div>
-            <div class="col-md-6 mb-5" id="accountingImageBox">
+            <div class="col-md-6 mb-5" id="accountingImageBox" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                 {# TODO: Set make standalone template for this image style #}
                 {{ include('frontend/embed/imageBox.html.twig',{src:asset('build/images/colleagues-office-1.png')}) }}
             </div>
-            <div class="col-md-6 ">
-                <p class="text-right">Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes
-                    portálunk támogatják
-                    a tudatos vezetői döntéseket.</p>
-                <p class="text-right"> Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész
-                    jogszabályi
-                    ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és a
-                    pénzügyi tervezést.</p>
+            <div class="col-md-6 " data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+                <p class="text-right ">{{ 'Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.'|trans }}</p>
+                <p class="text-right"> {{ 'Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és a pénzügyi tervezést.'|trans }}</p>
             </div>
         </div>
         <div class="row mt-big-2">
             <div class="col-md-12 text-center text-dark">
-                <h2 class="text-medium ">Adatok vállalkozásáról.</h2>
-                <h2 class="text-big mt-3">Azonnal.</h2>
+                <h2 class="text-medium ">{{ 'Adatok vállalkozásáról.'|trans }}</h2>
+                <h2 class="text-big mt-3">{{ 'Azonnal.'|trans }}</h2>
                 <p class="mt-5 text-left">
-                    Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a
-                    bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?
+                    {{ 'Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?'|trans }}
                 </p>
-                <p class="mt-3 text-left"> A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a
-                    követelések és a
-                    kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan
-                    statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.</p>
+                <p class="mt-3 text-left"> {{ 'A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a követelések és a kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.'|trans }}</p>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-12 p-lg-5 p-md-5" style="background: #c4c4c4">
-                <h1 class=" text-big bg-grey text-dark">A Portál</h1>
+                <h1 class=" text-big bg-grey text-dark">{{ 'A Portál'|trans }}</h1>
                 <div class="col-lg-12 img services-img mt-5 portalVideoDesktop d-flex"
                      style="background-image: url({{ asset('/build/images/everest_screen2.png') }});height: 500px">
                     <button href="https://player.vimeo.com/video/269352736?app_id=122963"
@@ -136,10 +123,10 @@
         <div class="row">
             <div class="col-md-12 mt-5">
                 <ul class="square">
-                    <li>Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is</li>
-                    <li>Felelős döntést másodpercek alatt, azonnal elérhető cégadatokból</li>
-                    <li>Döntse el egy pillanat alatt, hogy van-e elég fedezete arra, amit tervez</li>
-                    <li>Férjen hozzá az bérszámfejtés összes adatához: bárhol, és bármikor</li>
+                    <li>{{ 'Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is'|trans }}</li>
+                    <li>{{ 'Felelős döntést másodpercek alatt, azonnal elérhető cégadatokból'|trans }}</li>
+                    <li>{{ 'Döntse el egy pillanat alatt, hogy van-e elég fedezete arra, amit tervez'|trans }}</li>
+                    <li>{{ 'Férjen hozzá az bérszámfejtés összes adatához: bárhol, és bármikor'|trans }}</li>
 
                 </ul>
 
@@ -148,21 +135,21 @@
         <div class="row pt-5 text-center pb-5">
             <div class="col"></div>
             <div class="col">
-                <a href="#contact" class="btn btn-primary">Érdekel</a>
+                <a href="#contact" class="btn btn-primary">{{ 'Érdekel'|trans }}</a>
             </div>
-            <div class="col p-md-4 p-lg-4 p-2">
-                <a href="#" class=" text-underline">Könyvelési kisokos</a>
+            <div class="col">
+                <a href="https://portal.everest.hu" target="_blank" class=" btn btn-primary">{{ 'Portál'|trans }}</a>
             </div>
             <div class="col"></div>
         </div>
         <div class="row mt-5 text-center">
             <div class="col-md-12">
-                <strong class="text-center">Segítünk, hogy mindig naprakész legyen a könyvelésben!</strong>
+                <strong class="text-center">{{ 'Segítünk, hogy mindig naprakész legyen a könyvelésben!'|trans }}</strong>
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 pt-5 bg-primary" id="contact">
-        <div class="container mt-5">
+    <div class="container-fluid mt-5 pt-5 pb-5 bg-primary" id="contact">
+        <div class="container mt-5 mb-5">
             <div class="row ">
                 <div class="col-md-12 ">
                     <h1 class="text-white">{{ 'Segíthetünk?'|trans }}</h1>
@@ -240,12 +227,6 @@
             }
         }
     </style>
-
-    <script>
-        $('.popup-vimeo').click(function (e) {
-            e.preventDefault();
-        })
-    </script>
     <!-- Button trigger modal -->
 
     <!-- Modal -->
@@ -265,7 +246,16 @@
             </div>
         </div>
     </div>
+    {% block javascripts %}
+        <script>
+            $(document).ready(function () {
+                $('.popup-vimeo').click(function (e) {
+                    e.preventDefault();
+                })
+            })
 
+        </script>
+    {% endblock %}
 {% endblock %}
 
 

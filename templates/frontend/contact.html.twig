@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 {% block title %}{{ 'Kapcsolat'|trans }} {% endblock %}
 {% block body %}
-    <div class="container-fluid pt-5 bg-primary">
+    <div class="container-fluid pt-5 bg-primary pb-5">
         <div class="container ">
             <div class="row ">
                 <div class="col-md-12 ">
@@ -10,7 +10,7 @@
                         {{ 'Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!'|trans }}
                     </p>
                     <p class="mt-3 text-white">
-                        {{ 'Ha nem szeretne a formok kitöltésével bajlódni, írjon az info@everest.hu címre vagy hívjon minket a %phone% telefonszámon!'|trans({'%phone%':"<a class='hover-white font-weight-bold' href='tel:+36303201001'>+36 30 320 1001</a>"})|raw }}
+                        {{ 'Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!'|trans({'{phone}':"<a class='hover-white font-weight-bold' href='tel:+36303201001'>+36 30 320 1001</a>",'{email}':"<a class='hover-white font-weight-bold' href='mailto:info@everest.hu'>info@everest.hu</a>"})|raw }}
                     </p>
                 </div>
                 <div class="col-md-12 mt-5 mb-5">
