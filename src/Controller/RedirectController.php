@@ -5,21 +5,31 @@ namespace App\Controller;
 
 
 use App\Services\RedirectManager;
+use Doctrine\ORM\NonUniqueResultException;
+use Doctrine\ORM\NoResultException;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
+/**
+ * Class RedirectController
+ * @Route("/{slug}")
+ *
+ * @package App\Controller
+ */
 class RedirectController extends AbstractController
 {
 
     /**
-     * @Route("/{slug}/", methods={"GET","POST"}, name="redirect_main",priority="1")
-     * @param   string           $slug
      *
+     * @param   string           $slug
      * @param   RedirectManager  $redirectManager
      *
      * @return Response
+     * @throws NoResultException
+     * @throws NonUniqueResultException
+     * @Route("/", methods={"GET","POST"}, name="redirect_main",priority="1")
      */
     public function doRedirect(string $slug, RedirectManager $redirectManager): Response
     {
