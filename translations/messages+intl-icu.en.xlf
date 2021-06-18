@@ -993,6 +993,10 @@
         <source>Vissza a főoldalra</source>
         <target>Back to homepage</target>
       </trans-unit>
+      <trans-unit id="nWMPiMC" resname="Jelenleg nincs nyitott pozíció az Ön nyelvén">
+        <source>Jelenleg nincs nyitott pozíció az Ön nyelvén</source>
+        <target>There are currently no open positions in your language</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
