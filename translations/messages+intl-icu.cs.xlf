@@ -271,7 +271,7 @@
       </trans-unit>
       <trans-unit id="jGvAmVN" resname="Blog">
         <source>Blog</source>
-        <target>__Blog</target>
+        <target>Blog</target>
       </trans-unit>
       <trans-unit id="dkvMn8V" resname="Tovább">
         <source>Tovább</source>
@@ -387,7 +387,7 @@
       </trans-unit>
       <trans-unit id="niP36MQ" resname="Rólunk">
         <source>Rólunk</source>
-        <target>__Rólunk</target>
+        <target>O nás</target>
       </trans-unit>
       <trans-unit id="y6VRuWQ" resname="Budapestről indultunk, később lefedtük Magyarországot, most Európánál tartunk! A történetünk már több mint 15 éves múltra tekint vissza, az akkor még néhány fős csapatunk 2005-ben találkozott első ügyfeleivel és kezdődött el tanácsadói munkánk pénzügyi területen. Az ügyfélélményt szem előtt tartva láttuk, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél. Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló üzletágunk is dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatot külföldön is kamatoztassuk, így léptünk be azóta több európai országba is.">
         <source>Budapestről indultunk, később lefedtük Magyarországot, most Európánál tartunk! A történetünk már több mint 15 éves múltra tekint vissza, az akkor még néhány fős csapatunk 2005-ben találkozott első ügyfeleivel és kezdődött el tanácsadói munkánk pénzügyi területen. Az ügyfélélményt szem előtt tartva láttuk, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél. Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló üzletágunk is dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatot külföldön is kamatoztassuk, így léptünk be azóta több európai országba is.</source>
@@ -415,7 +415,7 @@
       </trans-unit>
       <trans-unit id="Ai7fD9l" resname="Könyvelés">
         <source>Könyvelés</source>
-        <target>__Könyvelés</target>
+        <target>Účetnictví</target>
       </trans-unit>
       <trans-unit id="T6CtVvD" resname="Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:&#10;                            Everest&#10;                            Accounting.">
         <source>Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
@@ -521,11 +521,11 @@
       </trans-unit>
       <trans-unit id="F7Cn1by" resname="Karrier">
         <source>Karrier</source>
-        <target>__Karrier</target>
+        <target>Kariéra</target>
       </trans-unit>
       <trans-unit id="oFHOTv." resname="Légy felfedező!">
         <source>Légy felfedező!</source>
-        <target>__Légy felfedező!</target>
+        <target>Staňte se průzkumníkem!</target>
       </trans-unit>
       <trans-unit id="2.xrG3S" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
         <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
@@ -533,11 +533,11 @@
       </trans-unit>
       <trans-unit id="DS.0Yq4" resname="Nyitott állások">
         <source>Nyitott állások</source>
-        <target>__Nyitott állások</target>
+        <target>Otevřené pozice</target>
       </trans-unit>
       <trans-unit id="Qs7rDZl" resname="Kapcsolat">
         <source>Kapcsolat</source>
-        <target>__Kapcsolat</target>
+        <target>Kontakt</target>
       </trans-unit>
       <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!">
         <source>Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!</source>
@@ -569,19 +569,19 @@
       </trans-unit>
       <trans-unit id="8rR10mE" resname="Mit tehetünk Önért?">
         <source>Mit tehetünk Önért?</source>
-        <target>__Mit tehetünk Önért?</target>
+        <target>Co pro Vás můžeme udělat?</target>
       </trans-unit>
       <trans-unit id="pr3RU7z" resname="Elfogadom az {url} adatvédelmi irányelveket {endurl}">
         <source>Elfogadom az {url} adatvédelmi irányelveket {endurl}</source>
-        <target>__Elfogadom az {url} adatvédelmi irányelveket {endurl}</target>
+        <target>Přijímám {url} zásady ochrany osobních údajů {endurl}</target>
       </trans-unit>
       <trans-unit id="xvt2XRR" resname="Beküldés">
         <source>Beküldés</source>
-        <target>__Beküldés</target>
+        <target>Poslat</target>
       </trans-unit>
       <trans-unit id="6ajvXvX" resname="Iroda">
         <source>Iroda</source>
-        <target>__Iroda</target>
+        <target>Kancelář</target>
       </trans-unit>
       <trans-unit id="qoH4YMA" resname="1051 Budapest, Arany János u. 9">
         <source>1051 Budapest, Arany János u. 9</source>
@@ -593,15 +593,15 @@
       </trans-unit>
       <trans-unit id="bqwxtmv" resname="Megújuló energia">
         <source>Megújuló energia</source>
-        <target>__Megújuló energia</target>
+        <target>Obnovitelná energie</target>
       </trans-unit>
       <trans-unit id="K_DrVtU" resname="IT Megoldások">
         <source>IT Megoldások</source>
-        <target>__IT Megoldások</target>
+        <target>IT Řešení</target>
       </trans-unit>
       <trans-unit id="fWzXUFS" resname="Adatkezelési szabályzat">
         <source>Adatkezelési szabályzat</source>
-        <target>__Adatkezelési szabályzat</target>
+        <target>Zásady správy údajů</target>
       </trans-unit>
       <trans-unit id="AiT6e7d" resname="Főoldal">
         <source>Főoldal</source>
@@ -709,11 +709,11 @@
       </trans-unit>
       <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
         <source>Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
-        <target>__Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</target>
+        <target>Napište nám a naši kolegové vás do 24 hodin kontaktují, aby vám zodpověděli všechny vaše otázky!</target>
       </trans-unit>
       <trans-unit id="yM4kVuz" resname="Vissza a nyitott pozíciókra">
         <source>Vissza a nyitott pozíciókra</source>
-        <target>__Vissza a nyitott pozíciókra</target>
+        <target>Zpět na otevřené pozice</target>
       </trans-unit>
       <trans-unit id="gqoftJL" resname="Irodánk">
         <source>Irodánk</source>
@@ -725,11 +725,11 @@
       </trans-unit>
       <trans-unit id="1iK2rYR" resname="Ügyfél elköteleződést ajánlunk">
         <source>Ügyfél elköteleződést ajánlunk</source>
-        <target>__Ügyfél elköteleződést ajánlunk</target>
+        <target>Nabízíme závazek zákazníka</target>
       </trans-unit>
       <trans-unit id="I7zK0te" resname="nem csak sales konzultációt">
         <source>nem csak sales konzultációt</source>
-        <target>__nem csak sales konzultációt</target>
+        <target>nejen prodejní konzultace</target>
       </trans-unit>
       <trans-unit id="4LLv5sf" resname="A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
         <source>A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
@@ -737,7 +737,7 @@
       </trans-unit>
       <trans-unit id="o5K46Nq" resname="Munkamódszerünk">
         <source>Munkamódszerünk</source>
-			<target>Náš způsob práce</target>
+        <target>Náš způsob práce</target>
       </trans-unit>
       <trans-unit id="6bLgZgG" resname="A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.">
         <source>A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.</source>
@@ -864,6 +864,10 @@
       <trans-unit id="CX_oSFd" resname="action.change_password">
         <source>action.change_password</source>
         <target>__action.change_password</target>
+      </trans-unit>
+      <trans-unit id="nWMPiMC" resname="Jelenleg nincs nyitott pozíció az Ön nyelvén">
+        <source>Jelenleg nincs nyitott pozíció az Ön nyelvén</source>
+        <target>Ve vašem jazyce nejsou momentálně žádné volné pozice</target>
       </trans-unit>
     </body>
   </file>
