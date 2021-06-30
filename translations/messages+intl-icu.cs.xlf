@@ -585,11 +585,11 @@
       </trans-unit>
       <trans-unit id="qoH4YMA" resname="1051 Budapest, Arany János u. 9">
         <source>1051 Budapest, Arany János u. 9</source>
-        <target>__1051 Budapest, Arany János u. 9</target>
+        <target>1051 Budapest, Arany János u. 9</target>
       </trans-unit>
       <trans-unit id="CRDkaiQ" resname="Oldalak">
         <source>Oldalak</source>
-        <target>__Oldalak</target>
+        <target>Stránky</target>
       </trans-unit>
       <trans-unit id="bqwxtmv" resname="Megújuló energia">
         <source>Megújuló energia</source>
