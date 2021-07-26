@@ -739,16 +739,16 @@
         <source>Munkamódszerünk</source>
         <target>Náš způsob práce</target>
       </trans-unit>
-      <trans-unit id="6bLgZgG" resname="A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.">
-        <source>A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.</source>
+      <trans-unit id="6bLgZgG" resname="Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán..">
+        <source>Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán..</source>
         <target>Kromě téměř dokonalého osobního poradenství posilujeme náš závazek vůči našim partnerům s našimi klienty.</target>
       </trans-unit>
       <trans-unit id="fdg59Kx" resname="Az ügyféligényekhez igazodunk">
         <source>Az ügyféligényekhez igazodunk</source>
         <target>Přizpůsobujeme se potřebám zákazníků</target>
       </trans-unit>
-      <trans-unit id="8xSB5yk" resname="Munkatársaink ügyfeleinknél tanácsadóként segítik a megfelelő, évtizedekig kiszolgáló megoldásokat kiválasztani. Felkészültségünk, szaktudásunk és ügyfél-elégedettségünk biztosítja minden partnerünk számára a biztos sikert, amelyet a napelemes piacon eltöltött kiemelkedően eredményes évek munkája igazol.">
-        <source>Munkatársaink ügyfeleinknél tanácsadóként segítik a megfelelő, évtizedekig kiszolgáló megoldásokat kiválasztani. Felkészültségünk, szaktudásunk és ügyfél-elégedettségünk biztosítja minden partnerünk számára a biztos sikert, amelyet a napelemes piacon eltöltött kiemelkedően eredményes évek munkája igazol.</source>
+      <trans-unit id="8xSB5yk" resname="Partnereink potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják leendő partnereink számára az eredményes együttműködést.">
+        <source>Partnereink potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják leendő partnereink számára az eredményes együttműködést.</source>
         <target>Naši zaměstnanci jako konzultanti pomáhají našim klientům vybrat správná řešení, která slouží po celá desetiletí. Naše připravenost, odbornost a spokojenost zákazníků zajišťují jistý úspěch všech našich partnerů, o čemž svědčí práce z našich mimořádně úspěšných let na solárním trhu.</target>
       </trans-unit>
       <trans-unit id="5KaSP0X" resname="Értékesített napelem">
@@ -775,8 +775,8 @@
         <source>Everest ügyfél- és projektmenedzsment</source>
         <target>Řízení zákazníků a projektů na Everestu</target>
       </trans-unit>
-      <trans-unit id="XwUIJcL" resname="Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?">
-        <source>Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?</source>
+      <trans-unit id="XwUIJcL" resname="Ügyféligénytől a jótállásig">
+        <source>Ügyféligénytől a jótállásig</source>
         <target>Od úroku po záruku – jak celý proces vypadá?</target>
       </trans-unit>
       <trans-unit id="_7ixTtx" resname="Érdeklődők gyűjtése/leadgenerálás">

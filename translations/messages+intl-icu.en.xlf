@@ -629,8 +629,8 @@
         <source>Az ügyféligényekhez igazodunk</source>
         <target>We adapt to the customer's needs</target>
       </trans-unit>
-      <trans-unit id="8xSB5yk" resname="Munkatársaink ügyfeleinknél tanácsadóként segítik a megfelelő, évtizedekig kiszolgáló megoldásokat kiválasztani. Felkészültségünk, szaktudásunk és ügyfél-elégedettségünk biztosítja minden partnerünk számára a biztos sikert, amelyet a napelemes piacon eltöltött kiemelkedően eredményes évek munkája igazol.">
-        <source>Munkatársaink ügyfeleinknél tanácsadóként segítik a megfelelő, évtizedekig kiszolgáló megoldásokat kiválasztani. Felkészültségünk, szaktudásunk és ügyfél-elégedettségünk biztosítja minden partnerünk számára a biztos sikert, amelyet a napelemes piacon eltöltött kiemelkedően eredményes évek munkája igazol.</source>
+      <trans-unit id="8xSB5yk" resname="Partnereink potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják leendő partnereink számára az eredményes együttműködést.">
+        <source>Partnereink potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják leendő partnereink számára az eredményes együttműködést.</source>
         <target>Our consultants will assist you in selecting the best products that will last for decades. All of our partners' success is assured by our preparation, competence, and customer care. Our years of success in the solar market attest to this. </target>
       </trans-unit>
       <trans-unit id="5KaSP0X" resname="Értékesített napelem">
@@ -645,8 +645,8 @@
         <source>A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
         <target>These days, environmental protection and sustainability are extremely important aspects of our lives. Everest Renewables is on a mission to help solve this problem while also ensuring a sustainable future.</target>
       </trans-unit>
-      <trans-unit id="6bLgZgG" resname="A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.">
-        <source>A közel tökéletesre csiszolt személyes tanácsadáson felül erősítjük partnereink iránti elkötelezettséget ügyfeleinknél.</source>
+      <trans-unit id="6bLgZgG" resname="Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán..">
+        <source>Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán..</source>
         <target>When it comes to customers, we use our near-perfect personal consulting skills to build brand loyalty among our partners.</target>
       </trans-unit>
       <trans-unit id="vrrTmrM" resname="Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform">
@@ -661,8 +661,8 @@
         <source>Everest ügyfél- és projektmenedzsment</source>
         <target>Client and project management by Everest</target>
       </trans-unit>
-      <trans-unit id="XwUIJcL" resname="Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?">
-        <source>Érdeklődéstől a garanciáig - hogyan néz ki a teljes folyamat?</source>
+      <trans-unit id="XwUIJcL" resname="Ügyféligénytől a jótállásig">
+        <source>Ügyféligénytől a jótállásig</source>
         <target>From interest to guarantee - what does the whole process look like?</target>
       </trans-unit>
       <trans-unit id="_7ixTtx" resname="Érdeklődők gyűjtése/leadgenerálás">
