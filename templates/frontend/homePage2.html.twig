@@ -1,5 +1,5 @@
 {% extends 'base.html.twig' %}
-
+{% block title %} {{ 'Főoldal'|trans }}{% endblock %}
 {% block body %}
 
     <div class="flex-container">
@@ -7,18 +7,17 @@
             <a href="{{ path('accounting') }}" style="text-decoration: none !important;">
                 <div class="flex-title flex-title-home">{{ 'Könyvelés'|trans }}</div>
             </a>
-
             {# <div class="flex-about flex-about-home"><p>Click here to navigate to the home section of the website</p></div> #}
         </div>
 
         <div class="flex-slide renewables" onclick="redirectToPath('{{ path('renewables') }}')">
             <a href="{{ path('renewables') }}" style="text-decoration: none !important;">
-                <div class="flex-title">{{ 'Megújuló energia'|trans }}</div>
+                <div class="flex-title">{{ 'Renewables'|trans }}</div>
             </a>
         </div>
         <div class="flex-slide itsolutions" onclick="redirectToPath('{{ path('it-solutions') }}')">
             <a href="{{ path('it-solutions') }}" style="text-decoration: none !important;">
-                <div class="flex-title">{{ 'IT Megoldások'|trans }}</div>
+                <div class="flex-title">{{ 'IT Solutions'|trans }}</div>
             </a>
         </div>
     </div>
