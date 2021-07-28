@@ -32,7 +32,7 @@ class FrontendController extends AbstractController
      */
     public function home2(): Response
     {
-        return $this->render('frontend/homePage.html.twig');
+        return $this->render('frontend/homePage4.html.twig');
     }
 
     /**

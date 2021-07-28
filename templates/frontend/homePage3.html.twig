@@ -1,0 +1,80 @@
+{% extends 'base.html.twig' %}
+{% block title %} {{ 'Főoldal'|trans }}{% endblock %}
+{% block body %}
+
+    <ul class="homeList">
+        <a href="{{ path('accounting') }}" class="active homeList accounting">
+            <div class="section-title">
+                <h2>{{ 'Könyvelés'|trans }}</h2>
+            </div>
+            <div class="section-content">
+
+            </div>
+        </a>
+        <a href="{{ path('renewables') }}" class=" homeList renewables">
+            <div class="section-title">
+                <h2>Renewables</h2>
+            </div>
+            <div class="section-content">
+
+            </div>
+        </a>
+        <a href="{{ path('it-solutions') }}" class="homeList itsolutions">
+            <div class="section-title">
+                <h2>{{ 'IT Solutions'|trans }}</h2>
+            </div>
+            <div class="section-content">
+
+            </div>
+        </a>
+    </ul>
+    <style>
+        .homeList h2 {
+            font-size: 2.5em !important;
+        }
+
+        .accounting.active {
+            background: url({{asset('build/images/everest_background.jpg')}}) !important;
+            background-size: cover !important;
+        }
+
+        .accounting {
+            background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{asset('build/images/everest_background.jpg')}});
+            background-size: cover !important;
+        }
+
+        .renewables.active {
+            background: url({{asset('build/images/everest_background_sales.jpg')}}) !important;
+            background-size: cover !important;
+        }
+
+        .renewables {
+            background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{asset('build/images/everest_background_sales.jpg')}});
+            background-size: cover !important;
+        }
+
+        .itsolutions.active {
+            background: url({{asset('build/images/it-solutions.png')}}) !important;
+            background-size: cover !important;
+        }
+
+        .itsolutions {
+            background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{asset('build/images/it-solutions.png')}});
+            background-size: cover !important;
+        }
+    </style>
+{% endblock %}
+
+{% block javascripts %}
+    <script>
+        var section = $('a.homeList');
+
+        function toggleAccordion() {
+            section.removeClass('active');
+            $(this).addClass('active');
+        }
+
+        section.on('mouseenter', toggleAccordion);
+    </script>
+{% endblock %}
+
