@@ -9,14 +9,6 @@
           <source>Accounting</source>
           <target>Könyvelés</target>
         </trans-unit>
-        <trans-unit id="vgXV9Vp" resname="Renewables">
-          <source>Renewables</source>
-          <target>Megújuló energia</target>
-        </trans-unit>
-        <trans-unit id="Iq2bjw2" resname="IT Solutions">
-          <source>IT Solutions</source>
-          <target>IT Megoldások</target>
-        </trans-unit>
         <trans-unit id="Lxeg_NU" resname="Jobs">
           <source>Jobs</source>
           <target>Karrier</target>
