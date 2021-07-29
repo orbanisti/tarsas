@@ -22,7 +22,7 @@ a.homeList {
   align-items: stretch;
   padding: 20px;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: flex .5s ease !important;
 
   &.active {
     flex: 5;
@@ -33,7 +33,7 @@ a.homeList {
       color: $primary;
       background: white;
       padding: 5px;
-      transition: all 0.5s ease;
+      transition: all 0.5s ease !important;
     }
 
     .section-content {
@@ -69,6 +69,18 @@ a.homeList {
     padding: 0;
     opacity: 0;
     transition: all .25s .1s ease-out;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title > h2 {
+    font-size: 1em;
+  }
+  .active.section-title h2 {
+    font-size: 1.5em !important;
+  }
+  .homeList {
+    display: grid !important;
   }
 }
 
