@@ -451,8 +451,8 @@
         <source>Elégedett ügyfél</source>
         <target>Spokojených zákazníků</target>
       </trans-unit>
-      <trans-unit id="q2WtjKy" resname="Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.">
-        <source>Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.</source>
+      <trans-unit id="q2WtjKy" resname="Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.">
+        <source>Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.</source>
         <target>V letošním roce jsme se setkali s našimi prvními klienty, následovanými dodnes stovkami spokojených partnerů: pomohli jsme jejich finančním aktivitám s účetnictvím a poradenstvím, jak ještě efektivněji využívat jejich zdroje.</target>
       </trans-unit>
       <trans-unit id="kRxzIwa" resname="Hogyan dolgozunk">
@@ -463,8 +463,8 @@
         <source>Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.</source>
         <target>Mohli bychom popsat v jedné větě, jak pracujeme: kromě našeho týmu účetních podporují vědomá rozhodnutí vedení i naši account manažery a webový portál.</target>
       </trans-unit>
-      <trans-unit id="oII9L59" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és a pénzügyi tervezést.">
-        <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és a pénzügyi tervezést.</source>
+      <trans-unit id="oII9L59" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.">
+        <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.</source>
         <target>Naše služba však nabízí mnohem víc než to: kromě vedení vyškoleného finančního poradce budete mít přesný a precizní účetní tým s aktuálními právními znalostmi a portál, který usnadní řízení společnosti a finanční plánování.</target>
       </trans-unit>
       <trans-unit id="G0ojgHU" resname="Adatok vállalkozásáról.">
@@ -515,8 +515,8 @@
         <source>Segíthetünk?</source>
         <target>Můžeme pomoci? </target>
       </trans-unit>
-      <trans-unit id="0XJLou5" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!">
-        <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!</source>
+      <trans-unit id="0XJLou5" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
+        <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!</source>
         <target>Kontaktujte nás a váš správce účtu vás bude kontaktovat do 24 hodin, aby vám zodpověděl všechny vaše otázky! Našim zákazníkům jsme k dispozici také v angličtině, němčině a španělštině!</target>
       </trans-unit>
       <trans-unit id="F7Cn1by" resname="Karrier">
@@ -527,8 +527,8 @@
         <source>Légy felfedező!</source>
         <target>Staňte se průzkumníkem!</target>
       </trans-unit>
-      <trans-unit id="2.xrG3S" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
-        <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
+      <trans-unit id="2.xrG3S" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
+        <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
         <target>Everest se neustále vyvíjí, takže v různých oborech podnikání jsou vždy otevřené pozice. Naším cílem je expandovat se zaměstnanci, kteří mají na mysli zájmy našich zákazníků a týmu. V případě zájmu nás kontaktujte! Jsme vždy rádi, když obdržíme nový životopis.</target>
       </trans-unit>
       <trans-unit id="DS.0Yq4" resname="Nyitott állások">
@@ -539,8 +539,8 @@
         <source>Kapcsolat</source>
         <target>Kontakt</target>
       </trans-unit>
-      <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!">
-        <source>Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!</source>
+      <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!">
+        <source>Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!</source>
         <target>Nejjednodušší způsob, jak od nás požádat o nabídku, je vyplnit náš formulář, ale také čekáme na váš dotaz týkající se obnovitelných zdrojů a IT!</target>
       </trans-unit>
       <trans-unit id="6eENghF" resname="Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!">
@@ -591,12 +591,12 @@
         <source>Oldalak</source>
         <target>Stránky</target>
       </trans-unit>
-      <trans-unit id="bqwxtmv" resname="Megújuló energia">
-        <source>Megújuló energia</source>
+      <trans-unit id="bqwxtmv" resname="Renewables">
+        <source>Renewables</source>
         <target>Obnovitelná energie</target>
       </trans-unit>
-      <trans-unit id="K_DrVtU" resname="IT Megoldások">
-        <source>IT Megoldások</source>
+      <trans-unit id="K_DrVtU" resname="IT Solutions">
+        <source>IT Solutions</source>
         <target>IT Řešení</target>
       </trans-unit>
       <trans-unit id="fWzXUFS" resname="Adatkezelési szabályzat">
@@ -605,7 +605,7 @@
       </trans-unit>
       <trans-unit id="AiT6e7d" resname="Főoldal">
         <source>Főoldal</source>
-        <target>__Főoldal</target>
+        <target>Home</target>
       </trans-unit>
       <trans-unit id="OT9s60r" resname="Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.">
         <source>Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.</source>
@@ -627,12 +627,12 @@
         <source>Megtörténik az első lépés, létrejön az Everest.hu</source>
         <target>Probíhá první krok, je vytvořen Everest.hu</target>
       </trans-unit>
-      <trans-unit id="ycL7AtG" resname="Átadjuk ügyfeleinknek az Accounting Portált">
-        <source>Átadjuk ügyfeleinknek az Accounting Portált</source>
+      <trans-unit id="ycL7AtG" resname="Átadjuk Ügyfeleinknek az Accounting Portált">
+        <source>Átadjuk Ügyfeleinknek az Accounting Portált</source>
         <target>Předáváme Účetní portál našim klientům</target>
       </trans-unit>
-      <trans-unit id="1V1ib1X" resname="Elindulnak fejlesztéseink ügyfeleink számára">
-        <source>Elindulnak fejlesztéseink ügyfeleink számára</source>
+      <trans-unit id="1V1ib1X" resname="Elindulnak fejlesztéseink Ügyfeleink számára">
+        <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
         <target>Náš vývoj pro naše zákazníky začne</target>
       </trans-unit>
       <trans-unit id="JAH0qwL" resname="Saját ERP rendszert hozunk létre">
@@ -763,8 +763,8 @@
         <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
         <target>Ekologické povědomí na nejvyšší úrovni – komplexní reforma budovy šetrná k životnímu prostředí</target>
       </trans-unit>
-      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.">
-        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.</source>
+      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.">
+        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.</source>
         <target>Konáme pro své životní prostředí. Společnost Everest Renewables pracuje na organizaci pravidelných školení, aby zajistila, že všichni naši zaměstnanci vstupují k našim zákazníkům s maximální připraveností. Při renovaci budovy je třeba vzít v úvahu mnoho faktorů, takže je opravdu důležité, jaký solární systém, klimatizace, tepelné čerpadlo nebo dokonce nabíječka do auta se dostane do domácnosti. Technický obsah produktů, které prodáváme, se neustále mění – stejně jako potřeby zákazníků. Z tohoto důvodu pořádáme kromě pravidelných technických školení vysoce kvalitní školení prodeje, aby znalosti celého našeho týmu byly neustále aktuální a s důvěrou prodáváme jakýkoli produkt nebo službu související s napájením.</target>
       </trans-unit>
       <trans-unit id="N9MiMAy" resname="Magyarországról indultunk, ma viszont már több országban jelen vagyunk!">

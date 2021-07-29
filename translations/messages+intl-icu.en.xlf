@@ -435,23 +435,23 @@
       </trans-unit>
       <trans-unit id="q0j89wb" resname="Accounting">
         <source>Accounting</source>
-        <target>__Accounting</target>
+        <target>Accounting</target>
       </trans-unit>
       <trans-unit id="vgXV9Vp" resname="Renewables">
         <source>Renewables</source>
-        <target>__Renewables</target>
+        <target>Renewables</target>
       </trans-unit>
       <trans-unit id="Iq2bjw2" resname="IT Solutions">
         <source>IT Solutions</source>
-        <target>__IT Solutions</target>
+        <target>IT Solutions</target>
       </trans-unit>
       <trans-unit id="Lxeg_NU" resname="Jobs">
         <source>Jobs</source>
-        <target>__Jobs</target>
+        <target>Jobs</target>
       </trans-unit>
       <trans-unit id="Tvyg0Qx" resname="About">
         <source>About</source>
-        <target>__About</target>
+        <target>About</target>
       </trans-unit>
       <trans-unit id="K1w9JnI" resname="Contact">
         <source>Contact</source>
@@ -557,16 +557,16 @@
         <source>senior backend fejlesztő</source>
         <target>__senior backend fejlesztő</target>
       </trans-unit>
-      <trans-unit id="0XJLou5" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!">
-        <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk ügyfeleink rendelkezésére!</source>
+      <trans-unit id="0XJLou5" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
+        <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!</source>
         <target>Write to us and your Account Manager will be in touch within 24 hours. Every of your questions will be answered, even in English, German and Spanish, too!</target>
       </trans-unit>
       <trans-unit id="DS.0Yq4" resname="Nyitott állások">
         <source>Nyitott állások</source>
         <target>Open positions</target>
       </trans-unit>
-      <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!">
-        <source>Űrlapunkon kérhet legegyszerűbben ajánlatot könyvelésre tőlünk, de várjuk megkeresését Megújuló és IT kérdésben is!</source>
+      <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!">
+        <source>Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!</source>
         <target>Fill out this form - this is the easiest way for asking for an Accounting quotation but we are happy to see your question about Renewables or IT Solutions.</target>
       </trans-unit>
       <trans-unit id="D1.tF5H" resname="CV">
@@ -653,8 +653,8 @@
         <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
         <target>Maximum environmentally friendly - absolute and comprehensive building reform</target>
       </trans-unit>
-      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.">
-        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.</source>
+      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.">
+        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.</source>
         <target>We are doing it for our environment. Everest Renewables provides professional development for our employees so that they can deliver the best service possible on site. When it comes to upgrading your home, one must consider a number of factors. It is critical to consider the type of solar system, air conditioner, heat pump, or electric car charger that will be implemented in your home. Because the technical substance of our products is constantly evolving, we provide extensive sales training to keep employees up to date, regardless of what type of power-related products or services.</target>
       </trans-unit>
       <trans-unit id="Sl_5ad8" resname="Everest ügyfél- és projektmenedzsment">
@@ -765,16 +765,16 @@
         <source>Elégedett ügyfél</source>
         <target>Satisfied customer</target>
       </trans-unit>
-      <trans-unit id="q2WtjKy" resname="Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.">
-        <source>Ebben az évben találkoztunk első ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük pénzügyi tevékenységüket könyveléssel és tanácsadással, miként használhatják ki erőforrásaikat még hatékonyabban.</source>
+      <trans-unit id="q2WtjKy" resname="Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.">
+        <source>Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.</source>
         <target>The first time we met with our clients was in 2005. Hundreds more have followed them ever since: we have helped them with their finances through accounting and consulting, as well as advising them on how to better utilize their resources.</target>
       </trans-unit>
       <trans-unit id="RIKiGAa" resname="Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.">
         <source>Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.</source>
         <target>We can summarize this in one sentence: our professional accountants, account managers, and our online surface can support conscious management decisions, however, our services are more than that; one prepared financial advisor can help you with the daily process.</target>
       </trans-unit>
-      <trans-unit id="oII9L59" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és a pénzügyi tervezést.">
-        <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és a pénzügyi tervezést.</source>
+      <trans-unit id="oII9L59" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.">
+        <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.</source>
         <target>A precise accounting staff will work with you to keep track of what you can see on our unique online platform. This will assist you in managing your company and finances.</target>
       </trans-unit>
       <trans-unit id="G0ojgHU" resname="Adatok vállalkozásáról.">
@@ -861,12 +861,12 @@
         <source>Megtörténik az első lépés, létrejön az Everest.hu</source>
         <target>First step, Everest.hu is developed</target>
       </trans-unit>
-      <trans-unit id="ycL7AtG" resname="Átadjuk ügyfeleinknek az Accounting Portált">
-        <source>Átadjuk ügyfeleinknek az Accounting Portált</source>
+      <trans-unit id="ycL7AtG" resname="Átadjuk Ügyfeleinknek az Accounting Portált">
+        <source>Átadjuk Ügyfeleinknek az Accounting Portált</source>
         <target>Portal handover to our clients</target>
       </trans-unit>
-      <trans-unit id="1V1ib1X" resname="Elindulnak fejlesztéseink ügyfeleink számára">
-        <source>Elindulnak fejlesztéseink ügyfeleink számára</source>
+      <trans-unit id="1V1ib1X" resname="Elindulnak fejlesztéseink Ügyfeleink számára">
+        <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
         <target>We are starting to develop to our customers</target>
       </trans-unit>
       <trans-unit id="JAH0qwL" resname="Saját ERP rendszert hozunk létre">
@@ -945,8 +945,8 @@
         <source>Légy felfedező!</source>
         <target>Become an explorer!</target>
       </trans-unit>
-      <trans-unit id="2.xrG3S" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
-        <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
+      <trans-unit id="2.xrG3S" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
+        <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
         <target>Everest is constantly growing. There are constantly available positions in our divisions. Our goal is to increase the number of associates who are focused on our clients and Everest's objectives. If you are interested, we are waiting for your application. We are always happy to see a new CV in our mailbox.</target>
       </trans-unit>
       <trans-unit id="y6VRuWQ" resname="Budapestről indultunk, később lefedtük Magyarországot, most Európánál tartunk! A történetünk már több mint 15 éves múltra tekint vissza, az akkor még néhány fős csapatunk 2005-ben találkozott első ügyfeleivel és kezdődött el tanácsadói munkánk pénzügyi területen. Az ügyfélélményt szem előtt tartva láttuk, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél. Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló üzletágunk is dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatot külföldön is kamatoztassuk, így léptünk be azóta több európai országba is.">

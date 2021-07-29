@@ -9,21 +9,21 @@
     <div class="col-md-6 text-center">
         {{ form_row(form.phone,{'attr':{'class':'form-control mb-5','placeholder': 'Telefon'|trans},label:false }) }}
         {{ form_row(form.cv,{'attr':{'disabled':'disabled','class':'form-control mb-5 d-none','placeholder': 'CV'|trans,accept:'.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,image/*,application/pdf,application/x-pdf'},label:false }) }}
-        <input name="subject" class="form-control mb-5" type="text" value="" placeholder="{{ 'Tárgy'|trans }}">
+        <input name="subject" class="form-control mb-5" type="text" value="{{ subject??null }}" placeholder="{{ 'Tárgy'|trans }}">
     </div>
     {% if subject is defined %}
 
     {% endif %}
     <input name="type" type="hidden" value="contact">
     <div class="col-md-12">
-        {{ form_row(form.message,{'attr':{'rows':8,'class':'form-control','placeholder': 'Mit tehetünk Önért?'|trans},label:false }) }}
+        {{ form_row(form.message,{'attr':{'rows':8,'class':'form-control','placeholder': 'Mit tehetünk Önért?'|trans},'value':message??null,label:false }) }}
     </div>
 
     <div class="col-md-8 mt-5">
         <div class="pretty p-default">
-            <input type="checkbox" checked name="acceptPrivacy" required style="z-index: -1 !important;">
+            <input type="checkbox" checked name="acceptPrivacy" required style="z-index: 10 !important;">
             <div class="state  p-primary">
-                <label class="ml-3"> {{ 'Elfogadom az {url} adatvédelmi irányelveket {endurl}'|trans({'{url}':'<a class="text-black text-underline" href=" '~path('privacy')~' ">','{endurl}':'</a>'})|raw }}</label>
+                <label class="ml-3"> {{ 'Elfogadom az {url} adatvédelmi irányelveket {endurl}'|trans({'{url}':'<a style="font-size:1rem" class="text-black text-underline" href=" '~path('privacy')~' ">','{endurl}':'</a>'})|raw }}</label>
             </div>
         </div>
     </div>
