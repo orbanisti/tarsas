@@ -531,8 +531,8 @@
         <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
         <target>Everest se neustále vyvíjí, takže v různých oborech podnikání jsou vždy otevřené pozice. Naším cílem je expandovat se zaměstnanci, kteří mají na mysli zájmy našich zákazníků a týmu. V případě zájmu nás kontaktujte! Jsme vždy rádi, když obdržíme nový životopis.</target>
       </trans-unit>
-      <trans-unit id="DS.0Yq4" resname="Nyitott állások">
-        <source>Nyitott állások</source>
+      <trans-unit id="DS.0Yq4" resname="Nyitott pozícióink">
+        <source>Nyitott pozícióink</source>
         <target>Otevřené pozice</target>
       </trans-unit>
       <trans-unit id="Qs7rDZl" resname="Kapcsolat">
@@ -731,8 +731,8 @@
         <source>nem csak sales konzultációt</source>
         <target>nejen prodejní konzultace</target>
       </trans-unit>
-      <trans-unit id="4LLv5sf" resname="A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
-        <source>A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
+      <trans-unit id="4LLv5sf" resname="A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
+        <source>A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
         <target>Otázka ochrany životního prostředí a udržitelnosti se stala nejnaléhavějším problémem našeho každodenního života. Společnost Everest Renewables se zavázala podílet se na řešení a poskytovat životaschopnou budoucnost.</target>
       </trans-unit>
       <trans-unit id="o5K46Nq" resname="Munkamódszerünk">
@@ -747,12 +747,12 @@
         <source>Az ügyféligényekhez igazodunk</source>
         <target>Přizpůsobujeme se potřebám zákazníků</target>
       </trans-unit>
-      <trans-unit id="8xSB5yk" resname="Partnereink potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják leendő partnereink számára az eredményes együttműködést.">
-        <source>Partnereink potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják leendő partnereink számára az eredményes együttműködést.</source>
+      <trans-unit id="8xSB5yk" resname="Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.">
+        <source>Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.</source>
         <target>Naši zaměstnanci jako konzultanti pomáhají našim klientům vybrat správná řešení, která slouží po celá desetiletí. Naše připravenost, odbornost a spokojenost zákazníků zajišťují jistý úspěch všech našich partnerů, o čemž svědčí práce z našich mimořádně úspěšných let na solárním trhu.</target>
       </trans-unit>
-      <trans-unit id="5KaSP0X" resname="Értékesített napelem">
-        <source>Értékesített napelem</source>
+      <trans-unit id="5KaSP0X" resname="Értékesített napelemes rendszer">
+        <source>Értékesített napelemes rendszer</source>
         <target>Prodaných solárních panelů</target>
       </trans-unit>
       <trans-unit id="fFZz7Ae" resname="Szerződéskötési arány">
@@ -763,12 +763,12 @@
         <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
         <target>Ekologické povědomí na nejvyšší úrovni – komplexní reforma budovy šetrná k životnímu prostředí</target>
       </trans-unit>
-      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.">
-        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.</source>
+      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
+        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.</source>
         <target>Konáme pro své životní prostředí. Společnost Everest Renewables pracuje na organizaci pravidelných školení, aby zajistila, že všichni naši zaměstnanci vstupují k našim zákazníkům s maximální připraveností. Při renovaci budovy je třeba vzít v úvahu mnoho faktorů, takže je opravdu důležité, jaký solární systém, klimatizace, tepelné čerpadlo nebo dokonce nabíječka do auta se dostane do domácnosti. Technický obsah produktů, které prodáváme, se neustále mění – stejně jako potřeby zákazníků. Z tohoto důvodu pořádáme kromě pravidelných technických školení vysoce kvalitní školení prodeje, aby znalosti celého našeho týmu byly neustále aktuální a s důvěrou prodáváme jakýkoli produkt nebo službu související s napájením.</target>
       </trans-unit>
-      <trans-unit id="N9MiMAy" resname="Magyarországról indultunk, ma viszont már több országban jelen vagyunk!">
-        <source>Magyarországról indultunk, ma viszont már több országban jelen vagyunk!</source>
+      <trans-unit id="N9MiMAy" resname="A magyarországi sikerek után már Csehországban is jelen vagyunk!">
+        <source>A magyarországi sikerek után már Csehországban is jelen vagyunk!</source>
         <target>Začali jsme z Maďarska, ale dnes jsme přítomni v několika zemích!</target>
       </trans-unit>
       <trans-unit id="Sl_5ad8" resname="Everest ügyfél- és projektmenedzsment">
@@ -779,8 +779,8 @@
         <source>Ügyféligénytől a jótállásig</source>
         <target>Od úroku po záruku – jak celý proces vypadá?</target>
       </trans-unit>
-      <trans-unit id="_7ixTtx" resname="Érdeklődők gyűjtése/leadgenerálás">
-        <source>Érdeklődők gyűjtése/leadgenerálás</source>
+      <trans-unit id="_7ixTtx" resname="Érdeklődők és ajánlások gyűjtése">
+        <source>Érdeklődők és ajánlások gyűjtése</source>
         <target>Zainteresovaná sbírka / generace zájemců</target>
       </trans-unit>
       <trans-unit id="NloN8oY" resname="Ügyféllel való kapcsolatfelvétel, időpont egyeztetés">
@@ -791,16 +791,16 @@
         <source>Szerződéskötés</source>
         <target>Uzavření smlouvy</target>
       </trans-unit>
-      <trans-unit id="z1g6IeM" resname="Adminisztráció: szükséges hatósági engedélyek menedzselése">
-        <source>Adminisztráció: szükséges hatósági engedélyek menedzselése</source>
+      <trans-unit id="z1g6IeM" resname="Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése">
+        <source>Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése</source>
         <target>Administrace: správa požadovaných úředních povolení </target>
       </trans-unit>
       <trans-unit id="ciEhNUY" resname="Termék kivitelezésének tervezése, felügyelete">
         <source>Termék kivitelezésének tervezése, felügyelete</source>
         <target>Plánování implementace produktu a dohled </target>
       </trans-unit>
-      <trans-unit id="ass8Ytx" resname="Ügyfélelégedettség nyomkövetése, garancia-felügyelet">
-        <source>Ügyfélelégedettség nyomkövetése, garancia-felügyelet</source>
+      <trans-unit id="ass8Ytx" resname="Ügyfélelégedettség nyomonkövetése">
+        <source>Ügyfélelégedettség nyomonkövetése</source>
         <target>Sledování spokojenosti zákazníků, sledování záruk</target>
       </trans-unit>
       <trans-unit id="bSHi3Ew" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.">

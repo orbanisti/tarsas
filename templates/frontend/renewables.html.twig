@@ -16,7 +16,8 @@
                                 <h2 class="text-right text-white text-medium mr-5 pr-lg-5 fadeInTextAnimation" data-word-delay="1500"
                                     data-delay="50">{{ 'Ügyfél elköteleződést ajánlunk'|trans }}</h2>
                                 <p class="text-right text-white mt-3"><strong class="fadeInTextAnimation"
-                                                                              data-word-delay="2500">{{ 'nem csak sales konzultációt'|trans }}</strong></p>
+                                                                              data-word-delay="2500">{% if app.request.locale!='hu' %}{{ 'nem csak sales konzultációt'|trans }}{% endif %}</strong>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -28,7 +29,7 @@
             <div class=" container ">
                 <div class="row p-5 bg-white">
                     <div class="col-md-12 ">
-                        <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium lettersAnimation">{{ 'A környezetvédelem és a fenntarthatóság kérdése minden napjaink legégetőbb problémájává vált. Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.'|trans }}
+                        <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium lettersAnimation">{{ 'A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.'|trans }}
                         </h2>
                     </div>
                 </div>
@@ -48,7 +49,7 @@
                     <div class="col-md-6 ">
                         <p class="text-right">{{ 'Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán.'|trans }}</p>
                         <h2 class="mb-3 mt-3 text-right">{{ 'Az ügyféligényekhez igazodunk'|trans }}</h2>
-                        <p class="text-right">{{ 'Partnereink potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják leendő partnereink számára az eredményes együttműködést.'|trans }}</p>
+                        <p class="text-right">{{ 'Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.'|trans }}</p>
                     </div>
                 </div>
             </div>
@@ -58,7 +59,7 @@
                 <div class="row no-gutters ">
                     <div class="col-md-6 p-5 bg-primary">
                         <div class="col-md-12 h-100 " style="margin-top: auto;margin-bottom: auto;display: grid">
-                            {{ include('frontend/embed/counterWidget.html.twig',{number:7500,description:'Értékesített napelem'|trans,suffix:'+'}) }}
+                            {{ include('frontend/embed/counterWidget.html.twig',{number:11000,description:'Értékesített napelemes rendszer'|trans,suffix:'+'}) }}
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -80,7 +81,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center text-dark">
                             <h2 class=" font-weight-bold">{{ 'Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform'|trans }}</h2>
-                            <p class="mt-5 text-left"> {{ 'Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. <strong>Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásokba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.</strong> Emiatt rendszeres műszaki oktatások mellett magas színvonalú sales tréningeket szervezünk, hogy egész csapatunk tudása folyamatosan naprakész legyen és bármilyen áramhoz kapcsolódó terméket vagy szolgáltatást magabiztosan értékesítsünk.'|trans|raw }}
+                            <p class="mt-3 text-left"> {{ 'Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. <strong>Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.</strong> Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.'|trans|raw }}
                             </p>
                         </div>
                     </div>
@@ -91,7 +92,7 @@
             <div class=" container mt-5 mb-5">
                 <div class="row p-lg-0 p-md-5 p-0 bg-white" style="min-height: 500px">
                     <div class="col-md-12 ">
-                        <h2 class="text-center mb-5">{{ 'Magyarországról indultunk, ma viszont már több országban jelen vagyunk!'|trans }}
+                        <h2 class="text-center mb-5">{{ 'A magyarországi sikerek után már Csehországban is jelen vagyunk!'|trans }}
                         </h2>
                         <div id="vmap" style="width: 100%; height: 600px;"></div>
                     </div>
@@ -100,11 +101,10 @@
         </section>
         <section class="section">
             <div class="container-fluid  bg-primary pt-5 pb-5 ">
-                <div class="container ">
+                <div class="container mb-4">
                     <div class="row">
                         <div class="col-md-12">
                             <h1 class="text-white text-medium-sm">{{ 'Everest ügyfél- és projektmenedzsment'|trans }}</h1>
-                            <h2 class="text-white text-normal-sm mb-3">{{ 'Ügyféligénytől a jótállásig'|trans }}</h2>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                         <ul class="timeline">
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div class="timeline-arrow"></div>
-                                <p class="h5 mb-0">{{ 'Érdeklődők gyűjtése/leadgenerálás'|trans }}</p>
+                                <p class="h5 mb-0">{{ 'Érdeklődők és ajánlások gyűjtése'|trans }}</p>
                             </li>
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div class="timeline-arrow"></div>
@@ -121,19 +121,19 @@
                             </li>
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div class="timeline-arrow"></div>
+                                <p class="h5 mb-0">{{ 'Teljeskörű felmérés és tervezés'|trans }}</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
                                 <p class="h5 mb-0">{{ 'Szerződéskötés'|trans }}</p>
                             </li>
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div class="timeline-arrow"></div>
-                                <p class="h5 mb-0">{{ 'Adminisztráció: szükséges hatósági engedélyek menedzselése'|trans }}</p>
+                                <p class="h5 mb-0">{{ 'Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése'|trans }}</p>
                             </li>
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div class="timeline-arrow"></div>
-                                <p class="h5 mb-0">{{ 'Termék kivitelezésének tervezése, felügyelete'|trans }}</p>
-                            </li>
-                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                                <div class="timeline-arrow"></div>
-                                <p class="h5 mb-0">{{ 'Ügyfélelégedettség nyomkövetése, garancia-felügyelet'|trans }} </p>
+                                <p class="h5 mb-0">{{ 'Ügyfélelégedettség nyomonkövetése'|trans }} </p>
                             </li>
 
                         </ul><!-- End -->

@@ -4,12 +4,12 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-md-12">
-                <h1>{{ 'Rólunk'|trans }}</h1>
-                <h2 class="mt-5">{{ 'Mi az Everest?'|trans }}</h2>
-                <p class="mt-5">
+                <h1 data-aos="fade-left">{{ 'Rólunk'|trans }}</h1>
+                <h2 data-aos="fade-left" class="mt-5">{{ 'Mi az Everest?'|trans }}</h2>
+                <p class="mt-5" data-aos="fade-right">
                     {{ 'Az Everest 3 különböző üzletágban van jelen:'|trans }}
                 </p>
-                <ul class="square">
+                <ul class="square" data-aos="fade-right">
                     <li>
                         <a href="{{ path('accounting') }}">{{ 'Everest Accounting'|trans }}</a>
                         - {{ 'Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.'|trans }}
@@ -25,20 +25,20 @@
                 </ul>
             </div>
             <div class="col-md-12">
-                <h2 class="">{{ 'Történetünk'|trans }}</h2>
-                <p class="mt-5">
+                <h2 class="" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">{{ 'Történetünk'|trans }}</h2>
+                <p class="mt-5" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                     {{ 'Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.'|trans }}
                 </p>
-                <p class="mt-3">
+                <p class="mt-3" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
                     {{ '2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.'|trans }}
                 </p>
-                <p class="mt-3">
+                <p class="mt-3" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                     {{ 'A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.'|trans }}
                 </p>
-                <p class="mt-3">
+                <p class="mt-3" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
                     {{ 'Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:'|trans }}
                 </p>
-                <ul class="square">
+                <ul class="square" data-aos-anchor-placement="bottom-bottom" data-aos="fade-right">
                     <li>
                         {{ 'Ügyfeleinknél terepen'|trans }}
                     </li>
@@ -46,15 +46,15 @@
                         {{ 'háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.'|trans }}
                     </li>
                 </ul>
-                <p class="mt-3">
+                <p class="mt-3" data-aos-anchor-placement="bottom-bottom" data-aos="fade-left">
                     {{ 'A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!'|trans }}
                 </p>
-                <h2 class="mt-5">{{ 'Miért pont Everest?'|trans }}</h2>
-                <p class="mt-3">
+                <h2 class="mt-5" data-aos-anchor-placement="bottom-bottom" data-aos="fade-up">{{ 'Miért pont Everest?'|trans }}</h2>
+                <p class="mt-3" data-aos-anchor-placement="bottom-bottom" data-aos="fade-right">
                     {{ 'Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, a B2C piacról vagy akár egy egyszerű weboldal elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.'|trans }}
                 </p>
-                <h2 class="mt-5">{{ 'Discover Greatness Beyond Profession'|trans }}</h2>
-                <p class="mt-3">
+                <h2 class="mt-5" data-aos-anchor-placement="bottom-bottom" data-aos="fade-up">{{ 'Discover Greatness Beyond Profession'|trans }}</h2>
+                <p class="mt-3" data-aos-anchor-placement="bottom-bottom" data-aos="fade-right">
                     {{ 'Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.'|trans }}
                 </p>
             </div>
@@ -71,11 +71,16 @@
         <div class="row mt-5">
             <div class="col-md-12">
                 <ul class="square">
-                    <li>{{ 'Nem csupán szolgáltatások és termékek értékesítésével foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.'|trans }}</li>
-                    <li>{{ 'Hiszünk benne, hogy etikus hozzáállásunkkal, a kiemelkedő csapatösszetartásunkkal és naprakész munkatársainkkal az Everest több mint egy hagyományos szolgáltatócég. Sőt, erre büszkék is vagyunk!'|trans }}</li>
-                    <li>{{ 'Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.'|trans }}</li>
-                    <li>{{ 'Mindig többre vágyunk! Nem elégszünk meg pillanatnyi sikerünkkel, inkább mindig tökéletesítjük a folyamatokat, kommunikációnkat, ügyfélkezelésünket.'|trans }}</li>
-                    <li>  {{ 'Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!'|trans }}</li>
+                    <li data-aos-anchor-placement="bottom-bottom"
+                        data-aos="fade-right">{{ 'Nem csupán szolgáltatások és termékek értékesítésével foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.'|trans }}</li>
+                    <li data-aos-anchor-placement="bottom-bottom"
+                        data-aos="fade-right">{{ 'Hiszünk benne, hogy etikus hozzáállásunkkal, a kiemelkedő csapatösszetartásunkkal és naprakész munkatársainkkal az Everest több mint egy hagyományos szolgáltatócég. Sőt, erre büszkék is vagyunk!'|trans }}</li>
+                    <li data-aos-anchor-placement="bottom-bottom"
+                        data-aos="fade-right">{{ 'Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.'|trans }}</li>
+                    <li data-aos-anchor-placement="bottom-bottom"
+                        data-aos="fade-right">{{ 'Mindig többre vágyunk! Nem elégszünk meg pillanatnyi sikerünkkel, inkább mindig tökéletesítjük a folyamatokat, kommunikációnkat, ügyfélkezelésünket.'|trans }}</li>
+                    <li data-aos-anchor-placement="bottom-bottom"
+                        data-aos="fade-right">  {{ 'Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!'|trans }}</li>
                 </ul>
 
             </div>

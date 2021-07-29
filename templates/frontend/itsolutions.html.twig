@@ -10,8 +10,8 @@
                 </div>
                 <div class="col-md-8 col-lg-6 p-lg-5 p-md-3 p-3 m-lg-0 m-md-0 m-2 text-right animate__animated animate__fadeInRight mt-lg-5 mt-md-5 mt-1 align-self-end">
                     <h1 class="mb-5 text-big mt-md-5 pt-md-5 fadeInTextAnimation">{{ 'IT Megoldások'|trans }}</h1>
-                    <p class="mt-sm-5 text-medium fadeInTextAnimation" data-delay="20"
-                       data-word-delay="1500">{{ 'Nem csupán weboldalakat készítünk…'|trans }}</p>
+                    {# <p class="mt-sm-5 text-medium fadeInTextAnimation" data-delay="20" #}
+                    {# data-word-delay="1500">{{ 'Nem csupán weboldalakat készítünk…'|trans }}</p> #}
                 </div>
 
             </div>
@@ -32,40 +32,9 @@
                 <div class="col-md-12 text-center" data-aos="fade-down">
                     <h1>{{ 'Mérföldköveink'|trans }}</h1>
                 </div>
-                <div class="col-md-6 mt-3" data-aos="fade-right">
-                    <h3 class="text-big mt-5 mb-3 ">2015</h3>
-                    <p>{{ 'Megtörténik az első lépés, létrejön az Everest.hu'|trans }}
-                    </p>
-                </div>
-                <div class="col-md-6 mt-3  text-right" data-aos="fade-left">
-                    <h3 class="text-big mt-5 mb-3">2016</h3>
-                    <p>{{ 'Átadjuk Ügyfeleinknek az Accounting Portált'|trans }}
-                    </p>
-                </div>
-                <div class="col-md-6 " data-aos="fade-right">
-                    <h3 class="text-big mt-5 mb-3">2017</h3>
-                    <p>{{ 'Elindulnak fejlesztéseink Ügyfeleink számára'|trans }}
-                    </p>
-                </div>
-                <div class="col-md-6 text-right " data-aos="fade-left">
-                    <h3 class="text-big mt-5 mb-3">2018</h3>
-                    <p>{{ 'Saját ERP rendszert hozunk létre'|trans }}
-                    </p>
-                </div>
-                <div class="col-md-6" data-aos="fade-right">
-                    <h3 class="text-big mt-5 mb-3">2019</h3>
-                    <p>{{ 'ERP-t fejlesztünk külföldi partnereink részére'|trans }} </p>
-                </div>
-                <div class="col-md-6 text-right " data-aos="fade-left">
-                    <h3 class="text-big mt-5 mb-3">2020 </h3>
-                    <p>{{ 'Ugyanezt rendszert mobilappon is bemutatjuk'|trans }} </p>
-                </div>
-                <div class="col-md-12 text-center" data-aos="fade-up">
-                    <h3 class="text-big mt-5 mb-3">2021 </h3>
-                    <p>{{ 'Elkezdjünk az együttműködést az Ön cégével!'|trans }} </p>
-                </div>
             </div>
         </div>
+        {{ include('frontend/embed/timeline.html.twig') }}
     </div>
     <div class="container mt-5 p-3">
         <div class="row">
