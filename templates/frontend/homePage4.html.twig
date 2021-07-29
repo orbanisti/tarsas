@@ -5,19 +5,18 @@
     <!-- These variables help keep track of the input name and ID-->
     <!-- currentTab helps keep track of each individual input-->
     <!-- tabControlName is used as a unique identifier for the accordion-->
-    <div class="homeContainer">
-        <ul>
+    <div class="homeContainer accounting">
+        <ul class="pl-0">
             <li>
                 <!-- Using radio inputs means only one can be selected at a time-->
                 <!-- The ID must be unique so the label will point to the input-->
                 <input id="rad1" type="radio" name="rad" checked="checked"/>
                 <label for="rad1">
-                    <div>Just keep going with longer text</div>
+                    <div>Könyvelés</div>
                 </label>
-                <div class="accslide">
-                    <div class="content">
-                        <h1>Just keep going with longer text</h1>
-                        <p>Lorem ipsum...</p>
+                <div class="accslide ">
+                    <div class="content h-100">
+                        <h2>Könyvelés</h2>
                     </div>
                 </div>
             </li>
@@ -26,12 +25,11 @@
                 <!-- The ID must be unique so the label will point to the input-->
                 <input id="rad2" type="radio" name="rad"/>
                 <label for="rad2">
-                    <div>Second panel</div>
+                    <div>Renewables</div>
                 </label>
                 <div class="accslide">
                     <div class="content">
-                        <h1>Second panel</h1>
-                        <p>Lorem ipsum...</p>
+                        <h2>Renewables</h2>
                     </div>
                 </div>
             </li>
@@ -40,35 +38,38 @@
                 <!-- The ID must be unique so the label will point to the input-->
                 <input id="rad3" type="radio" name="rad"/>
                 <label for="rad3">
-                    <div>Third panel</div>
+                    <div>IT Solutions</div>
                 </label>
                 <div class="accslide">
                     <div class="content">
-                        <h1>Third panel</h1>
-                        <p>Lorem ipsum...</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <!-- Using radio inputs means only one can be selected at a time-->
-                <!-- The ID must be unique so the label will point to the input-->
-                <input id="rad4" type="radio" name="rad"/>
-                <label for="rad4">
-                    <div>Fourth panel</div>
-                </label>
-                <div class="accslide">
-                    <div class="content">
-                        <h1>Fourth panel</h1>
-                        <p>Lorem ipsum...</p>
+                        <h2>{{ 'IT Solutions'|trans }}</h2>
                     </div>
                 </div>
             </li>
         </ul>
     </div>
-
+    <style>
+    </style>
 {% endblock %}
 
     {% block javascripts %}
+        <script>
+            $(document).ready(function () {
+                var rad1 = $("#rad1");
+                var rad2 = $("#rad2");
+                var rad3 = $("#rad3");
+                var homeContainer = $(".homeContainer")
+                rad1.click(function () {
+                    homeContainer.css('background', "linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{ asset('build/images/everest_background.jpg') }}) 50%")
+                })
+                rad2.click(function () {
+                    homeContainer.css('background', "linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{ asset('build/images/everest_background_sales.jpg') }})")
+                })
+                rad3.click(function () {
+                    homeContainer.css('background', "linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{ asset('build/images/it-solutions.png') }})")
+                })
+            })
+        </script>
 
     {% endblock %}
 
