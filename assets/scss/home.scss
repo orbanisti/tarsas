@@ -88,6 +88,7 @@ a.homeList {
 @media (min-width: 768px) {
   .active > .section-title {
     margin-top: -500px !important;
+    transition: all 1s !important;
   }
 }
 
