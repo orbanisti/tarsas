@@ -222,3 +222,28 @@ li.nav-item {
     margin-left: auto;
     margin-right: auto;
 }
+
+.homeList {
+    cursor: pointer !important;
+}
+.jobsGalleryFirstRow {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.jobsGallerySecondRow {
+    position: absolute;
+    left: 0px;
+    top: 30%;
+    width: 100%;
+}
+
+.jobsGalleryColumn {
+    transition: all 2s !important;
+}
+
+.jobsGalleryColumn:hover {
+    transform: scale(1.1);
+}

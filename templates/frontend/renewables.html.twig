@@ -27,7 +27,7 @@
         </section>
         <section class="section secondSection">
             <div class=" container ">
-                <div class="row p-5 bg-white">
+                <div class="row p-3 p-lg-5 bg-white">
                     <div class="col-md-12 ">
                         <h2 class="text-left text-dark animate__animated animate__fadeIn text-medium lettersAnimation">{{ 'A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.'|trans }}
                         </h2>
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container mt-5 mb-5">
+                <div class="container mt-5 mb-4">
                     <div class="row">
                         <div class="col-md-12 text-center text-dark">
                             <h2 class=" font-weight-bold">{{ 'Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform'|trans }}</h2>
@@ -91,9 +91,11 @@
         <section class="section">
             <div class=" container mt-5 mb-5">
                 <div class="row p-lg-0 p-md-5 p-0 bg-white" style="min-height: 500px">
-                    <div class="col-md-12 ">
+                    <div class="col-md-6 ">
                         <h2 class="text-center mb-5">{{ 'A magyarországi sikerek után már Csehországban is jelen vagyunk!'|trans }}
                         </h2>
+                    </div>
+                    <div class="col-md-6">
                         <div id="vmap" style="width: 100%; height: 600px;"></div>
                     </div>
                 </div>
@@ -142,29 +144,38 @@
             </div>
         </section>
         <section class="section" style="min-height: 100vh">
-            <div class="container mt-5">
+            <div class="container mt-5 mb-3">
                 <div class="row">
                     <div class="col-md-12">
                         <p>{{ 'Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.'|trans }}
                         </p>
-                        <h2 class="mt-2">
+                        <h1 class="mt-2">
                             {{ 'Saját ERP rendszer'|trans }}
-                        </h2>
-                        <p>
-                            {{ 'Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
+                        </h1>
+                        <p>{{ 'Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
                             létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.'|trans }}</p>
                         <p><strong>{{ 'Everest ERP rendszer'|trans }}:</strong></p>
-                        <ul class="square mt-3 mb-5">
-                            <li>{{ '100%-ban saját, 100% Everest'|trans }}</li>
-                            <li>{{ 'Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)'|trans }}</li>
-                            <li>{{ 'Felhasználóbarát felület'|trans }}</li>
-                            <li>{{ 'Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,
+                        <div class="row">
+                            <div class="col-md-6">
+
+
+                                <ul class="square mt-3 mb-5">
+                                    <li>{{ '100%-ban saját, 100% Everest'|trans }}</li>
+                                    <li>{{ 'Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)'|trans }}</li>
+                                    <li>{{ 'Felhasználóbarát felület'|trans }}</li>
+                                    <li>{{ 'Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,
                                 menedzserek, projektkoordinátorok, call center, stb)'|trans }}
-                            </li>
-                            <li>{{ 'Folyamatos support rendelkezésre állás'|trans }}</li>
-                            <li>{{ 'Új funkciók bevezetése rendszeresen'|trans }}</li>
-                        </ul>
+                                    </li>
+                                    <li>{{ 'Folyamatos support rendelkezésre állás'|trans }}</li>
+                                    <li>{{ 'Új funkciók bevezetése rendszeresen'|trans }}</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                {{ include('frontend/embed/imageBox.html.twig',{src:asset('build/images/own-erp.jpg')}) }}
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -234,8 +245,8 @@
         <script type="text/javascript">
 
             let europeMap = null;
-            let centerX = -280;
-            let centerY = null;
+            let centerX = -227;
+            let centerY = -250;
             let mapElement = $("#vmap");
 
             function setMapCenter() {
@@ -243,13 +254,13 @@
                     centerX = -234;
                 }
                 if (window.innerWidth > 765) {
-                    centerX = -196;
+                    centerX = -300;
                 }
                 if (window.innerWidth > 960) {
-                    centerX = -141;
+                    centerX = -225;
                 }
                 if (window.innerWidth > 1200) {
-                    centerX = -103;
+                    centerX = -225;
                 }
             }
 
@@ -269,7 +280,7 @@
                 });
                 europeMap.setScale(2);
                 europeMap.transX = centerX;
-                europeMap.transY = -186;
+                europeMap.transY = centerY;
                 europeMap.applyTransform();
                 mapElement.unbind('click');
                 mapElement.unbind('touchstart');
@@ -348,6 +359,31 @@
                 width: 15px;
                 margin: -2px 0 0 -2px;
             !important;
+            }
+
+            @media (max-width: 525px) {
+                h1 {
+                    font-size: 32px !important;
+                }
+
+                .bg-primary.imageBoxWrapper.ml-auto.mr-auto {
+                    width: 80%;
+                    height: auto !important;
+                }
+
+                img.imageBoxImage {
+                    height: auto;
+                }
+
+                .text-medium {
+                    font-size: 24px !important;
+                }
+            }
+
+            @media (min-width: 1050px) {
+                section {
+                    max-height: 100vh !important;
+                }
             }
 
         </style>

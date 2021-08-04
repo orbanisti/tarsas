@@ -17,7 +17,7 @@
                  style='background: url({{ asset('build/images/everest-event.jpg') }}) center;'></div>
             <div class="col-md-3 col jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo-2.jpg') }}) 15% 15%'></div>
             <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-photo-10.jpg') }}) 0% 80%'></div>
-            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/team-photo.jpg') }}) center'></div>
+            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest_background_sales.jpg') }}) center'></div>
         </div>
         <div class="row mt-lg-5 m-md-0 m-lg-0 ml-3 mr-lg-n5 mr-md-n5 jobsGallerySecondRow">
             <div class="col-md-2 col jobsGalleryColumn"
@@ -65,29 +65,6 @@
     </div>
 
 
-    <style>
-        .jobsGalleryFirstRow {
-            position: absolute;
-            left: 0px;
-            top: 0px;
-            width: 100%;
-        }
-
-        .jobsGallerySecondRow {
-            position: absolute;
-            left: 0px;
-            top: 30%;
-            width: 100%;
-        }
-
-        .jobsGalleryColumn {
-            transition: all 2s !important;
-        }
-
-        .jobsGalleryColumn:hover {
-            transform: scale(1.1);
-        }
-    </style>
 {% endblock %}
 {% block javascripts %}
     <script>

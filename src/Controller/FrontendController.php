@@ -24,16 +24,9 @@ class FrontendController extends AbstractController
      */
     public function homepage(): Response
     {
-        return $this->render('frontend/homePage3.html.twig');
-    }
-
-    /**
-     * @Route("/home2", methods="GET", name="homepage2")
-     */
-    public function home2(): Response
-    {
         return $this->render('frontend/homePage.html.twig');
     }
+
 
     /**
      * @Route("/accounting", methods="GET", name="accounting",options={"sitemap" =true})

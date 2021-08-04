@@ -24,6 +24,26 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-3 position-relative jobsGalleryContainer">
+        <div class="row mt-5 m-md-0 m-lg-0 ml-lg-n5 ml-md-n5 mr-3 jobsGalleryFirstRow">
+            <div class="col-md-3 col jobsGalleryColumn"
+                 style='background: url({{ asset('build/images/everest-rolunk1.jpg') }}) 92% 74%;'></div>
+            <div class="col-md-3 col jobsGalleryColumn" style='background: url({{ asset('build/images/everest-rolunk2.jpg') }}) 15% 15%'></div>
+            <div class="col-md-2 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-rolunk3.jpg') }}) 0% 50%'></div>
+            <div class="col-md-4 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-rolunk4.jpg') }}) center'></div>
+        </div>
+        <div class="row mt-lg-5 m-md-0 m-lg-0 ml-3 mr-lg-n5 mr-md-n5 jobsGallerySecondRow">
+            <div class="col-md-2 col jobsGalleryColumn"
+                 style='background: url({{ asset('build/images/everest-rolunk5.jpg') }}) center;'></div>
+            <div class="col-md-3 col jobsGalleryColumn" style='background: url({{ asset('build/images/everest-rolunk9.jpg') }}) 100% 30%'></div>
+            <div class="col-md-4 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-rolunk6.jpg') }}) 0% 70%'></div>
+            <div class="col-md-3 hidden-xs jobsGalleryColumn" style='background: url({{ asset('build/images/everest-rolunk8.jpg') }}) bottom'></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
             <div class="col-md-12">
                 <h2 class="" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">{{ 'Történetünk'|trans }}</h2>
                 <p class="mt-5" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
@@ -86,4 +106,18 @@
             </div>
         </div>
     </div>
+{% endblock %}
+{% block javascripts %}
+    <script>
+        $(window).scroll(function () {
+            let galleryFirstRow = $(".jobsGalleryFirstRow")
+            let gallerySecondRow = $(".jobsGallerySecondRow")
+            let topDistance = $(window).scrollTop()
+            // galleryFirstRow.transition({x: +'px'}, 0);
+            galleryFirstRow.animate({left: topDistance / 10}, 0);
+            gallerySecondRow.animate({left: -topDistance / 10}, 0);
+            // gallerySecondRow.transition({x: -topDistance / 10 + 'px'}, 0);
+            // galleryFirstRow.css('transform', 'translate3d(' + topDistance + ',0px, 0px)')
+        });
+    </script>
 {% endblock %}

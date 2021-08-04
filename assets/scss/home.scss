@@ -30,6 +30,7 @@ a.homeList {
     cursor: default;
 
     h2 {
+      transform: rotate(0deg) !important;
       color: #224694;
       background: #ffffff8c;
       padding: 30px;
@@ -81,6 +82,12 @@ a.homeList {
   }
   .homeList {
     display: grid !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .active > .section-title {
+    margin-top: -500px !important;
   }
 }
 
