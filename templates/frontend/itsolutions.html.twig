@@ -2,8 +2,8 @@
 {% block title %} {{ 'IT Megoldások'|trans }} {% endblock %}
 {% block body %}
     <div class="row">
-        <div class="container-fluid jumbotron-bg position-relative"
-             style="background: url('{{ asset('build/images/it-solutions.png') }}') right;min-height: 600px;background-position-y: 100%">
+        <div class="container-fluid jumbotron-bg position-relative scroll"
+             style="background: url('{{ asset('build/images/it-solutions.png') }}') right;min-height: 600px;background-position-y: 0">
             <div class="row p-lg-5 h-100">
                 <div class="primary-overlay-div"></div>
                 <div class="col-md-4 col-lg-6">
@@ -72,6 +72,8 @@
 {% endblock %}
 {% block javascripts %}
     <script>
+        //Parallax
+
         (function () {
 
             // VARIABLES

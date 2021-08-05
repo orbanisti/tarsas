@@ -6,8 +6,8 @@
         <section class="section">
             {{ include('frontend/embed/header.html.twig') }}
             <div class="row ">
-                <div class="container-fluid  jumbotron-bg position-relative"
-                     style="background: url('{{ asset('build/images/renewables_header.png') }}') bottom;margin-bottom:0px;min-height: 600px">
+                <div class="container-fluid  jumbotron-bg position-relative scroll"
+                     style="background: url('{{ asset('build/images/renewables_header.png') }}');margin-bottom:0px;min-height: 600px;background-repeat: no-repeat;">
                     <div class="primary-overlay-div"></div>
                     <div class="container mt-5 p-1 p-lg-1">
                         <div class="row mt-1">
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </section>
-        <section class="section secondSection">
+        <section class="section secondSection" id="second">
             <div class=" container ">
                 <div class="row p-3 p-lg-5 bg-white">
                     <div class="col-md-12 ">
@@ -91,11 +91,11 @@
         <section class="section">
             <div class=" container mt-5 mb-5">
                 <div class="row p-lg-0 p-md-5 p-0 bg-white" style="min-height: 500px">
-                    <div class="col-md-6 ">
-                        <h2 class="text-center mb-5">{{ 'A magyarországi sikerek után már Csehországban is jelen vagyunk!'|trans }}
+                    <div class="col-lg-6  d-flex" data-aos="fade-right">
+                        <h2 class="text-center mb-5" style="align-self: center">{{ 'A magyarországi sikerek után már Csehországban is jelen vagyunk!'|trans }}
                         </h2>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6" data-aos="fade-left">
                         <div id="vmap" style="width: 100%; height: 600px;"></div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="row ml-lg-5 mr-lg-5 mr-md-3 ml-md-3">
                     <div class="col-md-12">
-                        <ul class="timeline">
+                        <ul class="timeline" data-aos="fade-left">
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div class="timeline-arrow"></div>
                                 <p class="h5 mb-0">{{ 'Érdeklődők és ajánlások gyűjtése'|trans }}</p>
@@ -245,21 +245,27 @@
         <script type="text/javascript">
 
             let europeMap = null;
-            let centerX = -227;
+            let centerX = -280;
             let centerY = -250;
             let mapElement = $("#vmap");
 
+            let zoomIn = 1
+
             function setMapCenter() {
                 if (window.innerWidth > 465) {
-                    centerX = -234;
+                    centerX = -250;
+                    zoomIn = 1
                 }
                 if (window.innerWidth > 765) {
                     centerX = -300;
+                    zoomIn = 2
                 }
                 if (window.innerWidth > 960) {
-                    centerX = -225;
+                    zoomIn = 2;
+                    centerX = -220;
                 }
                 if (window.innerWidth > 1200) {
+                    zoomIn = 2;
                     centerX = -225;
                 }
             }
@@ -288,40 +294,14 @@
                 mapElement.unbind('touchmove');
                 $(document).ready(function () {
                     if (window.innerWidth > 1050) {
-                        $('#fullPage').fullpage({
-                            //options here
-                            anchors: ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'footer'],
-                            navigation: true,
-                            navigationPosition: 'left',
-                            resize: false,
-                            fitToSection: true,
-                            scrollOverflow: true,
-                            css3: true,
-                            scrollingSpeed: 1000,
-                            scrollSectionToBottomFromBottom: false,
-                            bigSectionsDestination: 'bottom',
-                            onLeave: function (origin, destination, direction) {
-                                console.log(destination);
-                                if (destination === 2) {
-                                    initLettersAnimation()
-                                }
-                                if (destination === 3) {
-                                    initCountUpAnimation()
-                                }
-                                AOS.init()
-                            },
-                            afterLoad: function () {
-                                $('.fp-table.active .aos-init').addClass('aos-animate');
-                            },
-
-                        });
-                        //
-                        // //methods
-                        $.fn.fullpage.setAllowScrolling(true);
                     } else {
                         $('.secondSection').attr('id', 'second')
                     }
                 });
+                for (let i = 0; i < zoomIn; i++) {
+                    europeMap.zoomIn();
+                }
+
             });
 
         </script>
@@ -376,13 +356,7 @@
                 }
 
                 .text-medium {
-                    font-size: 24px !important;
-                }
-            }
-
-            @media (min-width: 1050px) {
-                section {
-                    max-height: 100vh !important;
+                    font-size: 22px !important;
                 }
             }
 
