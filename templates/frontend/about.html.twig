@@ -26,7 +26,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-3 position-relative jobsGalleryContainer">
+    <div class="container-fluid mt-5 pb-lg-5 pb-3 p-0 mb-3 position-relative jobsGalleryContainer hidden-xs">
         <div class="row mt-5 m-md-0 m-lg-0 ml-lg-n5 ml-md-n5 mr-3 jobsGalleryFirstRow">
             <div class="col-md-3 col jobsGalleryColumn"
                  style='background: url({{ asset('build/images/everest-rolunk1.jpg') }}) 92% 74%;'></div>
@@ -106,6 +106,15 @@
             </div>
         </div>
     </div>
+    <style>
+        .body-container {
+            background-position-y: -5% !important;
+            background-position-x: -289% !important;
+            background: url({{ asset('/build/images/mountains.png') }});
+            background-repeat: no-repeat;
+            background-size: 106%;
+        }
+    </style>
 {% endblock %}
 {% block javascripts %}
     <script>
