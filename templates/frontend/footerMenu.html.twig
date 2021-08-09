@@ -1,46 +1,56 @@
 <h3 class="mb-3 ml-2">{{ 'Oldalak'|trans }}</h3>
-<ul class="navbar-nav ml-auto text-white">
-    <li class="nav-item">
-        <a class="  text-white" href="{{ path('accounting') }}">
-            {{ 'Könyvelés'|trans }}
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="text-white" href="{{ path('renewables') }}">
-            {{ 'Renewables'|trans }}
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="text-white" href="{{ path('it-solutions') }}">
-            {{ 'IT Solutions'|trans }}
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="text-white" href="{{ path('career') }}">
-            {{ 'Karrier'|trans }}
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="text-white" href="{{ path('about') }}">
-            {{ 'Rólunk'|trans }}
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="text-white" href="{{ path('contact') }}">
-            {{ 'Kapcsolat'|trans }}
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="text-white" href="{{ path('blog_index') }}">
-            {{ 'Blog'|trans }}
-        </a>
-    </li>
-    <li class="nav-item">
-        <a class="text-white" href="{{ path('privacy') }}">
-            {{ 'Adatkezelési szabályzat'|trans }}
-        </a>
-    </li>
-</ul>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6 pl-0">
+            <ul class="navbar-nav ml-auto text-white">
+                <li class="nav-item">
+                    <a class="  text-white" href="{{ path('accounting') }}">
+                        {{ 'Könyvelés'|trans }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white" href="{{ path('renewables') }}">
+                        {{ 'Megújuló energia'|trans }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white" href="{{ path('it-solutions') }}">
+                        {{ 'IT Megoldások'|trans }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white" href="{{ path('career') }}">
+                        {{ 'Karrier'|trans }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-6 pl-0">
+            <ul class="navbar-nav ml-auto text-white">
+                <li class="nav-item">
+                    <a class="text-white" href="{{ path('about') }}">
+                        {{ 'Rólunk'|trans }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white" href="{{ path('contact') }}">
+                        {{ 'Kapcsolat'|trans }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white" href="{{ path('blog_index') }}">
+                        {{ 'Blog'|trans }}
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="text-white" href="{{ path('privacy') }}">
+                        {{ 'Adatkezelés'|trans }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 <style>
     footer li {
         margin-bottom: 0.5em !important;

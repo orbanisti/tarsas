@@ -44,7 +44,10 @@ class FrontendController extends AbstractController
      */
     public function renewables(): Response
     {
-        return $this->render('frontend/renewables.html.twig');
+        $recruitment = new Recruitment();
+        $form        = $this->createForm(RecruitmentType::class, $recruitment);
+
+        return $this->render('frontend/renewables.html.twig', ['form' => $form->createView()]);
     }
 
     /**

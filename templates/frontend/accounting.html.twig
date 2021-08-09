@@ -56,7 +56,7 @@
         <div class="row mt-5 mb-5">
             <div class="col-md-12">
                 <h3 class="text-dark text-big mt-5 mb-3">2005</h3>
-                <p>{{ 'Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.'|trans }}</p>
+                <p>{{ 'Ebben az évben találkoztunk először ügyfeleinkkel, akiket vállalati pénzügyeikben segítettünk. Később ehhez kapcsolódott hozzá a könyvelés és adótanácsadás, hogy minél hatékonyabban használják ki erőforrásaikat. Ennek köszönhetően ma már több száz elégedett partnerünk van!'|trans }}</p>
             </div>
         </div>
     </div>
@@ -163,17 +163,15 @@
                     </p>
                 </div>
                 <div class="col-md-12 mt-5 mb-5">
-                    {{ include('frontend/embed/contactForm.html.twig',{subject:'Érdeklődés könyvelési szolgáltatás iránt'|trans,message:'Kedves Everest csapat!
+                    {{ include('frontend/embed/contactForm.html.twig',{subject:app.request.locale in ['en','hu']?'Érdeklődés könyvelési szolgáltatás iránt'|trans:'',message:app.request.locale in ['en','hu']?'Kedves Everest csapat!
 
 Szívesen tájékozódnék személyesen az egyedülálló szolgáltatási csomagról.
 
-Elérhető vagyok a megadott email címen, illetve telefonszámon:
-'|trans}) }}
+Elérhető vagyok a megadott email címen, illetve telefonszámon:'|trans:'' }) }}
                 </div>
             </div>
         </div>
     </div>
-
     <style>
         .services-img .icon {
             align-self: center;

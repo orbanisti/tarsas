@@ -47,7 +47,7 @@
                         {{ include('frontend/embed/imageBox.html.twig',{src:asset('build/images/everest-photo2.jpg')}) }}
                     </div>
                     <div class="col-md-6 ">
-                        <p class="text-right">{{ 'Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán.'|trans }}</p>
+                        <p class="text-right">{{ 'Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.'|trans }}</p>
                         <h2 class="mb-3 mt-3 text-right">{{ 'Az ügyféligényekhez igazodunk'|trans }}</h2>
                         <p class="text-right">{{ 'Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.'|trans }}</p>
                     </div>
@@ -147,7 +147,7 @@
             <div class="container mt-5 mb-3">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>{{ 'Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.'|trans }}
+                        <p>{{ 'Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.'|trans }}
                         </p>
                         <h1 class="mt-2">
                             {{ 'Saját ERP rendszer'|trans }}
@@ -179,9 +179,26 @@
                 </div>
             </div>
         </section>
-        <section class="section">
-            {{ include('frontend/embed/footer.html.twig') }}
-        </section>
+        {% if app.request.locale in ['cs','en'] %}
+            <div class="container-fluid pt-5 bg-primary pb-5">
+                <div class="container ">
+                    <div class="row ">
+                        <div class="col-md-12 ">
+                            <h1 class="text-white">{{ 'Segíthetünk?'|trans }}</h1>
+                            <p class="text-white mt-5">
+                                {{ 'Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!'|trans }}
+                            </p>
+                            <p class="mt-3 text-white">
+                                {{ 'Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!'|trans({'{phone}':"<a style='font-size:1em' class=' font-weight-bold badge badge-light' href='tel:+36303201001'>+36 30 320 1001</a>",'{email}':"<a class='font-weight-bold badge badge-light' style='font-size:1em' href='mailto:info@everest.hu'>info@everest.hu</a>"})|raw }}
+                            </p>
+                        </div>
+                        <div class="col-md-12 mt-5 mb-5 ">
+                            {{ include('frontend/embed/contactForm.html.twig',{subject:''|trans,message:''|trans}) }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
     </div>
     <style>
         ul.timeline {
@@ -233,9 +250,7 @@
         }
     </style>
 {% endblock %}
- {% block footer %}
 
- {% endblock %}
 
     {% block javascripts %}
         {# TODO: make these resources local #}

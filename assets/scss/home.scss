@@ -22,7 +22,7 @@ a.homeList {
   align-items: stretch;
   padding: 20px;
   cursor: pointer;
-  transition: flex .5s ease !important;
+  transition: all .5s ease !important;
 
   &.active {
     flex: 5;

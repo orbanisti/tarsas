@@ -397,8 +397,8 @@
         <source>Mi, itt az Everestnél...</source>
         <target>My, tady na Everestu ...</target>
       </trans-unit>
-      <trans-unit id="qrfNl9v" resname="Nem csupán szolgáltatások és termékek értékesítésével foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">
-        <source>Nem csupán szolgáltatások és termékek értékesítésével foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</source>
+      <trans-unit id="qrfNl9v" resname="Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">
+        <source>Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</source>
         <target>Nejsme jen o prodeji služeb a produktů; chceme nabídnout mnohem více každému z našich zákazníků. Ať už B2B nebo B2C, prodejní proces lze popsat spíše jako poradenství pro nás, protože zákazník pro nás není důležitý jen nyní, ale také ve společné budoucnosti.</target>
       </trans-unit>
       <trans-unit id="vjzqUCC" resname="Hiszünk benne, hogy etikus hozzáállásunkkal, a kiemelkedő csapatösszetartásunkkal és naprakész munkatársainkkal az Everest több mint egy hagyományos szolgáltatócég. Sőt, erre büszkék is vagyunk!">
@@ -451,7 +451,7 @@
         <source>Elégedett ügyfél</source>
         <target>Spokojených zákazníků</target>
       </trans-unit>
-      <trans-unit id="q2WtjKy" resname="Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.">
+      <trans-unit id="xKCZot8" resname="Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.">
         <source>Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.</source>
         <target>V letošním roce jsme se setkali s našimi prvními klienty, následovanými dodnes stovkami spokojených partnerů: pomohli jsme jejich finančním aktivitám s účetnictvím a poradenstvím, jak ještě efektivněji využívat jejich zdroje.</target>
       </trans-unit>
@@ -463,7 +463,7 @@
         <source>Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.</source>
         <target>Mohli bychom popsat v jedné větě, jak pracujeme: kromě našeho týmu účetních podporují vědomá rozhodnutí vedení i naši account manažery a webový portál.</target>
       </trans-unit>
-      <trans-unit id="oII9L59" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.">
+      <trans-unit id="fKmNgNH" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.">
         <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.</source>
         <target>Naše služba však nabízí mnohem víc než to: kromě vedení vyškoleného finančního poradce budete mít přesný a precizní účetní tým s aktuálními právními znalostmi a portál, který usnadní řízení společnosti a finanční plánování.</target>
       </trans-unit>
@@ -515,7 +515,7 @@
         <source>Segíthetünk?</source>
         <target>Můžeme pomoci? </target>
       </trans-unit>
-      <trans-unit id="0XJLou5" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
+      <trans-unit id="yZ3OMZk" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
         <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!</source>
         <target>Kontaktujte nás a váš správce účtu vás bude kontaktovat do 24 hodin, aby vám zodpověděl všechny vaše otázky! Našim zákazníkům jsme k dispozici také v angličtině, němčině a španělštině!</target>
       </trans-unit>
@@ -527,11 +527,11 @@
         <source>Légy felfedező!</source>
         <target>Staňte se průzkumníkem!</target>
       </trans-unit>
-      <trans-unit id="2.xrG3S" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
+      <trans-unit id="DzhlwJ2" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
         <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
         <target>Everest se neustále vyvíjí, takže v různých oborech podnikání jsou vždy otevřené pozice. Naším cílem je expandovat se zaměstnanci, kteří mají na mysli zájmy našich zákazníků a týmu. V případě zájmu nás kontaktujte! Jsme vždy rádi, když obdržíme nový životopis.</target>
       </trans-unit>
-      <trans-unit id="DS.0Yq4" resname="Nyitott pozícióink">
+      <trans-unit id="hdSWPoM" resname="Nyitott pozícióink">
         <source>Nyitott pozícióink</source>
         <target>Otevřené pozice</target>
       </trans-unit>
@@ -539,7 +539,7 @@
         <source>Kapcsolat</source>
         <target>Kontakt</target>
       </trans-unit>
-      <trans-unit id="y9nNlJ9" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!">
+      <trans-unit id="oU.X9se" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!">
         <source>Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!</source>
         <target>Nejjednodušší způsob, jak od nás požádat o nabídku, je vyplnit náš formulář, ale také čekáme na váš dotaz týkající se obnovitelných zdrojů a IT!</target>
       </trans-unit>
@@ -591,11 +591,11 @@
         <source>Oldalak</source>
         <target>Stránky</target>
       </trans-unit>
-      <trans-unit id="bqwxtmv" resname="Renewables">
+      <trans-unit id="vgXV9Vp" resname="Renewables">
         <source>Renewables</source>
         <target>Obnovitelná energie</target>
       </trans-unit>
-      <trans-unit id="K_DrVtU" resname="IT Solutions">
+      <trans-unit id="Iq2bjw2" resname="IT Solutions">
         <source>IT Solutions</source>
         <target>IT Řešení</target>
       </trans-unit>
@@ -627,11 +627,11 @@
         <source>Megtörténik az első lépés, létrejön az Everest.hu</source>
         <target>Probíhá první krok, je vytvořen Everest.hu</target>
       </trans-unit>
-      <trans-unit id="ycL7AtG" resname="Átadjuk Ügyfeleinknek az Accounting Portált">
+      <trans-unit id="Uel_Kh9" resname="Átadjuk Ügyfeleinknek az Accounting Portált">
         <source>Átadjuk Ügyfeleinknek az Accounting Portált</source>
         <target>Předáváme Účetní portál našim klientům</target>
       </trans-unit>
-      <trans-unit id="1V1ib1X" resname="Elindulnak fejlesztéseink Ügyfeleink számára">
+      <trans-unit id="yE_0zfM" resname="Elindulnak fejlesztéseink Ügyfeleink számára">
         <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
         <target>Náš vývoj pro naše zákazníky začne</target>
       </trans-unit>
@@ -731,7 +731,7 @@
         <source>nem csak sales konzultációt</source>
         <target>nejen prodejní konzultace</target>
       </trans-unit>
-      <trans-unit id="4LLv5sf" resname="A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
+      <trans-unit id="rL.4a6U" resname="A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
         <source>A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
         <target>Otázka ochrany životního prostředí a udržitelnosti se stala nejnaléhavějším problémem našeho každodenního života. Společnost Everest Renewables se zavázala podílet se na řešení a poskytovat životaschopnou budoucnost.</target>
       </trans-unit>
@@ -739,19 +739,19 @@
         <source>Munkamódszerünk</source>
         <target>Náš způsob práce</target>
       </trans-unit>
-      <trans-unit id="6bLgZgG" resname="Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán..">
-        <source>Professzionális tanácsadáson keresztül erősítjük partnereink megítélését és pozícióját a megújuló energiák piacán..</source>
+      <trans-unit id="NQFLPTP" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán..">
+        <source>Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán..</source>
         <target>Kromě téměř dokonalého osobního poradenství posilujeme náš závazek vůči našim partnerům s našimi klienty.</target>
       </trans-unit>
       <trans-unit id="fdg59Kx" resname="Az ügyféligényekhez igazodunk">
         <source>Az ügyféligényekhez igazodunk</source>
         <target>Přizpůsobujeme se potřebám zákazníků</target>
       </trans-unit>
-      <trans-unit id="8xSB5yk" resname="Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.">
+      <trans-unit id="7KaPl0g" resname="Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.">
         <source>Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.</source>
         <target>Naši zaměstnanci jako konzultanti pomáhají našim klientům vybrat správná řešení, která slouží po celá desetiletí. Naše připravenost, odbornost a spokojenost zákazníků zajišťují jistý úspěch všech našich partnerů, o čemž svědčí práce z našich mimořádně úspěšných let na solárním trhu.</target>
       </trans-unit>
-      <trans-unit id="5KaSP0X" resname="Értékesített napelemes rendszer">
+      <trans-unit id="JNHWg0z" resname="Értékesített napelemes rendszer">
         <source>Értékesített napelemes rendszer</source>
         <target>Prodaných solárních panelů</target>
       </trans-unit>
@@ -763,11 +763,11 @@
         <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
         <target>Ekologické povědomí na nejvyšší úrovni – komplexní reforma budovy šetrná k životnímu prostředí</target>
       </trans-unit>
-      <trans-unit id="u8NtQ5o" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
+      <trans-unit id="MXFzVl5" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
         <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.</source>
         <target>Konáme pro své životní prostředí. Společnost Everest Renewables pracuje na organizaci pravidelných školení, aby zajistila, že všichni naši zaměstnanci vstupují k našim zákazníkům s maximální připraveností. Při renovaci budovy je třeba vzít v úvahu mnoho faktorů, takže je opravdu důležité, jaký solární systém, klimatizace, tepelné čerpadlo nebo dokonce nabíječka do auta se dostane do domácnosti. Technický obsah produktů, které prodáváme, se neustále mění – stejně jako potřeby zákazníků. Z tohoto důvodu pořádáme kromě pravidelných technických školení vysoce kvalitní školení prodeje, aby znalosti celého našeho týmu byly neustále aktuální a s důvěrou prodáváme jakýkoli produkt nebo službu související s napájením.</target>
       </trans-unit>
-      <trans-unit id="N9MiMAy" resname="A magyarországi sikerek után már Csehországban is jelen vagyunk!">
+      <trans-unit id="SMPHk7k" resname="A magyarországi sikerek után már Csehországban is jelen vagyunk!">
         <source>A magyarországi sikerek után már Csehországban is jelen vagyunk!</source>
         <target>Začali jsme z Maďarska, ale dnes jsme přítomni v několika zemích!</target>
       </trans-unit>
@@ -775,11 +775,11 @@
         <source>Everest ügyfél- és projektmenedzsment</source>
         <target>Řízení zákazníků a projektů na Everestu</target>
       </trans-unit>
-      <trans-unit id="XwUIJcL" resname="Ügyféligénytől a jótállásig">
+      <trans-unit id="yAUSsca" resname="Ügyféligénytől a jótállásig">
         <source>Ügyféligénytől a jótállásig</source>
         <target>Od úroku po záruku – jak celý proces vypadá?</target>
       </trans-unit>
-      <trans-unit id="_7ixTtx" resname="Érdeklődők és ajánlások gyűjtése">
+      <trans-unit id="gk4NJwG" resname="Érdeklődők és ajánlások gyűjtése">
         <source>Érdeklődők és ajánlások gyűjtése</source>
         <target>Zainteresovaná sbírka / generace zájemců</target>
       </trans-unit>
@@ -791,7 +791,7 @@
         <source>Szerződéskötés</source>
         <target>Uzavření smlouvy</target>
       </trans-unit>
-      <trans-unit id="z1g6IeM" resname="Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése">
+      <trans-unit id="heBlPU6" resname="Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése">
         <source>Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése</source>
         <target>Administrace: správa požadovaných úředních povolení </target>
       </trans-unit>
@@ -799,12 +799,12 @@
         <source>Termék kivitelezésének tervezése, felügyelete</source>
         <target>Plánování implementace produktu a dohled </target>
       </trans-unit>
-      <trans-unit id="ass8Ytx" resname="Ügyfélelégedettség nyomonkövetése">
+      <trans-unit id="UClBgC." resname="Ügyfélelégedettség nyomonkövetése">
         <source>Ügyfélelégedettség nyomonkövetése</source>
         <target>Sledování spokojenosti zákazníků, sledování záruk</target>
       </trans-unit>
-      <trans-unit id="bSHi3Ew" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.">
-        <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 71-es NPS score értékünk.</source>
+      <trans-unit id="bSHi3Ew" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.">
+        <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.</source>
         <target>Ke všem zúčastněným stranám přistupujeme jako k potenciálním zákazníkům a usilujeme o služby nejvyšší kvality. Díky sledování celého životního cyklu sledujeme všechny kroky, abychom zajistili spokojenost všech našich zákazníků. Účinnost našeho systému dokazuje naše mimořádně vysoké skóre NPS 71.</target>
       </trans-unit>
       <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
@@ -868,6 +868,192 @@
       <trans-unit id="nWMPiMC" resname="Jelenleg nincs nyitott pozíció az Ön nyelvén">
         <source>Jelenleg nincs nyitott pozíció az Ön nyelvén</source>
         <target>Ve vašem jazyce nejsou momentálně žádné volné pozice</target>
+      </trans-unit>
+      <trans-unit id="yG25Jlp" resname="Mi az Everest?">
+        <source>Mi az Everest?</source>
+        <target>__Mi az Everest?</target>
+      </trans-unit>
+      <trans-unit id="g21PLLb" resname="Az Everest 3 különböző üzletágban van jelen:">
+        <source>Az Everest 3 különböző üzletágban van jelen:</source>
+        <target>__Az Everest 3 különböző üzletágban van jelen:</target>
+      </trans-unit>
+      <trans-unit id="qVCnKlG" resname="Everest Accounting">
+        <source>Everest Accounting</source>
+        <target>__Everest Accounting</target>
+      </trans-unit>
+      <trans-unit id="kyzoIOf" resname="Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.">
+        <source>Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.</source>
+        <target>__Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.</target>
+      </trans-unit>
+      <trans-unit id="t07QLIp" resname="Everest Renewables">
+        <source>Everest Renewables</source>
+        <target>__Everest Renewables</target>
+      </trans-unit>
+      <trans-unit id="IJILzBP" resname="Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.">
+        <source>Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.</source>
+        <target>__Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.</target>
+      </trans-unit>
+      <trans-unit id="xia0Nw2" resname="Everest IT Solutions">
+        <source>Everest IT Solutions</source>
+        <target>__Everest IT Solutions</target>
+      </trans-unit>
+      <trans-unit id="jbmc1My" resname="Ügyfeleink és saját rendszereink fejlesztése.">
+        <source>Ügyfeleink és saját rendszereink fejlesztése.</source>
+        <target>__Ügyfeleink és saját rendszereink fejlesztése.</target>
+      </trans-unit>
+      <trans-unit id="DvAsRYx" resname="Történetünk">
+        <source>Történetünk</source>
+        <target>__Történetünk</target>
+      </trans-unit>
+      <trans-unit id="5vd_C.Z" resname="Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.">
+        <source>Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</source>
+        <target>__Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</target>
+      </trans-unit>
+      <trans-unit id="6EEHR3e" resname="2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.">
+        <source>2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.</source>
+        <target>__2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.</target>
+      </trans-unit>
+      <trans-unit id="O_T.PsO" resname="A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.">
+        <source>A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.</source>
+        <target>__A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.</target>
+      </trans-unit>
+      <trans-unit id="skcssxv" resname="Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:">
+        <source>Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:</source>
+        <target>__Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:</target>
+      </trans-unit>
+      <trans-unit id="5FVkaeM" resname="Ügyfeleinknél terepen">
+        <source>Ügyfeleinknél terepen</source>
+        <target>__Ügyfeleinknél terepen</target>
+      </trans-unit>
+      <trans-unit id="_.vy3Od" resname="háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.">
+        <source>háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.</source>
+        <target>__háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.</target>
+      </trans-unit>
+      <trans-unit id="NIMvDyR" resname="A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!">
+        <source>A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!</source>
+        <target>__A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!</target>
+      </trans-unit>
+      <trans-unit id="2NaNq0a" resname="Miért pont Everest?">
+        <source>Miért pont Everest?</source>
+        <target>__Miért pont Everest?</target>
+      </trans-unit>
+      <trans-unit id="5q3xLEg" resname="Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.">
+        <source>Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.</source>
+        <target>__Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.</target>
+      </trans-unit>
+      <trans-unit id="k7S82qd" resname="Discover Greatness Beyond Profession">
+        <source>Discover Greatness Beyond Profession</source>
+        <target>__Discover Greatness Beyond Profession</target>
+      </trans-unit>
+      <trans-unit id=".xfsACz" resname="Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.">
+        <source>Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.</source>
+        <target>__Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.</target>
+      </trans-unit>
+      <trans-unit id="u1jj5ua" resname="Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">
+        <source>Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</source>
+        <target>__Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</target>
+      </trans-unit>
+      <trans-unit id="BxIamUH" resname="Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.">
+        <source>Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.</source>
+        <target>__Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.</target>
+      </trans-unit>
+      <trans-unit id=".ZXQuOl" resname="Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!">
+        <source>Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!</source>
+        <target>__Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!</target>
+      </trans-unit>
+      <trans-unit id="3c6SA0j" resname="Érdeklődés könyvelési szolgáltatás iránt">
+        <source>Érdeklődés könyvelési szolgáltatás iránt</source>
+        <target>Zájem o účetní služby</target>
+      </trans-unit>
+      <trans-unit id="VmGvdmk" resname="Kedves Everest csapat!&#10;&#10;Szívesen tájékozódnék személyesen az egyedülálló szolgáltatási csomagról.&#10;&#10;Elérhető vagyok a megadott email címen, illetve telefonszámon:">
+        <source>Kedves Everest csapat!
+
+Szívesen tájékozódnék személyesen az egyedülálló szolgáltatási csomagról.
+
+Elérhető vagyok a megadott email címen, illetve telefonszámon:</source>
+        <target>Vážený tým Everestu!
+
+                Toto je osobnost každého člena sjednoceného poskytovatele služeb.
+
+                Mezi příjemce e -mailu patří:</target>
+      </trans-unit>
+      <trans-unit id="dhTEYLC" resname="Létrehozzuk az Everest IT üzleti egységet">
+        <source>Létrehozzuk az Everest IT üzleti egységet</source>
+        <target>__Létrehozzuk az Everest IT üzleti egységet</target>
+      </trans-unit>
+      <trans-unit id="IU0dOcu" resname="Elkészítjük saját napelemes ERP rendszerünket">
+        <source>Elkészítjük saját napelemes ERP rendszerünket</source>
+        <target>__Elkészítjük saját napelemes ERP rendszerünket</target>
+      </trans-unit>
+      <trans-unit id="m6FYC2e" resname="A cseh piacot is meghódítjuk ERP rendszerünkkel">
+        <source>A cseh piacot is meghódítjuk ERP rendszerünkkel</source>
+        <target>__A cseh piacot is meghódítjuk ERP rendszerünkkel</target>
+      </trans-unit>
+      <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét?">
+        <source>Átadjuk Önnek kulcsrakész rendszerét?</source>
+        <target>__Átadjuk Önnek kulcsrakész rendszerét?</target>
+      </trans-unit>
+      <trans-unit id="esKSHWN" resname="Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.">
+        <source>Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.</source>
+        <target>__Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.</target>
+      </trans-unit>
+      <trans-unit id="B4n4ewj" resname="Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.">
+        <source>Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.</source>
+        <target>__Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.</target>
+      </trans-unit>
+      <trans-unit id="5ryKlxE" resname="A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.">
+        <source>A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.</source>
+        <target>__A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.</target>
+      </trans-unit>
+      <trans-unit id="dYkWfeZ" resname="Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.">
+        <source>Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.</source>
+        <target>__Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.</target>
+      </trans-unit>
+      <trans-unit id="fbHuyPo" resname="Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.">
+        <source>Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.</source>
+        <target>__Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.</target>
+      </trans-unit>
+      <trans-unit id="bqwxtmv" resname="Megújuló energia">
+        <source>Megújuló energia</source>
+        <target>__Megújuló energia</target>
+      </trans-unit>
+      <trans-unit id="K_DrVtU" resname="IT Megoldások">
+        <source>IT Megoldások</source>
+        <target>__IT Megoldások</target>
+      </trans-unit>
+      <trans-unit id="mdMuZZq" resname="Adatkezelés">
+        <source>Adatkezelés</source>
+        <target>__Adatkezelés</target>
+      </trans-unit>
+      <trans-unit id="NouEGoX" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.">
+        <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</source>
+        <target>__Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</target>
+      </trans-unit>
+      <trans-unit id="Qnlk19f" resname="Egyedi ERP szoftver">
+        <source>Egyedi ERP szoftver</source>
+        <target>__Egyedi ERP szoftver</target>
+      </trans-unit>
+      <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
+        <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
+                    termékhez.</source>
+        <target>__Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
+                    termékhez.</target>
+      </trans-unit>
+      <trans-unit id="Ny.K2Jt" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.">
+        <source>Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.</source>
+        <target>__Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.</target>
+      </trans-unit>
+      <trans-unit id="yXViVO2" resname="Teljeskörű felmérés és tervezés">
+        <source>Teljeskörű felmérés és tervezés</source>
+        <target>__Teljeskörű felmérés és tervezés</target>
+      </trans-unit>
+      <trans-unit id="47DEQpj" resname="">
+        <source></source>
+        <target>__</target>
+      </trans-unit>
+      <trans-unit id="syeNXTn" resname="Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk">
+        <source>Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk</source>
+        <target>__Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk</target>
       </trans-unit>
     </body>
   </file>
