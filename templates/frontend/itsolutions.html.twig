@@ -1,19 +1,18 @@
 {% extends 'base.html.twig' %}
 {% block title %} {{ 'IT Megoldások'|trans }} {% endblock %}
 {% block body %}
-    <div class="row">
-        <div class="container-fluid jumbotron-bg position-relative scroll"
-             style="background: url('{{ asset('build/images/it-solutions.png') }}') right;min-height: 600px;background-position-y: 0">
-            <div class="row p-lg-5 h-100">
-                <div class="primary-overlay-div"></div>
-                <div class="col-md-4 col-lg-6">
-                </div>
-                <div class="col-md-8 col-lg-6 p-lg-5 p-md-3 p-3 m-lg-0 m-md-0 m-2 text-right animate__animated animate__fadeInRight mt-lg-5 mt-md-5 mt-1 align-self-end">
-                    <h1 class="mb-5 text-big mt-md-5 pt-md-5 fadeInTextAnimation">{{ 'IT Solutions'|trans }}</h1>
-                    {# <p class="mt-sm-5 text-medium fadeInTextAnimation" data-delay="20" #}
-                    {# data-word-delay="1500">{{ 'Nem csupán weboldalakat készítünk…'|trans }}</p> #}
-                </div>
+    <div class="container-fluid jumbotron-bg position-relative scroll"
+         style=" background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{ asset('build/images/it-solutions.png') }}) 0 -100px;min-height: 600px;">
+        <div class="row">
+            <div class="primary-overlay-div"></div>
+            <div class="container mt-5">
+                <div class="row">
 
+                    <div class="col-md-6 text-left animate__animated animate__fadeInRight">
+                        <h1 class="mb-5 text-big text-white fadeInTextAnimation">{{ 'IT Solutions'|trans }}</h1>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -70,136 +69,136 @@
         </div>
     </div>
 {% endblock %}
-{% block javascripts %}
-    <script>
-        //Parallax
+    {% block javascripts %}
+        <script>
+            //Parallax
 
-        (function () {
+            (function () {
 
-            // VARIABLES
-            const timeline = document.querySelector(".timeline ol"),
-                elH = document.querySelectorAll(".timeline li > div"),
-                arrows = document.querySelectorAll(".timeline .arrows .arrow"),
-                arrowPrev = document.querySelector(".timeline .arrows .arrow__prev"),
-                arrowNext = document.querySelector(".timeline .arrows .arrow__next"),
-                firstItem = document.querySelector(".timeline li:first-child"),
-                lastItem = document.querySelector(".timeline li:last-child"),
-                xScrolling = 280,
-                disabledClass = "disabled";
+                // VARIABLES
+                const timeline = document.querySelector(".timeline ol"),
+                    elH = document.querySelectorAll(".timeline li > div"),
+                    arrows = document.querySelectorAll(".timeline .arrows .arrow"),
+                    arrowPrev = document.querySelector(".timeline .arrows .arrow__prev"),
+                    arrowNext = document.querySelector(".timeline .arrows .arrow__next"),
+                    firstItem = document.querySelector(".timeline li:first-child"),
+                    lastItem = document.querySelector(".timeline li:last-child"),
+                    xScrolling = 280,
+                    disabledClass = "disabled";
 
-            // START
-            window.addEventListener("load", init);
+                // START
+                window.addEventListener("load", init);
 
-            function init() {
-                setEqualHeights(elH);
-                animateTl(xScrolling, arrows, timeline);
-                setSwipeFn(timeline, arrowPrev, arrowNext);
-                setKeyboardFn(arrowPrev, arrowNext);
-            }
+                function init() {
+                    setEqualHeights(elH);
+                    animateTl(xScrolling, arrows, timeline);
+                    setSwipeFn(timeline, arrowPrev, arrowNext);
+                    setKeyboardFn(arrowPrev, arrowNext);
+                }
 
-            // SET EQUAL HEIGHTS
-            function setEqualHeights(el) {
-                let counter = 0;
-                for (let i = 0; i < el.length; i++) {
-                    if (window.CP.shouldStopExecution(0)) break;
-                    const singleHeight = el[i].offsetHeight;
+                // SET EQUAL HEIGHTS
+                function setEqualHeights(el) {
+                    let counter = 0;
+                    for (let i = 0; i < el.length; i++) {
+                        if (window.CP.shouldStopExecution(0)) break;
+                        const singleHeight = el[i].offsetHeight;
 
-                    if (counter < singleHeight) {
-                        counter = singleHeight;
+                        if (counter < singleHeight) {
+                            counter = singleHeight;
+                        }
+                    }
+                    window.CP.exitedLoop(0);
+
+                    for (let i = 0; i < el.length; i++) {
+                        if (window.CP.shouldStopExecution(1)) break;
+                        el[i].style.height = `${counter}px`;
+                    }
+                    window.CP.exitedLoop(1);
+                }
+
+                // CHECK IF AN ELEMENT IS IN VIEWPORT
+                // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+                function isElementInViewport(el) {
+                    const rect = el.getBoundingClientRect();
+                    return (
+                        rect.top >= 0 &&
+                        rect.left >= 0 &&
+                        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+                        rect.right <= (window.innerWidth || document.documentElement.clientWidth));
+
+                }
+
+                // SET STATE OF PREV/NEXT ARROWS
+                function setBtnState(el, flag = true) {
+                    if (flag) {
+                        el.classList.add(disabledClass);
+                    } else {
+                        if (el.classList.contains(disabledClass)) {
+                            el.classList.remove(disabledClass);
+                        }
+                        el.disabled = false;
                     }
                 }
-                window.CP.exitedLoop(0);
 
-                for (let i = 0; i < el.length; i++) {
-                    if (window.CP.shouldStopExecution(1)) break;
-                    el[i].style.height = `${counter}px`;
-                }
-                window.CP.exitedLoop(1);
-            }
+                // ANIMATE TIMELINE
+                function animateTl(scrolling, el, tl) {
+                    let counter = 0;
+                    for (let i = 0; i < el.length; i++) {
+                        if (window.CP.shouldStopExecution(2)) break;
+                        el[i].addEventListener("click", function () {
+                            if (!arrowPrev.disabled) {
+                                arrowPrev.disabled = true;
+                            }
+                            if (!arrowNext.disabled) {
+                                arrowNext.disabled = true;
+                            }
+                            const sign = this.classList.contains("arrow__prev") ? "" : "-";
+                            if (counter === 0) {
+                                tl.style.transform = `translateX(-${scrolling}px)`;
+                            } else {
+                                const tlStyle = getComputedStyle(tl);
+                                // add more browser prefixes if needed here
+                                const tlTransform = tlStyle.getPropertyValue("-webkit-transform") || tlStyle.getPropertyValue("transform");
+                                const values = parseInt(tlTransform.split(",")[4]) + parseInt(`${sign}${scrolling}`);
+                                tl.style.transform = `translateX(${values}px)`;
+                            }
 
-            // CHECK IF AN ELEMENT IS IN VIEWPORT
-            // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
-            function isElementInViewport(el) {
-                const rect = el.getBoundingClientRect();
-                return (
-                    rect.top >= 0 &&
-                    rect.left >= 0 &&
-                    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-                    rect.right <= (window.innerWidth || document.documentElement.clientWidth));
+                            setTimeout(() => {
+                                isElementInViewport(firstItem) ? setBtnState(arrowPrev) : setBtnState(arrowPrev, false);
+                                isElementInViewport(lastItem) ? setBtnState(arrowNext) : setBtnState(arrowNext, false);
+                            }, 1100);
 
-            }
-
-            // SET STATE OF PREV/NEXT ARROWS
-            function setBtnState(el, flag = true) {
-                if (flag) {
-                    el.classList.add(disabledClass);
-                } else {
-                    if (el.classList.contains(disabledClass)) {
-                        el.classList.remove(disabledClass);
+                            counter++;
+                        });
                     }
-                    el.disabled = false;
+                    window.CP.exitedLoop(2);
                 }
-            }
 
-            // ANIMATE TIMELINE
-            function animateTl(scrolling, el, tl) {
-                let counter = 0;
-                for (let i = 0; i < el.length; i++) {
-                    if (window.CP.shouldStopExecution(2)) break;
-                    el[i].addEventListener("click", function () {
-                        if (!arrowPrev.disabled) {
-                            arrowPrev.disabled = true;
-                        }
-                        if (!arrowNext.disabled) {
-                            arrowNext.disabled = true;
-                        }
-                        const sign = this.classList.contains("arrow__prev") ? "" : "-";
-                        if (counter === 0) {
-                            tl.style.transform = `translateX(-${scrolling}px)`;
-                        } else {
-                            const tlStyle = getComputedStyle(tl);
-                            // add more browser prefixes if needed here
-                            const tlTransform = tlStyle.getPropertyValue("-webkit-transform") || tlStyle.getPropertyValue("transform");
-                            const values = parseInt(tlTransform.split(",")[4]) + parseInt(`${sign}${scrolling}`);
-                            tl.style.transform = `translateX(${values}px)`;
-                        }
+                // ADD SWIPE SUPPORT FOR TOUCH DEVICES
+                function setSwipeFn(tl, prev, next) {
+                    const hammer = new Hammer(tl);
+                    hammer.on("swipeleft", () => next.click());
+                    hammer.on("swiperight", () => prev.click());
+                }
 
-                        setTimeout(() => {
-                            isElementInViewport(firstItem) ? setBtnState(arrowPrev) : setBtnState(arrowPrev, false);
-                            isElementInViewport(lastItem) ? setBtnState(arrowNext) : setBtnState(arrowNext, false);
-                        }, 1100);
-
-                        counter++;
+                // ADD BASIC KEYBOARD FUNCTIONALITY
+                function setKeyboardFn(prev, next) {
+                    document.addEventListener("keydown", e => {
+                        if (e.which === 37 || e.which === 39) {
+                            const timelineOfTop = timeline.offsetTop;
+                            const y = window.pageYOffset;
+                            if (timelineOfTop !== y) {
+                                window.scrollTo(0, timelineOfTop);
+                            }
+                            if (e.which === 37) {
+                                prev.click();
+                            } else if (e.which === 39) {
+                                next.click();
+                            }
+                        }
                     });
                 }
-                window.CP.exitedLoop(2);
-            }
 
-            // ADD SWIPE SUPPORT FOR TOUCH DEVICES
-            function setSwipeFn(tl, prev, next) {
-                const hammer = new Hammer(tl);
-                hammer.on("swipeleft", () => next.click());
-                hammer.on("swiperight", () => prev.click());
-            }
-
-            // ADD BASIC KEYBOARD FUNCTIONALITY
-            function setKeyboardFn(prev, next) {
-                document.addEventListener("keydown", e => {
-                    if (e.which === 37 || e.which === 39) {
-                        const timelineOfTop = timeline.offsetTop;
-                        const y = window.pageYOffset;
-                        if (timelineOfTop !== y) {
-                            window.scrollTo(0, timelineOfTop);
-                        }
-                        if (e.which === 37) {
-                            prev.click();
-                        } else if (e.which === 39) {
-                            next.click();
-                        }
-                    }
-                });
-            }
-
-        })();
-    </script>
-{% endblock %}
+            })();
+        </script>
+    {% endblock %}
