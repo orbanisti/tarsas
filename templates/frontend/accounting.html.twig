@@ -2,15 +2,15 @@
 {% block title %}{{ 'Könyvelés'|trans }}{% endblock %}
 {% block body %}
     <div class="container-fluid jumbotron-bg position-relative scroll"
-         style="background: url('{{ asset('build/images/everest_background.jpg') }}');min-height: 600px;">
+         style=" background: linear-gradient(rgba(34, 70, 148, 0.5), rgba(34, 70, 148, 0.5)), url({{ asset('build/images/everest_background.jpg') }}) 0 -100px;min-height: 600px;">
         <div class="row">
             <div class="primary-overlay-div"></div>
             <div class="container mt-5">
                 <div class="row">
 
                     <div class="col-md-6 text-left animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big fadeInTextAnimation">{{ 'Könyvelés'|trans }}</h1>
-                        <p class="mt-sm-5 fadeInTextAnimation " data-delay="20">
+                        <h1 class="mb-5 text-big text-white fadeInTextAnimation">{{ 'Könyvelés'|trans }}</h1>
+                        <p class="mt-sm-5  text-white fadeInTextAnimation " data-delay="20">
                             {{ 'Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
                             Everest
                             Accounting.'|trans }}
