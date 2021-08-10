@@ -1,1180 +1,1222 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="hu" target-language="en" datatype="plaintext" original="file.ext">
-    <header>
-      <tool tool-id="symfony" tool-name="Symfony"/>
-    </header>
-    <body>
-      <trans-unit id="7bRlYkK" resname="note">
-        <source>note</source>
-        <target>NOTE</target>
-      </trans-unit>
-      <trans-unit id="lzgBh6h" resname="tip">
-        <source>tip</source>
-        <target>TIP</target>
-      </trans-unit>
-      <trans-unit id="tbB2gib" resname="not_available">
-        <source>not_available</source>
-        <target>Not available</target>
-      </trans-unit>
-      <trans-unit id="F0dwSb7" resname="mit_license">
-        <source>mit_license</source>
-        <target>MIT License</target>
-      </trans-unit>
-      <trans-unit id="DF34uM2" resname="http_error.name">
-        <source>http_error.name</source>
-        <target>Error {status_code, number}</target>
-      </trans-unit>
-      <trans-unit id="e3w.2Rf" resname="http_error.description">
-        <source>http_error.description</source>
-        <target>There was an unknown error (HTTP {status_code, number}) that prevented to complete your request.</target>
-      </trans-unit>
-      <trans-unit id="ru5FEGk" resname="http_error.suggestion">
-        <source>http_error.suggestion</source>
-        <target><![CDATA[Try loading this page again in some minutes or <a href="{url}">go back to the homepage</a>.]]></target>
-      </trans-unit>
-      <trans-unit id="Qn5rwdU" resname="http_error_403.description">
-        <source>http_error_403.description</source>
-        <target>You don't have permission to access to this resource.</target>
-      </trans-unit>
-      <trans-unit id="zDeeh7L" resname="http_error_403.suggestion">
-        <source>http_error_403.suggestion</source>
-        <target>Ask your manager or system administrator to grant you access to this resource.</target>
-      </trans-unit>
-      <trans-unit id="_W1eNz2" resname="http_error_404.description">
-        <source>http_error_404.description</source>
-        <target>We couldn't find the page you requested.</target>
-      </trans-unit>
-      <trans-unit id="MWNS5dg" resname="http_error_404.suggestion">
-        <source>http_error_404.suggestion</source>
-        <target><![CDATA[Check out any misspelling in the URL or <a href="{url}">go back to the homepage</a>.]]></target>
-      </trans-unit>
-      <trans-unit id="ZYXSW95" resname="http_error_500.description">
-        <source>http_error_500.description</source>
-        <target>There was an internal server error.</target>
-      </trans-unit>
-      <trans-unit id="VVs_J1c" resname="http_error_500.suggestion">
-        <source>http_error_500.suggestion</source>
-        <target><![CDATA[Try loading this page again in some minutes or <a href="{url}">go back to the homepage</a>.]]></target>
-      </trans-unit>
-      <trans-unit id="0azKJvE" resname="title.homepage">
-        <source>title.homepage</source>
-        <target><![CDATA[Welcome to the <strong>Symfony Demo</strong> application]]></target>
-      </trans-unit>
-      <trans-unit id="9RwuNlf" resname="title.source_code">
-        <source>title.source_code</source>
-        <target>Source code used to render this page</target>
-      </trans-unit>
-      <trans-unit id="jaB3QjG" resname="title.controller_code">
-        <source>title.controller_code</source>
-        <target>Controller code</target>
-      </trans-unit>
-      <trans-unit id="2bH7SjO" resname="title.twig_template_code">
-        <source>title.twig_template_code</source>
-        <target>Twig template code</target>
-      </trans-unit>
-      <trans-unit id="80JoLd0" resname="title.login">
-        <source>title.login</source>
-        <target>Secure Sign in</target>
-      </trans-unit>
-      <trans-unit id="6sz9l7G" resname="title.post_list">
-        <source>title.post_list</source>
-        <target>Post List</target>
-      </trans-unit>
-      <trans-unit id="6mAd7C7" resname="title.edit_post">
-        <source>title.edit_post</source>
-        <target>Edit post #{id, number}</target>
-      </trans-unit>
-      <trans-unit id="RElHkkW" resname="title.add_comment">
-        <source>title.add_comment</source>
-        <target>Add a comment</target>
-      </trans-unit>
-      <trans-unit id="KuKEZ2." resname="title.comment_error">
-        <source>title.comment_error</source>
-        <target>There was an error publishing your comment</target>
-      </trans-unit>
-      <trans-unit id="1sstKF9" resname="title.edit_user">
-        <source>title.edit_user</source>
-        <target>Edit user</target>
-      </trans-unit>
-      <trans-unit id="rrU0GR8" resname="title.change_password">
-        <source>title.change_password</source>
-        <target>Change password</target>
-      </trans-unit>
-      <trans-unit id="Ffi98jp" resname="action.show">
-        <source>action.show</source>
-        <target>Show</target>
-      </trans-unit>
-      <trans-unit id="VO1bKFS" resname="action.show_post">
-        <source>action.show_post</source>
-        <target>Show post</target>
-      </trans-unit>
-      <trans-unit id="QbohvW1" resname="action.show_code">
-        <source>action.show_code</source>
-        <target>Show code</target>
-      </trans-unit>
-      <trans-unit id="ovKkXwU" resname="action.edit">
-        <source>action.edit</source>
-        <target>Edit</target>
-      </trans-unit>
-      <trans-unit id="lpqpnUS" resname="action.edit_post">
-        <source>action.edit_post</source>
-        <target>Edit post</target>
-      </trans-unit>
-      <trans-unit id="HLtdhYw" resname="action.save">
-        <source>action.save</source>
-        <target>Save changes</target>
-      </trans-unit>
-      <trans-unit id="d_4ma5r" resname="action.delete_post">
-        <source>action.delete_post</source>
-        <target>Delete post</target>
-      </trans-unit>
-      <trans-unit id="CAMlK1D" resname="delete_post_modal.title">
-        <source>delete_post_modal.title</source>
-        <target>Are you sure you want to delete this post?</target>
-      </trans-unit>
-      <trans-unit id="4FkRv.I" resname="delete_post_modal.body">
-        <source>delete_post_modal.body</source>
-        <target>This action cannot be undone.</target>
-      </trans-unit>
-      <trans-unit id="oRRFO4u" resname="label.delete_post">
-        <source>label.delete_post</source>
-        <target>Delete post</target>
-      </trans-unit>
-      <trans-unit id="8yeGT7d" resname="label.cancel">
-        <source>label.cancel</source>
-        <target>Cancel</target>
-      </trans-unit>
-      <trans-unit id="G1QItEF" resname="action.create_post">
-        <source>action.create_post</source>
-        <target>Create a new post</target>
-      </trans-unit>
-      <trans-unit id="J76H6bc" resname="label.create_post">
-        <source>label.create_post</source>
-        <target>Create post</target>
-      </trans-unit>
-      <trans-unit id="KM4MSbI" resname="label.save_and_create_new">
-        <source>label.save_and_create_new</source>
-        <target>Save and create new</target>
-      </trans-unit>
-      <trans-unit id="Rmxwd1D" resname="action.back_to_list">
-        <source>action.back_to_list</source>
-        <target>Back to the post list</target>
-      </trans-unit>
-      <trans-unit id="E36cr6o" resname="action.publish_comment">
-        <source>action.publish_comment</source>
-        <target>Publish comment</target>
-      </trans-unit>
-      <trans-unit id="z2pPSYV" resname="action.sign_in">
-        <source>action.sign_in</source>
-        <target>Sign in</target>
-      </trans-unit>
-      <trans-unit id="Y1PJw41" resname="action.browse_app">
-        <source>action.browse_app</source>
-        <target>Browse application</target>
-      </trans-unit>
-      <trans-unit id="l9A3J40" resname="action.browse_admin">
-        <source>action.browse_admin</source>
-        <target>Browse backend</target>
-      </trans-unit>
-      <trans-unit id="etGJjTo" resname="action.edit_user">
-        <source>action.edit_user</source>
-        <target>Edit user</target>
-      </trans-unit>
-      <trans-unit id="CX_oSFd" resname="action.change_password">
-        <source>action.change_password</source>
-        <target>Change password</target>
-      </trans-unit>
-      <trans-unit id="wCazS.X" resname="action.close">
-        <source>action.close</source>
-        <target>Close</target>
-      </trans-unit>
-      <trans-unit id="UrRn8xj" resname="label.title">
-        <source>label.title</source>
-        <target>Title</target>
-      </trans-unit>
-      <trans-unit id="bxYZLcN" resname="label.author">
-        <source>label.author</source>
-        <target>Author</target>
-      </trans-unit>
-      <trans-unit id="uh.E_Fq" resname="label.author_email">
-        <source>label.author_email</source>
-        <target>Author email</target>
-      </trans-unit>
-      <trans-unit id="LDhDPrF" resname="label.username">
-        <source>label.username</source>
-        <target>Username</target>
-      </trans-unit>
-      <trans-unit id="aYnbvsn" resname="label.fullname">
-        <source>label.fullname</source>
-        <target>Fullname</target>
-      </trans-unit>
-      <trans-unit id="D2N6_cP" resname="label.email">
-        <source>label.email</source>
-        <target>Email</target>
-      </trans-unit>
-      <trans-unit id="9pvowqn" resname="label.password">
-        <source>label.password</source>
-        <target>Password</target>
-      </trans-unit>
-      <trans-unit id="pGkejkU" resname="label.current_password">
-        <source>label.current_password</source>
-        <target>Current password</target>
-      </trans-unit>
-      <trans-unit id="iiWFLaI" resname="label.new_password">
-        <source>label.new_password</source>
-        <target>New password</target>
-      </trans-unit>
-      <trans-unit id="Ucl9Jfc" resname="label.new_password_confirm">
-        <source>label.new_password_confirm</source>
-        <target>Confirm password</target>
-      </trans-unit>
-      <trans-unit id="O59lP5d" resname="label.role">
-        <source>label.role</source>
-        <target>Role</target>
-      </trans-unit>
-      <trans-unit id="qqpGLJl" resname="label.content">
-        <source>label.content</source>
-        <target>Content</target>
-      </trans-unit>
-      <trans-unit id="tT7OhMP" resname="label.summary">
-        <source>label.summary</source>
-        <target>Summary</target>
-      </trans-unit>
-      <trans-unit id="xrlnqyo" resname="label.published_at">
-        <source>label.published_at</source>
-        <target>Published at</target>
-      </trans-unit>
-      <trans-unit id="ijQyGRo" resname="label.tags">
-        <source>label.tags</source>
-        <target>Tags</target>
-      </trans-unit>
-      <trans-unit id="zldXQq6" resname="label.actions">
-        <source>label.actions</source>
-        <target>Actions</target>
-      </trans-unit>
-      <trans-unit id="_SZYoOn" resname="title.post_new">
-        <source>title.post_new</source>
-        <target>Post creation</target>
-      </trans-unit>
-      <trans-unit id="1wYTt2x" resname="action.edit_contents">
-        <source>action.edit_contents</source>
-        <target>Edit contents</target>
-      </trans-unit>
-      <trans-unit id="sqML_MO" resname="menu.toggle_nav">
-        <source>menu.toggle_nav</source>
-        <target>Toggle navigation</target>
-      </trans-unit>
-      <trans-unit id="SWM2jM." resname="menu.choose_language">
-        <source>menu.choose_language</source>
-        <target>Choose language</target>
-      </trans-unit>
-      <trans-unit id="3XHWUzG" resname="menu.post_list">
-        <source>menu.post_list</source>
-        <target>Post list</target>
-      </trans-unit>
-      <trans-unit id="7eZ5X01" resname="menu.back_to_blog">
-        <source>menu.back_to_blog</source>
-        <target>Back to blog</target>
-      </trans-unit>
-      <trans-unit id="UoOv6mx" resname="menu.homepage">
-        <source>menu.homepage</source>
-        <target>Homepage</target>
-      </trans-unit>
-      <trans-unit id="wvvYSw_" resname="menu.admin">
-        <source>menu.admin</source>
-        <target>Backend</target>
-      </trans-unit>
-      <trans-unit id="rjDqmQR" resname="menu.user">
-        <source>menu.user</source>
-        <target>Account</target>
-      </trans-unit>
-      <trans-unit id="wBTFKFR" resname="menu.logout">
-        <source>menu.logout</source>
-        <target>Logout</target>
-      </trans-unit>
-      <trans-unit id="0gTEZVk" resname="menu.rss">
-        <source>menu.rss</source>
-        <target>Blog Posts RSS</target>
-      </trans-unit>
-      <trans-unit id="k6VxCsO" resname="menu.search">
-        <source>menu.search</source>
-        <target>Search</target>
-      </trans-unit>
-      <trans-unit id="zY.oLN." resname="post.to_publish_a_comment">
-        <source>post.to_publish_a_comment</source>
-        <target>to publish a comment</target>
-      </trans-unit>
-      <trans-unit id="is7pld7" resname="post.num_comments">
-        <source>post.num_comments</source>
-        <target>{count, plural, one {# comment} other {# comments}}</target>
-      </trans-unit>
-      <trans-unit id="vdsQrtG" resname="post.commented_on">
-        <source>post.commented_on</source>
-        <target>commented on</target>
-      </trans-unit>
-      <trans-unit id="UZzyX5e" resname="post.no_comments">
-        <source>post.no_comments</source>
-        <target>Be the first to comment on this post.</target>
-      </trans-unit>
-      <trans-unit id="aMaXcw0" resname="post.no_posts_found">
-        <source>post.no_posts_found</source>
-        <target>No posts found.</target>
-      </trans-unit>
-      <trans-unit id="uIfkb5m" resname="post.created_successfully">
-        <source>post.created_successfully</source>
-        <target>Post created successfully!</target>
-      </trans-unit>
-      <trans-unit id="1TdLwHn" resname="post.updated_successfully">
-        <source>post.updated_successfully</source>
-        <target>Post updated successfully!</target>
-      </trans-unit>
-      <trans-unit id="REYq3Ar" resname="post.deleted_successfully">
-        <source>post.deleted_successfully</source>
-        <target>Post deleted successfully!</target>
-      </trans-unit>
-      <trans-unit id="rAoWddb" resname="post.search_for">
-        <source>post.search_for</source>
-        <target>Search for...</target>
-      </trans-unit>
-      <trans-unit id="_SSBmQW" resname="post.search_no_results">
-        <source>post.search_no_results</source>
-        <target>No results found</target>
-      </trans-unit>
-      <trans-unit id="OBmPOoB" resname="user.updated_successfully">
-        <source>user.updated_successfully</source>
-        <target>User updated successfully!</target>
-      </trans-unit>
-      <trans-unit id="KheXs2k" resname="notification.comment_created">
-        <source>notification.comment_created</source>
-        <target>Your post received a comment!</target>
-      </trans-unit>
-      <trans-unit id="VEcVbGK" resname="notification.comment_created.description">
-        <source>notification.comment_created.description</source>
-        <target><![CDATA[Your post "{title}" has received a new comment. You can read the comment by following <a href="{link}">this link</a>]]></target>
-      </trans-unit>
-      <trans-unit id="JPjzTgz" resname="help.app_description">
-        <source>help.app_description</source>
-        <target><![CDATA[This is a <strong>demo application</strong> built in the Symfony Framework to illustrate the recommended way of developing Symfony applications.]]></target>
-      </trans-unit>
-      <trans-unit id="VgeTgE2" resname="help.show_code">
-        <source>help.show_code</source>
-        <target><![CDATA[Click on this button to show the source code of the <strong>Controller</strong> and <strong>template</strong> used to render this page.]]></target>
-      </trans-unit>
-      <trans-unit id="tuBXYUW" resname="help.browse_app">
-        <source>help.browse_app</source>
-        <target><![CDATA[Browse the <strong>public section</strong> of the demo application.]]></target>
-      </trans-unit>
-      <trans-unit id="mUBeOVP" resname="help.browse_admin">
-        <source>help.browse_admin</source>
-        <target><![CDATA[Browse the <strong>admin backend</strong> of the demo application.]]></target>
-      </trans-unit>
-      <trans-unit id="7s0ZMku" resname="help.login_users">
-        <source>help.login_users</source>
-        <target>Try either of the following users</target>
-      </trans-unit>
-      <trans-unit id="NTiRWXv" resname="help.role_user">
-        <source>help.role_user</source>
-        <target>regular user</target>
-      </trans-unit>
-      <trans-unit id="WVrtpfW" resname="help.role_admin">
-        <source>help.role_admin</source>
-        <target>administrator</target>
-      </trans-unit>
-      <trans-unit id="m.1q26M" resname="help.reload_fixtures">
-        <source>help.reload_fixtures</source>
-        <target>If these users don't work, reload application fixtures by running this command from the terminal:</target>
-      </trans-unit>
-      <trans-unit id=".rVk3CB" resname="help.add_user">
-        <source>help.add_user</source>
-        <target>If you want to create new users, run this other command:</target>
-      </trans-unit>
-      <trans-unit id="Km5w.Hs" resname="help.more_information">
-        <source>help.more_information</source>
-        <target><![CDATA[For more information, check out the <a href="https://symfony.com/doc">Symfony doc</a>.]]></target>
-      </trans-unit>
-      <trans-unit id="BqPd4TD" resname="help.post_summary">
-        <source>help.post_summary</source>
-        <target>Summaries can't contain Markdown or HTML contents; only plain text.</target>
-      </trans-unit>
-      <trans-unit id="9NUEfJS" resname="help.post_publication">
-        <source>help.post_publication</source>
-        <target>Set the date in the future to schedule the blog post publication.</target>
-      </trans-unit>
-      <trans-unit id=".3Ig3V1" resname="help.post_content">
-        <source>help.post_content</source>
-        <target>Use Markdown to format the blog post contents. HTML is allowed too.</target>
-      </trans-unit>
-      <trans-unit id="6iYoX0v" resname="help.comment_content">
-        <source>help.comment_content</source>
-        <target>Comments not complying with our Code of Conduct will be moderated.</target>
-      </trans-unit>
-      <trans-unit id="wtG.cxy" resname="info.change_password">
-        <source>info.change_password</source>
-        <target>After changing your password, you will be logged out of the application.</target>
-      </trans-unit>
-      <trans-unit id="DkZtOOL" resname="rss.title">
-        <source>rss.title</source>
-        <target>Symfony Demo blog</target>
-      </trans-unit>
-      <trans-unit id="ZFPsu41" resname="rss.description">
-        <source>rss.description</source>
-        <target>Most recent posts published on the Symfony Demo blog</target>
-      </trans-unit>
-      <trans-unit id="oOXdtd2" resname="paginator.previous">
-        <source>paginator.previous</source>
-        <target>Previous</target>
-      </trans-unit>
-      <trans-unit id="rjAecsf" resname="paginator.next">
-        <source>paginator.next</source>
-        <target>Next</target>
-      </trans-unit>
-      <trans-unit id="tX4BnBn" resname="paginator.current">
-        <source>paginator.current</source>
-        <target>(current)</target>
-      </trans-unit>
-      <trans-unit id="q0j89wb" resname="Accounting">
-        <source>Accounting</source>
-        <target>Accounting</target>
-      </trans-unit>
-      <trans-unit id="vgXV9Vp" resname="Renewables">
-        <source>Renewables</source>
-        <target>Renewables</target>
-      </trans-unit>
-      <trans-unit id="Iq2bjw2" resname="IT Solutions">
-        <source>IT Solutions</source>
-        <target>IT Solutions</target>
-      </trans-unit>
-      <trans-unit id="Lxeg_NU" resname="Jobs">
-        <source>Jobs</source>
-        <target>Jobs</target>
-      </trans-unit>
-      <trans-unit id="Tvyg0Qx" resname="About">
-        <source>About</source>
-        <target>About</target>
-      </trans-unit>
-      <trans-unit id="K1w9JnI" resname="Contact">
-        <source>Contact</source>
-        <target>__Contact</target>
-      </trans-unit>
-      <trans-unit id="ySRBzGR" resname="Segíthetünk?">
-        <source>Segíthetünk?</source>
-        <target>Can we help you?</target>
-      </trans-unit>
-      <trans-unit id="2kF9O_." resname="Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
-        <source>Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
-        <target>__Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</target>
-      </trans-unit>
-      <trans-unit id="RntXRee" resname="Név">
-        <source>Név</source>
-        <target>Name</target>
-      </trans-unit>
-      <trans-unit id="XAtCm3u" resname="Cég">
-        <source>Cég</source>
-        <target>Company</target>
-      </trans-unit>
-      <trans-unit id="L1dSvan" resname="E-mail cím">
-        <source>E-mail cím</source>
-        <target>E-mail</target>
-      </trans-unit>
-      <trans-unit id="_mkG127" resname="Telefon">
-        <source>Telefon</source>
-        <target>Phone</target>
-      </trans-unit>
-      <trans-unit id="xvt2XRR" resname="Beküldés">
-        <source>Beküldés</source>
-        <target>Send</target>
-      </trans-unit>
-      <trans-unit id="Ai7fD9l" resname="Könyvelés">
-        <source>Könyvelés</source>
-        <target>Accounting</target>
-      </trans-unit>
-      <trans-unit id="bqwxtmv" resname="Megújuló energia">
-        <source>Megújuló energia</source>
-        <target>Renewables</target>
-      </trans-unit>
-      <trans-unit id="K_DrVtU" resname="IT Megoldások">
-        <source>IT Megoldások</source>
-        <target>IT Solutions</target>
-      </trans-unit>
-      <trans-unit id="F7Cn1by" resname="Karrier">
-        <source>Karrier</source>
-        <target>Jobs</target>
-      </trans-unit>
-      <trans-unit id="Qs7rDZl" resname="Kapcsolat">
-        <source>Kapcsolat</source>
-        <target>Contact</target>
-      </trans-unit>
-      <trans-unit id="niP36MQ" resname="Rólunk">
-        <source>Rólunk</source>
-        <target>About</target>
-      </trans-unit>
-      <trans-unit id="jGvAmVN" resname="Blog">
-        <source>Blog</source>
-        <target>Blog</target>
-      </trans-unit>
-      <trans-unit id="B.HpW_i" resname="Előző">
-        <source>Előző</source>
-        <target>Previous</target>
-      </trans-unit>
-      <trans-unit id="yImyFfU" resname="Jelenlegi">
-        <source>Jelenlegi</source>
-        <target>Current</target>
-      </trans-unit>
-      <trans-unit id="TdOua3n" resname="Következő">
-        <source>Következő</source>
-        <target>Next</target>
-      </trans-unit>
-      <trans-unit id="1a20d55" resname="Projekt koordinátor">
-        <source>Projekt koordinátor</source>
-        <target>Project coordinator</target>
-      </trans-unit>
-      <trans-unit id="y.iPLW5" resname="Értékesítő-támogató koordinátor">
-        <source>Értékesítő-támogató koordinátor</source>
-        <target>__Értékesítő-támogató koordinátor</target>
-      </trans-unit>
-      <trans-unit id="Gd3J22X" resname="Sales Account Manager">
-        <source>Sales Account Manager</source>
-        <target>__Sales Account Manager</target>
-      </trans-unit>
-      <trans-unit id="_hyuR8B" resname="Könyvelő">
-        <source>Könyvelő</source>
-        <target>__Könyvelő</target>
-      </trans-unit>
-      <trans-unit id="TnuBfpB" resname="junior full-stack fejlesztő">
-        <source>junior full-stack fejlesztő</source>
-        <target>__junior full-stack fejlesztő</target>
-      </trans-unit>
-      <trans-unit id="i9MZg6F" resname="senior full-stack fejlesztő">
-        <source>senior full-stack fejlesztő</source>
-        <target>__senior full-stack fejlesztő</target>
-      </trans-unit>
-      <trans-unit id="VjwprWb" resname="junior backend fejlesztő">
-        <source>junior backend fejlesztő</source>
-        <target>__junior backend fejlesztő</target>
-      </trans-unit>
-      <trans-unit id="UN.cUUQ" resname="senior backend fejlesztő">
-        <source>senior backend fejlesztő</source>
-        <target>__senior backend fejlesztő</target>
-      </trans-unit>
-      <trans-unit id="yZ3OMZk" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
-        <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!</source>
-        <target>Write to us and your Account Manager will be in touch within 24 hours. Every of your questions will be answered, even in English, German and Spanish, too!</target>
-      </trans-unit>
-      <trans-unit id="hdSWPoM" resname="Nyitott pozícióink">
-        <source>Nyitott pozícióink</source>
-        <target>Open positions</target>
-      </trans-unit>
-      <trans-unit id="oU.X9se" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!">
-        <source>Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!</source>
-        <target>Fill out this form - this is the easiest way for asking for an Accounting quotation but we are happy to see your question about Renewables or IT Solutions.</target>
-      </trans-unit>
-      <trans-unit id="D1.tF5H" resname="CV">
-        <source>CV</source>
-        <target>CV</target>
-      </trans-unit>
-      <trans-unit id="sVsk6di" resname="Tárgy">
-        <source>Tárgy</source>
-        <target>Subject</target>
-      </trans-unit>
-      <trans-unit id="8rR10mE" resname="Mit tehetünk Önért?">
-        <source>Mit tehetünk Önért?</source>
-        <target>What can we do for you?</target>
-      </trans-unit>
-      <trans-unit id="6ajvXvX" resname="Iroda">
-        <source>Iroda</source>
-        <target>Office</target>
-      </trans-unit>
-      <trans-unit id="_DaFxXG" resname="Érdekel">
-        <source>Érdekel</source>
-        <target>I'm interested</target>
-      </trans-unit>
-      <trans-unit id="fWzXUFS" resname="Adatkezelési szabályzat">
-        <source>Adatkezelési szabályzat</source>
-        <target>Privacy policy</target>
-      </trans-unit>
-      <trans-unit id="AiT6e7d" resname="Főoldal">
-        <source>Főoldal</source>
-        <target>Homepage</target>
-      </trans-unit>
-      <trans-unit id="OT9s60r" resname="Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.">
-        <source>Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.</source>
-        <target>__Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.</target>
-      </trans-unit>
-      <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
-        <source>Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
-        <target>Write to us and our colleagues will be in touch within 24 hours, to answer all your questions!</target>
-      </trans-unit>
-      <trans-unit id="yM4kVuz" resname="Vissza a nyitott pozíciókra">
-        <source>Vissza a nyitott pozíciókra</source>
-        <target>__Vissza a nyitott pozíciókra</target>
-      </trans-unit>
-      <trans-unit id="gqoftJL" resname="Irodánk">
-        <source>Irodánk</source>
-        <target>__Irodánk</target>
-      </trans-unit>
-      <trans-unit id="1iK2rYR" resname="Ügyfél elköteleződést ajánlunk">
-        <source>Ügyfél elköteleződést ajánlunk</source>
-        <target>We offer brand recognition,</target>
-      </trans-unit>
-      <trans-unit id="I7zK0te" resname="nem csak sales konzultációt">
-        <source>nem csak sales konzultációt</source>
-        <target>not just sales consulting</target>
-      </trans-unit>
-      <trans-unit id="o5K46Nq" resname="Munkamódszerünk">
-        <source>Munkamódszerünk</source>
-        <target>Our work ethic</target>
-      </trans-unit>
-      <trans-unit id="fdg59Kx" resname="Az ügyféligényekhez igazodunk">
-        <source>Az ügyféligényekhez igazodunk</source>
-        <target>We adapt to the customer's needs</target>
-      </trans-unit>
-      <trans-unit id="7KaPl0g" resname="Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.">
-        <source>Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.</source>
-        <target>Our consultants will assist you in selecting the best products that will last for decades. All of our partners' success is assured by our preparation, competence, and customer care. Our years of success in the solar market attest to this. </target>
-      </trans-unit>
-      <trans-unit id="JNHWg0z" resname="Értékesített napelemes rendszer">
-        <source>Értékesített napelemes rendszer</source>
-        <target>PVs sold</target>
-      </trans-unit>
-      <trans-unit id="fFZz7Ae" resname="Szerződéskötési arány">
-        <source>Szerződéskötési arány</source>
-        <target>Hit rate</target>
-      </trans-unit>
-      <trans-unit id="rL.4a6U" resname="A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
-        <source>A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
-        <target>These days, environmental protection and sustainability are extremely important aspects of our lives. Everest Renewables is on a mission to help solve this problem while also ensuring a sustainable future.</target>
-      </trans-unit>
-      <trans-unit id="NQFLPTP" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán..">
-        <source>Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán..</source>
-        <target>When it comes to customers, we use our near-perfect personal consulting skills to build brand loyalty among our partners.</target>
-      </trans-unit>
-      <trans-unit id="vrrTmrM" resname="Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform">
-        <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
-        <target>Maximum environmentally friendly - absolute and comprehensive building reform</target>
-      </trans-unit>
-      <trans-unit id="MXFzVl5" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
-        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.</source>
-        <target>We are doing it for our environment. Everest Renewables provides professional development for our employees so that they can deliver the best service possible on site. When it comes to upgrading your home, one must consider a number of factors. It is critical to consider the type of solar system, air conditioner, heat pump, or electric car charger that will be implemented in your home. Because the technical substance of our products is constantly evolving, we provide extensive sales training to keep employees up to date, regardless of what type of power-related products or services.</target>
-      </trans-unit>
-      <trans-unit id="Sl_5ad8" resname="Everest ügyfél- és projektmenedzsment">
-        <source>Everest ügyfél- és projektmenedzsment</source>
-        <target>Client and project management by Everest</target>
-      </trans-unit>
-      <trans-unit id="yAUSsca" resname="Ügyféligénytől a jótállásig">
-        <source>Ügyféligénytől a jótállásig</source>
-        <target>From interest to guarantee - what does the whole process look like?</target>
-      </trans-unit>
-      <trans-unit id="gk4NJwG" resname="Érdeklődők és ajánlások gyűjtése">
-        <source>Érdeklődők és ajánlások gyűjtése</source>
-        <target>Collecting leads</target>
-      </trans-unit>
-      <trans-unit id="NloN8oY" resname="Ügyféllel való kapcsolatfelvétel, időpont egyeztetés">
-        <source>Ügyféllel való kapcsolatfelvétel, időpont egyeztetés</source>
-        <target>Connect with leads, making appointments</target>
-      </trans-unit>
-      <trans-unit id="mAdRYX_" resname="Szerződéskötés">
-        <source>Szerződéskötés</source>
-        <target>Contract</target>
-      </trans-unit>
-      <trans-unit id="heBlPU6" resname="Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése">
-        <source>Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése</source>
-        <target>Administration: managing required permits</target>
-      </trans-unit>
-      <trans-unit id="ciEhNUY" resname="Termék kivitelezésének tervezése, felügyelete">
-        <source>Termék kivitelezésének tervezése, felügyelete</source>
-        <target>Planning and supervising of installation</target>
-      </trans-unit>
-      <trans-unit id="UClBgC." resname="Ügyfélelégedettség nyomonkövetése">
-        <source>Ügyfélelégedettség nyomonkövetése</source>
-        <target>Customer satisfaction tracking, warranty monitoring</target>
-      </trans-unit>
-      <trans-unit id="bSHi3Ew" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.">
-        <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.</source>
-        <target>Every lead is treated as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are fully satisfied. Our system's success is proven by our outstandingly high NPS score of 75.</target>
-      </trans-unit>
-      <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
-        <source>Saját ERP rendszer</source>
-        <target>Our ERP system</target>
-      </trans-unit>
-      <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
-        <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
-                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
-        <target>We believe that there can be no customer satisfaction without a reliable IT system as a foundation. We designed our ERP system to provide the best possible user experience, and we can make changes demanded by the market.</target>
-      </trans-unit>
-      <trans-unit id="p1Wt0Yj" resname="Everest ERP rendszer">
-        <source>Everest ERP rendszer</source>
-        <target>Everest ERP system</target>
-      </trans-unit>
-      <trans-unit id="Pi2nNil" resname="100%-ban saját, 100% Everest">
-        <source>100%-ban saját, 100% Everest</source>
-        <target>100% own, 100% Everest</target>
-      </trans-unit>
-      <trans-unit id="LnOZ869" resname="Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)">
-        <source>Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)</source>
-        <target>Fast, immediately available. Any new development can be started right away (regardless of whether the law or the market environment has changed).</target>
-      </trans-unit>
-      <trans-unit id="VItFzrV" resname="Felhasználóbarát felület">
-        <source>Felhasználóbarát felület</source>
-        <target>User-friendly surface</target>
-      </trans-unit>
-      <trans-unit id="8TlOUk_" resname="Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,&#10;                                menedzserek, projektkoordinátorok, call center, stb)">
-        <source>Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,
-                                menedzserek, projektkoordinátorok, call center, stb)</source>
-        <target>Roles: different workflows need different roles (regional representatives, managers, project coordinators, call center, etc.)</target>
-      </trans-unit>
-      <trans-unit id="x7cGWvm" resname="Folyamatos support rendelkezésre állás">
-        <source>Folyamatos support rendelkezésre állás</source>
-        <target>Continuous support</target>
-      </trans-unit>
-      <trans-unit id="IN6Kjlx" resname="Új funkciók bevezetése rendszeresen">
-        <source>Új funkciók bevezetése rendszeresen</source>
-        <target>Developing new functions continually</target>
-      </trans-unit>
-      <trans-unit id="CRDkaiQ" resname="Oldalak">
-        <source>Oldalak</source>
-        <target>Pages</target>
-      </trans-unit>
-      <trans-unit id="SMPHk7k" resname="A magyarországi sikerek után már Csehországban is jelen vagyunk!">
-        <source>A magyarországi sikerek után már Csehországban is jelen vagyunk!</source>
-        <target>We began in Hungary, but now we can be found in a variety of countries!</target>
-      </trans-unit>
-      <trans-unit id="T6CtVvD" resname="Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:&#10;                            Everest&#10;                            Accounting.">
-        <source>Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
-                            Everest
-                            Accounting.</source>
-        <target>In business, you have to plan. For that, you will need accurate data immediately. What if Everest Accounting could help you with that?</target>
-      </trans-unit>
-      <trans-unit id="Xn7JH1N" resname="Profi csapat, átlátható könyvelés">
-        <source>Profi csapat, átlátható könyvelés</source>
-        <target>Professional team, transparent accounting</target>
-      </trans-unit>
-      <trans-unit id="NeBY1xf" resname="Portál">
-        <source>Portál</source>
-        <target>Portal</target>
-      </trans-unit>
-      <trans-unit id="hcDKiKh" resname="Account manager">
-        <source>Account manager</source>
-        <target>Account managers</target>
-      </trans-unit>
-      <trans-unit id="GwmpxVF" resname="év">
-        <source>év</source>
-        <target>years</target>
-      </trans-unit>
-      <trans-unit id="Png2Fbw" resname="Elégedett ügyfél">
-        <source>Elégedett ügyfél</source>
-        <target>Satisfied customer</target>
-      </trans-unit>
-      <trans-unit id="xKCZot8" resname="Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.">
-        <source>Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.</source>
-        <target>The first time we met with our clients was in 2005. Hundreds more have followed them ever since: we have helped them with their finances through accounting and consulting, as well as advising them on how to better utilize their resources.</target>
-      </trans-unit>
-      <trans-unit id="RIKiGAa" resname="Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.">
-        <source>Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.</source>
-        <target>We can summarize this in one sentence: our professional accountants, account managers, and our online surface can support conscious management decisions, however, our services are more than that; one prepared financial advisor can help you with the daily process.</target>
-      </trans-unit>
-      <trans-unit id="fKmNgNH" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.">
-        <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.</source>
-        <target>A precise accounting staff will work with you to keep track of what you can see on our unique online platform. This will assist you in managing your company and finances.</target>
-      </trans-unit>
-      <trans-unit id="G0ojgHU" resname="Adatok vállalkozásáról.">
-        <source>Adatok vállalkozásáról.</source>
-        <target>Data from your company.</target>
-      </trans-unit>
-      <trans-unit id="2PFVYl4" resname="Azonnal.">
-        <source>Azonnal.</source>
-        <target>Now!</target>
-      </trans-unit>
-      <trans-unit id="4lqrf8z" resname="Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?">
-        <source>Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?</source>
-        <target>Do you know that the data that can help you in making decisions about hiring, investment, or even a smaller purchases? Are you familiar with your incoming and outgoing statistics, the seasonality or do you know which of your partners are the most loyal to you and how much money they spend at your company?</target>
-      </trans-unit>
-      <trans-unit id=".fu.5YU" resname="A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a követelések és a kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.">
-        <source>A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a követelések és a kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.</source>
-        <target>In Everest Portal you are just a click away from your business’s actual finance situation, like receivables/payables, what and when do you have to pay, the status of your invoices, etc. In our Portal, you have access to numerous statistics, statements, and your quarterly and yearly analysis.</target>
-      </trans-unit>
-      <trans-unit id="UJsfcxl" resname="A Portál">
-        <source>A Portál</source>
-        <target>The Portal</target>
-      </trans-unit>
-      <trans-unit id="DYH362X" resname="Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is">
-        <source>Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is</source>
-        <target>All statistics and data in one place: one click away even in a meeting</target>
-      </trans-unit>
-      <trans-unit id="xywBsDa" resname="Felelős döntést másodpercek alatt, azonnal elérhető cégadatokból">
-        <source>Felelős döntést másodpercek alatt, azonnal elérhető cégadatokból</source>
-        <target>Responsible decisions under seconds - always available</target>
-      </trans-unit>
-      <trans-unit id="7BjbJf_" resname="Döntse el egy pillanat alatt, hogy van-e elég fedezete arra, amit tervez">
-        <source>Döntse el egy pillanat alatt, hogy van-e elég fedezete arra, amit tervez</source>
-        <target>Decide if you have enough resources for your investments</target>
-      </trans-unit>
-      <trans-unit id="K.c63jB" resname="Férjen hozzá az bérszámfejtés összes adatához: bárhol, és bármikor">
-        <source>Férjen hozzá az bérszámfejtés összes adatához: bárhol, és bármikor</source>
-        <target>Get access to the payroll anywhere, anytime</target>
-      </trans-unit>
-      <trans-unit id="TMWgcER" resname="Segítünk, hogy mindig naprakész legyen a könyvelésben!">
-        <source>Segítünk, hogy mindig naprakész legyen a könyvelésben!</source>
-        <target>We are going to help you to be updated in the accounting!</target>
-      </trans-unit>
-      <trans-unit id="_C.8Cfo" resname="Könyvelő ">
-        <source>Könyvelő </source>
-        <target>Accountants</target>
-      </trans-unit>
-      <trans-unit id="dEm5s0j" resname=" év">
-        <source> év</source>
-        <target>years</target>
-      </trans-unit>
-      <trans-unit id="Dk_JUtZ" resname="Account manager ">
-        <source>Account manager </source>
-        <target>Account managers</target>
-      </trans-unit>
-      <trans-unit id="Ogn89Sa" resname=" tapasztalat">
-        <source> tapasztalat</source>
-        <target>of experience</target>
-      </trans-unit>
-      <trans-unit id="kRxzIwa" resname="Hogyan dolgozunk">
-        <source>Hogyan dolgozunk</source>
-        <target>How do we work</target>
-      </trans-unit>
-      <trans-unit id="pr3RU7z" resname="Elfogadom az {url} adatvédelmi irányelveket {endurl}">
-        <source>Elfogadom az {url} adatvédelmi irányelveket {endurl}</source>
-        <target>I accept the {url} privacy policy {endurl}</target>
-      </trans-unit>
-      <trans-unit id="qmnB_uG" resname="Köszönjük megkeresését, kollégáink hamarosan felveszik önnel a kapcsolatot">
-        <source>Köszönjük megkeresését, kollégáink hamarosan felveszik önnel a kapcsolatot</source>
-        <target>Thank you for your inquiry, our colleagues will contact you shortly</target>
-      </trans-unit>
-      <trans-unit id="mnlfrw6" resname="Nem csupán weboldalakat készítünk…">
-        <source>Nem csupán weboldalakat készítünk…</source>
-        <target>More than just websites…</target>
-      </trans-unit>
-      <trans-unit id="J6jHGcv" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian ismerjük a divatossá vált kifejezést, hogy weblap nélkül egy vállalat láthatatlan. Ebből már következik is, hogy az IT fejlesztés nálunk is nélkülözhetetlen volt már az elejétől kezdve.">
-        <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian ismerjük a divatossá vált kifejezést, hogy weblap nélkül egy vállalat láthatatlan. Ebből már következik is, hogy az IT fejlesztés nálunk is nélkülözhetetlen volt már az elejétől kezdve.</source>
-        <target>Our IT Solutions is the same age as Everest because you know - if you are not online you are invisible. It follows that IT development was crucial from day one.</target>
-      </trans-unit>
-      <trans-unit id="ogw8XKH" resname="Mérföldköveink">
-        <source>Mérföldköveink</source>
-        <target>Our milestones</target>
-      </trans-unit>
-      <trans-unit id="z1.TFXv" resname="Megtörténik az első lépés, létrejön az Everest.hu">
-        <source>Megtörténik az első lépés, létrejön az Everest.hu</source>
-        <target>First step, Everest.hu is developed</target>
-      </trans-unit>
-      <trans-unit id="Uel_Kh9" resname="Átadjuk Ügyfeleinknek az Accounting Portált">
-        <source>Átadjuk Ügyfeleinknek az Accounting Portált</source>
-        <target>Portal handover to our clients</target>
-      </trans-unit>
-      <trans-unit id="yE_0zfM" resname="Elindulnak fejlesztéseink Ügyfeleink számára">
-        <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
-        <target>We are starting to develop to our customers</target>
-      </trans-unit>
-      <trans-unit id="JAH0qwL" resname="Saját ERP rendszert hozunk létre">
-        <source>Saját ERP rendszert hozunk létre</source>
-        <target>The creation of our first ERP system</target>
-      </trans-unit>
-      <trans-unit id="SYdvTpG" resname="ERP-t fejlesztünk külföldi partnereink részére">
-        <source>ERP-t fejlesztünk külföldi partnereink részére</source>
-        <target>ERP for our customers abroad</target>
-      </trans-unit>
-      <trans-unit id="_3KS_4y" resname="Ugyanezt rendszert mobilappon is bemutatjuk">
-        <source>Ugyanezt rendszert mobilappon is bemutatjuk</source>
-        <target>Same system in mobile devices</target>
-      </trans-unit>
-      <trans-unit id="hP__AxU" resname="Elkezdjünk az együttműködést az Ön cégével!">
-        <source>Elkezdjünk az együttműködést az Ön cégével!</source>
-        <target>Starting the cooperation with your company!</target>
-      </trans-unit>
-      <trans-unit id="k0ZaDea" resname="Hogyan készül el nálunk egy fejlesztés?">
-        <source>Hogyan készül el nálunk egy fejlesztés?</source>
-        <target>How is development happening with us?</target>
-      </trans-unit>
-      <trans-unit id="Q3_Yshp" resname="Felmérjük az igényeket, a valósakat! Megbeszéljük, hogy pontosan mire van szükség, milyen célközönséggel, határidőkkel és erőforrással.">
-        <source>Felmérjük az igényeket, a valósakat! Megbeszéljük, hogy pontosan mire van szükség, milyen célközönséggel, határidőkkel és erőforrással.</source>
-        <target>We are going to meet your needs, the real ones! We talk about what you need, who will be your target audience, what resources do you need, and also the deadlines.</target>
-      </trans-unit>
-      <trans-unit id="MmePXht" resname="Tervezünk: először közösen, majd házon belül">
-        <source>Tervezünk: először közösen, majd házon belül</source>
-        <target>Planning: first together then in-house</target>
-      </trans-unit>
-      <trans-unit id="gf03Bk2" resname="A fejlesztés állapotáról folyamatosan egyeztetünk, így a végén nem lesznek meglepetések">
-        <source>A fejlesztés állapotáról folyamatosan egyeztetünk, így a végén nem lesznek meglepetések</source>
-        <target>You will be continuously notified therefore there won’t be any surprises in the end</target>
-      </trans-unit>
-      <trans-unit id="8KDPo8z" resname="Megtörténik az átadás">
-        <source>Megtörténik az átadás</source>
-        <target>Handover</target>
-      </trans-unit>
-      <trans-unit id="fgUZhOn" resname="Legyen szó egy egyszerű weboldal készítésről, akár egy összetett CRM vagy ERP rendszerről, csapatunkkal készen állunk a teljes implementációra - tervezéstől a megvalósításig és utána a supportig. Rejtett költségek nélkül!">
-        <source>Legyen szó egy egyszerű weboldal készítésről, akár egy összetett CRM vagy ERP rendszerről, csapatunkkal készen állunk a teljes implementációra - tervezéstől a megvalósításig és utána a supportig. Rejtett költségek nélkül!</source>
-        <target>Even when we are talking about creating a simple website or a complex CRM or ERP system our team will be ready for full implementation - from scratch to implementation through support. There will be no hidden fees!</target>
-      </trans-unit>
-      <trans-unit id="iO3tC2E" resname="Garantáljuk Önnek, hogy a nálunk készült fejlesztések megfelelnek az alábbi kritériumoknak:">
-        <source>Garantáljuk Önnek, hogy a nálunk készült fejlesztések megfelelnek az alábbi kritériumoknak:</source>
-        <target>We will guarantee you will meet the following criteria:</target>
-      </trans-unit>
-      <trans-unit id="HtoZUbS" resname="Könnyen használható - tudjuk, hiszen mi is dolgoztunk lassú, nehezen használható programokkal">
-        <source>Könnyen használható - tudjuk, hiszen mi is dolgoztunk lassú, nehezen használható programokkal</source>
-        <target>Easy to use - we know because we worked with slow and difficult to use programs</target>
-      </trans-unit>
-      <trans-unit id="HHl8Yxm" resname="Bővíthető - akár egyszerű weboldal vagy összetett rendszer, legyen összekapcsolható bármivel a jövőben">
-        <source>Bővíthető - akár egyszerű weboldal vagy összetett rendszer, legyen összekapcsolható bármivel a jövőben</source>
-        <target>Expandable - even if a simple site or complex system it has to be connected with anything in the future</target>
-      </trans-unit>
-      <trans-unit id="sW8ex6f" resname="Biztonság - törekszünk a maximálisra">
-        <source>Biztonság - törekszünk a maximálisra</source>
-        <target>Safety - we strive for the maximum</target>
-      </trans-unit>
-      <trans-unit id="_TLuRw6" resname="GDPR kompatibilis - segítünk a GDPR kidolgozásban is">
-        <source>GDPR kompatibilis - segítünk a GDPR kidolgozásban is</source>
-        <target>GDPR compatibility - we will help you get through GDPR</target>
-      </trans-unit>
-      <trans-unit id="Cy9XFbu" resname="SEO - hogy a Google is kedvelje oldalát">
-        <source>SEO - hogy a Google is kedvelje oldalát</source>
-        <target>SEO - for Google to like your page</target>
-      </trans-unit>
-      <trans-unit id="ylrZ2xE" resname="UI/UX - persze az sem gond, ha a felhasználók is szeretik!">
-        <source>UI/UX - persze az sem gond, ha a felhasználók is szeretik!</source>
-        <target>UI/UX - it’s not a problem if your users will love it</target>
-      </trans-unit>
-      <trans-unit id="V6TFdSA" resname="Betartjuk, amit ígérünk - hogy ne csak a felhasználói, hanem az ügyfélélmény is lélegzetelállító legyen!">
-        <source>Betartjuk, amit ígérünk - hogy ne csak a felhasználói, hanem az ügyfélélmény is lélegzetelállító legyen!</source>
-        <target>We keep what we promise - not only the user but the customer experience should be breathtaking!</target>
-      </trans-unit>
-      <trans-unit id="oFHOTv." resname="Légy felfedező!">
-        <source>Légy felfedező!</source>
-        <target>Become an explorer!</target>
-      </trans-unit>
-      <trans-unit id="DzhlwJ2" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
-        <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
-        <target>Everest is constantly growing. There are constantly available positions in our divisions. Our goal is to increase the number of associates who are focused on our clients and Everest's objectives. If you are interested, we are waiting for your application. We are always happy to see a new CV in our mailbox.</target>
-      </trans-unit>
-      <trans-unit id="y6VRuWQ" resname="Budapestről indultunk, később lefedtük Magyarországot, most Európánál tartunk! A történetünk már több mint 15 éves múltra tekint vissza, az akkor még néhány fős csapatunk 2005-ben találkozott első ügyfeleivel és kezdődött el tanácsadói munkánk pénzügyi területen. Az ügyfélélményt szem előtt tartva láttuk, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél. Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló üzletágunk is dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatot külföldön is kamatoztassuk, így léptünk be azóta több európai országba is.">
-        <source>Budapestről indultunk, később lefedtük Magyarországot, most Európánál tartunk! A történetünk már több mint 15 éves múltra tekint vissza, az akkor még néhány fős csapatunk 2005-ben találkozott első ügyfeleivel és kezdődött el tanácsadói munkánk pénzügyi területen. Az ügyfélélményt szem előtt tartva láttuk, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél. Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló üzletágunk is dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatot külföldön is kamatoztassuk, így léptünk be azóta több európai országba is.</source>
-        <target>We started from Budapest, then we covered the whole of Hungary. Now we are in Europe as well! Our story started 15 years ago when our small team met clients in 2005 and started the consultancy in finances. We always focused on the customer experience when we saw the accounting in Hungary should be reformed. We knew we had to offer more than simple bookkeeping. Thanks to our Accounting division those people came to work with us, and they helped to maintain the great success in the Renewables field. In just a few years we made great records nobody saw in Hungary until that time. Our next step was to use our experience abroad as well, so we have entered several European countries.</target>
-      </trans-unit>
-      <trans-unit id="OnzkRNw" resname="Mi, itt az Everestnél...">
-        <source>Mi, itt az Everestnél...</source>
-        <target>We, here at Everest...</target>
-      </trans-unit>
-      <trans-unit id="qrfNl9v" resname="Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">
-        <source>Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</source>
-        <target>Not just selling goods and services; we would like to offer more to our customers. Even in B2B or B2C, our sales process is more like consulting because not just the moment matters but the future with our partners.</target>
-      </trans-unit>
-      <trans-unit id="vjzqUCC" resname="Hiszünk benne, hogy etikus hozzáállásunkkal, a kiemelkedő csapatösszetartásunkkal és naprakész munkatársainkkal az Everest több mint egy hagyományos szolgáltatócég. Sőt, erre büszkék is vagyunk!">
-        <source>Hiszünk benne, hogy etikus hozzáállásunkkal, a kiemelkedő csapatösszetartásunkkal és naprakész munkatársainkkal az Everest több mint egy hagyományos szolgáltatócég. Sőt, erre büszkék is vagyunk!</source>
-        <target>We believe that our ethic and outstanding team cohesion and up-to-date coworkers make us more than a simple service company. Of course, we are proud of that!</target>
-      </trans-unit>
-      <trans-unit id="uy5976C" resname="Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk!">
-        <source>Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk!</source>
-        <target>Our team is important! Coworkers and partners are well appreciated and professional development is provided. We wish for long-term relationships every time.</target>
-      </trans-unit>
-      <trans-unit id="fJXSMUx" resname="Mindig többre vágyunk! Nem elégszünk meg pillanatnyi sikerünkkel, inkább mindig tökéletesítjük a folyamatokat, kommunikációnkat, ügyfélkezelésünket.">
-        <source>Mindig többre vágyunk! Nem elégszünk meg pillanatnyi sikerünkkel, inkább mindig tökéletesítjük a folyamatokat, kommunikációnkat, ügyfélkezelésünket.</source>
-        <target>We always want more! Our momentary success is not enough, we are always perfecting our processes, communication, and customer management.</target>
-      </trans-unit>
-      <trans-unit id="dkvMn8V" resname="Tovább">
-        <source>Tovább</source>
-        <target>More</target>
-      </trans-unit>
-      <trans-unit id="6eENghF" resname="Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!">
-        <source>Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!</source>
-        <target>If you don’t like the form just write an email to {email} or call us at {phone}</target>
-      </trans-unit>
-      <trans-unit id="qoH4YMA" resname="1051 Budapest, Arany János u. 9">
-        <source>1051 Budapest, Arany János u. 9</source>
-        <target>1051 Budapest, Arany János str. 9</target>
-      </trans-unit>
-      <trans-unit id="KaOCkGb" resname="404 - Oldal nem található">
-        <source>404 - Oldal nem található</source>
-        <target>404 - Page not found</target>
-      </trans-unit>
-      <trans-unit id="HGt75kD" resname="Vissza a főoldalra">
-        <source>Vissza a főoldalra</source>
-        <target>Back to homepage</target>
-      </trans-unit>
-      <trans-unit id="nWMPiMC" resname="Jelenleg nincs nyitott pozíció az Ön nyelvén">
-        <source>Jelenleg nincs nyitott pozíció az Ön nyelvén</source>
-        <target>There are currently no open positions in your language</target>
-      </trans-unit>
-      <trans-unit id="yG25Jlp" resname="Mi az Everest?">
-        <source>Mi az Everest?</source>
-        <target>__Mi az Everest?</target>
-      </trans-unit>
-      <trans-unit id="g21PLLb" resname="Az Everest 3 különböző üzletágban van jelen:">
-        <source>Az Everest 3 különböző üzletágban van jelen:</source>
-        <target>__Az Everest 3 különböző üzletágban van jelen:</target>
-      </trans-unit>
-      <trans-unit id="qVCnKlG" resname="Everest Accounting">
-        <source>Everest Accounting</source>
-        <target>__Everest Accounting</target>
-      </trans-unit>
-      <trans-unit id="kyzoIOf" resname="Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.">
-        <source>Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.</source>
-        <target>__Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.</target>
-      </trans-unit>
-      <trans-unit id="t07QLIp" resname="Everest Renewables">
-        <source>Everest Renewables</source>
-        <target>__Everest Renewables</target>
-      </trans-unit>
-      <trans-unit id="IJILzBP" resname="Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.">
-        <source>Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.</source>
-        <target>__Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.</target>
-      </trans-unit>
-      <trans-unit id="xia0Nw2" resname="Everest IT Solutions">
-        <source>Everest IT Solutions</source>
-        <target>__Everest IT Solutions</target>
-      </trans-unit>
-      <trans-unit id="jbmc1My" resname="Ügyfeleink és saját rendszereink fejlesztése.">
-        <source>Ügyfeleink és saját rendszereink fejlesztése.</source>
-        <target>__Ügyfeleink és saját rendszereink fejlesztése.</target>
-      </trans-unit>
-      <trans-unit id="DvAsRYx" resname="Történetünk">
-        <source>Történetünk</source>
-        <target>__Történetünk</target>
-      </trans-unit>
-      <trans-unit id="5vd_C.Z" resname="Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.">
-        <source>Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</source>
-        <target>__Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</target>
-      </trans-unit>
-      <trans-unit id="6EEHR3e" resname="2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.">
-        <source>2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.</source>
-        <target>__2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.</target>
-      </trans-unit>
-      <trans-unit id="O_T.PsO" resname="A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.">
-        <source>A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.</source>
-        <target>__A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.</target>
-      </trans-unit>
-      <trans-unit id="skcssxv" resname="Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:">
-        <source>Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:</source>
-        <target>__Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:</target>
-      </trans-unit>
-      <trans-unit id="5FVkaeM" resname="Ügyfeleinknél terepen">
-        <source>Ügyfeleinknél terepen</source>
-        <target>__Ügyfeleinknél terepen</target>
-      </trans-unit>
-      <trans-unit id="_.vy3Od" resname="háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.">
-        <source>háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.</source>
-        <target>__háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.</target>
-      </trans-unit>
-      <trans-unit id="NIMvDyR" resname="A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!">
-        <source>A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!</source>
-        <target>__A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!</target>
-      </trans-unit>
-      <trans-unit id="2NaNq0a" resname="Miért pont Everest?">
-        <source>Miért pont Everest?</source>
-        <target>__Miért pont Everest?</target>
-      </trans-unit>
-      <trans-unit id="5q3xLEg" resname="Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.">
-        <source>Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.</source>
-        <target>__Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.</target>
-      </trans-unit>
-      <trans-unit id="k7S82qd" resname="Discover Greatness Beyond Profession">
-        <source>Discover Greatness Beyond Profession</source>
-        <target>__Discover Greatness Beyond Profession</target>
-      </trans-unit>
-      <trans-unit id=".xfsACz" resname="Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.">
-        <source>Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.</source>
-        <target>__Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.</target>
-      </trans-unit>
-      <trans-unit id="u1jj5ua" resname="Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">
-        <source>Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</source>
-        <target>__Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</target>
-      </trans-unit>
-      <trans-unit id="BxIamUH" resname="Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.">
-        <source>Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.</source>
-        <target>__Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.</target>
-      </trans-unit>
-      <trans-unit id=".ZXQuOl" resname="Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!">
-        <source>Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!</source>
-        <target>__Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!</target>
-      </trans-unit>
-      <trans-unit id="3c6SA0j" resname="Érdeklődés könyvelési szolgáltatás iránt">
-        <source>Érdeklődés könyvelési szolgáltatás iránt</source>
-        <target>Interest in accounting services</target>
-      </trans-unit>
-      <trans-unit id="VmGvdmk" resname="Kedves Everest csapat!&#10;&#10;Szívesen tájékozódnék személyesen az egyedülálló szolgáltatási csomagról.&#10;&#10;Elérhető vagyok a megadott email címen, illetve telefonszámon:">
-        <source>Kedves Everest csapat!
+    <file source-language="hu" target-language="en" datatype="plaintext" original="file.ext">
+        <header>
+            <tool tool-id="symfony" tool-name="Symfony"/>
+        </header>
+        <body>
+            <trans-unit id="7bRlYkK" resname="note">
+                <source>note</source>
+                <target>NOTE</target>
+            </trans-unit>
+            <trans-unit id="lzgBh6h" resname="tip">
+                <source>tip</source>
+                <target>TIP</target>
+            </trans-unit>
+            <trans-unit id="tbB2gib" resname="not_available">
+                <source>not_available</source>
+                <target>Not available</target>
+            </trans-unit>
+            <trans-unit id="F0dwSb7" resname="mit_license">
+                <source>mit_license</source>
+                <target>MIT License</target>
+            </trans-unit>
+            <trans-unit id="DF34uM2" resname="http_error.name">
+                <source>http_error.name</source>
+                <target>Error {status_code, number}</target>
+            </trans-unit>
+            <trans-unit id="e3w.2Rf" resname="http_error.description">
+                <source>http_error.description</source>
+                <target>There was an unknown error (HTTP {status_code, number}) that prevented to complete your request.</target>
+            </trans-unit>
+            <trans-unit id="ru5FEGk" resname="http_error.suggestion">
+                <source>http_error.suggestion</source>
+                <target><![CDATA[Try loading this page again in some minutes or <a href="{url}">go back to the homepage</a>.]]></target>
+            </trans-unit>
+            <trans-unit id="Qn5rwdU" resname="http_error_403.description">
+                <source>http_error_403.description</source>
+                <target>You don't have permission to access to this resource.</target>
+            </trans-unit>
+            <trans-unit id="zDeeh7L" resname="http_error_403.suggestion">
+                <source>http_error_403.suggestion</source>
+                <target>Ask your manager or system administrator to grant you access to this resource.</target>
+            </trans-unit>
+            <trans-unit id="_W1eNz2" resname="http_error_404.description">
+                <source>http_error_404.description</source>
+                <target>We couldn't find the page you requested.</target>
+            </trans-unit>
+            <trans-unit id="MWNS5dg" resname="http_error_404.suggestion">
+                <source>http_error_404.suggestion</source>
+                <target><![CDATA[Check out any misspelling in the URL or <a href="{url}">go back to the homepage</a>.]]></target>
+            </trans-unit>
+            <trans-unit id="ZYXSW95" resname="http_error_500.description">
+                <source>http_error_500.description</source>
+                <target>There was an internal server error.</target>
+            </trans-unit>
+            <trans-unit id="VVs_J1c" resname="http_error_500.suggestion">
+                <source>http_error_500.suggestion</source>
+                <target><![CDATA[Try loading this page again in some minutes or <a href="{url}">go back to the homepage</a>.]]></target>
+            </trans-unit>
+            <trans-unit id="0azKJvE" resname="title.homepage">
+                <source>title.homepage</source>
+                <target><![CDATA[Welcome to the <strong>Symfony Demo</strong> application]]></target>
+            </trans-unit>
+            <trans-unit id="9RwuNlf" resname="title.source_code">
+                <source>title.source_code</source>
+                <target>Source code used to render this page</target>
+            </trans-unit>
+            <trans-unit id="jaB3QjG" resname="title.controller_code">
+                <source>title.controller_code</source>
+                <target>Controller code</target>
+            </trans-unit>
+            <trans-unit id="2bH7SjO" resname="title.twig_template_code">
+                <source>title.twig_template_code</source>
+                <target>Twig template code</target>
+            </trans-unit>
+            <trans-unit id="80JoLd0" resname="title.login">
+                <source>title.login</source>
+                <target>Secure Sign in</target>
+            </trans-unit>
+            <trans-unit id="6sz9l7G" resname="title.post_list">
+                <source>title.post_list</source>
+                <target>Post List</target>
+            </trans-unit>
+            <trans-unit id="6mAd7C7" resname="title.edit_post">
+                <source>title.edit_post</source>
+                <target>Edit post #{id, number}</target>
+            </trans-unit>
+            <trans-unit id="RElHkkW" resname="title.add_comment">
+                <source>title.add_comment</source>
+                <target>Add a comment</target>
+            </trans-unit>
+            <trans-unit id="KuKEZ2." resname="title.comment_error">
+                <source>title.comment_error</source>
+                <target>There was an error publishing your comment</target>
+            </trans-unit>
+            <trans-unit id="1sstKF9" resname="title.edit_user">
+                <source>title.edit_user</source>
+                <target>Edit user</target>
+            </trans-unit>
+            <trans-unit id="rrU0GR8" resname="title.change_password">
+                <source>title.change_password</source>
+                <target>Change password</target>
+            </trans-unit>
+            <trans-unit id="Ffi98jp" resname="action.show">
+                <source>action.show</source>
+                <target>Show</target>
+            </trans-unit>
+            <trans-unit id="VO1bKFS" resname="action.show_post">
+                <source>action.show_post</source>
+                <target>Show post</target>
+            </trans-unit>
+            <trans-unit id="QbohvW1" resname="action.show_code">
+                <source>action.show_code</source>
+                <target>Show code</target>
+            </trans-unit>
+            <trans-unit id="ovKkXwU" resname="action.edit">
+                <source>action.edit</source>
+                <target>Edit</target>
+            </trans-unit>
+            <trans-unit id="lpqpnUS" resname="action.edit_post">
+                <source>action.edit_post</source>
+                <target>Edit post</target>
+            </trans-unit>
+            <trans-unit id="HLtdhYw" resname="action.save">
+                <source>action.save</source>
+                <target>Save changes</target>
+            </trans-unit>
+            <trans-unit id="d_4ma5r" resname="action.delete_post">
+                <source>action.delete_post</source>
+                <target>Delete post</target>
+            </trans-unit>
+            <trans-unit id="CAMlK1D" resname="delete_post_modal.title">
+                <source>delete_post_modal.title</source>
+                <target>Are you sure you want to delete this post?</target>
+            </trans-unit>
+            <trans-unit id="4FkRv.I" resname="delete_post_modal.body">
+                <source>delete_post_modal.body</source>
+                <target>This action cannot be undone.</target>
+            </trans-unit>
+            <trans-unit id="oRRFO4u" resname="label.delete_post">
+                <source>label.delete_post</source>
+                <target>Delete post</target>
+            </trans-unit>
+            <trans-unit id="8yeGT7d" resname="label.cancel">
+                <source>label.cancel</source>
+                <target>Cancel</target>
+            </trans-unit>
+            <trans-unit id="G1QItEF" resname="action.create_post">
+                <source>action.create_post</source>
+                <target>Create a new post</target>
+            </trans-unit>
+            <trans-unit id="J76H6bc" resname="label.create_post">
+                <source>label.create_post</source>
+                <target>Create post</target>
+            </trans-unit>
+            <trans-unit id="KM4MSbI" resname="label.save_and_create_new">
+                <source>label.save_and_create_new</source>
+                <target>Save and create new</target>
+            </trans-unit>
+            <trans-unit id="Rmxwd1D" resname="action.back_to_list">
+                <source>action.back_to_list</source>
+                <target>Back to the post list</target>
+            </trans-unit>
+            <trans-unit id="E36cr6o" resname="action.publish_comment">
+                <source>action.publish_comment</source>
+                <target>Publish comment</target>
+            </trans-unit>
+            <trans-unit id="z2pPSYV" resname="action.sign_in">
+                <source>action.sign_in</source>
+                <target>Sign in</target>
+            </trans-unit>
+            <trans-unit id="Y1PJw41" resname="action.browse_app">
+                <source>action.browse_app</source>
+                <target>Browse application</target>
+            </trans-unit>
+            <trans-unit id="l9A3J40" resname="action.browse_admin">
+                <source>action.browse_admin</source>
+                <target>Browse backend</target>
+            </trans-unit>
+            <trans-unit id="etGJjTo" resname="action.edit_user">
+                <source>action.edit_user</source>
+                <target>Edit user</target>
+            </trans-unit>
+            <trans-unit id="CX_oSFd" resname="action.change_password">
+                <source>action.change_password</source>
+                <target>Change password</target>
+            </trans-unit>
+            <trans-unit id="wCazS.X" resname="action.close">
+                <source>action.close</source>
+                <target>Close</target>
+            </trans-unit>
+            <trans-unit id="UrRn8xj" resname="label.title">
+                <source>label.title</source>
+                <target>Title</target>
+            </trans-unit>
+            <trans-unit id="bxYZLcN" resname="label.author">
+                <source>label.author</source>
+                <target>Author</target>
+            </trans-unit>
+            <trans-unit id="uh.E_Fq" resname="label.author_email">
+                <source>label.author_email</source>
+                <target>Author email</target>
+            </trans-unit>
+            <trans-unit id="LDhDPrF" resname="label.username">
+                <source>label.username</source>
+                <target>Username</target>
+            </trans-unit>
+            <trans-unit id="aYnbvsn" resname="label.fullname">
+                <source>label.fullname</source>
+                <target>Fullname</target>
+            </trans-unit>
+            <trans-unit id="D2N6_cP" resname="label.email">
+                <source>label.email</source>
+                <target>Email</target>
+            </trans-unit>
+            <trans-unit id="9pvowqn" resname="label.password">
+                <source>label.password</source>
+                <target>Password</target>
+            </trans-unit>
+            <trans-unit id="pGkejkU" resname="label.current_password">
+                <source>label.current_password</source>
+                <target>Current password</target>
+            </trans-unit>
+            <trans-unit id="iiWFLaI" resname="label.new_password">
+                <source>label.new_password</source>
+                <target>New password</target>
+            </trans-unit>
+            <trans-unit id="Ucl9Jfc" resname="label.new_password_confirm">
+                <source>label.new_password_confirm</source>
+                <target>Confirm password</target>
+            </trans-unit>
+            <trans-unit id="O59lP5d" resname="label.role">
+                <source>label.role</source>
+                <target>Role</target>
+            </trans-unit>
+            <trans-unit id="qqpGLJl" resname="label.content">
+                <source>label.content</source>
+                <target>Content</target>
+            </trans-unit>
+            <trans-unit id="tT7OhMP" resname="label.summary">
+                <source>label.summary</source>
+                <target>Summary</target>
+            </trans-unit>
+            <trans-unit id="xrlnqyo" resname="label.published_at">
+                <source>label.published_at</source>
+                <target>Published at</target>
+            </trans-unit>
+            <trans-unit id="ijQyGRo" resname="label.tags">
+                <source>label.tags</source>
+                <target>Tags</target>
+            </trans-unit>
+            <trans-unit id="zldXQq6" resname="label.actions">
+                <source>label.actions</source>
+                <target>Actions</target>
+            </trans-unit>
+            <trans-unit id="_SZYoOn" resname="title.post_new">
+                <source>title.post_new</source>
+                <target>Post creation</target>
+            </trans-unit>
+            <trans-unit id="1wYTt2x" resname="action.edit_contents">
+                <source>action.edit_contents</source>
+                <target>Edit contents</target>
+            </trans-unit>
+            <trans-unit id="sqML_MO" resname="menu.toggle_nav">
+                <source>menu.toggle_nav</source>
+                <target>Toggle navigation</target>
+            </trans-unit>
+            <trans-unit id="SWM2jM." resname="menu.choose_language">
+                <source>menu.choose_language</source>
+                <target>Choose language</target>
+            </trans-unit>
+            <trans-unit id="3XHWUzG" resname="menu.post_list">
+                <source>menu.post_list</source>
+                <target>Post list</target>
+            </trans-unit>
+            <trans-unit id="7eZ5X01" resname="menu.back_to_blog">
+                <source>menu.back_to_blog</source>
+                <target>Back to blog</target>
+            </trans-unit>
+            <trans-unit id="UoOv6mx" resname="menu.homepage">
+                <source>menu.homepage</source>
+                <target>Homepage</target>
+            </trans-unit>
+            <trans-unit id="wvvYSw_" resname="menu.admin">
+                <source>menu.admin</source>
+                <target>Backend</target>
+            </trans-unit>
+            <trans-unit id="rjDqmQR" resname="menu.user">
+                <source>menu.user</source>
+                <target>Account</target>
+            </trans-unit>
+            <trans-unit id="wBTFKFR" resname="menu.logout">
+                <source>menu.logout</source>
+                <target>Logout</target>
+            </trans-unit>
+            <trans-unit id="0gTEZVk" resname="menu.rss">
+                <source>menu.rss</source>
+                <target>Blog Posts RSS</target>
+            </trans-unit>
+            <trans-unit id="k6VxCsO" resname="menu.search">
+                <source>menu.search</source>
+                <target>Search</target>
+            </trans-unit>
+            <trans-unit id="zY.oLN." resname="post.to_publish_a_comment">
+                <source>post.to_publish_a_comment</source>
+                <target>to publish a comment</target>
+            </trans-unit>
+            <trans-unit id="is7pld7" resname="post.num_comments">
+                <source>post.num_comments</source>
+                <target>{count, plural, one {# comment} other {# comments}}</target>
+            </trans-unit>
+            <trans-unit id="vdsQrtG" resname="post.commented_on">
+                <source>post.commented_on</source>
+                <target>commented on</target>
+            </trans-unit>
+            <trans-unit id="UZzyX5e" resname="post.no_comments">
+                <source>post.no_comments</source>
+                <target>Be the first to comment on this post.</target>
+            </trans-unit>
+            <trans-unit id="aMaXcw0" resname="post.no_posts_found">
+                <source>post.no_posts_found</source>
+                <target>No posts found.</target>
+            </trans-unit>
+            <trans-unit id="uIfkb5m" resname="post.created_successfully">
+                <source>post.created_successfully</source>
+                <target>Post created successfully!</target>
+            </trans-unit>
+            <trans-unit id="1TdLwHn" resname="post.updated_successfully">
+                <source>post.updated_successfully</source>
+                <target>Post updated successfully!</target>
+            </trans-unit>
+            <trans-unit id="REYq3Ar" resname="post.deleted_successfully">
+                <source>post.deleted_successfully</source>
+                <target>Post deleted successfully!</target>
+            </trans-unit>
+            <trans-unit id="rAoWddb" resname="post.search_for">
+                <source>post.search_for</source>
+                <target>Search for...</target>
+            </trans-unit>
+            <trans-unit id="_SSBmQW" resname="post.search_no_results">
+                <source>post.search_no_results</source>
+                <target>No results found</target>
+            </trans-unit>
+            <trans-unit id="OBmPOoB" resname="user.updated_successfully">
+                <source>user.updated_successfully</source>
+                <target>User updated successfully!</target>
+            </trans-unit>
+            <trans-unit id="KheXs2k" resname="notification.comment_created">
+                <source>notification.comment_created</source>
+                <target>Your post received a comment!</target>
+            </trans-unit>
+            <trans-unit id="VEcVbGK" resname="notification.comment_created.description">
+                <source>notification.comment_created.description</source>
+                <target><![CDATA[Your post "{title}" has received a new comment. You can read the comment by following <a href="{link}">this link</a>]]></target>
+            </trans-unit>
+            <trans-unit id="JPjzTgz" resname="help.app_description">
+                <source>help.app_description</source>
+                <target><![CDATA[This is a <strong>demo application</strong> built in the Symfony Framework to illustrate the recommended way of developing Symfony applications.]]></target>
+            </trans-unit>
+            <trans-unit id="VgeTgE2" resname="help.show_code">
+                <source>help.show_code</source>
+                <target><![CDATA[Click on this button to show the source code of the <strong>Controller</strong> and <strong>template</strong> used to render this page.]]></target>
+            </trans-unit>
+            <trans-unit id="tuBXYUW" resname="help.browse_app">
+                <source>help.browse_app</source>
+                <target><![CDATA[Browse the <strong>public section</strong> of the demo application.]]></target>
+            </trans-unit>
+            <trans-unit id="mUBeOVP" resname="help.browse_admin">
+                <source>help.browse_admin</source>
+                <target><![CDATA[Browse the <strong>admin backend</strong> of the demo application.]]></target>
+            </trans-unit>
+            <trans-unit id="7s0ZMku" resname="help.login_users">
+                <source>help.login_users</source>
+                <target>Try either of the following users</target>
+            </trans-unit>
+            <trans-unit id="NTiRWXv" resname="help.role_user">
+                <source>help.role_user</source>
+                <target>regular user</target>
+            </trans-unit>
+            <trans-unit id="WVrtpfW" resname="help.role_admin">
+                <source>help.role_admin</source>
+                <target>administrator</target>
+            </trans-unit>
+            <trans-unit id="m.1q26M" resname="help.reload_fixtures">
+                <source>help.reload_fixtures</source>
+                <target>If these users don't work, reload application fixtures by running this command from the terminal:</target>
+            </trans-unit>
+            <trans-unit id=".rVk3CB" resname="help.add_user">
+                <source>help.add_user</source>
+                <target>If you want to create new users, run this other command:</target>
+            </trans-unit>
+            <trans-unit id="Km5w.Hs" resname="help.more_information">
+                <source>help.more_information</source>
+                <target><![CDATA[For more information, check out the <a href="https://symfony.com/doc">Symfony doc</a>.]]></target>
+            </trans-unit>
+            <trans-unit id="BqPd4TD" resname="help.post_summary">
+                <source>help.post_summary</source>
+                <target>Summaries can't contain Markdown or HTML contents; only plain text.</target>
+            </trans-unit>
+            <trans-unit id="9NUEfJS" resname="help.post_publication">
+                <source>help.post_publication</source>
+                <target>Set the date in the future to schedule the blog post publication.</target>
+            </trans-unit>
+            <trans-unit id=".3Ig3V1" resname="help.post_content">
+                <source>help.post_content</source>
+                <target>Use Markdown to format the blog post contents. HTML is allowed too.</target>
+            </trans-unit>
+            <trans-unit id="6iYoX0v" resname="help.comment_content">
+                <source>help.comment_content</source>
+                <target>Comments not complying with our Code of Conduct will be moderated.</target>
+            </trans-unit>
+            <trans-unit id="wtG.cxy" resname="info.change_password">
+                <source>info.change_password</source>
+                <target>After changing your password, you will be logged out of the application.</target>
+            </trans-unit>
+            <trans-unit id="DkZtOOL" resname="rss.title">
+                <source>rss.title</source>
+                <target>Symfony Demo blog</target>
+            </trans-unit>
+            <trans-unit id="ZFPsu41" resname="rss.description">
+                <source>rss.description</source>
+                <target>Most recent posts published on the Symfony Demo blog</target>
+            </trans-unit>
+            <trans-unit id="oOXdtd2" resname="paginator.previous">
+                <source>paginator.previous</source>
+                <target>Previous</target>
+            </trans-unit>
+            <trans-unit id="rjAecsf" resname="paginator.next">
+                <source>paginator.next</source>
+                <target>Next</target>
+            </trans-unit>
+            <trans-unit id="tX4BnBn" resname="paginator.current">
+                <source>paginator.current</source>
+                <target>(current)</target>
+            </trans-unit>
+            <trans-unit id="q0j89wb" resname="Accounting">
+                <source>Accounting</source>
+                <target>Accounting</target>
+            </trans-unit>
+            <trans-unit id="vgXV9Vp" resname="Renewables">
+                <source>Renewables</source>
+                <target>Renewables</target>
+            </trans-unit>
+            <trans-unit id="Iq2bjw2" resname="IT Solutions">
+                <source>IT Solutions</source>
+                <target>IT Solutions</target>
+            </trans-unit>
+            <trans-unit id="Lxeg_NU" resname="Jobs">
+                <source>Jobs</source>
+                <target>Jobs</target>
+            </trans-unit>
+            <trans-unit id="Tvyg0Qx" resname="About">
+                <source>About</source>
+                <target>About</target>
+            </trans-unit>
+            <trans-unit id="K1w9JnI" resname="Contact">
+                <source>Contact</source>
+                <target>Contact</target>
+            </trans-unit>
+            <trans-unit id="ySRBzGR" resname="Segíthetünk?">
+                <source>Segíthetünk?</source>
+                <target>Can we help you?</target>
+            </trans-unit>
+            <trans-unit id="2kF9O_." resname="Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
+                <source>Írjon nekünk és Account Managere 12 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
+                <target>Contact us and your Account Manager will contact you within 12 hours to get all your questions answered!</target>
+            </trans-unit>
+            <trans-unit id="RntXRee" resname="Név">
+                <source>Név</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="XAtCm3u" resname="Cég">
+                <source>Cég</source>
+                <target>Company</target>
+            </trans-unit>
+            <trans-unit id="L1dSvan" resname="E-mail cím">
+                <source>E-mail cím</source>
+                <target>E-mail</target>
+            </trans-unit>
+            <trans-unit id="_mkG127" resname="Telefon">
+                <source>Telefon</source>
+                <target>Phone</target>
+            </trans-unit>
+            <trans-unit id="xvt2XRR" resname="Beküldés">
+                <source>Beküldés</source>
+                <target>Send</target>
+            </trans-unit>
+            <trans-unit id="Ai7fD9l" resname="Könyvelés">
+                <source>Könyvelés</source>
+                <target>Accounting</target>
+            </trans-unit>
+            <trans-unit id="bqwxtmv" resname="Megújuló energia">
+                <source>Megújuló energia</source>
+                <target>Renewables</target>
+            </trans-unit>
+            <trans-unit id="K_DrVtU" resname="IT Megoldások">
+                <source>IT Megoldások</source>
+                <target>IT Solutions</target>
+            </trans-unit>
+            <trans-unit id="F7Cn1by" resname="Karrier">
+                <source>Karrier</source>
+                <target>Jobs</target>
+            </trans-unit>
+            <trans-unit id="Qs7rDZl" resname="Kapcsolat">
+                <source>Kapcsolat</source>
+                <target>Contact</target>
+            </trans-unit>
+            <trans-unit id="niP36MQ" resname="Rólunk">
+                <source>Rólunk</source>
+                <target>About</target>
+            </trans-unit>
+            <trans-unit id="jGvAmVN" resname="Blog">
+                <source>Blog</source>
+                <target>Blog</target>
+            </trans-unit>
+            <trans-unit id="B.HpW_i" resname="Előző">
+                <source>Előző</source>
+                <target>Previous</target>
+            </trans-unit>
+            <trans-unit id="yImyFfU" resname="Jelenlegi">
+                <source>Jelenlegi</source>
+                <target>Current</target>
+            </trans-unit>
+            <trans-unit id="TdOua3n" resname="Következő">
+                <source>Következő</source>
+                <target>Next</target>
+            </trans-unit>
+            <trans-unit id="1a20d55" resname="Projekt koordinátor">
+                <source>Projekt koordinátor</source>
+                <target>Project coordinator</target>
+            </trans-unit>
+            <trans-unit id="y.iPLW5" resname="Értékesítő-támogató koordinátor">
+                <source>Értékesítő-támogató koordinátor</source>
+                <target>Sales Support Coordinator</target>
+            </trans-unit>
+            <trans-unit id="Gd3J22X" resname="Sales Account Manager">
+                <source>Sales Account Manager</source>
+                <target>Sales Account Manager</target>
+            </trans-unit>
+            <trans-unit id="_hyuR8B" resname="Könyvelő">
+                <source>Könyvelő</source>
+                <target>Accountant</target>
+            </trans-unit>
+            <trans-unit id="TnuBfpB" resname="junior full-stack fejlesztő">
+                <source>junior full-stack fejlesztő</source>
+                <target>junior full-stack developer</target>
+            </trans-unit>
+            <trans-unit id="i9MZg6F" resname="senior full-stack fejlesztő">
+                <source>senior full-stack fejlesztő</source>
+                <target>senior full-stack developer</target>
+            </trans-unit>
+            <trans-unit id="VjwprWb" resname="junior backend fejlesztő">
+                <source>junior backend fejlesztő</source>
+                <target>junior backend developer</target>
+            </trans-unit>
+            <trans-unit id="UN.cUUQ" resname="senior backend fejlesztő">
+                <source>senior backend fejlesztő</source>
+                <target>sanio backend developer</target>
+            </trans-unit>
+            <trans-unit id="yZ3OMZk" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
+                <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!</source>
+                <target>Write to us and your Account Manager will be in touch within 24 hours. Every of your questions will be answered, even in English, German and Spanish, too!</target>
+            </trans-unit>
+            <trans-unit id="hdSWPoM" resname="Nyitott pozícióink">
+                <source>Nyitott pozícióink</source>
+                <target>Open positions</target>
+            </trans-unit>
+            <trans-unit id="oU.X9se" resname="Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!">
+                <source>Űrlapunkon kérhet legegyszerűbben ajánlatot tőlünk!</source>
+                <target>Fill out this form - this is the easiest way for asking for an Accounting quotation but we are happy to see your question about Renewables or IT Solutions.</target>
+            </trans-unit>
+            <trans-unit id="D1.tF5H" resname="CV">
+                <source>CV</source>
+                <target>CV</target>
+            </trans-unit>
+            <trans-unit id="sVsk6di" resname="Tárgy">
+                <source>Tárgy</source>
+                <target>Subject</target>
+            </trans-unit>
+            <trans-unit id="8rR10mE" resname="Mit tehetünk Önért?">
+                <source>Mit tehetünk Önért?</source>
+                <target>What can we do for you?</target>
+            </trans-unit>
+            <trans-unit id="6ajvXvX" resname="Iroda">
+                <source>Iroda</source>
+                <target>Office</target>
+            </trans-unit>
+            <trans-unit id="_DaFxXG" resname="Érdekel">
+                <source>Érdekel</source>
+                <target>I'm interested</target>
+            </trans-unit>
+            <trans-unit id="fWzXUFS" resname="Adatkezelési szabályzat">
+                <source>Adatkezelési szabályzat</source>
+                <target>Privacy policy</target>
+            </trans-unit>
+            <trans-unit id="AiT6e7d" resname="Főoldal">
+                <source>Főoldal</source>
+                <target>Homepage</target>
+            </trans-unit>
+            <trans-unit id="OT9s60r" resname="Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.">
+                <source>Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.</source>
+                <target>More than accounting, much more. Innovative, unique solutions in the domestic market.</target>
+            </trans-unit>
+            <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
+                <source>Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
+                <target>Write to us and our colleagues will be in touch within 24 hours, to answer all your questions!</target>
+            </trans-unit>
+            <trans-unit id="yM4kVuz" resname="Vissza a nyitott pozíciókra">
+                <source>Vissza a nyitott pozíciókra</source>
+                <target>Back to open positions</target>
+            </trans-unit>
+            <trans-unit id="gqoftJL" resname="Irodánk">
+                <source>Irodánk</source>
+                <target>Our office</target>
+            </trans-unit>
+            <trans-unit id="1iK2rYR" resname="Ügyfél elköteleződést ajánlunk">
+                <source>Ügyfél elköteleződést ajánlunk</source>
+                <target>We offer brand recognition,</target>
+            </trans-unit>
+            <trans-unit id="I7zK0te" resname="nem csak sales konzultációt">
+                <source>nem csak sales konzultációt</source>
+                <target>not just sales consulting</target>
+            </trans-unit>
+            <trans-unit id="o5K46Nq" resname="Munkamódszerünk">
+                <source>Munkamódszerünk</source>
+                <target>Our work ethic</target>
+            </trans-unit>
+            <trans-unit id="fdg59Kx" resname="Az ügyféligényekhez igazodunk">
+                <source>Az ügyféligényekhez igazodunk</source>
+                <target>We adapt to the customer's needs</target>
+            </trans-unit>
+            <trans-unit id="7KaPl0g" resname="Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.">
+                <source>Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.</source>
+                <target>Our consultants will assist you in selecting the best products that will last for decades. All of our partners' success is assured by our preparation, competence, and customer care. Our years of success in the solar market attest to this. </target>
+            </trans-unit>
+            <trans-unit id="JNHWg0z" resname="Értékesített napelemes rendszer">
+                <source>Értékesített napelemes rendszer</source>
+                <target>PVs sold</target>
+            </trans-unit>
+            <trans-unit id="fFZz7Ae" resname="Szerződéskötési arány">
+                <source>Szerződéskötési arány</source>
+                <target>Hit rate</target>
+            </trans-unit>
+            <trans-unit id="rL.4a6U" resname="A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.">
+                <source>A környezetvédelem és fenntarthatóság kérdése napjaink egyik legfontosabb témájává vált.  Az Everest Renewables eltökélt célja, hogy részt vegyen a megoldásban és biztosítsa az élhető jövő lehetőségét.</source>
+                <target>These days, environmental protection and sustainability are extremely important aspects of our lives. Everest Renewables is on a mission to help solve this problem while also ensuring a sustainable future.</target>
+            </trans-unit>
+            <trans-unit id="0.N1HIB" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán..">
+                <source>Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán..</source>
+                <target>When it comes to customers, we use our near-perfect personal consulting skills to build brand loyalty among our partners.</target>
+            </trans-unit>
+            <trans-unit id="vrrTmrM" resname="Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform">
+                <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
+                <target>Maximum environmentally friendly - absolute and comprehensive building reform</target>
+            </trans-unit>
+            <trans-unit id="MXFzVl5" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
+                <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.</source>
+                <target>We are doing it for our environment. Everest Renewables provides professional development for our employees so that they can deliver the best service possible on site. When it comes to upgrading your home, one must consider a number of factors. It is critical to consider the type of solar system, air conditioner, heat pump, or electric car charger that will be implemented in your home. Because the technical substance of our products is constantly evolving, we provide extensive sales training to keep employees up to date, regardless of what type of power-related products or services.</target>
+            </trans-unit>
+            <trans-unit id="Sl_5ad8" resname="Everest ügyfél- és projektmenedzsment">
+                <source>Everest ügyfél- és projektmenedzsment</source>
+                <target>Client and project management by Everest</target>
+            </trans-unit>
+            <trans-unit id="yAUSsca" resname="Ügyféligénytől a jótállásig">
+                <source>Ügyféligénytől a jótállásig</source>
+                <target>From interest to guarantee - what does the whole process look like?</target>
+            </trans-unit>
+            <trans-unit id="gk4NJwG" resname="Érdeklődők és ajánlások gyűjtése">
+                <source>Érdeklődők és ajánlások gyűjtése</source>
+                <target>Collecting leads</target>
+            </trans-unit>
+            <trans-unit id="NloN8oY" resname="Ügyféllel való kapcsolatfelvétel, időpont egyeztetés">
+                <source>Ügyféllel való kapcsolatfelvétel, időpont egyeztetés</source>
+                <target>Connect with leads, making appointments</target>
+            </trans-unit>
+            <trans-unit id="mAdRYX_" resname="Szerződéskötés">
+                <source>Szerződéskötés</source>
+                <target>Contract</target>
+            </trans-unit>
+            <trans-unit id="heBlPU6" resname="Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése">
+                <source>Adminisztráció: szükséges hatósági engedélyek benyújtása és menedzselése</source>
+                <target>Administration: managing required permits</target>
+            </trans-unit>
+            <trans-unit id="ciEhNUY" resname="Termék kivitelezésének tervezése, felügyelete">
+                <source>Termék kivitelezésének tervezése, felügyelete</source>
+                <target>Planning and supervising of installation</target>
+            </trans-unit>
+            <trans-unit id="UClBgC." resname="Ügyfélelégedettség nyomonkövetése">
+                <source>Ügyfélelégedettség nyomonkövetése</source>
+                <target>Customer satisfaction tracking, warranty monitoring</target>
+            </trans-unit>
+            <trans-unit id="lVmdAEy" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.">
+                <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.</source>
+                <target>Every lead is treated as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are fully satisfied. Our system's success is proven by our outstandingly high NPS score of 75.</target>
+            </trans-unit>
+            <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
+                <source>Saját ERP rendszer</source>
+                <target>Our ERP system</target>
+            </trans-unit>
+            <trans-unit id="p1Wt0Yj" resname="Everest ERP rendszer">
+                <source>Everest ERP rendszer</source>
+                <target>Everest ERP system</target>
+            </trans-unit>
+            <trans-unit id="Pi2nNil" resname="100%-ban saját, 100% Everest">
+                <source>100%-ban saját, 100% Everest</source>
+                <target>100% own, 100% Everest</target>
+            </trans-unit>
+            <trans-unit id="LnOZ869" resname="Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)">
+                <source>Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)</source>
+                <target>Fast, immediately available. Any new development can be started right away (regardless of whether the law or the market environment has changed).</target>
+            </trans-unit>
+            <trans-unit id="VItFzrV" resname="Felhasználóbarát felület">
+                <source>Felhasználóbarát felület</source>
+                <target>User-friendly surface</target>
+            </trans-unit>
+            <trans-unit id="x7cGWvm" resname="Folyamatos support rendelkezésre állás">
+                <source>Folyamatos support rendelkezésre állás</source>
+                <target>Continuous support</target>
+            </trans-unit>
+            <trans-unit id="IN6Kjlx" resname="Új funkciók bevezetése rendszeresen">
+                <source>Új funkciók bevezetése rendszeresen</source>
+                <target>Developing new functions continually</target>
+            </trans-unit>
+            <trans-unit id="CRDkaiQ" resname="Oldalak">
+                <source>Oldalak</source>
+                <target>Pages</target>
+            </trans-unit>
+            <trans-unit id="SMPHk7k" resname="A magyarországi sikerek után már Csehországban is jelen vagyunk!">
+                <source>A magyarországi sikerek után már Csehországban is jelen vagyunk!</source>
+                <target>We began in Hungary, but now we can be found in a variety of countries!</target>
+            </trans-unit>
+
+            <trans-unit id="Xn7JH1N" resname="Profi csapat, átlátható könyvelés">
+                <source>Profi csapat, átlátható könyvelés</source>
+                <target>Professional team, transparent accounting</target>
+            </trans-unit>
+            <trans-unit id="NeBY1xf" resname="Portál">
+                <source>Portál</source>
+                <target>Portal</target>
+            </trans-unit>
+            <trans-unit id="hcDKiKh" resname="Account manager">
+                <source>Account manager</source>
+                <target>Account managers</target>
+            </trans-unit>
+            <trans-unit id="GwmpxVF" resname="év">
+                <source>év</source>
+                <target>years</target>
+            </trans-unit>
+            <trans-unit id="Png2Fbw" resname="Elégedett ügyfél">
+                <source>Elégedett ügyfél</source>
+                <target>Satisfied customer</target>
+            </trans-unit>
+            <trans-unit id="xKCZot8" resname="Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.">
+                <source>Ebben az évben találkoztunk első Ügyfeleinkkel, akiket a mai napig több száz elégedett partner követett: segítettük üzleti tevékenységüket könyveléssel és adótanácsadással, hogy minél hatékonyabban használhatják ki erőforrásaikat.</source>
+                <target>This year we met our first Clients, followed to this day by hundreds of satisfied partners: we helped their business with accounting and tax advice to make the most of their resources.</target>
+            </trans-unit>
+            <trans-unit id="RIKiGAa" resname="Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.">
+                <source>Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.</source>
+                <target>We can summarize this in one sentence: our professional accountants, account managers, and our online surface can support conscious management decisions, however, our services are more than that; one prepared financial advisor can help you with the daily process.</target>
+            </trans-unit>
+            <trans-unit id="fKmNgNH" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.">
+                <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.</source>
+                <target>A precise accounting staff will work with you to keep track of what you can see on our unique online platform. This will assist you in managing your company and finances.</target>
+            </trans-unit>
+            <trans-unit id="G0ojgHU" resname="Adatok vállalkozásáról.">
+                <source>Adatok vállalkozásáról.</source>
+                <target>Data from your company.</target>
+            </trans-unit>
+            <trans-unit id="2PFVYl4" resname="Azonnal.">
+                <source>Azonnal.</source>
+                <target>Now!</target>
+            </trans-unit>
+            <trans-unit id="4lqrf8z" resname="Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?">
+                <source>Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?</source>
+                <target>Do you know that the data that can help you in making decisions about hiring, investment, or even a smaller purchases? Are you familiar with your incoming and outgoing statistics, the seasonality or do you know which of your partners are the most loyal to you and how much money they spend at your company?</target>
+            </trans-unit>
+            <trans-unit id=".fu.5YU" resname="A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a követelések és a kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.">
+                <source>A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a követelések és a kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.</source>
+                <target>In Everest Portal you are just a click away from your business’s actual finance situation, like receivables/payables, what and when do you have to pay, the status of your invoices, etc. In our Portal, you have access to numerous statistics, statements, and your quarterly and yearly analysis.</target>
+            </trans-unit>
+            <trans-unit id="UJsfcxl" resname="A Portál">
+                <source>A Portál</source>
+                <target>The Portal</target>
+            </trans-unit>
+            <trans-unit id="DYH362X" resname="Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is">
+                <source>Minden statisztika, cégadat egy helyen: egy kattintással, akár egy meeting közben is</source>
+                <target>All statistics and data in one place: one click away even in a meeting</target>
+            </trans-unit>
+            <trans-unit id="xywBsDa" resname="Felelős döntést másodpercek alatt, azonnal elérhető cégadatokból">
+                <source>Felelős döntést másodpercek alatt, azonnal elérhető cégadatokból</source>
+                <target>Responsible decisions under seconds - always available</target>
+            </trans-unit>
+            <trans-unit id="7BjbJf_" resname="Döntse el egy pillanat alatt, hogy van-e elég fedezete arra, amit tervez">
+                <source>Döntse el egy pillanat alatt, hogy van-e elég fedezete arra, amit tervez</source>
+                <target>Decide if you have enough resources for your investments</target>
+            </trans-unit>
+            <trans-unit id="K.c63jB" resname="Férjen hozzá az bérszámfejtés összes adatához: bárhol, és bármikor">
+                <source>Férjen hozzá az bérszámfejtés összes adatához: bárhol, és bármikor</source>
+                <target>Get access to the payroll anywhere, anytime</target>
+            </trans-unit>
+            <trans-unit id="TMWgcER" resname="Segítünk, hogy mindig naprakész legyen a könyvelésben!">
+                <source>Segítünk, hogy mindig naprakész legyen a könyvelésben!</source>
+                <target>We are going to help you to be updated in the accounting!</target>
+            </trans-unit>
+            <trans-unit id="_C.8Cfo" resname="Könyvelő ">
+                <source>Könyvelő </source>
+                <target>Accountants</target>
+            </trans-unit>
+            <trans-unit id="dEm5s0j" resname=" év">
+                <source> év</source>
+                <target>years</target>
+            </trans-unit>
+            <trans-unit id="Dk_JUtZ" resname="Account manager ">
+                <source>Account manager </source>
+                <target>Account managers</target>
+            </trans-unit>
+            <trans-unit id="Ogn89Sa" resname=" tapasztalat">
+                <source> tapasztalat</source>
+                <target>of experience</target>
+            </trans-unit>
+            <trans-unit id="kRxzIwa" resname="Hogyan dolgozunk">
+                <source>Hogyan dolgozunk</source>
+                <target>How do we work</target>
+            </trans-unit>
+            <trans-unit id="pr3RU7z" resname="Elfogadom az {url} adatvédelmi irányelveket {endurl}">
+                <source>Elfogadom az {url} adatvédelmi irányelveket {endurl}</source>
+                <target>I accept the {url} privacy policy {endurl}</target>
+            </trans-unit>
+            <trans-unit id="qmnB_uG" resname="Köszönjük megkeresését, kollégáink hamarosan felveszik önnel a kapcsolatot">
+                <source>Köszönjük megkeresését, kollégáink hamarosan felveszik önnel a kapcsolatot</source>
+                <target>Thank you for your inquiry, our colleagues will contact you shortly</target>
+            </trans-unit>
+            <trans-unit id="mnlfrw6" resname="Nem csupán weboldalakat készítünk…">
+                <source>Nem csupán weboldalakat készítünk…</source>
+                <target>More than just websites…</target>
+            </trans-unit>
+            <trans-unit id="J6jHGcv" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian ismerjük a divatossá vált kifejezést, hogy weblap nélkül egy vállalat láthatatlan. Ebből már következik is, hogy az IT fejlesztés nálunk is nélkülözhetetlen volt már az elejétől kezdve.">
+                <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian ismerjük a divatossá vált kifejezést, hogy weblap nélkül egy vállalat láthatatlan. Ebből már következik is, hogy az IT fejlesztés nálunk is nélkülözhetetlen volt már az elejétől kezdve.</source>
+                <target>Our IT Solutions is the same age as Everest because you know - if you are not online you are invisible. It follows that IT development was crucial from day one.</target>
+            </trans-unit>
+            <trans-unit id="ogw8XKH" resname="Mérföldköveink">
+                <source>Mérföldköveink</source>
+                <target>Our milestones</target>
+            </trans-unit>
+            <trans-unit id="z1.TFXv" resname="Megtörténik az első lépés, létrejön az Everest.hu">
+                <source>Megtörténik az első lépés, létrejön az Everest.hu</source>
+                <target>First step, Everest.hu is developed</target>
+            </trans-unit>
+            <trans-unit id="Uel_Kh9" resname="Átadjuk Ügyfeleinknek az Accounting Portált">
+                <source>Átadjuk Ügyfeleinknek az Accounting Portált</source>
+                <target>Portal handover to our clients</target>
+            </trans-unit>
+            <trans-unit id="yE_0zfM" resname="Elindulnak fejlesztéseink Ügyfeleink számára">
+                <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
+                <target>We are starting to develop to our customers</target>
+            </trans-unit>
+            <trans-unit id="JAH0qwL" resname="Saját ERP rendszert hozunk létre">
+                <source>Saját ERP rendszert hozunk létre</source>
+                <target>The creation of our first ERP system</target>
+            </trans-unit>
+            <trans-unit id="SYdvTpG" resname="ERP-t fejlesztünk külföldi partnereink részére">
+                <source>ERP-t fejlesztünk külföldi partnereink részére</source>
+                <target>ERP for our customers abroad</target>
+            </trans-unit>
+            <trans-unit id="_3KS_4y" resname="Ugyanezt rendszert mobilappon is bemutatjuk">
+                <source>Ugyanezt rendszert mobilappon is bemutatjuk</source>
+                <target>Same system in mobile devices</target>
+            </trans-unit>
+            <trans-unit id="hP__AxU" resname="Elkezdjünk az együttműködést az Ön cégével!">
+                <source>Elkezdjünk az együttműködést az Ön cégével!</source>
+                <target>Starting the cooperation with your company!</target>
+            </trans-unit>
+            <trans-unit id="k0ZaDea" resname="Hogyan készül el nálunk egy fejlesztés?">
+                <source>Hogyan készül el nálunk egy fejlesztés?</source>
+                <target>How is development happening with us?</target>
+            </trans-unit>
+            <trans-unit id="Q3_Yshp" resname="Felmérjük az igényeket, a valósakat! Megbeszéljük, hogy pontosan mire van szükség, milyen célközönséggel, határidőkkel és erőforrással.">
+                <source>Felmérjük az igényeket, a valósakat! Megbeszéljük, hogy pontosan mire van szükség, milyen célközönséggel, határidőkkel és erőforrással.</source>
+                <target>We are going to meet your needs, the real ones! We talk about what you need, who will be your target audience, what resources do you need, and also the deadlines.</target>
+            </trans-unit>
+            <trans-unit id="MmePXht" resname="Tervezünk: először közösen, majd házon belül">
+                <source>Tervezünk: először közösen, majd házon belül</source>
+                <target>Planning: first together then in-house</target>
+            </trans-unit>
+            <trans-unit id="gf03Bk2" resname="A fejlesztés állapotáról folyamatosan egyeztetünk, így a végén nem lesznek meglepetések">
+                <source>A fejlesztés állapotáról folyamatosan egyeztetünk, így a végén nem lesznek meglepetések</source>
+                <target>You will be continuously notified therefore there won’t be any surprises in the end</target>
+            </trans-unit>
+            <trans-unit id="8KDPo8z" resname="Megtörténik az átadás">
+                <source>Megtörténik az átadás</source>
+                <target>Handover</target>
+            </trans-unit>
+            <trans-unit id="fgUZhOn" resname="Legyen szó egy egyszerű weboldal készítésről, akár egy összetett CRM vagy ERP rendszerről, csapatunkkal készen állunk a teljes implementációra - tervezéstől a megvalósításig és utána a supportig. Rejtett költségek nélkül!">
+                <source>Legyen szó egy egyszerű weboldal készítésről, akár egy összetett CRM vagy ERP rendszerről, csapatunkkal készen állunk a teljes implementációra - tervezéstől a megvalósításig és utána a supportig. Rejtett költségek nélkül!</source>
+                <target>Even when we are talking about creating a simple website or a complex CRM or ERP system our team will be ready for full implementation - from scratch to implementation through support. There will be no hidden fees!</target>
+            </trans-unit>
+            <trans-unit id="iO3tC2E" resname="Garantáljuk Önnek, hogy a nálunk készült fejlesztések megfelelnek az alábbi kritériumoknak:">
+                <source>Garantáljuk Önnek, hogy a nálunk készült fejlesztések megfelelnek az alábbi kritériumoknak:</source>
+                <target>We will guarantee you will meet the following criteria:</target>
+            </trans-unit>
+            <trans-unit id="HtoZUbS" resname="Könnyen használható - tudjuk, hiszen mi is dolgoztunk lassú, nehezen használható programokkal">
+                <source>Könnyen használható - tudjuk, hiszen mi is dolgoztunk lassú, nehezen használható programokkal</source>
+                <target>Easy to use - we know because we worked with slow and difficult to use programs</target>
+            </trans-unit>
+            <trans-unit id="HHl8Yxm" resname="Bővíthető - akár egyszerű weboldal vagy összetett rendszer, legyen összekapcsolható bármivel a jövőben">
+                <source>Bővíthető - akár egyszerű weboldal vagy összetett rendszer, legyen összekapcsolható bármivel a jövőben</source>
+                <target>Expandable - even if a simple site or complex system it has to be connected with anything in the future</target>
+            </trans-unit>
+            <trans-unit id="sW8ex6f" resname="Biztonság - törekszünk a maximálisra">
+                <source>Biztonság - törekszünk a maximálisra</source>
+                <target>Safety - we strive for the maximum</target>
+            </trans-unit>
+            <trans-unit id="_TLuRw6" resname="GDPR kompatibilis - segítünk a GDPR kidolgozásban is">
+                <source>GDPR kompatibilis - segítünk a GDPR kidolgozásban is</source>
+                <target>GDPR compatibility - we will help you get through GDPR</target>
+            </trans-unit>
+            <trans-unit id="Cy9XFbu" resname="SEO - hogy a Google is kedvelje oldalát">
+                <source>SEO - hogy a Google is kedvelje oldalát</source>
+                <target>SEO - for Google to like your page</target>
+            </trans-unit>
+            <trans-unit id="ylrZ2xE" resname="UI/UX - persze az sem gond, ha a felhasználók is szeretik!">
+                <source>UI/UX - persze az sem gond, ha a felhasználók is szeretik!</source>
+                <target>UI/UX - it’s not a problem if your users will love it</target>
+            </trans-unit>
+            <trans-unit id="V6TFdSA" resname="Betartjuk, amit ígérünk - hogy ne csak a felhasználói, hanem az ügyfélélmény is lélegzetelállító legyen!">
+                <source>Betartjuk, amit ígérünk - hogy ne csak a felhasználói, hanem az ügyfélélmény is lélegzetelállító legyen!</source>
+                <target>We keep what we promise - not only the user but the customer experience should be breathtaking!</target>
+            </trans-unit>
+            <trans-unit id="oFHOTv." resname="Légy felfedező!">
+                <source>Légy felfedező!</source>
+                <target>Become an explorer!</target>
+            </trans-unit>
+            <trans-unit id="DzhlwJ2" resname="Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!">
+                <source>Az Everest folyamatosan fejlődik, így különböző üzletágainkban mindig megtalálhatóak nyitott pozíciók. Célunk olyan munkatársakkal bővülni, akik ténylegesen Ügyfeleink és csapatunk érdekeit tartják szem előtt. Amennyiben valamelyik felkeltette érdeklődését, várjuk jelentkezését! Mi mindig nagyon örülünk minden újabb CV-nek!</source>
+                <target>Everest is constantly growing. There are constantly available positions in our divisions. Our goal is to increase the number of associates who are focused on our clients and Everest's objectives. If you are interested, we are waiting for your application. We are always happy to see a new CV in our mailbox.</target>
+            </trans-unit>
+            <trans-unit id="y6VRuWQ" resname="Budapestről indultunk, később lefedtük Magyarországot, most Európánál tartunk! A történetünk már több mint 15 éves múltra tekint vissza, az akkor még néhány fős csapatunk 2005-ben találkozott első ügyfeleivel és kezdődött el tanácsadói munkánk pénzügyi területen. Az ügyfélélményt szem előtt tartva láttuk, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél. Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló üzletágunk is dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatot külföldön is kamatoztassuk, így léptünk be azóta több európai országba is.">
+                <source>Budapestről indultunk, később lefedtük Magyarországot, most Európánál tartunk! A történetünk már több mint 15 éves múltra tekint vissza, az akkor még néhány fős csapatunk 2005-ben találkozott első ügyfeleivel és kezdődött el tanácsadói munkánk pénzügyi területen. Az ügyfélélményt szem előtt tartva láttuk, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél. Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló üzletágunk is dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatot külföldön is kamatoztassuk, így léptünk be azóta több európai országba is.</source>
+                <target>We started from Budapest, then we covered the whole of Hungary. Now we are in Europe as well! Our story started 15 years ago when our small team met clients in 2005 and started the consultancy in finances. We always focused on the customer experience when we saw the accounting in Hungary should be reformed. We knew we had to offer more than simple bookkeeping. Thanks to our Accounting division those people came to work with us, and they helped to maintain the great success in the Renewables field. In just a few years we made great records nobody saw in Hungary until that time. Our next step was to use our experience abroad as well, so we have entered several European countries.</target>
+            </trans-unit>
+            <trans-unit id="OnzkRNw" resname="Mi, itt az Everestnél...">
+                <source>Mi, itt az Everestnél...</source>
+                <target>We, here at Everest...</target>
+            </trans-unit>
+            <trans-unit id="gAgFUeY" resname="Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">
+                <source>Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet akarunk nyújtani bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</source>
+                <target>Not just selling goods and services; we would like to offer more to our customers. Even in B2B or B2C, our sales process is more like consulting because not just the moment matters but the future with our partners.</target>
+            </trans-unit>
+            <trans-unit id="vjzqUCC" resname="Hiszünk benne, hogy etikus hozzáállásunkkal, a kiemelkedő csapatösszetartásunkkal és naprakész munkatársainkkal az Everest több mint egy hagyományos szolgáltatócég. Sőt, erre büszkék is vagyunk!">
+                <source>Hiszünk benne, hogy etikus hozzáállásunkkal, a kiemelkedő csapatösszetartásunkkal és naprakész munkatársainkkal az Everest több mint egy hagyományos szolgáltatócég. Sőt, erre büszkék is vagyunk!</source>
+                <target>We believe that our ethic and outstanding team cohesion and up-to-date coworkers make us more than a simple service company. Of course, we are proud of that!</target>
+            </trans-unit>
+            <trans-unit id="uy5976C" resname="Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk!">
+                <source>Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk!</source>
+                <target>Our team is important! Coworkers and partners are well appreciated and professional development is provided. We wish for long-term relationships every time.</target>
+            </trans-unit>
+            <trans-unit id="fJXSMUx" resname="Mindig többre vágyunk! Nem elégszünk meg pillanatnyi sikerünkkel, inkább mindig tökéletesítjük a folyamatokat, kommunikációnkat, ügyfélkezelésünket.">
+                <source>Mindig többre vágyunk! Nem elégszünk meg pillanatnyi sikerünkkel, inkább mindig tökéletesítjük a folyamatokat, kommunikációnkat, ügyfélkezelésünket.</source>
+                <target>We always want more! Our momentary success is not enough, we are always perfecting our processes, communication, and customer management.</target>
+            </trans-unit>
+            <trans-unit id="dkvMn8V" resname="Tovább">
+                <source>Tovább</source>
+                <target>More</target>
+            </trans-unit>
+            <trans-unit id="6eENghF" resname="Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!">
+                <source>Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!</source>
+                <target>If you don’t like the form just write an email to {email} or call us at {phone}</target>
+            </trans-unit>
+            <trans-unit id="qoH4YMA" resname="1051 Budapest, Arany János u. 9">
+                <source>1051 Budapest, Arany János u. 9</source>
+                <target>1051 Budapest, Arany János str. 9</target>
+            </trans-unit>
+            <trans-unit id="KaOCkGb" resname="404 - Oldal nem található">
+                <source>404 - Oldal nem található</source>
+                <target>404 - Page not found</target>
+            </trans-unit>
+            <trans-unit id="HGt75kD" resname="Vissza a főoldalra">
+                <source>Vissza a főoldalra</source>
+                <target>Back to homepage</target>
+            </trans-unit>
+            <trans-unit id="nWMPiMC" resname="Jelenleg nincs nyitott pozíció az Ön nyelvén">
+                <source>Jelenleg nincs nyitott pozíció az Ön nyelvén</source>
+                <target>There are currently no open positions in your language</target>
+            </trans-unit>
+            <trans-unit id="yG25Jlp" resname="Mi az Everest?">
+                <source>Mi az Everest?</source>
+                <target>What is Everest?</target>
+            </trans-unit>
+            <trans-unit id="g21PLLb" resname="Az Everest 3 különböző üzletágban van jelen:">
+                <source>Az Everest 3 különböző üzletágban van jelen:</source>
+                <target>Everest is present in 3 different business lines:</target>
+            </trans-unit>
+            <trans-unit id="qVCnKlG" resname="Everest Accounting">
+                <source>Everest Accounting</source>
+                <target>Everest Accounting</target>
+            </trans-unit>
+            <trans-unit id="kyzoIOf" resname="Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.">
+                <source>Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.</source>
+                <target>Accounting in Hungary: experienced accountants, online portal, account managers.</target>
+            </trans-unit>
+            <trans-unit id="t07QLIp" resname="Everest Renewables">
+                <source>Everest Renewables</source>
+                <target>Everest Renewables</target>
+            </trans-unit>
+            <trans-unit id="IJILzBP" resname="Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.">
+                <source>Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.</source>
+                <target>Renewable Energy in Hungary and the Czech Republic: sales and full administration of products and services with a self-made ERP system.</target>
+            </trans-unit>
+            <trans-unit id="xia0Nw2" resname="Everest IT Solutions">
+                <source>Everest IT Solutions</source>
+                <target>Everest IT Solutions</target>
+            </trans-unit>
+            <trans-unit id="jbmc1My" resname="Ügyfeleink és saját rendszereink fejlesztése.">
+                <source>Ügyfeleink és saját rendszereink fejlesztése.</source>
+                <target>Development of our customers and our own systems.</target>
+            </trans-unit>
+            <trans-unit id="DvAsRYx" resname="Történetünk">
+                <source>Történetünk</source>
+                <target>Our story</target>
+            </trans-unit>
+            <trans-unit id="5vd_C.Z" resname="Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.">
+                <source>Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</source>
+                <target>The history of the Everest team dates back more than 15 years. In 2005, our first customer meeting took place in the same way as now: we served the needs of our customers with the best available knowledge with the highest level of service. The team of a few people at the time, which grew rapidly over the years and thanks to our growing customer base, simply could not escape our attention that the accounting market in Hungary needs to be innovated, so it became our determined goal to add more than traditional accounting.</target>
+            </trans-unit>
+            <trans-unit id="6EEHR3e" resname="2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.">
+                <source>2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.</source>
+                <target>In 2015, we launched our accounting business called Everest Accounting. Thanks to our self-developed portal, well-trained accountants and always available account managers, our business has developed rapidly, and since 2018 we have been operating as a private limited company.</target>
+            </trans-unit>
+            <trans-unit id="O_T.PsO" resname="A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.">
+                <source>A portál fejlesztésével együtt indult IT csapatunk is, kezdetben csupán két fővel. Ma fejlesztőink azért dolgoznak, hogy a másik két üzletágunk háttérmunkái gördülékenyek legyenek; emellett pedig folyamatosan kiszolgáljuk Ügyfeleinket saját IT kéréseit is.</source>
+                <target>Along with the development of the portal, our IT team also started, initially with only two people. Today, our developers are working to make the background work for our other two businesses run smoothly; in addition, we continuously serve our customers with their own IT requests.</target>
+            </trans-unit>
+            <trans-unit id="skcssxv" resname="Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:">
+                <source>Az Accountingnak köszönhetően érkeztek hozzánk olyan munkatársak, akik segítségével a Megújuló energia üzletágunk 2016-ban elindulhatott. Új profilunk indulása után szinte rögtön dinamikus sikert aratott és néhány év alatt itthon addig még nem látott rekordokat dönthettünk! Sikerünk egyik kulcsa, hogy Ügyfeleink életútját a saját fejlesztésű ERP rendszerünkben több szereplővel felügyeljük. A Megújuló üzletágunk különböző helyeken bizonyít:</source>
+                <target>Thanks to Accounting, we have employees who helped us launch our Renewable Energy business in 2016. Almost immediately after the launch of our new profile, we had a dynamic success and in a few years we were able to break records that had never been seen before in Hungary! One of the keys to our success is to monitor the lives of our customers with several actors in our self-developed ERP system. Our Renewable business proves in different places:</target>
+            </trans-unit>
+            <trans-unit id="5FVkaeM" resname="Ügyfeleinknél terepen">
+                <source>Ügyfeleinknél terepen</source>
+                <target>At our customers' field</target>
+            </trans-unit>
+            <trans-unit id="_.vy3Od" resname="háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.">
+                <source>háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.</source>
+                <target>in our background office where we do paperwork and customer service.</target>
+            </trans-unit>
+            <trans-unit id="NIMvDyR" resname="A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!">
+                <source>A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!</source>
+                <target>As a next step, we decided to use the experience we gained in Hungary abroad, thanks to which Everest is already present in the Czech Republic!</target>
+            </trans-unit>
+            <trans-unit id="2NaNq0a" resname="Miért pont Everest?">
+                <source>Miért pont Everest?</source>
+                <target>Why Everest?</target>
+            </trans-unit>
+            <trans-unit id="DBYextw" resname="Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.">
+                <source>Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.</source>
+                <target>Our name reflects our commitment to always provide the best possible service to our Customers in all areas. Whether it's accounting, a B2C market, or even building a complex corporate governance system, we'll tackle the hardships of climbing and bring you to the top.</target>
+            </trans-unit>
+            <trans-unit id="k7S82qd" resname="Discover Greatness Beyond Profession">
+                <source>Discover Greatness Beyond Profession</source>
+                <target>Discover Greatness Beyond Profession</target>
+            </trans-unit>
+            <trans-unit id=".xfsACz" resname="Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.">
+                <source>Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.</source>
+                <target>Our vision is to seek excellence! From the offer to the conclusion of the contract and after the service, our vision always floats before our eyes. We strive to ensure that all our employees provide the same standard, which is why we hold regular trainings on various topics.</target>
+            </trans-unit>
+            <trans-unit id="9yHBqvI" resname="Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">
+                <source>Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.</source>
+                <target>We are not just about service management; we offer so much more to any of our customers. Whether B2B or B2C, the sales process can be described more as consulting, as the customer is not only important to us at the moment, but also in the - common - future.</target>
+            </trans-unit>
+            <trans-unit id="BxIamUH" resname="Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.">
+                <source>Fontos számunkra a csapat! Munkatársainkat és partnereinket megbecsüljük, biztosítjuk a szakmai fejlődést és nyitottak vagyunk. Minden esetben a hosszútávú együttműködésre szavazunk.</source>
+                <target>The team is important to us! We value our employees and partners, ensure professional development and are open. In all cases, we vote for long-term cooperation.</target>
+            </trans-unit>
+            <trans-unit id=".ZXQuOl" resname="Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!">
+                <source>Legyen szó bármelyik üzletágról, legnagyobb Ügyfeleinkkel évek óta együtt dolgozunk, erre kifejezetten büszkék vagyunk!</source>
+                <target>Whatever the business, we have been working with our biggest customers for years, we are especially proud of that!</target>
+            </trans-unit>
+            <trans-unit id="3c6SA0j" resname="Érdeklődés könyvelési szolgáltatás iránt">
+                <source>Érdeklődés könyvelési szolgáltatás iránt</source>
+                <target>Interest in accounting services</target>
+            </trans-unit>
+            <trans-unit id="VmGvdmk" resname="Kedves Everest csapat!&#10;&#10;Szívesen tájékozódnék személyesen az egyedülálló szolgáltatási csomagról.&#10;&#10;Elérhető vagyok a megadott email címen, illetve telefonszámon:">
+                <source>Kedves Everest csapat!
 
 Szívesen tájékozódnék személyesen az egyedülálló szolgáltatási csomagról.
 
 Elérhető vagyok a megadott email címen, illetve telefonszámon:</source>
-        <target>Dear Everest Team,
+                <target>Dear Everest Team,
 
 I am keen to learn more about your unique services.
 
 Please contact me by email or phone, my number is:           </target>
-      </trans-unit>
-      <trans-unit id="dhTEYLC" resname="Létrehozzuk az Everest IT üzleti egységet">
-        <source>Létrehozzuk az Everest IT üzleti egységet</source>
-        <target>__Létrehozzuk az Everest IT üzleti egységet</target>
-      </trans-unit>
-      <trans-unit id="IU0dOcu" resname="Elkészítjük saját napelemes ERP rendszerünket">
-        <source>Elkészítjük saját napelemes ERP rendszerünket</source>
-        <target>__Elkészítjük saját napelemes ERP rendszerünket</target>
-      </trans-unit>
-      <trans-unit id="m6FYC2e" resname="A cseh piacot is meghódítjuk ERP rendszerünkkel">
-        <source>A cseh piacot is meghódítjuk ERP rendszerünkkel</source>
-        <target>__A cseh piacot is meghódítjuk ERP rendszerünkkel</target>
-      </trans-unit>
-      <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét?">
-        <source>Átadjuk Önnek kulcsrakész rendszerét?</source>
-        <target>__Átadjuk Önnek kulcsrakész rendszerét?</target>
-      </trans-unit>
-      <trans-unit id="esKSHWN" resname="Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.">
-        <source>Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.</source>
-        <target>__Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.</target>
-      </trans-unit>
-      <trans-unit id="B4n4ewj" resname="Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.">
-        <source>Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.</source>
-        <target>__Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.</target>
-      </trans-unit>
-      <trans-unit id="5ryKlxE" resname="A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.">
-        <source>A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.</source>
-        <target>__A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.</target>
-      </trans-unit>
-      <trans-unit id="dYkWfeZ" resname="Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.">
-        <source>Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.</source>
-        <target>__Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.</target>
-      </trans-unit>
-      <trans-unit id="fbHuyPo" resname="Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.">
-        <source>Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.</source>
-        <target>__Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.</target>
-      </trans-unit>
-      <trans-unit id="mdMuZZq" resname="Adatkezelés">
-        <source>Adatkezelés</source>
-        <target>__Adatkezelés</target>
-      </trans-unit>
-      <trans-unit id="NouEGoX" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.">
-        <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</source>
-        <target>__Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</target>
-      </trans-unit>
-      <trans-unit id="Qnlk19f" resname="Egyedi ERP szoftver">
-        <source>Egyedi ERP szoftver</source>
-        <target>__Egyedi ERP szoftver</target>
-      </trans-unit>
-      <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
-        <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
-                    termékhez.</source>
-        <target>__Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
-                    termékhez.</target>
-      </trans-unit>
-      <trans-unit id="Ny.K2Jt" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.">
-        <source>Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.</source>
-        <target>__Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.</target>
-      </trans-unit>
-      <trans-unit id="yXViVO2" resname="Teljeskörű felmérés és tervezés">
-        <source>Teljeskörű felmérés és tervezés</source>
-        <target>__Teljeskörű felmérés és tervezés</target>
-      </trans-unit>
-      <trans-unit id="47DEQpj" resname="">
-        <source></source>
-        <target>__</target>
-      </trans-unit>
-      <trans-unit id="syeNXTn" resname="Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk">
-        <source>Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk</source>
-        <target>__Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk</target>
-      </trans-unit>
-    </body>
-  </file>
+            </trans-unit>
+            <trans-unit id="dhTEYLC" resname="Létrehozzuk az Everest IT üzleti egységet">
+                <source>Létrehozzuk az Everest IT üzleti egységet</source>
+                <target>We create the Everest IT business unit</target>
+            </trans-unit>
+            <trans-unit id="IU0dOcu" resname="Elkészítjük saját napelemes ERP rendszerünket">
+                <source>Elkészítjük saját napelemes ERP rendszerünket</source>
+                <target>We create our own solar ERP system</target>
+            </trans-unit>
+            <trans-unit id="m6FYC2e" resname="A cseh piacot is meghódítjuk ERP rendszerünkkel">
+                <source>A cseh piacot is meghódítjuk ERP rendszerünkkel</source>
+                <target>We are also conquering the Czech market with our ERP system</target>
+            </trans-unit>
+            <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét?">
+                <source>Átadjuk Önnek kulcsrakész rendszerét?</source>
+                <target>Will we hand you your turnkey system?</target>
+            </trans-unit>
+            <trans-unit id="esKSHWN" resname="Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.">
+                <source>Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.</source>
+                <target>We design custom enterprise resource planning (ERP) systems, incorporating all our experience to date.</target>
+            </trans-unit>
+            <trans-unit id="B4n4ewj" resname="Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.">
+                <source>Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.</source>
+                <target>We take care of the introduction and education of the administration and corporate governance program.</target>
+            </trans-unit>
+            <trans-unit id="5ryKlxE" resname="A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.">
+                <source>A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.</source>
+                <target>With the need for completeness, we will develop a long-term corporate governance system for you in many industries and other areas.</target>
+            </trans-unit>
+            <trans-unit id="dYkWfeZ" resname="Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.">
+                <source>Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.</source>
+                <target>Maintenance, availability, software fixes, software updates and regular data backups.</target>
+            </trans-unit>
+            <trans-unit id="fbHuyPo" resname="Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.">
+                <source>Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.</source>
+                <target>We do not let go of each other's hands even after delivery, we provide software support, which also includes free improvements, e.g. minor refinements because they always occur. This will make your software future-proof.</target>
+            </trans-unit>
+            <trans-unit id="mdMuZZq" resname="Adatkezelés">
+                <source>Adatkezelés</source>
+                <target>Privacy</target>
+            </trans-unit>
+            <trans-unit id="NouEGoX" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.">
+                <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</source>
+                <target>IT Solutions is the same age as Everest, as we all know that a strong digital background is essential to our success / goals.</target>
+            </trans-unit>
+            <trans-unit id="Qnlk19f" resname="Egyedi ERP szoftver">
+                <source>Egyedi ERP szoftver</source>
+                <target>Custom ERP software</target>
+            </trans-unit>
+            <trans-unit id="8Rv5V9U" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.">
+                <source>Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.</source>
+                <target>We strengthen the reputation and position of our partner in the renewable energy market through professional advice.</target>
+            </trans-unit>
+            <trans-unit id="yXViVO2" resname="Teljeskörű felmérés és tervezés">
+                <source>Teljeskörű felmérés és tervezés</source>
+                <target>Comprehensive survey and planning</target>
+            </trans-unit>
+            <trans-unit id="a6bBG9h" resname="&#10;            ">
+                <source>
+                </source>
+                <target>__</target>
+            </trans-unit>
+            <trans-unit id="syeNXTn" resname="Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk">
+                <source>Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk</source>
+                <target>We will be in constant contact with you in order to ensure a smooth cooperation</target>
+            </trans-unit>
+            <trans-unit id="MEV_tj9" resname="Ebben az évben találkoztunk először ügyfeleinkkel, akiket vállalati pénzügyeikben segítettünk. Később ehhez kapcsolódott hozzá a könyvelés és adótanácsadás, hogy minél hatékonyabban használják ki erőforrásaikat. Ennek köszönhetően ma már több száz elégedett partnerünk van!">
+                <source>Ebben az évben találkoztunk először ügyfeleinkkel, akiket vállalati pénzügyeikben segítettünk. Később ehhez kapcsolódott hozzá a könyvelés és adótanácsadás, hogy minél hatékonyabban használják ki erőforrásaikat. Ennek köszönhetően ma már több száz elégedett partnerünk van!</source>
+                <target>This year we met for the first time with our clients, whom we helped with their corporate finances. This was later accompanied by accounting and tax advice to make the most efficient use of their resources. Thanks to this, we now have hundreds of satisfied partners!</target>
+            </trans-unit>
+            <trans-unit id="PcDYB0i" resname="Egyedi vállalatirányítási rendszereket (ERP) fejlesztünk, minden eddigi tapasztalatunkat beépítve.">
+                <source>Egyedi vállalatirányítási rendszereket (ERP) fejlesztünk, minden eddigi tapasztalatunkat beépítve.</source>
+                <target>We are developing custom enterprise resource planning (ERP) systems, incorporating all our experience to date.</target>
+            </trans-unit>
+            <trans-unit id="AHc1aHy" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.">
+                <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</source>
+                <target>IT Solutions is the same age as Everest, as we all know that a strong digital background is essential to our success / goals.</target>
+            </trans-unit>
+            <trans-unit id="A36PAsK" resname="Tervezés">
+                <source>Tervezés</source>
+                <target>Planning</target>
+            </trans-unit>
+            <trans-unit id="d4sREPi" resname="Bevezetés">
+                <source>Bevezetés</source>
+                <target>Introduction</target>
+            </trans-unit>
+            <trans-unit id="Ydzz_ew" resname="Fejlesztés">
+                <source>Fejlesztés</source>
+                <target>Development</target>
+            </trans-unit>
+            <trans-unit id="8UFJ5GR" resname="Konzultáció">
+                <source>Konzultáció</source>
+                <target>Consultation</target>
+            </trans-unit>
+            <trans-unit id="emtf.GN" resname="Üzemeltetés">
+                <source>Üzemeltetés</source>
+                <target>Üzemeltetés</target>
+            </trans-unit>
+            <trans-unit id="1ac8kIz" resname="Szoftvertámogatás">
+                <source>Szoftvertámogatás</source>
+                <target>Software support</target>
+            </trans-unit>
+            <trans-unit id="T6CtVvD" resname="Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:&#10;                            Everest&#10;                            Accounting.">
+                <source>Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
+Everest
+Accounting.</source>
+                <target>In business, you have to plan. For that, you will need accurate data immediately. What if Everest Accounting could help you with that?</target>
+            </trans-unit>
+            <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
+                <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
+termékhez.</source>
+                <target>The software is made individually, according to the customer's needs and goals, so the customer does not have to adapt to a "boxed" product</target>
+            </trans-unit>
+            <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
+                <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
+létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
+                <target>We believe that there can be no customer satisfaction without a reliable IT system as a foundation. We designed our ERP system to provide the best possible user experience, and we can make changes demanded by the market.</target>
+
+            </trans-unit>
+            <trans-unit id="8TlOUk_" resname="Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,&#10;                                menedzserek, projektkoordinátorok, call center, stb)">
+                <source>Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,
+menedzserek, projektkoordinátorok, call center, stb)</source>
+                <target>Roles: different workflows need different roles (regional representatives, managers, project coordinators, call center, etc.)</target>
+            </trans-unit>
+            <trans-unit id="47DEQpj" resname="">
+                <source></source>
+                <target>__</target>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>
