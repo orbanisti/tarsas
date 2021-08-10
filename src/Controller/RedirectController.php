@@ -27,13 +27,14 @@ class RedirectController extends AbstractController
      * @param   RedirectManager  $redirectManager
      *
      * @return Response
-     * @throws NoResultException
-     * @throws NonUniqueResultException
      * @Route("/", methods={"GET","POST"}, name="redirect_main",priority="1")
      */
     public function doRedirect(string $slug, RedirectManager $redirectManager): Response
     {
         $targetUrl = $redirectManager->getRedirectUrl($slug);
+        if ($redirectManager->isSiteMap($slug)) {
+            return $this->forward('Presta\SitemapBundle\Controller\SitemapController::sectionAction', ['name' => 'default', '_lang' => 'hu']);
+        }
         if ($targetUrl) {
             return new RedirectResponse($targetUrl, 301);
         }

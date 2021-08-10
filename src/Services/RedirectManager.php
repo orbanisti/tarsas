@@ -60,4 +60,14 @@ class RedirectManager
         return null;
     }
 
+    public function isSiteMap(string $slug)
+    {
+        $slugParts = explode('/', $slug);
+        if (str_contains($slugParts[0], 'sitemap')) {
+            return true;
+        }
+
+        return false;
+    }
+
 }
