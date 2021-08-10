@@ -247,7 +247,7 @@ Elérhető vagyok a megadott email címen, illetve telefonszámon:'|trans:'' }) 
                     </button>
                 </div>
                 <div class="modal-body">
-                    <iframe style="width: 100%" class="portal-video-iframe" src="//player.vimeo.com/video/269352736?app_id=122963" frameborder="0"
+                    <iframe style="width: 100%" class="portal-video-iframe" src="" frameborder="0"
                             allowfullscreen=""></iframe>
                 </div>
 
@@ -255,10 +255,18 @@ Elérhető vagyok a megadott email címen, illetve telefonszámon:'|trans:'' }) 
         </div>
     </div>
     {% block javascripts %}
+        {{ parent() }}
         <script>
-            $(document).ready(function () {
-                $('.popup-vimeo').click(function (e) {
-                    e.preventDefault();
+            var portalVideoSrc = '//player.vimeo.com/video/269352736?app_id=122963';
+
+            window.addEventListener('load', function () {
+                var portalVideoIframe = $(".portal-video-iframe")
+                var videoModal = $('#vimeoModal');
+                videoModal.on('show.bs.modal', function (e) {
+                    portalVideoIframe.attr('src', portalVideoSrc + '&autoplay=true')
+                })
+                videoModal.on('hidden.bs.modal', function (e) {
+                    portalVideoIframe.attr('src', '')
                 })
             })
 

@@ -184,7 +184,6 @@ try {
 function simpleParallax() {
     //This variable is storing the distance scrolled
     var scrolled = $(window).scrollTop() + 1;
-    console.log(scrollStartingPos);
     //Every element with the class "scroll" will have parallax background
     //Change the "0.3" for adjusting scroll speed.
     let value = scrollStartingPos + -(scrolled * 0.3) + 'px';
@@ -194,6 +193,5 @@ function simpleParallax() {
 
 //Everytime we scroll, it will fire the function
 $(window).scroll(function (e) {
-
     simpleParallax();
 });

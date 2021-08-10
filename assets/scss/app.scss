@@ -147,15 +147,42 @@ header .locales a:hover small {
   color: inherit;
 }
 
-.body-container {
-  flex: 1;
-  /* needed to prevent pages with a very small height and browsers not supporting flex */
-  min-height: 760px
+@media (min-width: 768px) {
+  .body-container {
+    flex: 1;
+    /* needed to prevent pages with a very small height and browsers not supporting flex */
+    min-height: 760px
+  }
+  .homeList {
+    min-height: 768px !important;
+  }
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em !important;
+  }
+}
+
+@media (max-width: 525px) {
+  h1.mobileSmallerHeading {
+    font-size: 32px !important;
+  }
+  .bg-primary.imageBoxWrapper.ml-auto.mr-auto {
+    width: 80%;
+    height: auto !important;
+  }
+}
+
+img.imageBoxImage {
+  height: auto;
+}
+
 
 .body-container #main h1, .body-container #main h2 {
   margin-top: 0
 }
+
 
 #sidebar .section {
   margin-bottom: 2em

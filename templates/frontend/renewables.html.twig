@@ -9,10 +9,10 @@
                 <div class="container-fluid  jumbotron-bg position-relative scroll"
                      style="background: url('{{ asset('build/images/renewables_header.png') }}');margin-bottom:0px;min-height: 600px;background-repeat: no-repeat;">
                     <div class="primary-overlay-div"></div>
-                    <div class="container  p-1 p-lg-1">
+                    <div class="container p-lg-1 mt-5">
                         <div class="row mt-1">
                             <div class="col-md-12 text-left animate__animated animate__fadeInRight">
-                                <h1 class="mb-5 text-big text-white fadeInTextAnimation">{{ 'Megújuló energia'|trans }}</h1>
+                                <h1 class="mb-5 text-white fadeInTextAnimation">{{ 'Megújuló energia'|trans }}</h1>
                                 <p class=" text-white  mr-5 pr-lg-5 fadeInTextAnimation" data-word-delay="1500"
                                    data-delay="50">{{ 'Ügyfél elköteleződést ajánlunk'|trans }}</p>
                                 <p class=" text-white mt-3"><strong class="fadeInTextAnimation"
@@ -40,7 +40,7 @@
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-6 mt-5 mb-0">
-                        <h1 class="text-big text-dark mb-5 text-right">{{ 'Munkamódszerünk'|trans }}</h1>
+                        <h1 class="text-big text-dark mb-5 text-right mobileSmallerHeading">{{ 'Munkamódszerünk'|trans }}</h1>
                     </div>
                     <div class="col-md-6 mb-5" id="accountingImageBox" data-aos="fade-right">
                         {# TODO: Set make standalone template for this image style #}
@@ -144,7 +144,7 @@
             </div>
         </section>
         <section class="section" style="min-height: 100vh">
-            <div class="container mt-5 mb-3">
+            <div class="container mt-5 mb-5">
                 <div class="row">
                     <div class="col-md-12">
                         <p>{{ 'Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.'|trans }}
@@ -357,9 +357,7 @@
             }
 
             @media (max-width: 525px) {
-                h1 {
-                    font-size: 32px !important;
-                }
+
 
                 .bg-primary.imageBoxWrapper.ml-auto.mr-auto {
                     width: 80%;
