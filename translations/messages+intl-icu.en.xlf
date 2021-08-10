@@ -689,8 +689,8 @@
                 <source>Ügyfélelégedettség nyomonkövetése</source>
                 <target>Customer satisfaction tracking, warranty monitoring</target>
             </trans-unit>
-            <trans-unit id="lVmdAEy" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.">
-                <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-es NPS score értékünk.</source>
+            <trans-unit id="lVmdAEy" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-ös NPS score értékünk.">
+                <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-ös NPS score értékünk.</source>
                 <target>Every lead is treated as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are fully satisfied. Our system's success is proven by our outstandingly high NPS score of 75.</target>
             </trans-unit>
             <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
