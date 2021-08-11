@@ -1,44 +1,70 @@
 <div class="row">
     <div class="col-md-4">
         <div class="newStep">
-            <h5 class="stepTitle"><i class="fa fa-calendar"></i> {{ 'Tervezés'|trans }}</h5>
+            <i class="fi  flaticon-idea"></i>
+            <h2 class="stepTitle">{{ 'Tervezés'|trans }}</h2>
             <p class="stepDesc"> {{ 'Egyedi vállalatirányítási rendszereket (ERP) fejlesztünk, minden eddigi tapasztalatunkat beépítve.'|trans }}
             </p>
         </div>
     </div>
     <div class="col-md-4">
         <div class="newStep">
-            <h5 class="stepTitle"><i class="fa fa-arrow-right"></i> {{ 'Bevezetés'|trans }}</h5>
-            <p class="stepDesc">{{ 'Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.'|trans }}
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="newStep">
-            <h5 class="stepTitle"><i class="fa fa-coffee"></i> {{ 'Fejlesztés'|trans }}</h5>
-            <p class="stepDesc">{{ 'A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.'|trans }}
-            </p>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="newStep">
-            <h5 class="stepTitle"><i class="fa fa-coffee"></i>{{ 'Konzultáció'|trans }}</h5>
+            <i class="fi flaticon-notepad"></i>
+            <h2 class="stepTitle">{{ 'Konzultáció'|trans }}</h2>
             <p class="stepDesc">{{ 'Folyamatosan kapcsolatban maradunk Önnel, annak érdekében, hogy zökkenőmentes legyen együttműködésünk'|trans }}
             </p>
         </div>
     </div>
     <div class="col-md-4">
         <div class="newStep">
-            <h5 class="stepTitle"><i class="fa fa-cogs"></i> {{ 'Üzemeltetés'|trans }}</h5>
+            <i class="fi flaticon-magic-wand"></i>
+            <h2 class="stepTitle"> {{ 'Fejlesztés'|trans }}</h2>
+            <p class="stepDesc">{{ 'A teljesség igényével fejlesztünk Önnek hosszútávra vállalatirányítási rendszert számos iparágban és egyéb területeken.'|trans }}
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="newStep">
+            <i class="fi flaticon-television-1"></i>
+            <h2 class="stepTitle">{{ 'Bevezetés'|trans }}</h2>
+            <p class="stepDesc">{{ 'Gondoskodunk az ügyviteli és vállalatirányítási program bevezetéséről, és oktatásáról.'|trans }}
+            </p>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="newStep">
+            <i class="fi flaticon-settings-5"></i>
+            <h2 class="stepTitle"> {{ 'Üzemeltetés'|trans }}</h2>
             <p class="stepDesc">{{ 'Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.'|trans }}
             </p>
         </div>
     </div>
     <div class="col-md-4">
         <div class="newStep">
-            <h5 class="stepTitle"><i class="fa fa-support"></i> {{ 'Szoftvertámogatás'|trans }}</h5>
+            <i class="fi flaticon-help"></i>
+            <h2 class="stepTitle">{{ 'Szoftvertámogatás'|trans }}</h2>
             <p class="stepDesc">{{ 'Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.'|trans }}
             </p>
         </div>
     </div>
 </div>
+<style>
+    .newStep {
+        display: grid;
+    }
+
+    .newStep i {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .newStep > h2 {
+        text-align: center;
+    }
+
+    .newStep > p {
+        text-align: center;
+    }
+</style>
