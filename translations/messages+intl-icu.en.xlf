@@ -1185,7 +1185,7 @@ Please contact me by email or phone, my number is:           </target>
             </trans-unit>
             <trans-unit id="emtf.GN" resname="Üzemeltetés">
                 <source>Üzemeltetés</source>
-                <target>Üzemeltetés</target>
+                <target>Operation</target>
             </trans-unit>
             <trans-unit id="1ac8kIz" resname="Szoftvertámogatás">
                 <source>Szoftvertámogatás</source>
