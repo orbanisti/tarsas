@@ -1036,8 +1036,7 @@
         <target>Jedinečný software ERP</target>
       </trans-unit>
       <trans-unit id="TFsTaM1" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                      termékhez.">
-        <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
-                      termékhez.</source>
+        <source>Egyedileg, az igények és célok szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos” termékhez.</source>
         <target>Software je proveden individuálně, podle potřeb a cílů zákazníka, takže se nemusíte přizpůsobit "box" produktu. </target>
       </trans-unit>
       <trans-unit id="8Rv5V9U" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.">
@@ -1113,8 +1112,7 @@ Elérhető vagyok a megadott email címen, illetve telefonszámon:</source>
                     Mezi příjemce e -mailu patří:</target>
       </trans-unit>
       <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
-        <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
-                    termékhez.</source>
+        <source>Egyedileg, az igények és célok szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos” termékhez.</source>
        <target>Software je proveden individuálně, podle potřeb a cílů zákazníka, takže se nemusíte přizpůsobit "box" produktu. </target>
       </trans-unit>
       <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">

@@ -615,7 +615,7 @@
       </trans-unit>
       <trans-unit id="1iK2rYR" resname="Ügyfél elköteleződést ajánlunk">
         <source>Ügyfél elköteleződést ajánlunk</source>
-        <target>We offer brand recognition,</target>
+        <target>We offer brand recognition</target>
       </trans-unit>
       <trans-unit id="I7zK0te" resname="nem csak sales konzultációt">
         <source>nem csak sales konzultációt</source>
@@ -1103,7 +1103,7 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="gCTkZWY" resname="Átadjuk Önnek kulcsrakész rendszerét!">
         <source>Átadjuk Önnek kulcsrakész rendszerét!</source>
-        <target>Will we hand you your turnkey system</target>
+        <target>We will hand you your turnkey system</target>
       </trans-unit>
       <trans-unit id="esKSHWN" resname="Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.">
         <source>Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.</source>
@@ -1197,8 +1197,7 @@ Please contact me by email or phone, my number is:           </target>
         <target>In business, you must plan. For that you will need accurate and immediate data. Everest Accounting can help you with that.</target>
       </trans-unit>
       <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
-        <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
-                    termékhez.</source>
+        <source>Egyedileg, az igények és célok szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos” termékhez.</source>
         <target>The software is designed specifically for each client, designated for each customer's needs and goals so the customer does not have to adapt to a "boxed" product.</target>
       </trans-unit>
       <trans-unit id="9yLIMVa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
