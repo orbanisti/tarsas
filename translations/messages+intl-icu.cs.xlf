@@ -926,8 +926,8 @@
         <source>Ügyfeleinknél terepen</source>
         <target>S našimi klienty v terénu</target>
       </trans-unit>
-      <trans-unit id="_.vy3Od" resname="háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.">
-        <source>háttér irodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.</source>
+      <trans-unit id="_.vy3Od" resname="háttérirodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.">
+        <source>háttérirodánkban, ahol a papírmunkát és az ügyfélkezelést végezzük.</source>
         <target>V naší officu, kde se provádí papírování a řízení zákazníků.</target>
       </trans-unit>
       <trans-unit id="NIMvDyR" resname="A következő lépésként elhatároztuk, hogy a Magyarországon megszerzett tapasztalatainkat külföldön is kamatoztassuk, ennek köszönhetően az Everest már Csehországban is jelen van!">
