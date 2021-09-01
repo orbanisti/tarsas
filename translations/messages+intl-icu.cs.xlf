@@ -824,8 +824,8 @@
         <source>100%-ban egyedi fejlesztés</source>
         <target>100% vlastní, 100% Everest</target>
       </trans-unit>
-      <trans-unit id="LnOZ869" resname="Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)">
-        <source>Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)</source>
+      <trans-unit id="LnOZ869" resname="Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlói környezetváltozás esetén)">
+        <source>Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlói környezetváltozás esetén)</source>
         <target>Rychlý, okamžitě k dispozici, jakýkoli nový vývoj lze okamžitě zahájit (v případě změny právního nebo zákaznického prostředí)</target>
       </trans-unit>
       <trans-unit id="VItFzrV" resname="Felhasználóbarát felület">
