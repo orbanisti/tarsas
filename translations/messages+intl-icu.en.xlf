@@ -601,8 +601,8 @@
         <source>Több mint könyvelés, sokkal több. Innovatív, egyedi megoldások a hazai piacon.</source>
         <target>More than accounting, much more. Innovative, unique solutions in the domestic market.</target>
       </trans-unit>
-      <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
-        <source>Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
+      <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégánk 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
+        <source>Írjon nekünk és kollégánk 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
         <target>Write to us and our colleagues will be in touch within 24 hours, to answer all your questions!</target>
       </trans-unit>
       <trans-unit id="yM4kVuz" resname="Vissza a nyitott pozíciókra">
@@ -1017,8 +1017,8 @@
         <source>Történetünk</source>
         <target>Our story</target>
       </trans-unit>
-      <trans-unit id="5vd_C.Z" resname="Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.">
-        <source>Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</source>
+      <trans-unit id="5vd_C.Z" resname="Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: az elérhető legjobb tudással, a legmagasabb szinten szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.">
+        <source>Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: az elérhető legjobb tudással, a legmagasabb szinten szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</source>
         <target>The history of the Everest team dates back more than 15 years. In 2005, our first customer meeting took place in the same way as now: we served the needs of our customers with the best available knowledge with the highest level of service. The team of a few people at the time, which grew rapidly over the years and thanks to our growing customer base, simply could not escape our attention that the accounting market in Hungary needs to be innovated, so it became our determined goal to add more than traditional accounting.</target>
       </trans-unit>
       <trans-unit id="6EEHR3e" resname="2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.">
@@ -1057,8 +1057,8 @@
         <source>Discover Greatness Beyond Profession</source>
         <target>Discover Greatness Beyond Profession</target>
       </trans-unit>
-      <trans-unit id=".xfsACz" resname="Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.">
-        <source>Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.</source>
+      <trans-unit id=".xfsACz" resname="Az Everest és vele együtt minden munkatársunk a kiválóságot keresi. A legjobbat akarjuk Ügyfeleinknek, ezt pedig csak úgy érhetjük el, ha mindig a legmagasabb szakmai színvonalat biztosítjuk minden üzletágunkban.">
+        <source>Az Everest és vele együtt minden munkatársunk a kiválóságot keresi. A legjobbat akarjuk Ügyfeleinknek, ezt pedig csak úgy érhetjük el, ha mindig a legmagasabb szakmai színvonalat biztosítjuk minden üzletágunkban.</source>
         <target>Our vision is to seek excellence! From the offer to the conclusion of the contract and after the service, our vision always floats before our eyes. We strive to ensure that all our employees provide the same standard, which is why we hold regular trainings on various topics.</target>
       </trans-unit>
       <trans-unit id="9yHBqvI" resname="Nem csupán szolgáltatásmenedzsmenttel foglalkozunk; annál sokkal többet nyújtunk bármelyik ügyfelünknek. Akár B2B, akár B2C, a sales folyamat nálunk inkább tanácsadásként írható le, hiszen nem csak az adott pillanatban fontos az ügyfél számunkra, hanem a - közös - jövőben is.">

@@ -707,8 +707,8 @@
         <source>Betartjuk, amit ígérünk - hogy ne csak a felhasználói, hanem az ügyfélélmény is lélegzetelállító legyen!</source>
         <target>Dodržujeme to, co slibujeme – takže nejen uživatel, ale i zákaznická zkušenost je dechberoucí!</target>
       </trans-unit>
-      <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
-        <source>Írjon nekünk és kollégáink 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
+      <trans-unit id="vwSbFYK" resname="Írjon nekünk és kollégánk 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!">
+        <source>Írjon nekünk és kollégánk 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon!</source>
         <target>Napište nám a naši kolegové vás do 24 hodin kontaktují, aby vám zodpověděli všechny vaše otázky!</target>
       </trans-unit>
       <trans-unit id="yM4kVuz" resname="Vissza a nyitott pozíciókra">
@@ -905,8 +905,8 @@
         <source>Történetünk</source>
         <target>Náš příběh</target>
       </trans-unit>
-      <trans-unit id="5vd_C.Z" resname="Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.">
-        <source>Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: a legmagasabb szintű kiszolgálással az elérhető legjobb tudással szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</source>
+      <trans-unit id="5vd_C.Z" resname="Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: az elérhető legjobb tudással, a legmagasabb szinten szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.">
+        <source>Az Everest csapat története már több mint 15 éves múltra tekint vissza. 2005-ben az első ügyféltalálkozónk is ugyanúgy zajlott, mint most: az elérhető legjobb tudással, a legmagasabb szinten szolgáltuk ki Ügyfeleink igényeit. Az akkor még néhány fős csapat az évek alatt gyorsan gyarapodott és egyre növekvő ügyfélbázisunknak köszönhetően egyszerűen nem kerülhette el figyelmünket az, hogy a könyvelési piac itthon újításra szorul, így eltökélt célunkká vált, hogy többet adjunk egy hagyományos könyvelésnél.</source>
         <target>Tým Everest má více než 15 let historie. V roce 2005 proběhl naše první zákaznická schůzka, stejně jako nyní: s nejvyšší úrovní služeb, jsme sloužili potřebám našich zákazníků s nejlepšími dostupnými znalostmi. Díky našim letům v oboru se některé roky rychle rozrostly a stále více zvýšily naši zákaznickou základnu. Účetní trh musí být inovován doma, takže se stal stanoveným cílem přidat více než tradiční účetnictví.</target>
       </trans-unit>
       <trans-unit id="6EEHR3e" resname="2015-ben elindítottunk könyvelés üzletágunkat Everest Accounting néven. A saját fejlesztésű portálunknak, felkészült könyvelőinknek és mindig elérhető account menedzsereinknek köszönhetően üzletágunk gyorsan fejlődött, 2018 óta pedig már zártkörű részvénytársaságként folytatjuk tevékenységünket.">
@@ -946,8 +946,8 @@
         <source>Discover Greatness Beyond Profession</source>
         <target>Discover Greatness Beyond Profession</target>
       </trans-unit>
-      <trans-unit id=".xfsACz" resname="Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.">
-        <source>Víziónk, hogy a kiválóságot keressük! Az ajánlatadástól a szerződéskötésig és az utána történő szolgáltatáskor is mindig víziónk lebeg a szemünk előtt. Törekszünk arra, hogy minden munkatársunk ugyanazt a színvonalat nyújtsa emiatt rendszeres tréningeket tartunk különböző témakörökben.</source>
+      <trans-unit id=".xfsACz" resname="Az Everest és vele együtt minden munkatársunk a kiválóságot keresi. A legjobbat akarjuk Ügyfeleinknek, ezt pedig csak úgy érhetjük el, ha mindig a legmagasabb szakmai színvonalat biztosítjuk minden üzletágunkban.">
+        <source>Az Everest és vele együtt minden munkatársunk a kiválóságot keresi. A legjobbat akarjuk Ügyfeleinknek, ezt pedig csak úgy érhetjük el, ha mindig a legmagasabb szakmai színvonalat biztosítjuk minden üzletágunkban.</source>
         <target>Naše vize je hledat dokonalost! Od nabízení smlouvy a po službě se naše vize vždy vznáší před našimi očima. Snažíme se pro všechny naše zaměstnance poskytovat stejný standard pro tyto pravidelné kusy školení v různých tématech.
   </target>
       </trans-unit>
