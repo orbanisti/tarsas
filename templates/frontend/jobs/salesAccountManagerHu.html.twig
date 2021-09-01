@@ -1,45 +1,45 @@
 {% extends 'base.html.twig' %}
-{% block title %}Érékesítő - Account Managert keresünk{% endblock %}
+{% block title %}{{ 'Értékesítő - Account Managert keresünk'|trans }}{% endblock %}
 {% block body %}
     {{ include('frontend/jobs/embed/backToPositionsButton.html.twig') }}
     <div class="container mt-5 mb-5">
         <div class="row">
             <div class="col">
-                <h1 class="mobileSmallerHeading">ÉRTÉKESÍTŐ - ACCOUNT MANAGER</h1>
-                <p class="mt-5">A legmodernebb IT és döntéselméleti módszertanok ötvözésével megújítjuk a tanácsadó-értékesítő szakmát Magyarországon.
-                    (Legnagyobb partnerünk hívására pedig már külföldön is kipróbáljuk magunkat.)
+                <h1 class="mobileSmallerHeading">{{ 'ÉRTÉKESÍTŐ - ACCOUNT MANAGER'|trans }}</h1>
+                <p class="mt-3">{{ 'A legmodernebb IT és döntéselméleti módszertanok ötvözésével megújítjuk a tanácsadó-értékesítő szakmát Magyarországon.
+                    (Legnagyobb partnerünk hívására pedig már külföldön is kipróbáljuk magunkat.)'|trans }}
                 </p>
-                <p class="mt-5">
-                    Közel 70 fős csapatunk jelenleg 3 üzletágban szolgálja ki Ügyfeleink igényeit. Hisszük azt, hogy a professzionális, ügyfélközpontú
-                    hozzáállás a legjobb befektetés manapság.
+                <p class="mt-3">
+                    {{ 'Közel 70 fős csapatunk jelenleg 3 üzletágban szolgálja ki Ügyfeleink igényeit. Hisszük azt, hogy a professzionális, ügyfélközpontú
+                    hozzáállás a legjobb befektetés manapság.'|trans }}
                 </p>
-                <p class="mt-5">
-                    Emiatt Ügyfeleink minket keresnek meg, ami más értékesítői-tanácsadói munkához képest álomszerű lehet.
+                <p class="mt-3">
+                    {{ 'Emiatt Ügyfeleink minket keresnek meg, ami más értékesítői-tanácsadói munkához képest álomszerű lehet.'|trans }}
 
-                    Küldd el az életrajzod és ismerjük meg egymást! </p>
+                    {{ 'Küldd el az életrajzod és ismerjük meg egymást!'|trans }} </p>
 
 
-                <h2 class="mt-3"><u>Téged keresünk, mert...</u></h2>
+                <h2 class="mt-3"><u>{{ 'Téged keresünk, mert...'|trans }}</u></h2>
                 <ul class="mt-3 square">
-                    <li>Szívesen kommunikálsz és jól kijössz az emberekkel! (Nem baj, ha nincs tanácsadó-értékesítő tapasztalatod, de legyél meggyőződve róla
-                        hogy a segítségünkkel ez Neked menni fog!)
+                    <li>{{ 'Szívesen kommunikálsz és jól kijössz az emberekkel! (Nem baj, ha nincs tanácsadó-értékesítő tapasztalatod, de legyél meggyőződve róla
+                        hogy a segítségünkkel ez Neked menni fog!)'|trans }}
                     </li>
-                    <li>Rendelkezel jogosítvánnyal és lehetőséged van autó használatra.</li>
-                    <li>Szereted a pörgős életet és nem irodában szeretsz ülni egész nap.</li>
-                    <li>Fontos Neked a jó hangulat és be tudsz illeszkedni a fiatal (24-34) csapatba.</li>
-                    <li>A szíved és a jellemed is a helyén van és nem csak a kommunikációd. Sőt. A kommunikációdon tudunk fejleszteni.</li>
+                    <li>{{ 'Rendelkezel jogosítvánnyal és lehetőséged van autó használatra.'|trans }}</li>
+                    <li>{{ 'Szereted a pörgős életet és nem irodában szeretsz ülni egész nap.'|trans }}</li>
+                    <li>{{ 'Fontos Neked a jó hangulat és be tudsz illeszkedni a fiatal (24-34) csapatba.'|trans }}</li>
+                    <li>{{ 'A szíved és a jellemed is a helyén van és nem csak a kommunikációd. Sőt. A kommunikációdon tudunk fejleszteni.'|trans }}</li>
                 </ul>
                 <h2 class="mt-3"><u>Amit mi adunk...</u></h2>
                 <ul class="mt-3 square">
-                    <li>Érdeklődők/Ügyfelek és egy szolgáltatás/brand amire igazán büszke lehetsz</li>
-                    <li>Rugalmas munkaidő, home-office, smart irodai megoldások</li>
-                    <li>És hát ugye kiemelkedő jövedelem. Elvileg az Y és Z generációnak ez már nem olyan fontos, de szerintünk ebben tévednek :D</li>
-                    <li>Csapatunk belülről építkezik, a karrierutak mindenki számára kristály tiszták</li>
-                    <li>Magyarországon hisszük, hogy mienk az egyik legjobb ajánlat a tanácsadó-értékesítő piacon!</li>
+                    <li>{{ 'Érdeklődők/Ügyfelek és egy szolgáltatás/brand amire igazán büszke lehetsz'|trans }}</li>
+                    <li>{{ 'Rugalmas munkaidő, home-office, smart irodai megoldások'|trans }}</li>
+                    <li>{{ 'És hát ugye kiemelkedő jövedelem. Elvileg az Y és Z generációnak ez már nem olyan fontos, de szerintünk ebben tévednek :D'|trans }}</li>
+                    <li>{{ 'Csapatunk belülről építkezik, a karrierutak mindenki számára kristály tiszták'|trans }}</li>
+                    <li>{{ 'Magyarországon hisszük, hogy mienk az egyik legjobb ajánlat a tanácsadó-értékesítő piacon!'|trans }}</li>
                 </ul>
                 {{ include('frontend/jobs/embed/ourOffice.html.twig') }}
             </div>
         </div>
     </div>
-    {{ include('frontend/jobs/embed/joinUsSection.html.twig',{jobTitle:'Sales Managernek',position:'account-manager',type:'karrier',subject:'Sales álláshirdetés'}) }}
+    {{ include('frontend/jobs/embed/joinUsSection.html.twig',{jobTitle:'Sales Managernek'|trans,position:'account-manager',type:'karrier',subject:'Sales álláshirdetés'}) }}
 {% endblock %}
