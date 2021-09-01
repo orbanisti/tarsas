@@ -141,7 +141,7 @@
                 </div>
             </div>
         </section>
-        <section class="section" style="min-height: 100vh">
+        <section class="section">
             <div class="container mt-5 mb-5">
                 <div class="row">
                     <div class="col-md-12">
@@ -190,7 +190,7 @@
                                 {{ 'Ha nem szeretne a formok kitöltésével bajlódni, írjon az {email} címre vagy hívjon minket a {phone} telefonszámon!'|trans({'{phone}':"<a style='font-size:1em' class=' font-weight-bold badge badge-light' href='tel:+36303201001'>+36 30 320 1001</a>",'{email}':"<a class='font-weight-bold badge badge-light' style='font-size:1em' href='mailto:info@everest.hu'>info@everest.hu</a>"})|raw }}
                             </p>
                         </div>
-                        <div class="col-md-12 mt-5 mb-5 ">
+                        <div class="col-md-12 mt-5  ">
                             {{ include('frontend/embed/contactForm.html.twig',{subject:''|trans,message:''|trans}) }}
                         </div>
                     </div>
