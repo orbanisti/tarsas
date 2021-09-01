@@ -991,8 +991,8 @@
         <source>A cseh piacot is meghódítjuk ERP rendszerünkkel</source>
         <target>S náší ERP systémem dobýváme český trh</target>
       </trans-unit>
-      <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét?">
-        <source>Átadjuk Önnek kulcsrakész rendszerét?</source>
+      <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét!">
+        <source>Átadjuk Önnek kulcsrakész rendszerét!</source>
         <target>Dáme vám systém na klíč?</target>
       </trans-unit>
       <trans-unit id="esKSHWN" resname="Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.">
@@ -1065,8 +1065,8 @@
         <source>Egyedi vállalatirányítási rendszereket (ERP) fejlesztünk, minden eddigi tapasztalatunkat beépítve.</source>
         <target>Vyvíjíme unikátní systémy řízení společností (ERP), integrující všechny naše zkušenosti.</target>
       </trans-unit>
-      <trans-unit id="AHc1aHy" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.">
-        <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</source>
+      <trans-unit id="AHc1aHy" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy a mai világban célkitűzéseink eléréséhez már nélkülözhetetlen egy erős digitális háttér.">
+        <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy a mai világban célkitűzéseink eléréséhez már nélkülözhetetlen egy erős digitális háttér.</source>
         <target>IT řešení je stejně stará jako Everest, jak všichni víme, že dosažení našich cílů je nepostradatelné pro silné digitální pozadí.</target>
       </trans-unit>
       <trans-unit id="A36PAsK" resname="Tervezés">

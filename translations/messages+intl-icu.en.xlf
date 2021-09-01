@@ -1101,8 +1101,8 @@ Please contact me by email or phone, my number is:           </target>
         <source>A cseh piacot is meghódítjuk ERP rendszerünkkel</source>
         <target>We are also conquering the Czech market with our ERP system</target>
       </trans-unit>
-      <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét?">
-        <source>Átadjuk Önnek kulcsrakész rendszerét?</source>
+      <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét!">
+        <source>Átadjuk Önnek kulcsrakész rendszerét!</source>
         <target>Will we hand you your turnkey system?</target>
       </trans-unit>
       <trans-unit id="esKSHWN" resname="Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.">
@@ -1162,8 +1162,8 @@ Please contact me by email or phone, my number is:           </target>
         <source>Egyedi vállalatirányítási rendszereket (ERP) fejlesztünk, minden eddigi tapasztalatunkat beépítve.</source>
         <target>We are developing custom enterprise resource planning (ERP) systems, incorporating all our experience to date.</target>
       </trans-unit>
-      <trans-unit id="AHc1aHy" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.">
-        <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</source>
+      <trans-unit id="AHc1aHy" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy a mai világban célkitűzéseink eléréséhez már nélkülözhetetlen egy erős digitális háttér.">
+        <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy a mai világban célkitűzéseink eléréséhez már nélkülözhetetlen egy erős digitális háttér.</source>
         <target>IT Solutions is the same age as Everest, as we all know that a strong digital background is essential to our success / goals.</target>
       </trans-unit>
       <trans-unit id="A36PAsK" resname="Tervezés">
