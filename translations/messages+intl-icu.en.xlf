@@ -1121,8 +1121,8 @@ Please contact me by email or phone, my number is:           </target>
         <source>Karbantartás, rendelkezésre állás, szoftverjavítások, programfrissítések és rendszeres adatmentés.</source>
         <target>Maintenance, availability, software fixes, software updates and regular data backups.</target>
       </trans-unit>
-      <trans-unit id="fbHuyPo" resname="Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.">
-        <source>Leszállítást követően sem engedjük el egymás kezét, szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz pl. kisebb finomításokat, mert azok mindig előfordulnak. Így lesz az Ön szoftvere jövőálló.</source>
+      <trans-unit id="fbHuyPo" resname="Leszállítást követően sem engedjük el az Ön kezét! Szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz, pl. kisebb finomításokat, mert azokra mindig szükség lehet. Így lesz az Ön szoftvere is jövőálló.">
+        <source>Leszállítást követően sem engedjük el az Ön kezét! Szoftvertámogatást nyújtunk, amely díjmentes fejlesztéseket is tartalmaz, pl. kisebb finomításokat, mert azokra mindig szükség lehet. Így lesz az Ön szoftvere is jövőálló.</source>
         <target>We do not let go of each other's hands even after delivery, we provide software support, which also includes free improvements, e.g. minor refinements because they always occur. This will make your software future-proof.</target>
       </trans-unit>
       <trans-unit id="mdMuZZq" resname="Adatkezelés">
