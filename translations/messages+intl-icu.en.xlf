@@ -627,7 +627,7 @@
       </trans-unit>
       <trans-unit id="fdg59Kx" resname="Az ügyféligényekhez igazodunk">
         <source>Az ügyféligényekhez igazodunk</source>
-        <target>We adapt to the customer's needs</target>
+        <target>We adapt to each customer's needs</target>
       </trans-unit>
       <trans-unit id="7KaPl0g" resname="Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.">
         <source>Partnerünk potenciális ügyfeleinek segíti csapatunk a megfelelő, évtizedeket kiszolgáló megoldásokat kiválasztani. Tanácsadói és szakmai felkészültségünket a napelemes piacon eltöltött kiemelkedően sikeres évek igazolják, és biztosítják a hosszútávú eredményes együttműködést.</source>
@@ -655,7 +655,7 @@
       </trans-unit>
       <trans-unit id="MXFzVl5" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
         <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.</source>
-        <target>We are doing it for our environment. Everest Renewables provides professional development for our employees so that they can deliver the best service possible on site. When it comes to upgrading your home, one must consider a number of factors. It is critical to consider the type of solar system, air conditioner, heat pump, or electric car charger that will be implemented in your home. Because the technical substance of our products is constantly evolving, we provide extensive sales training to keep employees up to date, regardless of what type of power-related products or services.</target>
+        <target>We are doing it for our environment. Everest Renewables provides professional development for our employees so that they can deliver the best service possible on-site. When it comes to upgrading your home, one must consider several factors. It is critical to consider the type of solar system, air conditioner, heat pump, or electric car charger that will be implemented in your home. Because the technical substance of our products is constantly evolving, we provide extensive sales training to keep employees up to date, regardless of what type of power-related products or services.</target>
       </trans-unit>
       <trans-unit id="Sl_5ad8" resname="Everest ügyfél- és projektmenedzsment">
         <source>Everest ügyfél- és projektmenedzsment</source>
@@ -691,7 +691,7 @@
       </trans-unit>
       <trans-unit id="BiqQW0S" resname="Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-ös NPS score értékünk.">
         <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-ös NPS score értékünk.</source>
-        <target>Every lead is treated as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are fully satisfied. Our system's success is proven by our outstandingly high NPS score of 75.</target>
+        <target>Every lead is handled as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are entirely satisfied. Our system's success is proven by our outstandingly high NPS score of 75.</target>
       </trans-unit>
       <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
         <source>Saját ERP rendszer</source>
@@ -727,7 +727,7 @@
       </trans-unit>
       <trans-unit id="SMPHk7k" resname="A magyarországi sikerek után már Csehországban is jelen vagyunk!">
         <source>A magyarországi sikerek után már Csehországban is jelen vagyunk!</source>
-        <target>We began in Hungary, but now we can be found in a variety of countries!</target>
+        <target>We began in Hungary, but now we can be found in Czech Republic, too!</target>
       </trans-unit>
       <trans-unit id="Xn7JH1N" resname="Profi csapat, átlátható könyvelés">
         <source>Profi csapat, átlátható könyvelés</source>
@@ -1103,7 +1103,7 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="ufo6Q5z" resname="Átadjuk Önnek kulcsrakész rendszerét!">
         <source>Átadjuk Önnek kulcsrakész rendszerét!</source>
-        <target>Will we hand you your turnkey system?</target>
+        <target>Will we hand you your turnkey system</target>
       </trans-unit>
       <trans-unit id="esKSHWN" resname="Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.">
         <source>Egyedi vállalatirányítási rendszereket (ERP) tervezünk, minden eddigi tapasztalatunkat beépítve.</source>
@@ -1131,7 +1131,7 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="NouEGoX" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.">
         <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy sikereink/célkitűzéseink eléréséhez nélkülözhetetlen egy erős digitális háttér.</source>
-        <target>IT Solutions is the same age as Everest, as we all know that a strong digital background is essential to our success / goals.</target>
+        <target>IT Solutions is the same age as Everest, as we all know that a strong digital background is essential to our successes</target>
       </trans-unit>
       <trans-unit id="Qnlk19f" resname="Egyedi ERP szoftver">
         <source>Egyedi ERP szoftver</source>
@@ -1139,7 +1139,7 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="8Rv5V9U" resname="Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.">
         <source>Professzionális tanácsadáson keresztül erősítjük partnerünk megítélését és pozícióját a megújuló energiák piacán.</source>
-        <target>We strengthen the reputation and position of our partner in the renewable energy market through professional advice.</target>
+        <target>We strengthen the reputation and position of our partners in the renewable energy market through professional advice.</target>
       </trans-unit>
       <trans-unit id="yXViVO2" resname="Teljeskörű felmérés és tervezés">
         <source>Teljeskörű felmérés és tervezés</source>
@@ -1164,7 +1164,7 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="AHc1aHy" resname="Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy a mai világban célkitűzéseink eléréséhez már nélkülözhetetlen egy erős digitális háttér.">
         <source>Az IT Solutions egyidős az Everesttel, hiszen mindannyian tudjuk, hogy a mai világban célkitűzéseink eléréséhez már nélkülözhetetlen egy erős digitális háttér.</source>
-        <target>IT Solutions is the same age as Everest, as we all know that a strong digital background is essential to our success / goals.</target>
+        <target>IT Solutions is the same age as Everest, as we all know that a strong digital background is essential to our successes</target>
       </trans-unit>
       <trans-unit id="A36PAsK" resname="Tervezés">
         <source>Tervezés</source>
@@ -1199,12 +1199,12 @@ Please contact me by email or phone, my number is:           </target>
       <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
         <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
                     termékhez.</source>
-        <target>The software is made individually, according to the customer's needs and goals, so the customer does not have to adapt to a "boxed" product</target>
+        <target>The software is designed specifically for each client, designated for each customer's needs and goals so the customer does not have to adapt to a "boxed" product.</target>
       </trans-unit>
       <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
         <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
                             létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
-        <target>We believe that there can be no customer satisfaction without a reliable IT system as a foundation. We designed our ERP system to provide the best possible user experience, and we can make changes demanded by the market.</target>
+        <target>We understand that there can be no customer satisfaction without a reliable IT system as a solid foundation. We designed our ERP system to provide the best possible user experience, and we can make changes demanded by the market.</target>
       </trans-unit>
       <trans-unit id="8TlOUk_" resname="Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,&#10;                                menedzserek, projektkoordinátorok, call center, stb)">
         <source>Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,
