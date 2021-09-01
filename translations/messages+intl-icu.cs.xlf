@@ -635,8 +635,8 @@
         <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
         <target>Náš vývoj pro naše zákazníky začne</target>
       </trans-unit>
-      <trans-unit id="JAH0qwL" resname="Saját ERP rendszert hozunk létre">
-        <source>Saját ERP rendszert hozunk létre</source>
+      <trans-unit id="JAH0qwL" resname="Egyedi fejlesztésű ERP rendszert hozunk létre">
+        <source>Egyedi fejlesztésű ERP rendszert hozunk létre</source>
         <target>Vytváříme vlastní ERP systém</target>
       </trans-unit>
       <trans-unit id="SYdvTpG" resname="ERP-t fejlesztünk külföldi partnereink részére">
@@ -807,13 +807,13 @@
         <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-ös NPS score értékünk.</source>
         <target>Ke všem zúčastněným stranám přistupujeme jako k potenciálním zákazníkům a usilujeme o služby nejvyšší kvality. Díky sledování celého životního cyklu sledujeme všechny kroky, abychom zajistili spokojenost všech našich zákazníků. Účinnost našeho systému dokazuje naše mimořádně vysoké skóre NPS 71.</target>
       </trans-unit>
-      <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
-        <source>Saját ERP rendszer</source>
+      <trans-unit id="YmpswVF" resname="Egyedi fejlesztésű ERP rendszer">
+        <source>Egyedi fejlesztésű ERP rendszer</source>
         <target>Vlastní ERP systém</target>
       </trans-unit>
-      <trans-unit id="shI5wPo" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                              létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
+      <trans-unit id="shI5wPo" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                              létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
         <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
-                              létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
+                              létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
         <target>Věříme, že bez zabezpečeného IT systému neexistuje spokojenost zákazníků. Pro maximální uživatelský komfort jsme vytvořili vlastní ERP systém, který můžeme podle našich očekávání okamžitě přizpůsobit změnám na trhu.</target>
       </trans-unit>
       <trans-unit id="p1Wt0Yj" resname="Everest ERP rendszer">
@@ -1117,9 +1117,9 @@ Elérhető vagyok a megadott email címen, illetve telefonszámon:</source>
                     termékhez.</source>
        <target>Software je proveden individuálně, podle potřeb a cílů zákazníka, takže se nemusíte přizpůsobit "box" produktu. </target>
       </trans-unit>
-      <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
+      <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
         <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
-                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
+                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
           <target>Věříme, že bez zabezpečeného IT systému neexistuje spokojenost zákazníků. Pro maximální uživatelský komfort jsme vytvořili vlastní ERP systém, který můžeme podle našich očekávání okamžitě přizpůsobit změnám na trhu.</target>
               </trans-unit>
       <trans-unit id="8TlOUk_" resname="Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,&#10;                                menedzserek, projektkoordinátorok, call center, stb)">

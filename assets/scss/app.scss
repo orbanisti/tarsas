@@ -159,6 +159,18 @@ header .locales a:hover small {
   }
 }
 
+@media (min-width: 1366px) {
+  .homeList {
+    min-height: 1000px !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .homeList {
+    min-height: 1500px !important;
+  }
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 3em !important;

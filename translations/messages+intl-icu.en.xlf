@@ -693,8 +693,8 @@
         <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-ös NPS score értékünk.</source>
         <target>Every lead is handled as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are entirely satisfied. Our system's success is proven by our outstandingly high NPS score of 75.</target>
       </trans-unit>
-      <trans-unit id="YmpswVF" resname="Saját ERP rendszer">
-        <source>Saját ERP rendszer</source>
+      <trans-unit id="YmpswVF" resname="Egyedi fejlesztésű ERP rendszer">
+        <source>Egyedi fejlesztésű ERP rendszer</source>
         <target>Our ERP system</target>
       </trans-unit>
       <trans-unit id="p1Wt0Yj" resname="Everest ERP rendszer">
@@ -853,8 +853,8 @@
         <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
         <target>We are starting to develop to our customers</target>
       </trans-unit>
-      <trans-unit id="JAH0qwL" resname="Saját ERP rendszert hozunk létre">
-        <source>Saját ERP rendszert hozunk létre</source>
+      <trans-unit id="JAH0qwL" resname="Egyedi fejlesztésű ERP rendszert hozunk létre">
+        <source>Egyedi fejlesztésű ERP rendszert hozunk létre</source>
         <target>The creation of our first ERP system</target>
       </trans-unit>
       <trans-unit id="SYdvTpG" resname="ERP-t fejlesztünk külföldi partnereink részére">
@@ -1201,9 +1201,9 @@ Please contact me by email or phone, my number is:           </target>
                     termékhez.</source>
         <target>The software is designed specifically for each client, designated for each customer's needs and goals so the customer does not have to adapt to a "boxed" product.</target>
       </trans-unit>
-      <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
+      <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
         <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
-                            létre saját ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
+                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
         <target>We understand that there can be no customer satisfaction without a reliable IT system as a solid foundation. We designed our ERP system to provide the best possible user experience, and we can make changes demanded by the market.</target>
       </trans-unit>
       <trans-unit id="8TlOUk_" resname="Jogosultságkezelés: a különböző munkafolyamatokhoz különböző jogosultságú felhasználók férnek hozzá (területi képviselők,&#10;                                menedzserek, projektkoordinátorok, call center, stb)">
@@ -1221,21 +1221,20 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="stAKvJ3" resname="Színvonalas irodánk 180nm-en található a belváros szívében, az Arany János utcában.">
         <source>Színvonalas irodánk 180nm-en található a belváros szívében, az Arany János utcában.</source>
-        <target>__Színvonalas irodánk 180nm-en található a belváros szívében, az Arany János utcában.</target>
+        <target>Our high-quality office is located on 180sqm in the heart of the city center, in Arany János street.</target>
       </trans-unit>
       <trans-unit id="PmsPSv2" resname="Az utcának ez a szakasza nyáron a Liszt Ferenc térhez hasonlítható. Szeretünk itt lenni.">
         <source>Az utcának ez a szakasza nyáron a Liszt Ferenc térhez hasonlítható. Szeretünk itt lenni.</source>
-        <target>__Az utcának ez a szakasza nyáron a Liszt Ferenc térhez hasonlítható. Szeretünk itt lenni.</target>
+        <target>This section of the street can be compared to Liszt Ferenc Square in summer. We love being here.</target>
       </trans-unit>
       <trans-unit id="HqFvI6S" resname="Fiatal csapatként mindig szívesen látjuk az új munkatársakat.">
         <source>Fiatal csapatként mindig szívesen látjuk az új munkatársakat.</source>
-        <target>__Fiatal csapatként mindig szívesen látjuk az új munkatársakat.</target>
+        <target>As a young team, we are always happy to welcome new employees.</target>
       </trans-unit>
       <trans-unit id="ebKkTEh" resname="Nálunk a munkatársi kapcsolatok nem szakadnak meg a munkaidő végeztével. Legtöbben évek óta együtt dolgozunk és tudjuk, hogy mindig számíthatunk&#10;            egymásra.">
         <source>Nálunk a munkatársi kapcsolatok nem szakadnak meg a munkaidő végeztével. Legtöbben évek óta együtt dolgozunk és tudjuk, hogy mindig számíthatunk
             egymásra.</source>
-        <target>__Nálunk a munkatársi kapcsolatok nem szakadnak meg a munkaidő végeztével. Legtöbben évek óta együtt dolgozunk és tudjuk, hogy mindig számíthatunk
-            egymásra.</target>
+        <target>With us, employee relationships do not break at the end of working hours. Most of us have been working together for years and we know we can always count on each other.</target>
       </trans-unit>
       <trans-unit id="MTJI.io" resname="ÉRTÉKESÍTŐ - ACCOUNT MANAGER">
         <source>ÉRTÉKESÍTŐ - ACCOUNT MANAGER</source>
@@ -1296,27 +1295,51 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="qmsYpAF" resname="És hát ugye kiemelkedő jövedelem. Elvileg az Y és Z generációnak ez már nem olyan fontos, de szerintünk ebben tévednek :D">
         <source>És hát ugye kiemelkedő jövedelem. Elvileg az Y és Z generációnak ez már nem olyan fontos, de szerintünk ebben tévednek :D</source>
-        <target>__És hát ugye kiemelkedő jövedelem. Elvileg az Y és Z generációnak ez már nem olyan fontos, de szerintünk ebben tévednek :D</target>
+        <target>And that's an outstanding income, isn't it? In principle, this is not so important for generations Y and Z, but we think they are wrong about this :D</target>
       </trans-unit>
       <trans-unit id="24WQP.g" resname="Csapatunk belülről építkezik, a karrierutak mindenki számára kristály tiszták">
         <source>Csapatunk belülről építkezik, a karrierutak mindenki számára kristály tiszták</source>
-        <target>__Csapatunk belülről építkezik, a karrierutak mindenki számára kristály tiszták</target>
+        <target>Our team is built from within, the career paths are crystal clear for everyone</target>
       </trans-unit>
       <trans-unit id="FE44qdh" resname="Magyarországon hisszük, hogy mienk az egyik legjobb ajánlat a tanácsadó-értékesítő piacon!">
         <source>Magyarországon hisszük, hogy mienk az egyik legjobb ajánlat a tanácsadó-értékesítő piacon!</source>
-        <target>__Magyarországon hisszük, hogy mienk az egyik legjobb ajánlat a tanácsadó-értékesítő piacon!</target>
+        <target>In Hungary, we believe that ours is one of the best offers in the consulting and sales market!</target>
       </trans-unit>
       <trans-unit id="c0lATI6" resname="Jelentkezz">
         <source>Jelentkezz</source>
-        <target>__Jelentkezz</target>
+        <target>Apply to</target>
       </trans-unit>
       <trans-unit id="_gW7cuf" resname="Sales Managernek">
         <source>Sales Managernek</source>
-        <target>__Sales Managernek</target>
+        <target>Account Manager</target>
       </trans-unit>
       <trans-unit id="UsHQChV" resname="Értékesítő - Account Managert keresünk">
         <source>Értékesítő - Account Managert keresünk</source>
         <target>Account manager</target>
+      </trans-unit>
+      <trans-unit id="OA8PML9" resname="Amit mi adunk...">
+        <source>Amit mi adunk...</source>
+        <target>What we give ...</target>
+      </trans-unit>
+      <trans-unit id="Sm8dfOb" resname="Értékesítő - Account Manager">
+        <source>Értékesítő - Account Manager</source>
+        <target>Account Manager</target>
+      </trans-unit>
+      <trans-unit id="E3Jep1t" resname="Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?">
+        <source>Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?</source>
+        <target>You love a hectic life and you don’t like to sit in an office all day?</target>
+      </trans-unit>
+      <trans-unit id="x0oPiVI" resname="Bővülő csapatunkba új account managereket keresünk!">
+        <source>Bővülő csapatunkba új account managereket keresünk!</source>
+        <target>We are looking for account managers in our expanding team!</target>
+      </trans-unit>
+      <trans-unit id="PcqlPvd" resname="Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?&lt;br/&gt; Bővülő csapatunkba új account managereket keresünk!">
+        <source>Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?&lt;br/&gt; Bővülő csapatunkba új account managereket keresünk!</source>
+        <target>test</target>
+      </trans-unit>
+      <trans-unit id="nuWEeUG" resname="Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?{newline} Bővülő csapatunkba új account managereket keresünk!">
+        <source>Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?{newline} Bővülő csapatunkba új account managereket keresünk!</source>
+        <target>__Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?{newline} Bővülő csapatunkba új account managereket keresünk!</target>
       </trans-unit>
     </body>
   </file>
