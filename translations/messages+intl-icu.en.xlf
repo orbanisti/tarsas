@@ -1463,7 +1463,7 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="YuLNcKQ" resname="HTML5, JavaScript, CSS3 magas szintű ismerete">
         <source>HTML5, JavaScript, CSS3 magas szintű ismerete</source>
-        <target>High level knowledge of HTML5, JavaScript, CSS3</target>
+        <target>high level knowledge of HTML5, JavaScript, CSS3</target>
       </trans-unit>
       <trans-unit id="eTzha4W" resname="objektum-orientált programozás és a PHP nyelv magas szintű ismerete">
         <source>objektum-orientált programozás és a PHP nyelv magas szintű ismerete</source>
@@ -1492,6 +1492,30 @@ Please contact me by email or phone, my number is:           </target>
       <trans-unit id="vw0gU37" resname="Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése &lt;br/&gt;kifejezetten backend oldalon.">
         <source>Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése &lt;br/&gt;kifejezetten backend oldalon.</source>
         <target><![CDATA[Web-based customer relationship management (CRM) maintenance and development<br/> specifically for backend as well.]]></target>
+      </trans-unit>
+      <trans-unit id="9XaHDQi" resname="Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése frontend és backend oldalon.">
+        <source>Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése frontend és backend oldalon.</source>
+        <target>Maintenance and development of a web-based customer relationship management (CRM) system on both frontend and backend sites.</target>
+      </trans-unit>
+      <trans-unit id="rIuto6v" resname="Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése frontend és backend oldalon is. Backend oldalon az üzleti logika PHP nyelven, objektum-orientált módon történő fejlesztése, SQL lekérdezések készítése és optimalizálása. Frontend oldalon az adatok és funkciók vizualizálása HTML5 és JavaScript nyelvek segítségével.">
+        <source>Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése frontend és backend oldalon is. Backend oldalon az üzleti logika PHP nyelven, objektum-orientált módon történő fejlesztése, SQL lekérdezések készítése és optimalizálása. Frontend oldalon az adatok és funkciók vizualizálása HTML5 és JavaScript nyelvek segítségével.</source>
+        <target>Maintenance and development of a web-based customer relationship management (CRM) system on both frontend and backend sites. On the backend side, the development of business logic in PHP in an object-oriented way, the creation and optimization of SQL queries. On the frontend page, visualize data and functions using HTML5 and JavaScript.</target>
+      </trans-unit>
+      <trans-unit id="yN1R2wE" resname="összetett programozási feladatok elvégzése">
+        <source>összetett programozási feladatok elvégzése</source>
+        <target>performing complex programming tasks</target>
+      </trans-unit>
+      <trans-unit id="DHIPy2O" resname="részvétel a projektek teljes életciklusát átfogó fejlesztési feladatokban">
+        <source>részvétel a projektek teljes életciklusát átfogó fejlesztési feladatokban</source>
+        <target>participation in development tasks covering the entire life cycle of projects</target>
+      </trans-unit>
+      <trans-unit id="1LScyYz" resname="adatbázisok ismerete (MySQL)">
+        <source>adatbázisok ismerete (MySQL)</source>
+        <target>knowledge of databases (MySQL)</target>
+      </trans-unit>
+      <trans-unit id="9Z2p.ZM" resname="alapszintű programozási feladatok elvégzése frontend oldalon (egyszerű site-build, könnyebb js feladatok) és backend oldalon (egyszerű programozási feladatok, SQL lekérdezések írása)">
+        <source>alapszintű programozási feladatok elvégzése frontend oldalon (egyszerű site-build, könnyebb js feladatok) és backend oldalon (egyszerű programozási feladatok, SQL lekérdezések írása)</source>
+        <target>performing basic programming tasks on the frontend side (simple site-build, easier js tasks) and backend side (simple programming tasks, writing SQL queries)</target>
       </trans-unit>
     </body>
   </file>
