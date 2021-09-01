@@ -653,8 +653,8 @@
         <source>Környezettudatosság felső fokon - teljeskörű, környezetbarát épületreform</source>
         <target>Maximum environmentally friendly - absolute and comprehensive building reform</target>
       </trans-unit>
-      <trans-unit id="MXFzVl5" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
-        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.</source>
+      <trans-unit id="MXFzVl5" resname="Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.">
+        <source>Cselekszünk környezetünkért. Az Everest Renewables rendszeres oktatások szervezésével dolgozik azon, hogy minden munkatársunk maximális felkészültséggel lépjen be Ügyfeleinkhez. &lt;strong&gt;Egy épület megújításakor rengeteg faktort kell figyelembe venni, ezért egyáltalán nem mindegy, hogy milyen napelemes rendszer, klíma, hőszivattyú vagy akár elektromos autó töltő kerül a háztartásba. Az értékesített termékeink műszaki tartalma állandóan változik - ahogy az ügyféligények is.&lt;/strong&gt; Emiatt rendszeres műszaki oktatások mellett magas színvonalú tanácsadó tréningeket szervezünk, : hogy csapatunk tudása folyamatosan naprakész legyen és bármilyen megújuló energiához kapcsolódó terméket vagy szolgáltatást magabiztosan képviseljük.</source>
         <target>We are doing it for our environment. Everest Renewables provides professional development for our employees so that they can deliver the best service possible on site. When it comes to upgrading your home, one must consider a number of factors. It is critical to consider the type of solar system, air conditioner, heat pump, or electric car charger that will be implemented in your home. Because the technical substance of our products is constantly evolving, we provide extensive sales training to keep employees up to date, regardless of what type of power-related products or services.</target>
       </trans-unit>
       <trans-unit id="Sl_5ad8" resname="Everest ügyfél- és projektmenedzsment">
@@ -701,8 +701,8 @@
         <source>Everest ERP rendszer</source>
         <target>Everest ERP system</target>
       </trans-unit>
-      <trans-unit id="Pi2nNil" resname="100%-ban saját, 100% Everest">
-        <source>100%-ban saját, 100% Everest</source>
+      <trans-unit id="Pi2nNil" resname="100%-ban egyedi fejlesztés">
+        <source>100%-ban egyedi fejlesztés</source>
         <target>100% own, 100% Everest</target>
       </trans-unit>
       <trans-unit id="LnOZ869" resname="Gyors, azonnal elérhető, bármilyen új fejlesztés azonnal elkezdhető (jogi- vagy vásárlárlói környezetváltozás esetén)">
@@ -993,24 +993,24 @@
         <source>Everest Accounting</source>
         <target>Everest Accounting</target>
       </trans-unit>
-      <trans-unit id="kyzoIOf" resname="Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.">
-        <source>Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzsmerek.</source>
+      <trans-unit id="kyzoIOf" resname="Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzserek.">
+        <source>Könyvelés Magyarországon: tapasztalt könyvelők, online portál, account menedzserek.</source>
         <target>Accounting in Hungary: experienced accountants, online portal, account managers.</target>
       </trans-unit>
       <trans-unit id="t07QLIp" resname="Everest Renewables">
         <source>Everest Renewables</source>
         <target>Everest Renewables</target>
       </trans-unit>
-      <trans-unit id="IJILzBP" resname="Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.">
-        <source>Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja saját készítésű ERP rendszerrel.</source>
+      <trans-unit id="IJILzBP" resname="Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja IT üzletágunk által egyedileg fejlesztett ERP rendszer támogatásával.">
+        <source>Megújuló Energia Magyarországon és Csehországban: termékek és szolgáltatások értékesítése és teljes körű adminisztrációja IT üzletágunk által egyedileg fejlesztett ERP rendszer támogatásával.</source>
         <target>Renewable Energy in Hungary and the Czech Republic: sales and full administration of products and services with a self-made ERP system.</target>
       </trans-unit>
       <trans-unit id="xia0Nw2" resname="Everest IT Solutions">
         <source>Everest IT Solutions</source>
         <target>Everest IT Solutions</target>
       </trans-unit>
-      <trans-unit id="jbmc1My" resname="Ügyfeleink és saját rendszereink fejlesztése.">
-        <source>Ügyfeleink és saját rendszereink fejlesztése.</source>
+      <trans-unit id="jbmc1My" resname="A társüzletágak üzleti folyamataihoz általunk, egyedileg fejlesztett ERP rendszer biztosítása, optimalizálása és Ügyfeleink hasonló igényeinek a magas színvonalú kiszolgálása.">
+        <source>A társüzletágak üzleti folyamataihoz általunk, egyedileg fejlesztett ERP rendszer biztosítása, optimalizálása és Ügyfeleink hasonló igényeinek a magas színvonalú kiszolgálása.</source>
         <target>Development of our customers and our own systems.</target>
       </trans-unit>
       <trans-unit id="DvAsRYx" resname="Történetünk">
@@ -1049,8 +1049,8 @@
         <source>Miért pont Everest?</source>
         <target>Why Everest?</target>
       </trans-unit>
-      <trans-unit id="DBYextw" resname="Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.">
-        <source>Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, mi megküzdünk a hegymászás viszontagságaival és lehozzuk Önnek is a csúcsot.</source>
+      <trans-unit id="DBYextw" resname="Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, Partnerünkkel közösen elérjük a csúcsot.">
+        <source>Nevünk tükrözi törekvésünket arra, hogy mindig a lehető legjobbat nyújtsuk Ügyfeleinknek minden téren. Legyen szó könyvelésről, B2C piacról vagy akár egy komplex vállalatirányítási rendszer elkészítéséről, Partnerünkkel közösen elérjük a csúcsot.</source>
         <target>Our name reflects our commitment to always provide the best possible service to our Customers in all areas. Whether it's accounting, a B2C market, or even building a complex corporate governance system, we'll tackle the hardships of climbing and bring you to the top.</target>
       </trans-unit>
       <trans-unit id="k7S82qd" resname="Discover Greatness Beyond Profession">
