@@ -1517,6 +1517,106 @@ Please contact me by email or phone, my number is:           </target>
         <source>alapszintű programozási feladatok elvégzése frontend oldalon (egyszerű site-build, könnyebb js feladatok) és backend oldalon (egyszerű programozási feladatok, SQL lekérdezések írása)</source>
         <target>performing basic programming tasks on the frontend side (simple site-build, easier js tasks) and backend side (simple programming tasks, writing SQL queries)</target>
       </trans-unit>
+      <trans-unit id="SuIO20U" resname="Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!">
+        <source>Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!</source>
+        <target>Join the vibrant world of a young team where there are no barriers to ideas and implementation!</target>
+      </trans-unit>
+      <trans-unit id="on0W45q" resname="Közel 100 fős csapatunk jelenleg 3 üzletágban szolgálja ki Ügyfeleink igényeit. Hisszük azt, hogy a professzionális, ügyfélközpontú hozzáállás a legjobb befektetés manapság. Cégünk folyamatosan fejlődik, erősítést keresünk budapesti, belvárosi irodánkba, ahol a Sales csapat, IT szakembereink, Sales Koordinációs és a Projekt Koordinációs csapatunk vár Téged.">
+        <source>Közel 100 fős csapatunk jelenleg 3 üzletágban szolgálja ki Ügyfeleink igényeit. Hisszük azt, hogy a professzionális, ügyfélközpontú hozzáállás a legjobb befektetés manapság. Cégünk folyamatosan fejlődik, erősítést keresünk budapesti, belvárosi irodánkba, ahol a Sales csapat, IT szakembereink, Sales Koordinációs és a Projekt Koordinációs csapatunk vár Téged.</source>
+        <target>Our team of nearly 100 people currently serves the needs of our customers in 3 business lines. We believe that a professional, customer-centric attitude is the best investment today. Our company is constantly evolving, we are looking for reinforcement in our downtown office in Budapest, where our Sales team, IT specialists, Sales Coordination and Project Coordination team are waiting for you.</target>
+      </trans-unit>
+      <trans-unit id="NchLxcU" resname="A felelősségi köröd és feladataid">
+        <source>A felelősségi köröd és feladataid</source>
+        <target>Your responsibilities and tasks</target>
+      </trans-unit>
+      <trans-unit id="jWLFUK7" resname="Munkád során saját fejlesztésű CRM rendszerünkben fogsz dolgozni, ami időről-időre igényel Ügyfeleinkkel, Partnereinkkel adategyeztetést, kapcsolattartást is.">
+        <source>Munkád során saját fejlesztésű CRM rendszerünkben fogsz dolgozni, ami időről-időre igényel Ügyfeleinkkel, Partnereinkkel adategyeztetést, kapcsolattartást is.</source>
+        <target>During your work, you will work in our self-developed CRM system, which from time to time also requires data coordination and contact with our Clients and Partners.</target>
+      </trans-unit>
+      <trans-unit id="fLhN1m2" resname="Támogatod az operációs vezető munkáját, hogy a kisebb volumenű projekteket le tudd venni a válláról – ez nagyfokú önállóságot ad a mindennapi munkádban.">
+        <source>Támogatod az operációs vezető munkáját, hogy a kisebb volumenű projekteket le tudd venni a válláról – ez nagyfokú önállóságot ad a mindennapi munkádban.</source>
+        <target>You support the work of the operations manager so that you can take smaller-volume projects off your shoulders - this gives you a high degree of autonomy in your day-to-day work.</target>
+      </trans-unit>
+      <trans-unit id="Oh9WZe0" resname="Segítesz a projektekhez kapcsolódó dokumentumok előkészítésében, ellenőrzésében.">
+        <source>Segítesz a projektekhez kapcsolódó dokumentumok előkészítésében, ellenőrzésében.</source>
+        <target>You help to prepare and check the documents related to the projects.</target>
+      </trans-unit>
+      <trans-unit id="iGugOsP" resname="Vannak egyéb napi adminisztratív feladatok, amelyek elengedhetetlenek ebben a munkakörben is.">
+        <source>Vannak egyéb napi adminisztratív feladatok, amelyek elengedhetetlenek ebben a munkakörben is.</source>
+        <target>There are other day-to-day administrative tasks that are essential in this job as well.</target>
+      </trans-unit>
+      <trans-unit id="PuAn37S" resname="Szükséged lesz arra, hogy kezeld az adatbázisunkat, frissítsd azt, és javaslatokat adj a folyamatos fejlesztésére, együttműködve a sales-es kollégákkal és a háttérirodákkal.">
+        <source>Szükséged lesz arra, hogy kezeld az adatbázisunkat, frissítsd azt, és javaslatokat adj a folyamatos fejlesztésére, együttműködve a sales-es kollégákkal és a háttérirodákkal.</source>
+        <target>You will need to manage our database, update it, and make suggestions for continuous improvement in collaboration with your sales colleagues and background offices.</target>
+      </trans-unit>
+      <trans-unit id="tQ4Y33e" resname="Téged keresünk">
+        <source>Téged keresünk</source>
+        <target>We're looking for you</target>
+      </trans-unit>
+      <trans-unit id="JRropKt" resname="Lelkes és motivált vagy, hogy Magyarországon környezetbarát, megújuló energiával termeljük meg az áramot.">
+        <source>Lelkes és motivált vagy, hogy Magyarországon környezetbarát, megújuló energiával termeljük meg az áramot.</source>
+        <target>You are enthusiastic and motivated to produce electricity in Hungary with environmentally friendly, renewable energy.</target>
+      </trans-unit>
+      <trans-unit id="sBL603A" resname="A Microsoft Word és Excel alkalmazásokat készség szinten használod.">
+        <source>A Microsoft Word és Excel alkalmazásokat készség szinten használod.</source>
+        <target>You use Microsoft Word and Excel at a skill level.</target>
+      </trans-unit>
+      <trans-unit id="mVH_D1F" resname="Precízen és lelkesen kommunikálsz.">
+        <source>Precízen és lelkesen kommunikálsz.</source>
+        <target>You communicate accurately and enthusiastically.</target>
+      </trans-unit>
+      <trans-unit id="2seicO." resname="Gyorsan átlátod a teendőket, megérted a logikai összefüggéseket és megbízható vagy">
+        <source>Gyorsan átlátod a teendőket, megérted a logikai összefüggéseket és megbízható vagy</source>
+        <target>You quickly see things to do, understand the logical context, and you are trustworthy</target>
+      </trans-unit>
+      <trans-unit id="r2wZra5" resname="Jóban vagy a határidőkkel, jellemző rád a precizitás és asszertíven kommunikálsz.">
+        <source>Jóban vagy a határidőkkel, jellemző rád a precizitás és asszertíven kommunikálsz.</source>
+        <target>You are well on time, you are characterized by precision and you communicate assertively.</target>
+      </trans-unit>
+      <trans-unit id="mzIcfW." resname="Remek kommunikációs és prezentációs képességek, hiszen naponta új ügyfelekkel kell beszélned">
+        <source>Remek kommunikációs és prezentációs képességek, hiszen naponta új ügyfelekkel kell beszélned</source>
+        <target>Great communication and presentation skills as you need to talk to new clients every day</target>
+      </trans-unit>
+      <trans-unit id="RRhIA0x" resname="Értékeink és víziónk találkozik a Tiéddel ({url}lásd értékeinket itt{endurl})">
+        <source>Értékeink és víziónk találkozik a Tiéddel ({url}lásd értékeinket itt{endurl})</source>
+        <target>Our values and vision meet yours ({url}see our values here{endurl})</target>
+      </trans-unit>
+      <trans-unit id="VehNfru" resname="Amit adunk">
+        <source>Amit adunk</source>
+        <target>What we give</target>
+      </trans-unit>
+      <trans-unit id="z32fNWt" resname="Fiatalos csapat amely kiemelt munkakörnyezetet teremt">
+        <source>Fiatalos csapat amely kiemelt munkakörnyezetet teremt</source>
+        <target>A youthful team that creates a privileged work environment</target>
+      </trans-unit>
+      <trans-unit id="0s23fn5" resname="Képzések, team eventek.">
+        <source>Képzések, team eventek.</source>
+        <target>Trainings, team events.</target>
+      </trans-unit>
+      <trans-unit id="Rj33_p2" resname="Egyéni teljesítményértékelés összekötve fejlesztési tervvel">
+        <source>Egyéni teljesítményértékelés összekötve fejlesztési tervvel</source>
+        <target>Individual performance appraisal linked to a development plan</target>
+      </trans-unit>
+      <trans-unit id="i3dKQEy" resname="Rugalmas munkaidő lehetősége, home-office.">
+        <source>Rugalmas munkaidő lehetősége, home-office.</source>
+        <target>Possibility of flexible working hours, home-office.</target>
+      </trans-unit>
+      <trans-unit id="ykboQfZ" resname="Olyan szolgáltatás és brand, amit büszkén képviselsz.">
+        <source>Olyan szolgáltatás és brand, amit büszkén képviselsz.</source>
+        <target>A service and brand that you are proud to represent.</target>
+      </trans-unit>
+      <trans-unit id="7n5oevv" resname="További információ">
+        <source>További információ</source>
+        <target>Further information</target>
+      </trans-unit>
+      <trans-unit id="D8GNwlD" resname="Stabil háttér, hosszútávú munkahely határozatlan időtartamra">
+        <source>Stabil háttér, hosszútávú munkahely határozatlan időtartamra</source>
+        <target>Stable background, long-term job for an indefinite period</target>
+      </trans-unit>
+      <trans-unit id="rqidPNw" resname="Teljes munkaidő, normál munkarenddel">
+        <source>Teljes munkaidő, normál munkarenddel</source>
+        <target>Full time, with normal work schedule</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

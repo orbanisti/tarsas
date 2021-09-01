@@ -69,9 +69,9 @@
                 {# <div class="col-md-4 p-4 mt-lg-4" data-aos="fade-right" data-aos-delay="400"> #}
                 {# {{ include('frontend/embed/jobPreview.html.twig',{title:'Könyvelő',description:'A számviteli/könyvelői csapatban Te biztosítod azt, hogy a közzétett pénzügyi kimutatások megfeleljenek a vonatkozó szabályzatoknak és az ügyfelek a lehető legjobb megoldást kapják ezen a területen mind szakmailag mint támogató (IT) rendszereink révén.',url:path('job_accountant')}) }} #}
                 {# </div> #}
-                {# <div class="col-md-4 p-4 mt-lg-4" data-aos="fade-right" data-aos-delay="500"> #}
-                {# {{ include('frontend/embed/jobPreview.html.twig',{title:'Projekt koordinátor',description:'Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!',url:path('job_project_coordinator')}) }} #}
-                {# </div> #}
+                <div class="col-md-4 p-4 mt-lg-4" data-aos="fade-right" data-aos-delay="500">
+                    {{ include('frontend/embed/jobPreview.html.twig',{title:'Projekt koordinátor'|trans,description:'Csatlakozz egy fiatal csapat pezsgő világába, ahol az ötleteknek és a megvalósításnak nincs akadálya!'|trans,url:path('job_project_coordinator')}) }}
+                </div>
             </div>
         {% else %}
             <div class="row">
