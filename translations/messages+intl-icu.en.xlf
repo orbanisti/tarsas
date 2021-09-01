@@ -474,8 +474,8 @@
                 <target>Company</target>
             </trans-unit>
             <trans-unit id="L1dSvan" resname="E-mail cím">
-                <source>E-mail cím</source>
-                <target>E-mail</target>
+                <source>Email cím</source>
+                <target>Email</target>
             </trans-unit>
             <trans-unit id="_mkG127" resname="Telefon">
                 <source>Telefon</source>

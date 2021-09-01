@@ -3,7 +3,7 @@
     <div class="col-md-6">
         <div class="col-md-12 pl-0">
             {{ form_row(form.name,{'attr':{'class':'form-control mb-5','placeholder': 'Név'|trans},label:false }) }}
-            {{ form_row(form.email,{'attr':{'class':'form-control mb-5','placeholder': 'E-mail cím'|trans},label:false }) }}
+            {{ form_row(form.email,{'attr':{'class':'form-control mb-5','placeholder': 'Email cím'|trans},label:false }) }}
         </div>
     </div>
     <div class="col-md-6 text-center">
@@ -21,9 +21,9 @@
 
     <div class="col-md-8 mt-5">
         <div class="pretty p-default">
-            <input type="checkbox" checked name="acceptPrivacy" required style="z-index: 10 !important;">
+            <input type="checkbox" checked name="acceptPrivacy" required style="z-index: 10 !important;width: 10%">
             <div class="state  p-primary">
-                <label class="ml-3"> {{ 'Elfogadom az {url} adatvédelmi irányelveket {endurl}'|trans({'{url}':'<a style="font-size:1rem" class="text-black text-underline" href=" '~path('privacy')~' ">','{endurl}':'</a>'})|raw }}</label>
+                <label class="ml-3"> </label> {{ 'Elfogadom az {url} adatvédelmi irányelveket {endurl}'|trans({'{url}':'<a style="font-size:1rem" target="_blank" class="text-black text-underline" href=" '~path('privacy')~' ">','{endurl}':'</a>'})|raw }}
             </div>
         </div>
     </div>
@@ -32,3 +32,4 @@
     </div>
 </div>
 {{ form_end(form) }}
+
