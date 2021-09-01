@@ -559,7 +559,7 @@
       </trans-unit>
       <trans-unit id="yZ3OMZk" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
         <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!</source>
-        <target>Write to us and your Account Manager will be in touch within 24 hours. Every of your questions will be answered, even in English, German and Spanish, too!</target>
+        <target>Write to us and your Account Manager will be in touch within 24 hours. All of your questions will be answered, even in English, German and Spanish!</target>
       </trans-unit>
       <trans-unit id="hdSWPoM" resname="Nyitott pozícióink">
         <source>Nyitott pozícióink</source>
@@ -755,11 +755,11 @@
       </trans-unit>
       <trans-unit id="RIKiGAa" resname="Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.">
         <source>Akár egyetlen mondattal le tudnánk írni, hogyan dolgozunk: könyvelői csapatunk mellett account managereink és internetes portálunk támogatják a tudatos vezetői döntéseket.</source>
-        <target>We can summarize this in one sentence: our professional accountants, account managers, and our online surface can support conscious management decisions, however, our services are more than that; one prepared financial advisor can help you with the daily process.</target>
+        <target>We can summarize this in one sentence: our professional accountants, account managers, and the online surface will support conscious management decisions, however, our services are more than that; one prepared financial advisor can help you with the daily process.</target>
       </trans-unit>
       <trans-unit id="fKmNgNH" resname="Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.">
         <source>Ennél azonban sokkal többet nyújt szolgáltatásunk: egy felkészült pénzügyi tanácsadó iránymutatása mellett naprakész jogszabályi ismeretekkel rendelkező, pontos, precíz könyvelőcsapat áll majd rendelkezésére, valamint egy Portál, ami megkönnyíti a cégvezetést és üzleti tervezést.</source>
-        <target>A precise accounting staff will work with you to keep track of what you can see on our unique online platform. This will assist you in managing your company and finances.</target>
+        <target>Precise accounting personnel will work with you to manage what you can see on our unique online platform. This will assist you in managing your company and finances.</target>
       </trans-unit>
       <trans-unit id="G0ojgHU" resname="Adatok vállalkozásáról.">
         <source>Adatok vállalkozásáról.</source>
@@ -771,11 +771,11 @@
       </trans-unit>
       <trans-unit id="4lqrf8z" resname="Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?">
         <source>Ön ismeri azokat az adatokat, amelyek alapján döntene egy új munkatársról, beruházásról, vagy akár csak egy kisebb kiadásról? Ismeri a bevételi/kiadási statisztikáit, a szezonalitását, tudja, hogy mely partnerek a top vásárlói és mennyit költöttek el Önnél?</source>
-        <target>Do you know that the data that can help you in making decisions about hiring, investment, or even a smaller purchases? Are you familiar with your incoming and outgoing statistics, the seasonality or do you know which of your partners are the most loyal to you and how much money they spend at your company?</target>
+        <target>Do you know the data that can help you in the decision-making process about hiring, investing, as well as smaller purchases? Are you familiar with your incoming and outgoing statistics, the seasonality or do you know which of your partners are the most loyal to you and how much money they spend on your company?</target>
       </trans-unit>
       <trans-unit id=".fu.5YU" resname="A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a követelések és a kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.">
         <source>A Portálon keresztül egyetlen kattintással elérhetővé válik vállalkozása aktuális pénzügyi helyzete, többek között a követelések és a kötelezettségek; mit, mikor kell befizetni, melyik számlának mi a státusza. A Portálon belül pár kattintással rendelkezésére áll számtalan statisztika, az eredménykimutatás, illetve az éves, negyedéves adatok is.</source>
-        <target>In Everest Portal you are just a click away from your business’s actual finance situation, like receivables/payables, what and when do you have to pay, the status of your invoices, etc. In our Portal, you have access to numerous statistics, statements, and your quarterly and yearly analysis.</target>
+        <target>In the Everest Portal you are just a click away from your business’s actual finance situation, like receivables/payables, what and when do you have to pay, the status of your invoices, etc. In our Portal, you have access to numerous statistics, statements, and your quarterly and yearly reports.</target>
       </trans-unit>
       <trans-unit id="UJsfcxl" resname="A Portál">
         <source>A Portál</source>
@@ -1156,7 +1156,7 @@ Please contact me by email or phone, my number is:           </target>
       </trans-unit>
       <trans-unit id="MEV_tj9" resname="Ebben az évben találkoztunk először ügyfeleinkkel, akiket vállalati pénzügyeikben segítettünk. Később ehhez kapcsolódott hozzá a könyvelés és adótanácsadás, hogy minél hatékonyabban használják ki erőforrásaikat. Ennek köszönhetően ma már több száz elégedett partnerünk van!">
         <source>Ebben az évben találkoztunk először ügyfeleinkkel, akiket vállalati pénzügyeikben segítettünk. Később ehhez kapcsolódott hozzá a könyvelés és adótanácsadás, hogy minél hatékonyabban használják ki erőforrásaikat. Ennek köszönhetően ma már több száz elégedett partnerünk van!</source>
-        <target>This year we met for the first time with our clients, whom we helped with their corporate finances. This was later accompanied by accounting and tax advice to make the most efficient use of their resources. Thanks to this, we now have hundreds of satisfied partners!</target>
+        <target>This year we met our clients for the first time. We helped them with their corporate finances. This was later accompanied by accounting and tax advice to effectively utilize their resources. Because of this, we now have hundreds of satisfied partners!</target>
       </trans-unit>
       <trans-unit id="PcDYB0i" resname="Egyedi vállalatirányítási rendszereket (ERP) fejlesztünk, minden eddigi tapasztalatunkat beépítve.">
         <source>Egyedi vállalatirányítási rendszereket (ERP) fejlesztünk, minden eddigi tapasztalatunkat beépítve.</source>
@@ -1194,7 +1194,7 @@ Please contact me by email or phone, my number is:           </target>
         <source>Az üzleti életben muszáj tervezni, ehhez pedig pontos adatokra van szükség, akár ebben a pillanatban. Ebben segítünk:
                             Everest
                             Accounting.</source>
-        <target>In business, you have to plan. For that, you will need accurate data immediately. What if Everest Accounting could help you with that?</target>
+        <target>In business, you must plan. For that you will need accurate and immediate data. Everest Accounting can help you with that.</target>
       </trans-unit>
       <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
         <source>Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”
