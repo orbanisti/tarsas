@@ -64,11 +64,19 @@
         </a>
         <ul class="dropdown-menu d-none locales" role="menu" aria-labelledby="locales" style="left:-200%">
             {% for locale in locales() %}
-                <li {% if app.request.locale == locale.code %}aria-checked="true"
-                    class="active dropdown-item" {% else %} class="dropdown-item" aria-checked="false"{% endif %} role="menuitem">
+            <li {% if app.request.locale == locale.code %}aria-checked="true"
+                class="active dropdown-item" {% else %} class="dropdown-item" aria-checked="false"{% endif %} role="menuitem">
+                {% if app.request.get('_route')!='homepage' %}
                     <a {% if app.request.locale == locale.code %}class="text-white" {% endif %}
                        href="{{ path(app.request.get('_route', 'blog_index'), app.request.get('_route_params', [])|merge({_locale: locale.code})) }}">{{ locale.name|capitalize }}
                         <small>{{ locale.code[0:2] }}</small></a></li>
+
+                {% else %}
+                    <a {% if app.request.locale == locale.code %}class="text-white" {% endif %}
+                       href="{{ path(app.request.get('_route', 'blog_index'), app.request.get('_route_params', [])|merge({_locale: locale.code})) }}{% if locale.code=='hu' %}hu{% endif %}">{{ locale.name|capitalize }}
+                        <small>{{ locale.code[0:2] }}</small></a></li>
+
+                {% endif %}
             {% endfor %}
         </ul>
     </li>
