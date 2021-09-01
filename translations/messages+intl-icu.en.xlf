@@ -555,7 +555,7 @@
       </trans-unit>
       <trans-unit id="UN.cUUQ" resname="senior backend fejlesztő">
         <source>senior backend fejlesztő</source>
-        <target>sanio backend developer</target>
+        <target>senior backend developer</target>
       </trans-unit>
       <trans-unit id="yZ3OMZk" resname="Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!">
         <source>Írjon nekünk és Account Managere 24 órán belül felveszi Önnel a kapcsolatot, hogy minden kérdésére választ kapjon! Angolul, németül és spanyolul is állunk Ügyfeleink rendelkezésére!</source>
@@ -693,7 +693,7 @@
         <source>Minden érdeklődőt potenciális ügyfélként kezelünk és törekszünk a legmagasabb színvonalú kiszolgálásra. A teljes életút-követésnek köszönhetően az összes lépést monitorozzuk, hogy minden ügyfelünk elégedett legyen. A rendszerünk eredményességét bizonyítja a kiemelkedően magas, 75-ös NPS score értékünk.</source>
         <target>Every lead is handled as a potential customer; therefore, we strive to provide the best possible service in every scenario. Due to the full life path-tracking, we can monitor every step to make sure that our customers are entirely satisfied. Our system's success is proven by our outstandingly high NPS score of 75.</target>
       </trans-unit>
-      <trans-unit id="YmpswVF" resname="Egyedi fejlesztésű ERP rendszer">
+      <trans-unit id="1vIYCvv" resname="Egyedi fejlesztésű ERP rendszer">
         <source>Egyedi fejlesztésű ERP rendszer</source>
         <target>Our ERP system</target>
       </trans-unit>
@@ -853,7 +853,7 @@
         <source>Elindulnak fejlesztéseink Ügyfeleink számára</source>
         <target>We are starting to develop to our customers</target>
       </trans-unit>
-      <trans-unit id="JAH0qwL" resname="Egyedi fejlesztésű ERP rendszert hozunk létre">
+      <trans-unit id="EU_URgg" resname="Egyedi fejlesztésű ERP rendszert hozunk létre">
         <source>Egyedi fejlesztésű ERP rendszert hozunk létre</source>
         <target>The creation of our first ERP system</target>
       </trans-unit>
@@ -1201,7 +1201,7 @@ Please contact me by email or phone, my number is:           </target>
                     termékhez.</source>
         <target>The software is designed specifically for each client, designated for each customer's needs and goals so the customer does not have to adapt to a "boxed" product.</target>
       </trans-unit>
-      <trans-unit id="YWEdGWa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
+      <trans-unit id="9yLIMVa" resname="Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk&#10;                            létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.">
         <source>Szerintünk nem létezik ügyfélelégedettség biztos informatikai rendszer nélkül. A maximális felhasználói élmény érdekében hoztuk
                             létre Egyedi fejlesztésű ERP rendszerünket, amelyet a piac változásaihoz azonnal, elvárásainknak megfelelően igazíthatunk.</source>
         <target>We understand that there can be no customer satisfaction without a reliable IT system as a solid foundation. We designed our ERP system to provide the best possible user experience, and we can make changes demanded by the market.</target>
@@ -1340,6 +1340,158 @@ Please contact me by email or phone, my number is:           </target>
       <trans-unit id="nuWEeUG" resname="Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?{newline} Bővülő csapatunkba új account managereket keresünk!">
         <source>Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?{newline} Bővülő csapatunkba új account managereket keresünk!</source>
         <target>__Szereted a pörgős életet és nem irodában szeretsz ülni egész nap?{newline} Bővülő csapatunkba új account managereket keresünk!</target>
+      </trans-unit>
+      <trans-unit id="w8IZOOc" resname="Fejlesztőket keresünk">
+        <source>Fejlesztőket keresünk</source>
+        <target>We are looking for developers</target>
+      </trans-unit>
+      <trans-unit id="GgZkNDh" resname="FEJLESZTŐKET KERESÜNK">
+        <source>FEJLESZTŐKET KERESÜNK</source>
+        <target>WE ARE LOOKING FOR DEVELOPERS</target>
+      </trans-unit>
+      <trans-unit id="Jja5v6p" resname="A digitális rendszerek és megoldások iránti igény a modern értékesítési és pénzügyi terület részéről is egyre fokozódik. A hálózati rendszerek számának növekedésével az értékesítés és a pénzügyi rendszerek összekapcsolásából származó megnövekedett adatkezelési- és így ügyfélelégedettségi igényt is megbízhatóan kell kezelni. Az Everest IT részlegén tiéd lehet új rendszerek és eszközök megalkotása, és hozzájárulhatsz az hatékonyság növeléséhez, valamint az ügyfelek közvetlen kényelméhez.">
+        <source>A digitális rendszerek és megoldások iránti igény a modern értékesítési és pénzügyi terület részéről is egyre fokozódik. A hálózati rendszerek számának növekedésével az értékesítés és a pénzügyi rendszerek összekapcsolásából származó megnövekedett adatkezelési- és így ügyfélelégedettségi igényt is megbízhatóan kell kezelni. Az Everest IT részlegén tiéd lehet új rendszerek és eszközök megalkotása, és hozzájárulhatsz az hatékonyság növeléséhez, valamint az ügyfelek közvetlen kényelméhez.</source>
+        <target>The demand for digital systems and solutions is also increasing in the modern sales and financial sector. As the number of network systems grows, the increased need for data management and thus customer satisfaction resulting from the interconnection of sales and financial systems must also be reliably managed. At Everest IT, you can create new systems and tools and help increase efficiency and direct customer convenience.</target>
+      </trans-unit>
+      <trans-unit id="bAQv5hJ" resname="FEDEZZÜK FEL EGYÜTT A HIVATÁSON TÚLMUTATÓ KIVÁLÓSÁGOT!">
+        <source>FEDEZZÜK FEL EGYÜTT A HIVATÁSON TÚLMUTATÓ KIVÁLÓSÁGOT!</source>
+        <target>DISCOVER GREATNESS BEYOND PROFESSION</target>
+      </trans-unit>
+      <trans-unit id="dEq7WE." resname="Olyan szolgáltatást értékesítenél, amely mögött valódi érték van? Előszűrt, minőségi hot lead-ekkel dolgoznál, ahol az ügyfél keres téged? Dolgozz olyan csapatban, amely biztos multi háttértámogatással épít a jövőre és a folyamatos fejlesztésre!">
+        <source>Olyan szolgáltatást értékesítenél, amely mögött valódi érték van? Előszűrt, minőségi hot lead-ekkel dolgoznál, ahol az ügyfél keres téged? Dolgozz olyan csapatban, amely biztos multi háttértámogatással épít a jövőre és a folyamatos fejlesztésre!</source>
+        <target>Would you sell a service that has real value behind it? Would you work with pre-filtered, quality hot leads where the customer is looking for you? Work in a team that builds on the future and continuous improvement with secure multi-background support!</target>
+      </trans-unit>
+      <trans-unit id=".pvyrm8" resname="Az Everest egy Sales process excellence céggé nőtte ki magát az elmúlt hónapokban. Cégünk egyre növekszik, csapatunk egyre nehezebben bírja a negyedévenkénti 20%-os növekedést, ezért erősítést keresünk belvárosi irodánkba, ahol a sales csapatunk, IT szakembereink és a Projekt Koordinációs team vár Téged.">
+        <source>Az Everest egy Sales process excellence céggé nőtte ki magát az elmúlt hónapokban. Cégünk egyre növekszik, csapatunk egyre nehezebben bírja a negyedévenkénti 20%-os növekedést, ezért erősítést keresünk belvárosi irodánkba, ahol a sales csapatunk, IT szakembereink és a Projekt Koordinációs team vár Téged.</source>
+        <target>Everest has grown into a Sales process excellence company in recent months. Our company is growing, our team is finding it increasingly difficult to withstand the 20% quarterly growth, so we are looking for reinforcement in our downtown office, where our sales team, IT professionals and the Project Coordination team are waiting for you.</target>
+      </trans-unit>
+      <trans-unit id="i2gXd3h" resname="Az ország minden tájáról származó, tapasztalt munkatársaink a vállalat értékesítési területein belül olyan technológiai áttöréseken dolgoznak, mint a személyre szabott ügyfélkezelés, értékesítési hatékonyságnövelés digitális eszközökkel, start up IT megoldások vagy az értékesítési kultúra, mint előnyrendszer. Ily módon folyamatosan új ötletek születnek, amelyek a meglévő termékeket még hatékonyabbá, még kényelmesebbé, egyszerűbbé és környezetbarátabbá teszik.">
+        <source>Az ország minden tájáról származó, tapasztalt munkatársaink a vállalat értékesítési területein belül olyan technológiai áttöréseken dolgoznak, mint a személyre szabott ügyfélkezelés, értékesítési hatékonyságnövelés digitális eszközökkel, start up IT megoldások vagy az értékesítési kultúra, mint előnyrendszer. Ily módon folyamatosan új ötletek születnek, amelyek a meglévő termékeket még hatékonyabbá, még kényelmesebbé, egyszerűbbé és környezetbarátabbá teszik.</source>
+        <target>Our experienced staff from all over the country work on technological breakthroughs within the company’s sales areas such as personalized customer management, sales efficiency enhancement with digital tools, start up IT solutions or sales culture as a benefit system. In this way, new ideas are constantly being born that make existing products even more efficient, even more convenient, simpler and more environmentally friendly.</target>
+      </trans-unit>
+      <trans-unit id="_9qdoNC" resname="Csapatunk átlagéletkora 28 év és ezzel a generációs előnyünkkel élvezzük a mindennapi kihívásokat, mert rugalmasságunk, gyors döntéshozatali képességünk, ideális és fejlett folyamataink és a tény, hogy minden munkatársunk egyéni újításai és ötletei bevezetésre tudnak kerülni csak tovább erősíti szervezeti dinamikánkat.">
+        <source>Csapatunk átlagéletkora 28 év és ezzel a generációs előnyünkkel élvezzük a mindennapi kihívásokat, mert rugalmasságunk, gyors döntéshozatali képességünk, ideális és fejlett folyamataink és a tény, hogy minden munkatársunk egyéni újításai és ötletei bevezetésre tudnak kerülni csak tovább erősíti szervezeti dinamikánkat.</source>
+        <target>The average age of our team is 28 years and with this generation advantage we enjoy everyday challenges because of our flexibility, quick decision making, ideal and advanced processes and the fact that the individual innovations and ideas of all our employees can be introduced only further strengthens our organizational dynamics.</target>
+      </trans-unit>
+      <trans-unit id="0Zr9mjy" resname="Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése kifejezetten backend is. Az üzleti logika PHP nyelven, objektum-orientált módon történő fejlesztése, feladatok mérnöki módon megközelítése, SQL lekérdezések készítése és optimalizálása, valamint részvétel az üzleti folyamatokból / üzleti követelményekből megfogalmazott feladatok magas szintű tervezésében.">
+        <source>Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése kifejezetten backend is. Az üzleti logika PHP nyelven, objektum-orientált módon történő fejlesztése, feladatok mérnöki módon megközelítése, SQL lekérdezések készítése és optimalizálása, valamint részvétel az üzleti folyamatokból / üzleti követelményekből megfogalmazott feladatok magas szintű tervezésében.</source>
+        <target>Web-based customer relationship management (CRM) maintenance and development specifically for backend as well. Developing business logic in PHP in an object-oriented way, approaching tasks in an engineering way, creating and optimizing SQL queries, and participating in high-level planning of tasks formulated from business processes / business requirements.</target>
+      </trans-unit>
+      <trans-unit id="ffcN2M6" resname="Feladatok">
+        <source>Feladatok</source>
+        <target>Tasks</target>
+      </trans-unit>
+      <trans-unit id="GpFDdVB" resname="együttműködés a seniorokkal, munkájuk segítése">
+        <source>együttműködés a seniorokkal, munkájuk segítése</source>
+        <target>cooperation with seniors, helping their work</target>
+      </trans-unit>
+      <trans-unit id="QuAzyzL" resname="alapszintű programozási feladatok elvégzése backend oldalon (egyszerű programozási feladatok, SQL lekérdezések írása, optimalizálása)">
+        <source>alapszintű programozási feladatok elvégzése backend oldalon (egyszerű programozási feladatok, SQL lekérdezések írása, optimalizálása)</source>
+        <target>performing basic programming tasks on the backend page (simple programming tasks, writing and optimizing SQL queries)</target>
+      </trans-unit>
+      <trans-unit id="yH.Wxkf" resname="tervezési folyamatokban való részvétel (tanulás)">
+        <source>tervezési folyamatokban való részvétel (tanulás)</source>
+        <target>participation in planning processes (learning)</target>
+      </trans-unit>
+      <trans-unit id="E_gQ.Pf" resname="Elvárások">
+        <source>Elvárások</source>
+        <target>Expectations</target>
+      </trans-unit>
+      <trans-unit id="ejURDJR" resname="programozási tapasztalat (1-2 év munkatapasztalat vagy programozói tanulmány, előny: egyetemi (programozói / mérnöki) képzésben való részvétel)">
+        <source>programozási tapasztalat (1-2 év munkatapasztalat vagy programozói tanulmány, előny: egyetemi (programozói / mérnöki) képzésben való részvétel)</source>
+        <target>programming experience (1-2 years of work experience or programming study, advantage: participation in university (programming / engineering) training)</target>
+      </trans-unit>
+      <trans-unit id="BJMg.kz" resname="PHP, SQL nyelvek alapos ismerete">
+        <source>PHP, SQL nyelvek alapos ismerete</source>
+        <target>Thorough knowledge of PHP and SQL languages</target>
+      </trans-unit>
+      <trans-unit id="WgKcs3w" resname="objektum-orientált programozás ismerete">
+        <source>objektum-orientált programozás ismerete</source>
+        <target>knowledge of object-oriented programming</target>
+      </trans-unit>
+      <trans-unit id="ChFitNH" resname="fejlődésre való törekvés, tanulási hajlandóság">
+        <source>fejlődésre való törekvés, tanulási hajlandóság</source>
+        <target>striving for development, willingness to learn</target>
+      </trans-unit>
+      <trans-unit id="VocwAZa" resname="tárgyalóképes angol nyelvtudás szóban és írásban">
+        <source>tárgyalóképes angol nyelvtudás szóban és írásban</source>
+        <target>negotiable English language skills orally and in writing</target>
+      </trans-unit>
+      <trans-unit id="rEtF0Jw" resname="jó kommunikációs készség, csapatjátékos mentalitás, rugalmasság, türelem">
+        <source>jó kommunikációs készség, csapatjátékos mentalitás, rugalmasság, türelem</source>
+        <target>good communication skills, team player mentality, flexibility, patience</target>
+      </trans-unit>
+      <trans-unit id="gHwhikc" resname="jó problémamegoldó készség">
+        <source>jó problémamegoldó készség</source>
+        <target>good problem-solving skills</target>
+      </trans-unit>
+      <trans-unit id="5H6cP1W" resname="összetett programozási és kódoptimalizálási feladatok elvégzése">
+        <source>összetett programozási és kódoptimalizálási feladatok elvégzése</source>
+        <target>performing complex programming and code optimization tasks</target>
+      </trans-unit>
+      <trans-unit id="pAFtNOY" resname="junior fejlesztők csoportjának vezetése, juniorok tanítása, fejlődésük segítése (best practice megoldások bemutatása)">
+        <source>junior fejlesztők csoportjának vezetése, juniorok tanítása, fejlődésük segítése (best practice megoldások bemutatása)</source>
+        <target>leading a group of junior developers, teaching juniors, helping their development (presentation of best practice solutions)</target>
+      </trans-unit>
+      <trans-unit id="ZWraOe8" resname="részvétel a projektek teljes életciklusát átfogó fejlesztési feladatok magas szintű tervezésében, majd mérnöki szemlélettel való implementálásában">
+        <source>részvétel a projektek teljes életciklusát átfogó fejlesztési feladatok magas szintű tervezésében, majd mérnöki szemlélettel való implementálásában</source>
+        <target>participation in the high-level planning of development tasks covering the entire life cycle of projects, and then in their implementation with an engineering approach</target>
+      </trans-unit>
+      <trans-unit id="1br7_Hl" resname="magas kódminőség biztosítása">
+        <source>magas kódminőség biztosítása</source>
+        <target>ensuring high code quality</target>
+      </trans-unit>
+      <trans-unit id="XHyFddZ" resname="code review-k készítése">
+        <source>code review-k készítése</source>
+        <target>creating code reviews</target>
+      </trans-unit>
+      <trans-unit id="6q.uItG" resname="agilis módszertan szerinti munkavégzés">
+        <source>agilis módszertan szerinti munkavégzés</source>
+        <target>working according to an agile methodology</target>
+      </trans-unit>
+      <trans-unit id="bdFPwHi" resname="kapcsolattartás az üzleti szereplőkkel, feladatok ütemezése">
+        <source>kapcsolattartás az üzleti szereplőkkel, feladatok ütemezése</source>
+        <target>liaising with business actors, scheduling tasks</target>
+      </trans-unit>
+      <trans-unit id="aQ2evny" resname="releváns fejlesztési tapasztalat (5 év munkatapasztalat / mérnök informatikus egyetemi szak mellett 2-3 év munkatapasztalat)">
+        <source>releváns fejlesztési tapasztalat (5 év munkatapasztalat / mérnök informatikus egyetemi szak mellett 2-3 év munkatapasztalat)</source>
+        <target>relevant development experience (5 years of work experience / 2-3 years of work experience in the field of IT engineering)</target>
+      </trans-unit>
+      <trans-unit id="1TFsKJo" resname="agilis módszertanban való jártasság">
+        <source>agilis módszertanban való jártasság</source>
+        <target>proficiency in agile methodology</target>
+      </trans-unit>
+      <trans-unit id="YuLNcKQ" resname="HTML5, JavaScript, CSS3 magas szintű ismerete">
+        <source>HTML5, JavaScript, CSS3 magas szintű ismerete</source>
+        <target>High level knowledge of HTML5, JavaScript, CSS3</target>
+      </trans-unit>
+      <trans-unit id="eTzha4W" resname="objektum-orientált programozás és a PHP nyelv magas szintű ismerete">
+        <source>objektum-orientált programozás és a PHP nyelv magas szintű ismerete</source>
+        <target>object-oriented programming and a high level of knowledge of the PHP language</target>
+      </trans-unit>
+      <trans-unit id="KKva5dc" resname="valamilyen modern PHP keretrendszer ismerete (Symfony, Laravel, Yii2)">
+        <source>valamilyen modern PHP keretrendszer ismerete (Symfony, Laravel, Yii2)</source>
+        <target>knowledge of some modern PHP framework (Symfony, Laravel, Yii2)</target>
+      </trans-unit>
+      <trans-unit id="itogipp" resname="adatbázisok magas szintű ismerete (MySQL)">
+        <source>adatbázisok magas szintű ismerete (MySQL)</source>
+        <target>high level knowledge of databases (MySQL)</target>
+      </trans-unit>
+      <trans-unit id="NlihWoc" resname="feladatokhoz mérnöki szemlélettel való hozzáállás, mérnöki problémamegoldókészség">
+        <source>feladatokhoz mérnöki szemlélettel való hozzáállás, mérnöki problémamegoldókészség</source>
+        <target>attitude to tasks with an engineering approach, engineering problem-solving skills</target>
+      </trans-unit>
+      <trans-unit id="COrz3kW" resname="Backend Developernek">
+        <source>Backend Developernek</source>
+        <target>Backend Developer</target>
+      </trans-unit>
+      <trans-unit id="4sj5Jja" resname="IT álláshirdetés">
+        <source>IT álláshirdetés</source>
+        <target>Application for IT position</target>
+      </trans-unit>
+      <trans-unit id="vw0gU37" resname="Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése &lt;br/&gt;kifejezetten backend oldalon.">
+        <source>Webre készített ügyfélkapcsolat kezelő rendszer (CRM) karbantartása és fejlesztése &lt;br/&gt;kifejezetten backend oldalon.</source>
+        <target><![CDATA[Web-based customer relationship management (CRM) maintenance and development<br/> specifically for backend as well.]]></target>
       </trans-unit>
     </body>
   </file>
