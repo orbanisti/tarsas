@@ -107,13 +107,41 @@
         </div>
     </div>
     <style>
-        .body-container {
-            background-position-y: -5% !important;
-            background-position-x: -289% !important;
-            background: url({{ asset('/build/images/mountains.png') }});
-            background-repeat: no-repeat;
-            background-size: 106%;
+        @media (min-width: 1026px) {
+            .body-container {
+                background-position-y: -5% !important;
+                background-position-x: -289% !important;
+                background: url({{ asset('/build/images/mountains.png') }});
+                background-repeat: no-repeat;
+                background-size: 106%;
+            }
         }
+
+        @media (max-width: 1025px) {
+            .body-container {
+                background: url({{ asset('/build/images/mountains-mobile.png') }});
+                background-repeat: no-repeat;
+                background-position-y: -1%;
+                background-position-x: -113%;
+            }
+        }
+
+        @media (max-width: 769px) {
+            .body-container {
+                background-position-y: -2%;
+                background-position-x: -28%;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .body-container {
+                background: url({{ asset('/build/images/mountains-mobile.png') }});
+                background-repeat: no-repeat;
+                background-position-y: -3%;
+                background-position-x: 1%;
+            }
+        }
+
     </style>
 {% endblock %}
 {% block javascripts %}
