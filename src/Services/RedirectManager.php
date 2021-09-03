@@ -13,7 +13,11 @@ class RedirectManager
     public static $map =
         [
             //old slud =>'route name'
-            'karrier' => 'career',
+            'karrier'                                        => 'career',
+            'legyel-everest-csapattag-projekt-koordinator'   => 'job_project_coordinator',
+            'legyel-everest-csapattag-konyvelo'              => 'job_accountant',
+            'legyel-everest-csapattag-sales-account-manager' => 'job_sales',
+            'legyel-everest-ertekesito-tamogato-koordinator' => 'job_sales_support_coordinator',
         ];
     /** @var RouterInterface */
     private $router;
