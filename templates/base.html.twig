@@ -16,6 +16,9 @@ See https://symfony.com/doc/current/templates.html#template-inheritance-and-layo
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
 
+    {% block ogImage %}
+        <meta property="og:image" content="{{ url('homepage') }}{{ asset('/build/images/everest-og.png') }}"/>
+    {% endblock %}
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
 </head>
 
