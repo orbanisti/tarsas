@@ -81,11 +81,15 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row p-5 bg-primary">
-            <div class="col-md-12">
-                <h1 class="text-center text-light lettersAnimation  text-big">{{ 'Mi, itt az Everestnél...'|trans }}</h1>
+
+        <div class="row bg-primary">
+            <div class="col-md-12 p-0">
+                <h1 class="text-center text-light lettersAnimation  text-big mt-5 mb-5">{{ 'Mi, itt az Everestnél...'|trans }}</h1>
+                <img id="timelineImage" src="" class="pcTimeline" style="width: 109%" lazy-src="{{ asset('build/images/result2.gif') }}">
+
             </div>
         </div>
+
     </div>
     <div class="container pb-5">
         <div class="row mt-5">
@@ -131,6 +135,10 @@
                 background-position-y: -2%;
                 background-position-x: -28%;
             }
+
+            #timelineImage {
+                width: 100%;
+            }
         }
 
         @media (max-width: 650px) {
@@ -155,6 +163,28 @@
             gallerySecondRow.animate({left: -topDistance / 10}, 0);
             // gallerySecondRow.transition({x: -topDistance / 10 + 'px'}, 0);
             // galleryFirstRow.css('transform', 'translate3d(' + topDistance + ',0px, 0px)')
+        });
+        let timeLineSwitch = true;
+        $(document).ready(function () {
+            // if (window.innerWidth >= 768) {
+            $("#timelineImage").attr('src', $("#timelineImage").attr('lazy-src'))
+            // }
+        });
+        $(window).scroll(function () {
+            var timeLineImage = $("#timelineImage")
+            var top_of_element = timeLineImage.offset().top;
+            var bottom_of_element = timeLineImage.offset().top + timeLineImage.outerHeight();
+            var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+            var top_of_screen = $(window).scrollTop();
+
+            if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+                if (timeLineSwitch) {
+                    timeLineImage.attr('src', timeLineImage.attr('src'))
+                    timeLineSwitch = false;
+                }
+            } else {
+                timeLineSwitch = true;
+            }
         });
     </script>
 {% endblock %}
