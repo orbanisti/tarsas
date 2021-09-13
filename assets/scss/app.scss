@@ -452,7 +452,7 @@ body#blog_search .post-metadata {
 textarea {
   padding: 16px 32px !important;
   background: $gray-100 !important;
-  font-family: 'Titillium Web Semi Bold Body', serif !important;
+  font-family: 'Titillium Web', serif !important;
   color: $black !important;
 }
 
@@ -464,9 +464,11 @@ input[type='text'], input[type='email'], input[type='file'], select {
   font-family: 'Titillium Web', serif !important;
   color: $black;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
+
 input, textarea, select {
   border-radius: 0 !important;
 }
