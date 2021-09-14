@@ -39,6 +39,9 @@ class RecruitmentMailDestinationProvider
         if ($recruitment->getType() === RecruitmentTypeEnum::TYPE_CONTACT) {
             return EmailEnum::EMAIL_TOTH_ANDRAS;
         }
+        if ($recruitment->getType() === RecruitmentTypeEnum::TYPE_CARREER) {
+            return EmailEnum::EMAIL_JOBS;
+        }
 
         return null;
     }
