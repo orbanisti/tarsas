@@ -9,7 +9,7 @@
                 <div class="row">
 
                     <div class="col-md-6 text-left animate__animated animate__fadeInRight">
-                        <h1 class="mb-5 text-big text-white fadeInTextAnimation">{{ 'IT Solutions'|trans }}</h1>
+                        <h1 class="pl-sm-1 mb-5 text-big text-white fadeInTextAnimation">{{ 'IT Solutions'|trans }}</h1>
 
                     </div>
                 </div>
@@ -24,7 +24,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid  text-white pt-5 pb-5 pr-md-0 pl-md-0" style="background: #030303">
+    <div class="container-fluid  text-white pt-5    {% if not app.request.locale in ['hu','en'] %}pb-5 {% endif %}pr-md-0 pl-md-0 bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center" data-aos="fade-down">
@@ -32,7 +32,9 @@
                 </div>
             </div>
         </div>
-        <img id="timelineImage" src="" class="pcTimeline" style="width: 109%" lazy-src="{{ asset('build/images/everest-timeline-2.gif') }}">
+        {% if app.request.locale in ['hu','en'] %}
+            <img id="timelineImage" src="" class="pcTimeline" style="width: 109%" lazy-src="{{ asset('build/images/it-'~app.request.locale~'.gif') }}">
+        {% endif %}
         {{ include('frontend/embed/timeline.html.twig') }}
     </div>
     <div class="container mt-5 p-3">
@@ -68,6 +70,7 @@
         </div>
     </div>
     <style>
+        {% if app.request.locale in ['hu','en'] %}
         @media (min-width: 767px) {
             .mobileTimeline {
                 display: none;
@@ -87,6 +90,8 @@
                 display: block;
             }
         }
+
+        {% endif %}
 
     </style>
 {% endblock %}
@@ -223,26 +228,11 @@
             // })();
             let timeLineSwitch = true;
             $(document).ready(function () {
-                // if (window.innerWidth >= 768) {
-                $("#timelineImage").attr('src', $("#timelineImage").attr('lazy-src'))
-                // }
-            });
-            $(window).scroll(function () {
-                var timeLineImage = $("#timelineImage")
-                var top_of_element = timeLineImage.offset().top;
-                var bottom_of_element = timeLineImage.offset().top + timeLineImage.outerHeight();
-                var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
-                var top_of_screen = $(window).scrollTop();
-
-                if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
-                    if (timeLineSwitch) {
-                        timeLineImage.attr('src', timeLineImage.attr('src'))
-                        timeLineSwitch = false;
-                    }
-                } else {
-                    timeLineSwitch = true;
+                if (window.innerWidth >= 768) {
+                    $("#timelineImage").attr('src', $("#timelineImage").attr('lazy-src'))
                 }
             });
+
             //
 
         </script>
