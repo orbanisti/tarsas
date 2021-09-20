@@ -1035,7 +1035,7 @@
         <source>Egyedi ERP szoftver</source>
         <target>Jedinečný software ERP</target>
       </trans-unit>
-      <trans-unit id="TFsTaM1" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                      termékhez.">
+      <trans-unit id="TFsTaM1" resname="Egyedileg, az igények és célok szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos” termékhez.">
         <source>Egyedileg, az igények és célok szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos” termékhez.</source>
         <target>Software je proveden individuálně, podle potřeb a cílů zákazníka, takže se nemusíte přizpůsobit "box" produktu. </target>
       </trans-unit>
