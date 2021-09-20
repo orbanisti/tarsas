@@ -1196,7 +1196,7 @@ Please contact me by email or phone, my number is:           </target>
                             Accounting.</source>
         <target>In business, you must plan. For that you will need accurate and immediate data. Everest Accounting can help you with that.</target>
       </trans-unit>
-      <trans-unit id="SYrnVzU" resname="Egyedileg, a megrendelő igényei és céljai szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos”&#10;                    termékhez.">
+      <trans-unit id="SYrnVzU" resname="Egyedileg, az igények és célok szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos” termékhez.">
         <source>Egyedileg, az igények és célok szerint készül a szoftver, ezáltal nem kell a megrendelőnek alkalmazkodnia egy „dobozos” termékhez.</source>
         <target>The software is designed specifically for each client, designated for each customer's needs and goals so the customer does not have to adapt to a "boxed" product.</target>
       </trans-unit>
