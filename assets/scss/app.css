@@ -72,7 +72,7 @@ p, a, strong {
 
 /* TODO Remove unnecesary verisons*/
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Sequel Sans Semi Bold Disp", sans-serif !important;
+    font-family: "Titillium Web", sans-serif !important;
 }
 
 h2 {
@@ -84,11 +84,11 @@ body {
 }
 
 p, li, body, strong {
-    font-family: "Sequel Sans Book Body", sans-serif !important;
+    font-family: "Titillium Web", sans-serif !important;
 }
 
 .nav-link {
-    font-family: "Sequel Sans Semi Bold Disp", monospace !important;
+    font-family: "Titillium Web", monospace !important;
 }
 
 /*strong {*/

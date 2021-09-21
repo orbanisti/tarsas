@@ -5,18 +5,14 @@ namespace App\Controller;
 
 
 use App\Entity\Recruitment;
-use App\Enum\EmailEnum;
 use App\Enum\RecruitmentTypeEnum;
 use App\Form\RecruitmentType;
-use App\Services\RecruitmentArrayConverter;
 use App\Services\RecruitmentFactory;
 use App\Services\RecruitmentMailSend;
-use App\Services\RecruitmentMailDestinationProvider;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
