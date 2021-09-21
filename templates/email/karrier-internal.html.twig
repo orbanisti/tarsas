@@ -1,4 +1,3 @@
-
 <div style="background-color:rgba(158,206,251,0.4);width:800px;text-align:left;color:#4e4d4c;font-size:18px;padding:20px;font-family:sans-serif">
     <ul style="list-style-type:none">
         <li>Név: {{ name }}</li>
@@ -8,5 +7,8 @@
         <li>Üzenet:
             {{ message }}
         </li>
+        <li>A munkakör, amire jelentkezett: {{ position|getPositionName }} <a
+                    style="background: #56c8fb;padding: 12px;border-radius: 20px;color: #ffffff!important;text-decoration: none;margin: 25px auto;display: block;width: 200px;text-transform: uppercase;text-align: center;"
+                    href="{{ app.request.headers.get('referer') }}">ugrás az álláshirdetéshez</a></li>
     </ul>
 </div>

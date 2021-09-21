@@ -13,7 +13,7 @@ class RecruitmentFactory
 {
 
 
-    private const UPLOADS_BASE_DIR = '../uploads/';
+    public const UPLOADS_BASE_DIR = '../uploads/';
 
     /** @var SluggerInterface */
     private $slugger;

@@ -3,6 +3,8 @@
 namespace App\Services;
 
 use App\Entity\Recruitment;
+use App\Enum\EmailEnum;
+use App\Enum\RecruitmentTypeEnum;
 use Psr\Log\LoggerInterface;
 use Symfony\Bridge\Twig\Mime\TemplatedEmail;
 use Symfony\Component\Mailer\Exception\TransportExceptionInterface;
@@ -11,27 +13,35 @@ use Symfony\Component\Mailer\MailerInterface;
 class RecruitmentMailSend
 {
 
-    /**
-     * @var MailerInterface
-     */
+    /**  @var MailerInterface */
     private $mailer;
-
-    /**
-     * @var LoggerInterface
-     */
+    /** @var LoggerInterface */
     private $logger;
+    /** @var RecruitmentArrayConverter */
+    private $arrayConverter;
+    /** @var FilePathProvider */
+    private $filePathProvider;
 
     /**
-     * MailSend constructor.
+     * RecruitmentMailSend constructor.
      *
-     * @param   MailerInterface  $mailer
-     * @param   LoggerInterface  $logger
+     * @param   MailerInterface            $mailer
+     * @param   LoggerInterface            $logger
+     * @param   RecruitmentArrayConverter  $arrayConverter
+     * @param   FilePathProvider           $filePathProvider
      */
-    public function __construct(MailerInterface $mailer, LoggerInterface $logger)
-    {
-        $this->mailer = $mailer;
-        $this->logger = $logger;
+    public function __construct(
+        MailerInterface $mailer,
+        LoggerInterface $logger,
+        RecruitmentArrayConverter $arrayConverter,
+        FilePathProvider $filePathProvider
+    ) {
+        $this->mailer           = $mailer;
+        $this->logger           = $logger;
+        $this->arrayConverter   = $arrayConverter;
+        $this->filePathProvider = $filePathProvider;
     }
+
 
     /**
      * @param   string       $from
@@ -77,5 +87,47 @@ class RecruitmentMailSend
             throw $e;
         }
     }
+
+    public function sendAll(Recruitment $recruitment)
+    {
+        $recruitmentType = $recruitment->getType();
+        switch ($recruitmentType) {
+            case RecruitmentTypeEnum::TYPE_CONTACT:
+                $this->send(
+                    EmailEnum::EMAIL_INFO,
+                    EmailEnum::EMAIL_INFO,
+                    $recruitment->getSubject(),
+                    $this->arrayConverter->convert($recruitment),
+                    $recruitmentType,
+                    EmailEnum::EMAIL_TOTH_ANDRAS
+                );
+                break;
+            case RecruitmentTypeEnum::TYPE_CARREER:
+                $this->send(
+                    EmailEnum::EMAIL_INFO,
+                    $recruitment->getEmail(),
+                    $recruitment->getSubject(),
+                    $this->arrayConverter->convert($recruitment),
+                    $recruitment->getType(),
+                    null
+                );
+                $this->send(
+                    EmailEnum::EMAIL_INFO,
+                    EmailEnum::EMAIL_JOBS,
+                    $recruitment->getSubject(),
+                    $this->arrayConverter->convert($recruitment),
+                    RecruitmentTypeEnum::TYPE_CAREER_INTERNAL,
+                    null,
+                    null,
+                    $this->filePathProvider->provideFilePathsByDirectory(RecruitmentFactory::UPLOADS_BASE_DIR.$recruitment->getId().DIRECTORY_SEPARATOR)
+                );
+                break;
+
+            default:
+                throw new \Exception('This type of recuitement doesnt exist');
+                break;
+        }
+    }
+
 
 }

@@ -30,25 +30,20 @@ class ContactController extends AbstractController
 
     /**
      * @Route("/contactRecruitmentSubmit", methods="POST", name="contact_recruitment_submit")
-     * @param   Request                             $request
-     * @param   RecruitmentFactory                  $recruitmentFactory
-     * @param   EntityManagerInterface              $entityManager
+     * @param   Request                 $request
+     * @param   RecruitmentFactory      $recruitmentFactory
+     * @param   EntityManagerInterface  $entityManager
      *
-     * @param   RecruitmentMailSend                 $mailSend
-     * @param   RecruitmentArrayConverter           $recruitmentArrayConverter
-     *
-     * @param   RecruitmentMailDestinationProvider  $mailDestinationProvider
+     * @param   RecruitmentMailSend     $mailSend
      *
      * @return RedirectResponse
-     * @throws TransportExceptionInterface
+     * @throws \Exception
      */
     public function submitRecruitmentForm(
         Request $request,
         RecruitmentFactory $recruitmentFactory,
         EntityManagerInterface $entityManager,
-        RecruitmentMailSend $mailSend,
-        RecruitmentArrayConverter $recruitmentArrayConverter,
-        RecruitmentMailDestinationProvider $mailDestinationProvider
+        RecruitmentMailSend $mailSend
     ): RedirectResponse {
         $recruitment = new Recruitment();
         $recruitment->setCreatedAt(new \DateTime('now'));
@@ -66,14 +61,8 @@ class ContactController extends AbstractController
         }
 
         try {
-            $mailSend->send(
-                EmailEnum::EMAIL_INFO,
-                $mailDestinationProvider->getTo($recruitment),
-                $recruitment->getSubject(),
-                $recruitmentArrayConverter->convert($recruitment),
-                $recruitment->getType(),
-                $mailDestinationProvider->getCC($recruitment)
-            );
+            //Contact and Career feedback email
+            $mailSend->sendAll($recruitment);
         } catch (\Exception $exception) {
             throw $exception;
         }
