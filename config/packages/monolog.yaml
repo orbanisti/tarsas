@@ -1,0 +1,7 @@
+parameters:
+  slack_token: '%env(SLACK_TOKEN)%'
+  slack_bot_name: '@@everesthuErrorBot'
+  slack_channel: '#everesthuerrors'
+
+monolog:
+  channels: ['everesthuerrors']
