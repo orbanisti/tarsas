@@ -19,6 +19,8 @@ class RedirectManager
             'legyel-everest-csapattag-sales-account-manager' => 'job_sales',
             'legyel-everest-ertekesito-tamogato-koordinator' => 'job_sales_support_coordinator',
             'blog'                                           => 'blog_index',
+            'everest-team-member-sales-cz_1'                 => 'job_sales',
+            'everest-team-member-sales-cz_2'                 => 'job_sales',
         ];
     /** @var RouterInterface */
     private $router;

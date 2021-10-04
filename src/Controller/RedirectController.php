@@ -39,7 +39,7 @@ class RedirectController extends AbstractController
             return new RedirectResponse($targetUrl, 301);
         }
 
-        return $this->render('frontend/404.html.twig', [], new Response('', 404));
+        return $this->redirectToRoute('homepage');
     }
 
 }
